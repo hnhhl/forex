@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate XAU Super System V4.0</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <h1>🏆 XAU System V4.0</h1>
+            </div>
+            <div class="price-ticker">
+                <span class="symbol">XAU/USD</span>
+                <span class="price" id="currentPrice">$2,000.00</span>
+                <span class="change positive" id="priceChange">+$12.50 (+0.62%)</span>
+            </div>
+            <div class="connection-status">
+                <span class="status connected" id="connectionStatus">🟢 Connected</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Left Panel - Trading -->
+            <section class="left-panel">
+                <div class="trading-panel">
+                    <h3>🎯 Quick Trading</h3>
+                    <div class="trade-buttons">
+                        <button class="btn buy-btn" onclick="quickTrade('BUY')">
+                            📈 BUY
+                        </button>
+                        <button class="btn sell-btn" onclick="quickTrade('SELL')">
+                            📉 SELL
+                        </button>
+                    </div>
+                    
+                    <div class="trade-form">
+                        <label>Volume:</label>
+                        <input type="number" id="tradeVolume" value="0.1" step="0.01" min="0.01">
+                        
+                        <label>Stop Loss:</label>
+                        <input type="number" id="stopLoss" placeholder="Optional">
+                        
+                        <label>Take Profit:</label>
+                        <input type="number" id="takeProfit" placeholder="Optional">
+                    </div>
+                </div>
+
+                <!-- AI Predictions -->
+                <div class="ai-panel">
+                    <h3>🤖 AI Predictions</h3>
+                    <div class="prediction-item">
+                        <span>Next 1H:</span>
+                        <span class="bullish">BULLISH 87%</span>
+                    </div>
+                    <div class="prediction-item">
+                        <span>Next 4H:</span>
+                        <span class="neutral">NEUTRAL 65%</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Center Panel - Chart -->
+            <section class="center-panel">
+                <div class="chart-container">
+                    <canvas id="priceChart"></canvas>
+                </div>
+            </section>
+
+            <!-- Right Panel - Portfolio -->
+            <section class="right-panel">
+                <div class="portfolio-summary">
+                    <h3>💰 Portfolio</h3>
+                    <div class="balance-info">
+                        <div class="balance-item">
+                            <span>Balance:</span>
+                            <span>$125,450.00</span>
+                        </div>
+                        <div class="balance-item">
+                            <span>Equity:</span>
+                            <span>$127,790.50</span>
+                        </div>
+                        <div class="balance-item profit">
+                            <span>Today P&L:</span>
+                            <span>+$2,340.50</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Open Positions -->
+                <div class="positions-panel">
+                    <h4>📊 Open Positions</h4>
+                    <div class="positions-list" id="positionsList">
+                        <!-- Positions will be loaded here -->
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Status Bar -->
+        <footer class="status-bar">
+            <span>Last Update: <span id="lastUpdate">--:--:--</span></span>
+            <span>Ping: <span id="ping">-- ms</span></span>
+            <span>Server: Production</span>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

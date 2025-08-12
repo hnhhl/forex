@@ -1,0 +1,158 @@
+{
+  "start_time": "2025-06-23 10:38:12.926558",
+  "test_scenarios": [
+    {
+      "scenario_name": "Trending Market (2024)",
+      "data_period": "2024-01-01 23:00:00 to 2025-06-18 04:00:00",
+      "data_points": 8647,
+      "signals_generated": 15,
+      "signal_distribution": {
+        "SELL": 15
+      },
+      "average_confidence": 0.455,
+      "total_trades": 1,
+      "win_rate": 0.0,
+      "total_return": -14.012890000000006,
+      "final_balance": 8598.711,
+      "summary": "15 signals, -14.0% return, 0.0% win rate"
+    },
+    {
+      "scenario_name": "Volatile Period (2024 Q1)",
+      "data_period": "2024-01-01 23:00:00 to 2024-03-31 23:00:00",
+      "data_points": 1447,
+      "signals_generated": 7,
+      "signal_distribution": {
+        "BUY": 7
+      },
+      "average_confidence": 0.455,
+      "total_trades": 1,
+      "win_rate": 100.0,
+      "total_return": 1.4283799999999973,
+      "final_balance": 10142.838,
+      "summary": "7 signals, 1.4% return, 100.0% win rate"
+    },
+    {
+      "scenario_name": "Consolidation Period",
+      "data_period": "2024-06-02 22:00:00 to 2024-08-30 20:00:00",
+      "data_points": 1489,
+      "signals_generated": 7,
+      "signal_distribution": {
+        "SELL": 7
+      },
+      "average_confidence": 0.455,
+      "total_trades": 1,
+      "win_rate": 0.0,
+      "total_return": -1.9547199999999976,
+      "final_balance": 9804.528,
+      "summary": "7 signals, -2.0% return, 0.0% win rate"
+    },
+    {
+      "scenario_name": "Recent Data (2025)",
+      "data_period": "2025-01-01 23:00:00 to 2025-06-18 04:00:00",
+      "data_points": 2715,
+      "signals_generated": 13,
+      "signal_distribution": {
+        "SELL": 13
+      },
+      "average_confidence": 0.455,
+      "total_trades": 1,
+      "win_rate": 0.0,
+      "total_return": -7.551749999999993,
+      "final_balance": 9244.825,
+      "summary": "13 signals, -7.6% return, 0.0% win rate"
+    }
+  ],
+  "overall_analysis": {},
+  "stability_metrics": {
+    "return_mean": -5.5227450000000005,
+    "return_std": 5.8576523577560495,
+    "win_rate_mean": 25.0,
+    "win_rate_std": 43.30127018922193,
+    "confidence_mean": 0.455,
+    "confidence_std": 0.0,
+    "stability_score": 50
+  },
+  "weakness_analysis": [
+    {
+      "category": "PERFORMANCE",
+      "severity": "HIGH",
+      "description": "3/4 scenarios had negative returns"
+    },
+    {
+      "category": "ACCURACY",
+      "severity": "HIGH",
+      "description": "3/4 scenarios had win rate < 50%"
+    },
+    {
+      "category": "CONFIDENCE",
+      "severity": "MEDIUM",
+      "description": "4/4 scenarios had low confidence"
+    },
+    {
+      "category": "BIAS",
+      "severity": "MEDIUM",
+      "description": "Scenario 'Trending Market (2024)' shows directional bias: {'SELL': 15}"
+    },
+    {
+      "category": "BIAS",
+      "severity": "MEDIUM",
+      "description": "Scenario 'Volatile Period (2024 Q1)' shows directional bias: {'BUY': 7}"
+    },
+    {
+      "category": "BIAS",
+      "severity": "MEDIUM",
+      "description": "Scenario 'Consolidation Period' shows directional bias: {'SELL': 7}"
+    },
+    {
+      "category": "BIAS",
+      "severity": "MEDIUM",
+      "description": "Scenario 'Recent Data (2025)' shows directional bias: {'SELL': 13}"
+    }
+  ],
+  "improvement_plan": [
+    {
+      "priority": "CRITICAL",
+      "area": "Core Strategy",
+      "action": "Completely revise trading logic and signal generation",
+      "target": "Achieve positive returns in all market conditions"
+    },
+    {
+      "priority": "HIGH",
+      "area": "Win Rate",
+      "action": "Improve signal quality and entry/exit timing",
+      "target": "Achieve consistent 60%+ win rate"
+    },
+    {
+      "priority": "HIGH",
+      "area": "Signal Balance",
+      "action": "Rebalance ensemble weights and add contrarian signals",
+      "target": "Achieve balanced BUY/SELL signal distribution"
+    },
+    {
+      "priority": "HIGH",
+      "area": "Model Retraining",
+      "action": "Retrain all models with latest data and improved features",
+      "target": "Use 2023-2025 data for training"
+    },
+    {
+      "priority": "MEDIUM",
+      "area": "Signal Confidence",
+      "action": "Recalibrate confidence scoring and add signal validation",
+      "target": "Achieve average confidence > 60%"
+    },
+    {
+      "priority": "MEDIUM",
+      "area": "Risk Management",
+      "action": "Implement dynamic stop-loss and take-profit levels",
+      "target": "Limit max drawdown to < 15%"
+    },
+    {
+      "priority": "MEDIUM",
+      "area": "Market Regime Detection",
+      "action": "Add market regime classification for adaptive strategies",
+      "target": "Detect trending vs ranging markets"
+    }
+  ],
+  "end_time": "2025-06-23 10:38:52.181056",
+  "test_duration_seconds": 39.254498
+}

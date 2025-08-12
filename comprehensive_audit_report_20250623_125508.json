@@ -1,0 +1,74 @@
+{
+  "audit_timestamp": "2025-06-23T12:55:06.215641",
+  "system_overview": {
+    "initialization": {
+      "initialization_time": 0.0,
+      "components_loaded": 8,
+      "components_active": 8,
+      "errors": [],
+      "warnings": []
+    }
+  },
+  "components_analysis": {},
+  "performance_metrics": {
+    "memory_usage": 0,
+    "cpu_efficiency": 0,
+    "response_times": [
+      0.0009992122650146484,
+      0.0,
+      0.0,
+      0.0,
+      0.00099945068359375
+    ],
+    "throughput": 0,
+    "resource_utilization": {},
+    "avg_response_time": 0.00039973258972167967,
+    "max_response_time": 0.00099945068359375,
+    "min_response_time": 0.0
+  },
+  "signal_quality": {
+    "total_tests": 10,
+    "successful_signals": 10,
+    "signal_distribution": {
+      "BUY": 0,
+      "SELL": 0,
+      "HOLD": 10
+    },
+    "confidence_stats": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "processing_times": [
+      0.9996891021728516,
+      0.0,
+      0.0,
+      1.0006427764892578,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0004043579101562,
+      0.0
+    ],
+    "errors": [],
+    "confidence_avg": 0.0,
+    "confidence_std": 0.0,
+    "avg_processing_time": 0.30007362365722656
+  },
+  "stability_tests": {
+    "stress_test_passed": true,
+    "error_handling_score": 75,
+    "consistency_score": 25,
+    "reliability_score": 50.0
+  },
+  "recommendations": [],
+  "overall_score": 54.99600267410278
+}

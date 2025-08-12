@@ -1,0 +1,27 @@
+{
+  "timestamp": "2025-06-23T18:58:36.886066",
+  "fixes_implemented": {
+    "DQN Agent": true,
+    "Meta Learning": true,
+    "Cross-Validation": true,
+    "Backtesting & P&L": true,
+    "Performance Metrics": true
+  },
+  "fix_rate": 1.0,
+  "verdict": "KH\u1eaeC PH\u1ee4C HO\u00c0N TO\u00c0N TH\u00c0NH C\u00d4NG",
+  "dqn_fixed": true,
+  "meta_learning_fixed": true,
+  "cross_validation_fixed": true,
+  "backtesting_fixed": true,
+  "performance_metrics_fixed": true,
+  "performance_summary": {
+    "total_return": -0.10878526903889615,
+    "sharpe_ratio": -14.802906147139353,
+    "max_drawdown": -0.10878526903889615,
+    "calmar_ratio": -1.3396883929121208,
+    "win_rate": 0.6346153846153846,
+    "total_trades": 52,
+    "volatility": 0.011196339462252167,
+    "final_capital": 8912.147309611039
+  }
+}

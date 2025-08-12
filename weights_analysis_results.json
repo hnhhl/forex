@@ -1,0 +1,91 @@
+{
+  "analysis_time": "2025-06-24T20:20:29.888290",
+  "current_weights": {
+    "NeuralNetworkSystem": 0.25,
+    "MT5ConnectionManager": 0.2,
+    "AdvancedAIEnsembleSystem": 0.2,
+    "DataQualityMonitor": 0.15,
+    "AIPhaseSystem": 0.15,
+    "RealTimeMT5DataSystem": 0.15,
+    "AI2AdvancedTechnologiesSystem": 0.1,
+    "LatencyOptimizer": 0.1,
+    "DemocraticSpecialistsSystem": 1.0,
+    "PortfolioManager": 0.2,
+    "OrderManager": 0.05,
+    "StopLossManager": 0.05,
+    "PositionSizer": 0.1,
+    "KellyCriterionCalculator": 0.1
+  },
+  "current_total": 2.8000000000000003,
+  "tier_analysis": {
+    "tier_1": 0.65,
+    "tier_2": 0.65,
+    "tier_3": 0.2,
+    "tier_4": 1.0,
+    "core_trading": 0.30000000000000004,
+    "grand_total": 2.8
+  },
+  "optimal_weights": {
+    "NeuralNetworkSystem": 0.2,
+    "PortfolioManager": 0.15,
+    "OrderManager": 0.05,
+    "AdvancedAIEnsembleSystem": 0.2,
+    "AIPhaseSystem": 0.15,
+    "LatencyOptimizer": 0.05,
+    "AI2AdvancedTechnologiesSystem": 0.1,
+    "DemocraticSpecialistsSystem": 0.1,
+    "MT5ConnectionManager": 0.0,
+    "DataQualityMonitor": 0.0,
+    "RealTimeMT5DataSystem": 0.0,
+    "StopLossManager": 0.0,
+    "PositionSizer": 0.0,
+    "KellyCriterionCalculator": 0.0
+  },
+  "boost_analysis": {
+    "base_prediction": 0.65,
+    "ai_phases_boost": 0.12,
+    "ai2_boost": 0.15,
+    "total_boost": 0.28800000000000003,
+    "final_prediction": 0.8372
+  },
+  "democratic_analysis": {
+    "total_specialists": 18,
+    "vote_per_specialist": 0.05555555555555555,
+    "categories": {
+      "Technical Analysis": [
+        "RSI_Specialist",
+        "MACD_Specialist",
+        "Bollinger_Specialist"
+      ],
+      "Sentiment Analysis": [
+        "News_Sentiment_Specialist",
+        "Social_Media_Specialist",
+        "Market_Fear_Greed_Specialist"
+      ],
+      "Pattern Recognition": [
+        "Chart_Pattern_Specialist",
+        "Candlestick_Specialist",
+        "Support_Resistance_Specialist"
+      ],
+      "Risk Management": [
+        "Volatility_Specialist",
+        "Correlation_Specialist",
+        "Drawdown_Specialist"
+      ],
+      "Momentum Analysis": [
+        "Trend_Following_Specialist",
+        "Mean_Reversion_Specialist",
+        "Breakout_Specialist"
+      ],
+      "Volatility Analysis": [
+        "VIX_Specialist",
+        "ATR_Specialist",
+        "GARCH_Specialist"
+      ]
+    },
+    "strong_consensus": 0.8888888888888888,
+    "weak_consensus": 0.5555555555555556,
+    "no_consensus": 0.5
+  },
+  "implementation_code": "\ndef get_optimal_system_weights():\n    \"\"\"Optimal weights distribution for AI3.0 system\"\"\"\n    return {\n        # CẤP 1 - CORE DECISION (40%)\n        'NeuralNetworkSystem': 0.20,\n        'PortfolioManager': 0.15,\n        'OrderManager': 0.05,\n        \n        # CẤP 2 - AI ENHANCEMENT (35%)\n        'AdvancedAIEnsembleSystem': 0.20,\n        'AIPhaseSystem': 0.15,  # +12% boost separate\n        \n        # CẤP 3 - OPTIMIZATION (15%)\n        'LatencyOptimizer': 0.05,\n        'AI2AdvancedTechnologiesSystem': 0.10,  # +15% boost separate\n        \n        # CẤP 4 - CONSENSUS (10%)\n        'DemocraticSpecialistsSystem': 0.10,\n        \n        # SUPPORT LAYER (0% voting)\n        'MT5ConnectionManager': 0.0,\n        'DataQualityMonitor': 0.0,\n        'RealTimeMT5DataSystem': 0.0,\n        'StopLossManager': 0.0,\n        'PositionSizer': 0.0,\n        'KellyCriterionCalculator': 0.0\n    }\n\ndef calculate_final_prediction_with_boosts(base_prediction, ai_phases_active=True, ai2_active=True):\n    \"\"\"Calculate final prediction with boost mechanisms\"\"\"\n    prediction = base_prediction\n    \n    # Apply AI Phases boost (+12%)\n    if ai_phases_active:\n        prediction *= 1.12\n        \n    # Apply AI2 Advanced boost (+15%)\n    if ai2_active:\n        prediction *= 1.15\n        \n    # Ensure prediction stays within bounds\n    return min(1.0, max(0.0, prediction))\n\ndef democratic_consensus_with_threshold(specialist_votes, threshold=0.67):\n    \"\"\"Democratic consensus with configurable threshold\"\"\"\n    if len(specialist_votes) == 0:\n        return 0.5  # Neutral\n        \n    # Count votes\n    buy_votes = sum(1 for vote in specialist_votes if vote > 0.5)\n    total_votes = len(specialist_votes)\n    \n    # Calculate consensus strength\n    consensus_strength = buy_votes / total_votes\n    \n    # Apply threshold\n    if consensus_strength >= threshold:\n        return consensus_strength\n    elif (1 - consensus_strength) >= threshold:\n        return 1 - consensus_strength\n    else:\n        return 0.5  # No consensus, return neutral\n    "
+}

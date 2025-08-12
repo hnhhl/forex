@@ -1,0 +1,65 @@
+{
+  "M15_dir_2_lstm": {
+    "accuracy": 0.49392712116241455,
+    "model_type": "LSTM",
+    "samples": 4938,
+    "lstm_accuracy": 0.49392712116241455,
+    "gru_accuracy": 0.49291497468948364
+  },
+  "M15_dir_4_gru": {
+    "accuracy": 0.36943319439888,
+    "model_type": "GRU",
+    "samples": 4936,
+    "lstm_accuracy": 0.34210526943206787,
+    "gru_accuracy": 0.36943319439888
+  },
+  "M15_dir_8_lstm": {
+    "accuracy": 0.402228981256485,
+    "model_type": "LSTM",
+    "samples": 4932,
+    "lstm_accuracy": 0.402228981256485,
+    "gru_accuracy": 0.34245187044143677
+  },
+  "M30_dir_2_lstm": {
+    "accuracy": 0.44736841320991516,
+    "model_type": "LSTM",
+    "samples": 4938,
+    "lstm_accuracy": 0.44736841320991516,
+    "gru_accuracy": 0.2489878535270691
+  },
+  "M30_dir_4_gru": {
+    "accuracy": 0.3319838047027588,
+    "model_type": "GRU",
+    "samples": 4936,
+    "lstm_accuracy": 0.329959511756897,
+    "gru_accuracy": 0.3319838047027588
+  },
+  "M30_dir_8_lstm": {
+    "accuracy": 0.4417426586151123,
+    "model_type": "LSTM",
+    "samples": 4932,
+    "lstm_accuracy": 0.4417426586151123,
+    "gru_accuracy": 0.4417426586151123
+  },
+  "H1_dir_2_lstm": {
+    "accuracy": 0.38056680560112,
+    "model_type": "LSTM",
+    "samples": 4938,
+    "lstm_accuracy": 0.38056680560112,
+    "gru_accuracy": 0.38056680560112
+  },
+  "H1_dir_4_lstm": {
+    "accuracy": 0.4190283417701721,
+    "model_type": "LSTM",
+    "samples": 4936,
+    "lstm_accuracy": 0.4190283417701721,
+    "gru_accuracy": 0.4190283417701721
+  },
+  "H1_dir_8_lstm": {
+    "accuracy": 0.47922998666763306,
+    "model_type": "LSTM",
+    "samples": 4932,
+    "lstm_accuracy": 0.47922998666763306,
+    "gru_accuracy": 0.3454913794994354
+  }
+}

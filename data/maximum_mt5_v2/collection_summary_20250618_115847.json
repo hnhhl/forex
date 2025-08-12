@@ -1,0 +1,88 @@
+{
+  "collection_time": "20250618_115847",
+  "symbol": "XAUUSDc",
+  "total_timeframes": 8,
+  "total_records": 268475,
+  "timeframes": {
+    "M1": {
+      "records": 50000,
+      "start_date": "2025-04-28 17:18:00",
+      "end_date": "2025-06-18 04:58:00",
+      "duration_days": 50,
+      "pkl_file": "data/maximum_mt5_v2/XAUUSDc_M1_20250618_115847.pkl",
+      "csv_file": "data/maximum_mt5_v2/XAUUSDc_M1_20250618_115847.csv",
+      "csv_note": "Full data",
+      "file_size_mb": 2.86
+    },
+    "M5": {
+      "records": 50000,
+      "start_date": "2024-10-01 23:40:00",
+      "end_date": "2025-06-18 04:55:00",
+      "duration_days": 259,
+      "pkl_file": "data/maximum_mt5_v2/XAUUSDc_M5_20250618_115847.pkl",
+      "csv_file": "data/maximum_mt5_v2/XAUUSDc_M5_20250618_115847.csv",
+      "csv_note": "Full data",
+      "file_size_mb": 2.86
+    },
+    "M15": {
+      "records": 50000,
+      "start_date": "2023-05-08 02:30:00",
+      "end_date": "2025-06-18 04:45:00",
+      "duration_days": 772,
+      "pkl_file": "data/maximum_mt5_v2/XAUUSDc_M15_20250618_115847.pkl",
+      "csv_file": "data/maximum_mt5_v2/XAUUSDc_M15_20250618_115847.csv",
+      "csv_note": "Full data",
+      "file_size_mb": 2.86
+    },
+    "M30": {
+      "records": 50000,
+      "start_date": "2021-03-26 01:30:00",
+      "end_date": "2025-06-18 04:30:00",
+      "duration_days": 1545,
+      "pkl_file": "data/maximum_mt5_v2/XAUUSDc_M30_20250618_115847.pkl",
+      "csv_file": "data/maximum_mt5_v2/XAUUSDc_M30_20250618_115847.csv",
+      "csv_note": "Full data",
+      "file_size_mb": 2.86
+    },
+    "H1": {
+      "records": 50000,
+      "start_date": "2014-03-21 00:00:00",
+      "end_date": "2025-06-18 04:00:00",
+      "duration_days": 4107,
+      "pkl_file": "data/maximum_mt5_v2/XAUUSDc_H1_20250618_115847.pkl",
+      "csv_file": "data/maximum_mt5_v2/XAUUSDc_H1_20250618_115847.csv",
+      "csv_note": "Full data",
+      "file_size_mb": 2.86
+    },
+    "H4": {
+      "records": 14365,
+      "start_date": "2014-01-14 00:00:00",
+      "end_date": "2025-06-18 04:00:00",
+      "duration_days": 4173,
+      "pkl_file": "data/maximum_mt5_v2/XAUUSDc_H4_20250618_115847.pkl",
+      "csv_file": "data/maximum_mt5_v2/XAUUSDc_H4_20250618_115847.csv",
+      "csv_note": "Full data",
+      "file_size_mb": 0.82
+    },
+    "D1": {
+      "records": 3513,
+      "start_date": "2014-01-14 00:00:00",
+      "end_date": "2025-06-18 00:00:00",
+      "duration_days": 4173,
+      "pkl_file": "data/maximum_mt5_v2/XAUUSDc_D1_20250618_115847.pkl",
+      "csv_file": "data/maximum_mt5_v2/XAUUSDc_D1_20250618_115847.csv",
+      "csv_note": "Full data",
+      "file_size_mb": 0.2
+    },
+    "W1": {
+      "records": 597,
+      "start_date": "2014-01-12 00:00:00",
+      "end_date": "2025-06-15 00:00:00",
+      "duration_days": 4172,
+      "pkl_file": "data/maximum_mt5_v2/XAUUSDc_W1_20250618_115847.pkl",
+      "csv_file": "data/maximum_mt5_v2/XAUUSDc_W1_20250618_115847.csv",
+      "csv_note": "Full data",
+      "file_size_mb": 0.04
+    }
+  }
+}

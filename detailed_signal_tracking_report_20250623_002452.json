@@ -1,0 +1,330 @@
+{
+  "report_timestamp": "2025-06-23T00:24:52.573193",
+  "executive_summary": {
+    "total_specialists": 18,
+    "total_scenarios": 8,
+    "overall_signal_accuracy": 0.875,
+    "avg_consensus_strength": 0.5625,
+    "avg_quality_score": 0.48157634221491546
+  },
+  "specialist_rankings": {
+    "by_accuracy": [
+      {
+        "specialist": "Fibonacci_Specialist",
+        "category": "Technical",
+        "accuracy_rate": 0.875,
+        "avg_confidence": 0.4036486752685131
+      },
+      {
+        "specialist": "Mean_Reversion_Specialist",
+        "category": "Momentum",
+        "accuracy_rate": 0.875,
+        "avg_confidence": 0.3723348346611507
+      },
+      {
+        "specialist": "Candlestick_Specialist",
+        "category": "Pattern",
+        "accuracy_rate": 0.75,
+        "avg_confidence": 0.32176023132429626
+      },
+      {
+        "specialist": "Trend_Specialist",
+        "category": "Momentum",
+        "accuracy_rate": 0.75,
+        "avg_confidence": 0.3635649138947576
+      },
+      {
+        "specialist": "MACD_Specialist",
+        "category": "Technical",
+        "accuracy_rate": 0.625,
+        "avg_confidence": 0.3483936069400506
+      },
+      {
+        "specialist": "Chart_Pattern_Specialist",
+        "category": "Pattern",
+        "accuracy_rate": 0.625,
+        "avg_confidence": 0.38291957558299733
+      },
+      {
+        "specialist": "Wave_Specialist",
+        "category": "Pattern",
+        "accuracy_rate": 0.625,
+        "avg_confidence": 0.3989650043555317
+      },
+      {
+        "specialist": "Breakout_Specialist",
+        "category": "Momentum",
+        "accuracy_rate": 0.625,
+        "avg_confidence": 0.32577707468323913
+      },
+      {
+        "specialist": "Bollinger_Specialist",
+        "category": "Volatility",
+        "accuracy_rate": 0.625,
+        "avg_confidence": 0.38970421508100545
+      },
+      {
+        "specialist": "News_Sentiment_Specialist",
+        "category": "Sentiment",
+        "accuracy_rate": 0.5,
+        "avg_confidence": 0.3429761098260464
+      }
+    ],
+    "by_confidence": [
+      {
+        "specialist": "Position_Size_Specialist",
+        "category": "Risk",
+        "accuracy_rate": 0.375,
+        "avg_confidence": 0.5190891833689141
+      },
+      {
+        "specialist": "RSI_Specialist",
+        "category": "Technical",
+        "accuracy_rate": 0.125,
+        "avg_confidence": 0.4265016509116912
+      },
+      {
+        "specialist": "Drawdown_Specialist",
+        "category": "Risk",
+        "accuracy_rate": 0.5,
+        "avg_confidence": 0.42360299856057804
+      },
+      {
+        "specialist": "Fibonacci_Specialist",
+        "category": "Technical",
+        "accuracy_rate": 0.875,
+        "avg_confidence": 0.4036486752685131
+      },
+      {
+        "specialist": "Wave_Specialist",
+        "category": "Pattern",
+        "accuracy_rate": 0.625,
+        "avg_confidence": 0.3989650043555317
+      },
+      {
+        "specialist": "Bollinger_Specialist",
+        "category": "Volatility",
+        "accuracy_rate": 0.625,
+        "avg_confidence": 0.38970421508100545
+      },
+      {
+        "specialist": "Chart_Pattern_Specialist",
+        "category": "Pattern",
+        "accuracy_rate": 0.625,
+        "avg_confidence": 0.38291957558299733
+      },
+      {
+        "specialist": "Mean_Reversion_Specialist",
+        "category": "Momentum",
+        "accuracy_rate": 0.875,
+        "avg_confidence": 0.3723348346611507
+      },
+      {
+        "specialist": "Trend_Specialist",
+        "category": "Momentum",
+        "accuracy_rate": 0.75,
+        "avg_confidence": 0.3635649138947576
+      },
+      {
+        "specialist": "Fear_Greed_Specialist",
+        "category": "Sentiment",
+        "accuracy_rate": 0.375,
+        "avg_confidence": 0.35841061344609015
+      }
+    ],
+    "most_active": [
+      {
+        "specialist": "RSI_Specialist",
+        "category": "Technical",
+        "total_votes": 8,
+        "accuracy_rate": 0.125
+      },
+      {
+        "specialist": "MACD_Specialist",
+        "category": "Technical",
+        "total_votes": 8,
+        "accuracy_rate": 0.625
+      },
+      {
+        "specialist": "Fibonacci_Specialist",
+        "category": "Technical",
+        "total_votes": 8,
+        "accuracy_rate": 0.875
+      },
+      {
+        "specialist": "News_Sentiment_Specialist",
+        "category": "Sentiment",
+        "total_votes": 8,
+        "accuracy_rate": 0.5
+      },
+      {
+        "specialist": "Social_Media_Specialist",
+        "category": "Sentiment",
+        "total_votes": 8,
+        "accuracy_rate": 0.25
+      },
+      {
+        "specialist": "Fear_Greed_Specialist",
+        "category": "Sentiment",
+        "total_votes": 8,
+        "accuracy_rate": 0.375
+      },
+      {
+        "specialist": "Chart_Pattern_Specialist",
+        "category": "Pattern",
+        "total_votes": 8,
+        "accuracy_rate": 0.625
+      },
+      {
+        "specialist": "Candlestick_Specialist",
+        "category": "Pattern",
+        "total_votes": 8,
+        "accuracy_rate": 0.75
+      },
+      {
+        "specialist": "Wave_Specialist",
+        "category": "Pattern",
+        "total_votes": 8,
+        "accuracy_rate": 0.625
+      },
+      {
+        "specialist": "VaR_Risk_Specialist",
+        "category": "Risk",
+        "total_votes": 8,
+        "accuracy_rate": 0.375
+      }
+    ]
+  },
+  "signal_quality_analysis": {
+    "high_quality_signals": [
+      {
+        "scenario": "Sharp Bearish Decline",
+        "scenario_type": "bearish",
+        "actual_direction": "SELL",
+        "final_decision": "SELL",
+        "prediction_correct": true,
+        "consensus_strength": 0.7222222222222222,
+        "weighted_confidence": 0.7359851927408768,
+        "vote_distribution": {
+          "BUY": 3,
+          "SELL": 13,
+          "HOLD": 2
+        },
+        "total_votes": 18,
+        "category_agreements": 5,
+        "high_confidence_votes": 0,
+        "unanimous_categories": 2,
+        "quality_score": 0.6041288911555964
+      },
+      {
+        "scenario": "Trend Continuation Up",
+        "scenario_type": "bullish",
+        "actual_direction": "BUY",
+        "final_decision": "BUY",
+        "prediction_correct": true,
+        "consensus_strength": 0.7222222222222222,
+        "weighted_confidence": 0.6874354251261233,
+        "vote_distribution": {
+          "BUY": 13,
+          "SELL": 1,
+          "HOLD": 4
+        },
+        "total_votes": 18,
+        "category_agreements": 6,
+        "high_confidence_votes": 0,
+        "unanimous_categories": 1,
+        "quality_score": 0.6228972942045037
+      }
+    ],
+    "low_quality_signals": [
+      {
+        "scenario": "Sideways Consolidation",
+        "scenario_type": "sideways",
+        "actual_direction": "HOLD",
+        "final_decision": "HOLD",
+        "prediction_correct": true,
+        "consensus_strength": 0.5,
+        "weighted_confidence": 0.4660171821603013,
+        "vote_distribution": {
+          "BUY": 5,
+          "SELL": 4,
+          "HOLD": 9
+        },
+        "total_votes": 18,
+        "category_agreements": 3,
+        "high_confidence_votes": 0,
+        "unanimous_categories": 0,
+        "quality_score": 0.3898051546480904
+      }
+    ],
+    "quality_distribution": {
+      "excellent": "0",
+      "good": "2",
+      "fair": "6",
+      "poor": "0"
+    }
+  },
+  "category_performance": {
+    "Technical": {
+      "specialist_count": 3,
+      "avg_accuracy": 0.5416666666666666,
+      "avg_confidence": 0.39284797770675167,
+      "best_specialist": "Fibonacci_Specialist",
+      "worst_specialist": "RSI_Specialist"
+    },
+    "Sentiment": {
+      "specialist_count": 3,
+      "avg_accuracy": 0.375,
+      "avg_confidence": 0.33254364494457994,
+      "best_specialist": "News_Sentiment_Specialist",
+      "worst_specialist": "Social_Media_Specialist"
+    },
+    "Pattern": {
+      "specialist_count": 3,
+      "avg_accuracy": 0.6666666666666666,
+      "avg_confidence": 0.36788160375427514,
+      "best_specialist": "Candlestick_Specialist",
+      "worst_specialist": "Chart_Pattern_Specialist"
+    },
+    "Risk": {
+      "specialist_count": 3,
+      "avg_accuracy": 0.4166666666666667,
+      "avg_confidence": 0.4314200872808649,
+      "best_specialist": "Drawdown_Specialist",
+      "worst_specialist": "VaR_Risk_Specialist"
+    },
+    "Momentum": {
+      "specialist_count": 3,
+      "avg_accuracy": 0.75,
+      "avg_confidence": 0.3538922744130491,
+      "best_specialist": "Mean_Reversion_Specialist",
+      "worst_specialist": "Breakout_Specialist"
+    },
+    "Volatility": {
+      "specialist_count": 3,
+      "avg_accuracy": 0.5,
+      "avg_confidence": 0.3175247837320582,
+      "best_specialist": "Bollinger_Specialist",
+      "worst_specialist": "ATR_Specialist"
+    }
+  },
+  "improvement_recommendations": [
+    {
+      "type": "confidence_calibration",
+      "description": "Reduce confidence for overconfident specialists",
+      "affected_specialists": [
+        "RSI_Specialist"
+      ],
+      "priority": "high"
+    },
+    {
+      "type": "category_improvement",
+      "description": "Improve algorithms for underperforming categories",
+      "affected_categories": [
+        "Risk",
+        "Sentiment"
+      ],
+      "priority": "medium"
+    }
+  ]
+}

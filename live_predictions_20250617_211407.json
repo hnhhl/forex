@@ -1,0 +1,270 @@
+{
+  "individual_predictions": {
+    "M15_dir_2": {
+      "model": "M15_dir_2",
+      "timeframe": "M15",
+      "horizon_periods": 2,
+      "prediction_minutes": 30,
+      "accuracy": 0.84,
+      "direction": "HOLD",
+      "confidence": "1.0",
+      "predicted_class": "1",
+      "class_probabilities": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "current_price": 3386.694,
+      "prediction_time": "2025-06-17 14:00:00",
+      "target_time": "2025-06-17 14:30:00"
+    },
+    "M30_dir_2": {
+      "model": "M30_dir_2",
+      "timeframe": "M30",
+      "horizon_periods": 2,
+      "prediction_minutes": 60,
+      "accuracy": 0.776,
+      "direction": "BUY",
+      "confidence": "1.0",
+      "predicted_class": "2",
+      "class_probabilities": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "current_price": 3386.531,
+      "prediction_time": "2025-06-17 14:00:00",
+      "target_time": "2025-06-17 15:00:00"
+    },
+    "M15_dir_4": {
+      "model": "M15_dir_4",
+      "timeframe": "M15",
+      "horizon_periods": 4,
+      "prediction_minutes": 60,
+      "accuracy": 0.722,
+      "direction": "SELL",
+      "confidence": "1.0",
+      "predicted_class": "0",
+      "class_probabilities": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "current_price": 3386.5,
+      "prediction_time": "2025-06-17 14:00:00",
+      "target_time": "2025-06-17 15:00:00"
+    },
+    "H1_dir_2": {
+      "model": "H1_dir_2",
+      "timeframe": "H1",
+      "horizon_periods": 2,
+      "prediction_minutes": 120,
+      "accuracy": 0.671,
+      "direction": "HOLD",
+      "confidence": "1.0",
+      "predicted_class": "1",
+      "class_probabilities": [
+        0.0,
+        1.0,
+        4.260706007540079e-33
+      ],
+      "current_price": 3386.504,
+      "prediction_time": "2025-06-17 14:00:00",
+      "target_time": "2025-06-17 16:00:00"
+    },
+    "M30_dir_4": {
+      "model": "M30_dir_4",
+      "timeframe": "M30",
+      "horizon_periods": 4,
+      "prediction_minutes": 120,
+      "accuracy": 0.633,
+      "direction": "SELL",
+      "confidence": "1.0",
+      "predicted_class": "0",
+      "class_probabilities": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "current_price": 3386.504,
+      "prediction_time": "2025-06-17 14:00:00",
+      "target_time": "2025-06-17 16:00:00"
+    },
+    "M15_dir_8": {
+      "model": "M15_dir_8",
+      "timeframe": "M15",
+      "horizon_periods": 8,
+      "prediction_minutes": 120,
+      "accuracy": 0.621,
+      "direction": "SELL",
+      "confidence": "1.0",
+      "predicted_class": "0",
+      "class_probabilities": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "current_price": 3386.469,
+      "prediction_time": "2025-06-17 14:00:00",
+      "target_time": "2025-06-17 16:00:00"
+    },
+    "M30_dir_8": {
+      "model": "M30_dir_8",
+      "timeframe": "M30",
+      "horizon_periods": 8,
+      "prediction_minutes": 240,
+      "accuracy": 0.543,
+      "direction": "SELL",
+      "confidence": "1.0",
+      "predicted_class": "0",
+      "class_probabilities": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "current_price": 3386.217,
+      "prediction_time": "2025-06-17 14:00:00",
+      "target_time": "2025-06-17 18:00:00"
+    },
+    "H1_dir_4": {
+      "model": "H1_dir_4",
+      "timeframe": "H1",
+      "horizon_periods": 4,
+      "prediction_minutes": 240,
+      "accuracy": 0.536,
+      "direction": "SELL",
+      "confidence": "1.0",
+      "predicted_class": "0",
+      "class_probabilities": [
+        1.0,
+        0.0,
+        9.008176149460922e-13
+      ],
+      "current_price": 3386.217,
+      "prediction_time": "2025-06-17 14:00:00",
+      "target_time": "2025-06-17 18:00:00"
+    },
+    "H4_dir_2": {
+      "model": "H4_dir_2",
+      "timeframe": "H4",
+      "horizon_periods": 2,
+      "prediction_minutes": 480,
+      "accuracy": 0.46,
+      "direction": "BUY",
+      "confidence": "1.0",
+      "predicted_class": "2",
+      "class_probabilities": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "current_price": 3386.217,
+      "prediction_time": "2025-06-17 12:00:00",
+      "target_time": "2025-06-17 20:00:00"
+    },
+    "D1_dir_2": {
+      "model": "D1_dir_2",
+      "timeframe": "D1",
+      "horizon_periods": 2,
+      "prediction_minutes": 2880,
+      "accuracy": 0.436,
+      "direction": "SELL",
+      "confidence": "1.0",
+      "predicted_class": "0",
+      "class_probabilities": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "current_price": 3386.215,
+      "prediction_time": "2025-06-17 00:00:00",
+      "target_time": "2025-06-19 00:00:00"
+    }
+  },
+  "ensemble_prediction": {
+    "ensemble_direction": "HOLD",
+    "ensemble_confidence": "0.5021602",
+    "weighted_scores": {
+      "BUY": "0.257893",
+      "SELL": "0.23994684",
+      "HOLD": "0.5021602"
+    },
+    "individual_predictions": [
+      {
+        "model": "M15_dir_2",
+        "timeframe": "M15",
+        "horizon_periods": 2,
+        "prediction_minutes": 30,
+        "accuracy": 0.84,
+        "direction": "HOLD",
+        "confidence": "1.0",
+        "predicted_class": "1",
+        "class_probabilities": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "current_price": 3386.187,
+        "prediction_time": "2025-06-17 14:00:00",
+        "target_time": "2025-06-17 14:30:00"
+      },
+      {
+        "model": "M30_dir_2",
+        "timeframe": "M30",
+        "horizon_periods": 2,
+        "prediction_minutes": 60,
+        "accuracy": 0.776,
+        "direction": "BUY",
+        "confidence": "1.0",
+        "predicted_class": "2",
+        "class_probabilities": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "current_price": 3386.187,
+        "prediction_time": "2025-06-17 14:00:00",
+        "target_time": "2025-06-17 15:00:00"
+      },
+      {
+        "model": "M15_dir_4",
+        "timeframe": "M15",
+        "horizon_periods": 4,
+        "prediction_minutes": 60,
+        "accuracy": 0.722,
+        "direction": "SELL",
+        "confidence": "1.0",
+        "predicted_class": "0",
+        "class_probabilities": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "current_price": 3386.163,
+        "prediction_time": "2025-06-17 14:00:00",
+        "target_time": "2025-06-17 15:00:00"
+      },
+      {
+        "model": "H1_dir_2",
+        "timeframe": "H1",
+        "horizon_periods": 2,
+        "prediction_minutes": 120,
+        "accuracy": 0.671,
+        "direction": "HOLD",
+        "confidence": "1.0",
+        "predicted_class": "1",
+        "class_probabilities": [
+          0.0,
+          1.0,
+          4.069628666129947e-33
+        ],
+        "current_price": 3386.201,
+        "prediction_time": "2025-06-17 14:00:00",
+        "target_time": "2025-06-17 16:00:00"
+      }
+    ],
+    "models_used": 4,
+    "prediction_time": "2025-06-17 21:14:07"
+  },
+  "timestamp": "2025-06-17T21:14:07.713101"
+}

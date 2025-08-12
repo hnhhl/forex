@@ -1,0 +1,1 @@
+["open", "high", "low", "close", "tick_volume", "spread", "returns", "log_returns", "volatility", "sma_20", "sma_50", "ema_12", "ema_26", "rsi", "macd", "macd_signal", "macd_histogram", "bb_position", "volume_ratio", "high_low_ratio", "open_close_ratio", "price_range"]

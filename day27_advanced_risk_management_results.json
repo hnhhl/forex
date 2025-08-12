@@ -1,0 +1,335 @@
+{
+  "demo_info": {
+    "day": 27,
+    "system_name": "Advanced Risk Management Systems",
+    "demo_date": "2025-06-17T06:34:13.927871",
+    "total_duration": 1.072232
+  },
+  "performance_summary": {
+    "overall_score": 86.37420224507221,
+    "grade": "EXCELLENT",
+    "individual_scores": {
+      "risk_metrics": 89.87101122536107,
+      "stress_testing": 83.33333333333333,
+      "hedging_strategies": 73.66666666666667,
+      "risk_monitoring": 85.0,
+      "risk_dashboard": 100.0
+    }
+  },
+  "detailed_results": {
+    "risk_metrics": {
+      "var_95_daily": 0.020205161536921784,
+      "var_99_daily": 0.023775699591286645,
+      "sharpe_ratio": 1.4746808980288861,
+      "max_drawdown": -0.153776306598117,
+      "liquidity_score": 0.8574999999999999,
+      "calculation_time": 0.5181236267089844,
+      "score": 89.87101122536107
+    },
+    "stress_testing": {
+      "total_scenarios": 10,
+      "worst_case_loss": -0.35,
+      "scenario_details": {
+        "black_monday_1987": {
+          "impact_pct": -0.22,
+          "impact_usd": -22000.0,
+          "recovery_days": 22,
+          "probability": 0.44
+        },
+        "dot_com_crash_2000": {
+          "impact_pct": -0.12,
+          "impact_usd": -12000.0,
+          "recovery_days": 12,
+          "probability": 0.24
+        },
+        "financial_crisis_2008": {
+          "impact_pct": -0.18,
+          "impact_usd": -18000.0,
+          "recovery_days": 18,
+          "probability": 0.36
+        },
+        "covid_crash_2020": {
+          "impact_pct": -0.35,
+          "impact_usd": -35000.0,
+          "recovery_days": 35,
+          "probability": 0.7
+        },
+        "rate_shock_2022": {
+          "impact_pct": -0.08,
+          "impact_usd": -8000.0,
+          "recovery_days": 8,
+          "probability": 0.16
+        },
+        "monte_carlo_stress": {
+          "impact_pct": -0.028936320030585074,
+          "impact_usd": -2893.6320030585075,
+          "recovery_days": 2,
+          "probability": 0.4562
+        },
+        "interest_rate_shock": {
+          "impact_pct": -0.01,
+          "impact_usd": -1000.0,
+          "recovery_days": 1,
+          "probability": 0.0
+        },
+        "volatility_shock": {
+          "impact_pct": -0.15,
+          "impact_usd": -15000.0,
+          "recovery_days": 45,
+          "probability": 0.0
+        },
+        "correlation_shock": {
+          "impact_pct": -0.06,
+          "impact_usd": -6000.0,
+          "recovery_days": 27,
+          "probability": 0.0
+        },
+        "liquidity_shock": {
+          "impact_pct": -0.04000000000000001,
+          "impact_usd": -4000.000000000001,
+          "recovery_days": 9,
+          "probability": 0.0
+        }
+      },
+      "testing_time": 0.5091111660003662,
+      "score": 83.33333333333333
+    },
+    "hedging_strategies": {
+      "scenarios_tested": 5,
+      "average_protection": 0.30000000000000004,
+      "average_cost": 0.009000000000000001,
+      "strategy_details": {
+        "low_risk": {
+          "strategy_type": "delta_hedge",
+          "target_hedge_ratio": 0.0,
+          "expected_protection": 0.0,
+          "estimated_cost": 0.0,
+          "var_reduction": 0.0,
+          "execution_priority": "low",
+          "confidence_level": 0.5
+        },
+        "medium_risk": {
+          "strategy_type": "tail_hedge",
+          "target_hedge_ratio": 0.6,
+          "expected_protection": 0.4,
+          "estimated_cost": 0.012,
+          "var_reduction": 0.009698477537722456,
+          "execution_priority": "high",
+          "confidence_level": 0.75
+        },
+        "high_risk": {
+          "strategy_type": "tail_hedge",
+          "target_hedge_ratio": 0.6,
+          "expected_protection": 0.4,
+          "estimated_cost": 0.012,
+          "var_reduction": 0.024246193844306138,
+          "execution_priority": "urgent",
+          "confidence_level": 0.75
+        },
+        "extreme_risk": {
+          "strategy_type": "tail_hedge",
+          "target_hedge_ratio": 0.6,
+          "expected_protection": 0.4,
+          "estimated_cost": 0.012,
+          "var_reduction": 0.09698477537722455,
+          "execution_priority": "urgent",
+          "confidence_level": 0.75
+        }
+      },
+      "score": 73.66666666666667
+    },
+    "risk_monitoring": {
+      "scenarios_tested": 4,
+      "total_alerts": 15,
+      "monitoring_details": {
+        "normal_risk": {
+          "alerts_count": 3,
+          "alert_details": [
+            {
+              "type": "VAR_95_BREACH",
+              "severity": "critical",
+              "metric": "Daily VaR 95%",
+              "breach_percentage": 708.2064614768714,
+              "urgency_score": 1.0
+            },
+            {
+              "type": "CONCENTRATION_BREACH",
+              "severity": "warning",
+              "metric": "Concentration Risk",
+              "breach_percentage": 16.666666666666664,
+              "urgency_score": 0.16666666666666663
+            },
+            {
+              "type": "VAR_95_WARNING",
+              "severity": "warning",
+              "metric": "Daily VaR 95% Warning",
+              "breach_percentage": 910.2580768460891,
+              "urgency_score": 1.0
+            }
+          ],
+          "var_95": 0.24246193844306138,
+          "drawdown": -0.05
+        },
+        "elevated_risk": {
+          "alerts_count": 3,
+          "alert_details": [
+            {
+              "type": "VAR_95_BREACH",
+              "severity": "critical",
+              "metric": "Daily VaR 95%",
+              "breach_percentage": 1112.309692215307,
+              "urgency_score": 1.0
+            },
+            {
+              "type": "CONCENTRATION_BREACH",
+              "severity": "warning",
+              "metric": "Concentration Risk",
+              "breach_percentage": 16.666666666666664,
+              "urgency_score": 0.16666666666666663
+            },
+            {
+              "type": "VAR_95_WARNING",
+              "severity": "warning",
+              "metric": "Daily VaR 95% Warning",
+              "breach_percentage": 1415.3871152691333,
+              "urgency_score": 1.0
+            }
+          ],
+          "var_95": 0.36369290766459206,
+          "drawdown": -0.08
+        },
+        "high_risk": {
+          "alerts_count": 4,
+          "alert_details": [
+            {
+              "type": "VAR_95_BREACH",
+              "severity": "critical",
+              "metric": "Daily VaR 95%",
+              "breach_percentage": 2567.081322873675,
+              "urgency_score": 1.0
+            },
+            {
+              "type": "VAR_99_BREACH",
+              "severity": "emergency",
+              "metric": "Daily VaR 99%",
+              "breach_percentage": 56.919617302491865,
+              "urgency_score": 0.5691961730249187
+            },
+            {
+              "type": "CONCENTRATION_BREACH",
+              "severity": "warning",
+              "metric": "Concentration Risk",
+              "breach_percentage": 16.666666666666664,
+              "urgency_score": 0.16666666666666663
+            },
+            {
+              "type": "VAR_95_WARNING",
+              "severity": "warning",
+              "metric": "Daily VaR 95% Warning",
+              "breach_percentage": 3233.851653592094,
+              "urgency_score": 1.0
+            }
+          ],
+          "var_95": 0.8001243968621026,
+          "drawdown": -0.12
+        },
+        "extreme_risk": {
+          "alerts_count": 5,
+          "alert_details": [
+            {
+              "type": "VAR_95_BREACH",
+              "severity": "critical",
+              "metric": "Daily VaR 95%",
+              "breach_percentage": 7901.243968621027,
+              "urgency_score": 1.0
+            },
+            {
+              "type": "VAR_99_BREACH",
+              "severity": "emergency",
+              "metric": "Daily VaR 99%",
+              "breach_percentage": 370.7588519074756,
+              "urgency_score": 1.0
+            },
+            {
+              "type": "DRAWDOWN_BREACH",
+              "severity": "critical",
+              "metric": "Current Drawdown",
+              "breach_percentage": 20.0,
+              "urgency_score": 0.2
+            },
+            {
+              "type": "CONCENTRATION_BREACH",
+              "severity": "warning",
+              "metric": "Concentration Risk",
+              "breach_percentage": 16.666666666666664,
+              "urgency_score": 0.16666666666666663
+            },
+            {
+              "type": "VAR_95_WARNING",
+              "severity": "warning",
+              "metric": "Daily VaR 95% Warning",
+              "breach_percentage": 9901.554960776282,
+              "urgency_score": 1.0
+            }
+          ],
+          "var_95": 2.4003731905863077,
+          "drawdown": -0.18
+        }
+      },
+      "alert_summary": {
+        "total_active_alerts": 15,
+        "severity_breakdown": {
+          "critical": 5,
+          "warning": 8,
+          "emergency": 2
+        },
+        "highest_urgency": 1.0,
+        "oldest_alert": "2025-06-17 06:34:14.988100",
+        "alert_rate_24h": 15
+      },
+      "score": 85.0
+    },
+    "risk_dashboard": {
+      "dashboard_components": 6,
+      "generation_time": 0.0010008811950683594,
+      "integration_score": 100,
+      "dashboard_data": {
+        "timestamp": "2025-06-17 06:34:14.996102",
+        "risk_metrics": {
+          "var_95": 2.4003731905863077,
+          "var_99": 0.23537942595373781,
+          "current_drawdown": -0.18,
+          "volatility": 0.20234574543905975,
+          "sharpe_ratio": 1.4746808980288861
+        },
+        "stress_testing": {
+          "worst_case_loss": -0.35,
+          "average_stress_loss": -0.12389363200305852,
+          "scenarios_tested": 10
+        },
+        "hedging": {
+          "hedge_coverage": 0.6,
+          "estimated_cost": 0.012,
+          "strategy_count": 5
+        },
+        "alerts": {
+          "total_active_alerts": 15,
+          "severity_breakdown": {
+            "critical": 5,
+            "warning": 8,
+            "emergency": 2
+          },
+          "highest_urgency": 1.0,
+          "oldest_alert": "2025-06-17 06:34:14.988100",
+          "alert_rate_24h": 15
+        },
+        "liquidity": {
+          "score": 0.8574999999999999,
+          "liquidation_time": 12,
+          "market_impact": 0.05285
+        }
+      },
+      "score": 100.0
+    }
+  }
+}

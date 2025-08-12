@@ -1,0 +1,2269 @@
+{
+  "timestamp": "2025-06-27T22:34:22.326386",
+  "total_training_time": 2040.038951,
+  "total_models": 250,
+  "successful_models": 230,
+  "training_method": "GROUP_TRAINING",
+  "models": {
+    "dense_model_001": {
+      "model_id": "dense_model_001",
+      "success": true,
+      "validation_accuracy": 0.7425870299339294,
+      "training_time": 1.1459078788757324,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_001.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_002": {
+      "model_id": "dense_model_002",
+      "success": true,
+      "validation_accuracy": 0.7408463358879089,
+      "training_time": 1.1459078788757324,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_002.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_003": {
+      "model_id": "dense_model_003",
+      "success": true,
+      "validation_accuracy": 0.7438875436782837,
+      "training_time": 0.5165719985961914,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_003.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_004": {
+      "model_id": "dense_model_004",
+      "success": true,
+      "validation_accuracy": 0.7410663962364197,
+      "training_time": 0.5800371170043945,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_004.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_005": {
+      "model_id": "dense_model_005",
+      "success": true,
+      "validation_accuracy": 0.7367947101593018,
+      "training_time": 0.5499632358551025,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_005.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_006": {
+      "model_id": "dense_model_006",
+      "success": true,
+      "validation_accuracy": 0.7392156720161438,
+      "training_time": 0.5370368957519531,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_006.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_007": {
+      "model_id": "dense_model_007",
+      "success": true,
+      "validation_accuracy": 0.7377250790596008,
+      "training_time": 0.5518956184387207,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_007.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_008": {
+      "model_id": "dense_model_008",
+      "success": true,
+      "validation_accuracy": 0.743737518787384,
+      "training_time": 0.5496163368225098,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_008.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_009": {
+      "model_id": "dense_model_009",
+      "success": true,
+      "validation_accuracy": 0.7401460409164429,
+      "training_time": 0.5478324890136719,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_009.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_010": {
+      "model_id": "dense_model_010",
+      "success": true,
+      "validation_accuracy": 0.7428971529006958,
+      "training_time": 0.5496389865875244,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_010.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_011": {
+      "model_id": "dense_model_011",
+      "success": true,
+      "validation_accuracy": 0.74306720495224,
+      "training_time": 0.5013728141784668,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_011.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_012": {
+      "model_id": "dense_model_012",
+      "success": true,
+      "validation_accuracy": 0.7412965297698975,
+      "training_time": 0.5682463645935059,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_012.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_013": {
+      "model_id": "dense_model_013",
+      "success": true,
+      "validation_accuracy": 0.7403261065483093,
+      "training_time": 0.5511434078216553,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_013.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_014": {
+      "model_id": "dense_model_014",
+      "success": true,
+      "validation_accuracy": 0.7407363057136536,
+      "training_time": 0.5348849296569824,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_014.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_015": {
+      "model_id": "dense_model_015",
+      "success": true,
+      "validation_accuracy": 0.7422969341278076,
+      "training_time": 0.5835747718811035,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_015.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_016": {
+      "model_id": "dense_model_016",
+      "success": true,
+      "validation_accuracy": 0.7427371144294739,
+      "training_time": 0.5482032299041748,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_016.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_017": {
+      "model_id": "dense_model_017",
+      "success": true,
+      "validation_accuracy": 0.7422668933868408,
+      "training_time": 0.5480165481567383,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_017.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_018": {
+      "model_id": "dense_model_018",
+      "success": true,
+      "validation_accuracy": 0.7351840734481812,
+      "training_time": 0.5490434169769287,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_018.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_019": {
+      "model_id": "dense_model_019",
+      "success": true,
+      "validation_accuracy": 0.7418567538261414,
+      "training_time": 0.5502715110778809,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_019.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_020": {
+      "model_id": "dense_model_020",
+      "success": true,
+      "validation_accuracy": 0.743267297744751,
+      "training_time": 0.5503036975860596,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_020.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_021": {
+      "model_id": "dense_model_021",
+      "success": true,
+      "validation_accuracy": 0.7410264015197754,
+      "training_time": 0.5489888191223145,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_021.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_022": {
+      "model_id": "dense_model_022",
+      "success": true,
+      "validation_accuracy": 0.7414966225624084,
+      "training_time": 0.5493483543395996,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_022.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_023": {
+      "model_id": "dense_model_023",
+      "success": true,
+      "validation_accuracy": 0.7418166995048523,
+      "training_time": 0.466564416885376,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_023.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_024": {
+      "model_id": "dense_model_024",
+      "success": true,
+      "validation_accuracy": 0.7401460409164429,
+      "training_time": 0.566309928894043,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_024.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_026": {
+      "model_id": "dense_model_026",
+      "success": true,
+      "validation_accuracy": 0.4995998442173004,
+      "training_time": 0.31693482398986816,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_026.pth",
+      "epochs_trained": 10
+    },
+    "dense_model_025": {
+      "model_id": "dense_model_025",
+      "success": true,
+      "validation_accuracy": 0.7424269914627075,
+      "training_time": 0.5031249523162842,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_025.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_028": {
+      "model_id": "dense_model_028",
+      "success": true,
+      "validation_accuracy": 0.7379151582717896,
+      "training_time": 0.2801952362060547,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_028.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_027": {
+      "model_id": "dense_model_027",
+      "success": true,
+      "validation_accuracy": 0.7279812097549438,
+      "training_time": 0.2999117374420166,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_027.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_030": {
+      "model_id": "dense_model_030",
+      "success": true,
+      "validation_accuracy": 0.4995998442173004,
+      "training_time": 0.16662883758544922,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_030.pth",
+      "epochs_trained": 10
+    },
+    "dense_model_029": {
+      "model_id": "dense_model_029",
+      "success": true,
+      "validation_accuracy": 0.7388755679130554,
+      "training_time": 0.2307124137878418,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_029.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_031": {
+      "model_id": "dense_model_031",
+      "success": true,
+      "validation_accuracy": 0.7305122017860413,
+      "training_time": 0.29494643211364746,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_031.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_032": {
+      "model_id": "dense_model_032",
+      "success": true,
+      "validation_accuracy": 0.7342836856842041,
+      "training_time": 0.26973915100097656,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_032.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_033": {
+      "model_id": "dense_model_033",
+      "success": true,
+      "validation_accuracy": 0.7363245487213135,
+      "training_time": 0.2792539596557617,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_033.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_034": {
+      "model_id": "dense_model_034",
+      "success": true,
+      "validation_accuracy": 0.6820928454399109,
+      "training_time": 0.28954434394836426,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_034.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_035": {
+      "model_id": "dense_model_035",
+      "success": true,
+      "validation_accuracy": 0.7413965463638306,
+      "training_time": 0.2861149311065674,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_035.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_036": {
+      "model_id": "dense_model_036",
+      "success": true,
+      "validation_accuracy": 0.731562614440918,
+      "training_time": 0.28792500495910645,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_036.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_037": {
+      "model_id": "dense_model_037",
+      "success": true,
+      "validation_accuracy": 0.7286414504051208,
+      "training_time": 0.2985649108886719,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_037.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_038": {
+      "model_id": "dense_model_038",
+      "success": true,
+      "validation_accuracy": 0.5958183407783508,
+      "training_time": 0.27943992614746094,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_038.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_040": {
+      "model_id": "dense_model_040",
+      "success": true,
+      "validation_accuracy": 0.6790416240692139,
+      "training_time": 0.26787424087524414,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_040.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_039": {
+      "model_id": "dense_model_039",
+      "success": true,
+      "validation_accuracy": 0.7300519943237305,
+      "training_time": 0.30171990394592285,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_039.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_041": {
+      "model_id": "dense_model_041",
+      "success": true,
+      "validation_accuracy": 0.6747899055480957,
+      "training_time": 0.30462074279785156,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_041.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_042": {
+      "model_id": "dense_model_042",
+      "success": true,
+      "validation_accuracy": 0.7034013271331787,
+      "training_time": 0.323803186416626,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_042.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_043": {
+      "model_id": "dense_model_043",
+      "success": true,
+      "validation_accuracy": 0.6679171323776245,
+      "training_time": 0.2535133361816406,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_043.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_044": {
+      "model_id": "dense_model_044",
+      "success": true,
+      "validation_accuracy": 0.705372154712677,
+      "training_time": 0.3014960289001465,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_044.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_045": {
+      "model_id": "dense_model_045",
+      "success": true,
+      "validation_accuracy": 0.732923150062561,
+      "training_time": 0.2968761920928955,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_045.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_046": {
+      "model_id": "dense_model_046",
+      "success": true,
+      "validation_accuracy": 0.7389455437660217,
+      "training_time": 0.27984166145324707,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_046.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_047": {
+      "model_id": "dense_model_047",
+      "success": true,
+      "validation_accuracy": 0.7358343005180359,
+      "training_time": 0.26967668533325195,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_047.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_048": {
+      "model_id": "dense_model_048",
+      "success": true,
+      "validation_accuracy": 0.7309423685073853,
+      "training_time": 0.28871726989746094,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_048.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_049": {
+      "model_id": "dense_model_049",
+      "success": true,
+      "validation_accuracy": 0.7322829365730286,
+      "training_time": 0.294797420501709,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_049.pth",
+      "epochs_trained": 20
+    },
+    "dense_model_050": {
+      "model_id": "dense_model_050",
+      "success": true,
+      "validation_accuracy": 0.7397658824920654,
+      "training_time": 0.2617025375366211,
+      "architecture": "dense",
+      "model_path": "trained_models/group_training/dense_model_050.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_002": {
+      "model_id": "cnn_model_002",
+      "success": true,
+      "validation_accuracy": 0.6781412363052368,
+      "training_time": 4.361042499542236,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_002.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_001": {
+      "model_id": "cnn_model_001",
+      "success": true,
+      "validation_accuracy": 0.6791716814041138,
+      "training_time": 4.361042499542236,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_001.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_004": {
+      "model_id": "cnn_model_004",
+      "success": true,
+      "validation_accuracy": 0.6826430559158325,
+      "training_time": 3.565516948699951,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_004.pth",
+      "epochs_trained": 16
+    },
+    "cnn_model_003": {
+      "model_id": "cnn_model_003",
+      "success": true,
+      "validation_accuracy": 0.6823429465293884,
+      "training_time": 3.898759126663208,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_003.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_006": {
+      "model_id": "cnn_model_006",
+      "success": true,
+      "validation_accuracy": 0.6814625859260559,
+      "training_time": 4.110715389251709,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_006.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_005": {
+      "model_id": "cnn_model_005",
+      "success": true,
+      "validation_accuracy": 0.6819027662277222,
+      "training_time": 4.633944272994995,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_005.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_007": {
+      "model_id": "cnn_model_007",
+      "success": true,
+      "validation_accuracy": 0.6809223890304565,
+      "training_time": 4.172076225280762,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_007.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_008": {
+      "model_id": "cnn_model_008",
+      "success": true,
+      "validation_accuracy": 0.6793217062950134,
+      "training_time": 3.9820895195007324,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_008.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_009": {
+      "model_id": "cnn_model_009",
+      "success": true,
+      "validation_accuracy": 0.6818227171897888,
+      "training_time": 2.605103015899658,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_009.pth",
+      "epochs_trained": 13
+    },
+    "cnn_model_010": {
+      "model_id": "cnn_model_010",
+      "success": true,
+      "validation_accuracy": 0.6847139000892639,
+      "training_time": 2.9175965785980225,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_010.pth",
+      "epochs_trained": 13
+    },
+    "cnn_model_012": {
+      "model_id": "cnn_model_012",
+      "success": true,
+      "validation_accuracy": 0.6803521513938904,
+      "training_time": 3.358111619949341,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_012.pth",
+      "epochs_trained": 16
+    },
+    "cnn_model_011": {
+      "model_id": "cnn_model_011",
+      "success": true,
+      "validation_accuracy": 0.6818827390670776,
+      "training_time": 3.9995036125183105,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_011.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_014": {
+      "model_id": "cnn_model_014",
+      "success": true,
+      "validation_accuracy": 0.6828331351280212,
+      "training_time": 3.4302191734313965,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_014.pth",
+      "epochs_trained": 16
+    },
+    "cnn_model_013": {
+      "model_id": "cnn_model_013",
+      "success": true,
+      "validation_accuracy": 0.6816526651382446,
+      "training_time": 4.0902252197265625,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_013.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_015": {
+      "model_id": "cnn_model_015",
+      "success": true,
+      "validation_accuracy": 0.6794818043708801,
+      "training_time": 4.231727123260498,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_015.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_016": {
+      "model_id": "cnn_model_016",
+      "success": true,
+      "validation_accuracy": 0.6816626787185669,
+      "training_time": 4.2873218059539795,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_016.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_017": {
+      "model_id": "cnn_model_017",
+      "success": true,
+      "validation_accuracy": 0.6807622909545898,
+      "training_time": 3.8381803035736084,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_017.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_018": {
+      "model_id": "cnn_model_018",
+      "success": true,
+      "validation_accuracy": 0.6806222200393677,
+      "training_time": 4.187381267547607,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_018.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_020": {
+      "model_id": "cnn_model_020",
+      "success": true,
+      "validation_accuracy": 0.6859644055366516,
+      "training_time": 2.2832322120666504,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_020.pth",
+      "epochs_trained": 10
+    },
+    "cnn_model_019": {
+      "model_id": "cnn_model_019",
+      "success": true,
+      "validation_accuracy": 0.6808823347091675,
+      "training_time": 3.6586434841156006,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_019.pth",
+      "epochs_trained": 16
+    },
+    "cnn_model_021": {
+      "model_id": "cnn_model_021",
+      "success": true,
+      "validation_accuracy": 0.68415367603302,
+      "training_time": 79.64329981803894,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_021.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_022": {
+      "model_id": "cnn_model_022",
+      "success": true,
+      "validation_accuracy": 0.6825430393218994,
+      "training_time": 87.86762189865112,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_022.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_023": {
+      "model_id": "cnn_model_023",
+      "success": true,
+      "validation_accuracy": 0.6837434768676758,
+      "training_time": 89.61667537689209,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_023.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_024": {
+      "model_id": "cnn_model_024",
+      "success": true,
+      "validation_accuracy": 0.6827330589294434,
+      "training_time": 89.63925337791443,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_024.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_026": {
+      "model_id": "cnn_model_026",
+      "success": true,
+      "validation_accuracy": 0.6825830340385437,
+      "training_time": 87.34361720085144,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_026.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_025": {
+      "model_id": "cnn_model_025",
+      "success": true,
+      "validation_accuracy": 0.6834433674812317,
+      "training_time": 96.23002529144287,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_025.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_027": {
+      "model_id": "cnn_model_027",
+      "success": true,
+      "validation_accuracy": 0.6837635040283203,
+      "training_time": 93.1243188381195,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_027.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_028": {
+      "model_id": "cnn_model_028",
+      "success": true,
+      "validation_accuracy": 0.682623028755188,
+      "training_time": 93.13994312286377,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_028.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_029": {
+      "model_id": "cnn_model_029",
+      "success": true,
+      "validation_accuracy": 0.6863745450973511,
+      "training_time": 89.2368483543396,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_029.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_030": {
+      "model_id": "cnn_model_030",
+      "success": true,
+      "validation_accuracy": 0.684413731098175,
+      "training_time": 99.09292364120483,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_030.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_031": {
+      "model_id": "cnn_model_031",
+      "success": true,
+      "validation_accuracy": 0.6849539875984192,
+      "training_time": 91.59162902832031,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_031.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_032": {
+      "model_id": "cnn_model_032",
+      "success": true,
+      "validation_accuracy": 0.6831832528114319,
+      "training_time": 98.01440620422363,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_032.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_033": {
+      "model_id": "cnn_model_033",
+      "success": true,
+      "validation_accuracy": 0.6823229193687439,
+      "training_time": 72.34096336364746,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_033.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_034": {
+      "model_id": "cnn_model_034",
+      "success": true,
+      "validation_accuracy": 0.6810824275016785,
+      "training_time": 110.95126247406006,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_034.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_035": {
+      "model_id": "cnn_model_035",
+      "success": true,
+      "validation_accuracy": 0.6840236186981201,
+      "training_time": 94.4423623085022,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_035.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_036": {
+      "model_id": "cnn_model_036",
+      "success": true,
+      "validation_accuracy": 0.6822528839111328,
+      "training_time": 93.90495014190674,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_036.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_037": {
+      "model_id": "cnn_model_037",
+      "success": true,
+      "validation_accuracy": 0.6820828318595886,
+      "training_time": 93.66054797172546,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_037.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_038": {
+      "model_id": "cnn_model_038",
+      "success": true,
+      "validation_accuracy": 0.6845538020133972,
+      "training_time": 99.3364052772522,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_038.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_039": {
+      "model_id": "cnn_model_039",
+      "success": true,
+      "validation_accuracy": 0.6843037009239197,
+      "training_time": 85.3185384273529,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_039.pth",
+      "epochs_trained": 20
+    },
+    "cnn_model_040": {
+      "model_id": "cnn_model_040",
+      "success": true,
+      "validation_accuracy": 0.682593047618866,
+      "training_time": 48.25886917114258,
+      "architecture": "cnn_1d",
+      "model_path": "trained_models/group_training/cnn_model_040.pth",
+      "epochs_trained": 10
+    },
+    "rnn_lstm_001": {
+      "model_id": "rnn_lstm_001",
+      "success": true,
+      "validation_accuracy": 0.7299319505691528,
+      "training_time": 62.90330743789673,
+      "architecture": "lstm",
+      "model_path": "trained_models/group_training/rnn_lstm_001.pth",
+      "epochs_trained": 20
+    },
+    "rnn_lstm_002": {
+      "model_id": "rnn_lstm_002",
+      "success": true,
+      "validation_accuracy": 0.731332540512085,
+      "training_time": 65.13323450088501,
+      "architecture": "lstm",
+      "model_path": "trained_models/group_training/rnn_lstm_002.pth",
+      "epochs_trained": 20
+    },
+    "rnn_lstm_003": {
+      "model_id": "rnn_lstm_003",
+      "success": true,
+      "validation_accuracy": 0.7273509502410889,
+      "training_time": 64.95731973648071,
+      "architecture": "lstm",
+      "model_path": "trained_models/group_training/rnn_lstm_003.pth",
+      "epochs_trained": 20
+    },
+    "rnn_lstm_004": {
+      "model_id": "rnn_lstm_004",
+      "success": true,
+      "validation_accuracy": 0.732062816619873,
+      "training_time": 64.9075140953064,
+      "architecture": "lstm",
+      "model_path": "trained_models/group_training/rnn_lstm_004.pth",
+      "epochs_trained": 19
+    },
+    "rnn_lstm_005": {
+      "model_id": "rnn_lstm_005",
+      "success": true,
+      "validation_accuracy": 0.7285513877868652,
+      "training_time": 61.89752173423767,
+      "architecture": "lstm",
+      "model_path": "trained_models/group_training/rnn_lstm_005.pth",
+      "epochs_trained": 20
+    },
+    "rnn_lstm_006": {
+      "model_id": "rnn_lstm_006",
+      "success": true,
+      "validation_accuracy": 0.7309123873710632,
+      "training_time": 64.97118997573853,
+      "architecture": "lstm",
+      "model_path": "trained_models/group_training/rnn_lstm_006.pth",
+      "epochs_trained": 20
+    },
+    "rnn_lstm_007": {
+      "model_id": "rnn_lstm_007",
+      "success": true,
+      "validation_accuracy": 0.729211688041687,
+      "training_time": 64.93486714363098,
+      "architecture": "lstm",
+      "model_path": "trained_models/group_training/rnn_lstm_007.pth",
+      "epochs_trained": 20
+    },
+    "rnn_lstm_008": {
+      "model_id": "rnn_lstm_008",
+      "success": true,
+      "validation_accuracy": 0.724269688129425,
+      "training_time": 64.91944336891174,
+      "architecture": "lstm",
+      "model_path": "trained_models/group_training/rnn_lstm_008.pth",
+      "epochs_trained": 20
+    },
+    "rnn_lstm_009": {
+      "model_id": "rnn_lstm_009",
+      "success": true,
+      "validation_accuracy": 0.7264806032180786,
+      "training_time": 64.94376420974731,
+      "architecture": "lstm",
+      "model_path": "trained_models/group_training/rnn_lstm_009.pth",
+      "epochs_trained": 20
+    },
+    "rnn_lstm_010": {
+      "model_id": "rnn_lstm_010",
+      "success": true,
+      "validation_accuracy": 0.7269507646560669,
+      "training_time": 64.96153020858765,
+      "architecture": "lstm",
+      "model_path": "trained_models/group_training/rnn_lstm_010.pth",
+      "epochs_trained": 20
+    },
+    "rnn_lstm_011": {
+      "model_id": "rnn_lstm_011",
+      "success": true,
+      "validation_accuracy": 0.4995998442173004,
+      "training_time": 36.22685766220093,
+      "architecture": "lstm",
+      "model_path": "trained_models/group_training/rnn_lstm_011.pth",
+      "epochs_trained": 10
+    },
+    "rnn_lstm_012": {
+      "model_id": "rnn_lstm_012",
+      "success": true,
+      "validation_accuracy": 0.7199779748916626,
+      "training_time": 62.55625081062317,
+      "architecture": "lstm",
+      "model_path": "trained_models/group_training/rnn_lstm_012.pth",
+      "epochs_trained": 20
+    },
+    "rnn_lstm_013": {
+      "model_id": "rnn_lstm_013",
+      "success": true,
+      "validation_accuracy": 0.7299619913101196,
+      "training_time": 65.09502792358398,
+      "architecture": "lstm",
+      "model_path": "trained_models/group_training/rnn_lstm_013.pth",
+      "epochs_trained": 20
+    },
+    "rnn_lstm_014": {
+      "model_id": "rnn_lstm_014",
+      "success": true,
+      "validation_accuracy": 0.724469780921936,
+      "training_time": 65.06368780136108,
+      "architecture": "lstm",
+      "model_path": "trained_models/group_training/rnn_lstm_014.pth",
+      "epochs_trained": 20
+    },
+    "rnn_lstm_015": {
+      "model_id": "rnn_lstm_015",
+      "success": true,
+      "validation_accuracy": 0.7265105843544006,
+      "training_time": 65.04652500152588,
+      "architecture": "lstm",
+      "model_path": "trained_models/group_training/rnn_lstm_015.pth",
+      "epochs_trained": 20
+    },
+    "rnn_gru_016": {
+      "model_id": "rnn_gru_016",
+      "success": true,
+      "validation_accuracy": 0.736104428768158,
+      "training_time": 8.901337385177612,
+      "architecture": "gru",
+      "model_path": "trained_models/group_training/rnn_gru_016.pth",
+      "epochs_trained": 13
+    },
+    "rnn_gru_017": {
+      "model_id": "rnn_gru_017",
+      "success": true,
+      "validation_accuracy": 0.7393957376480103,
+      "training_time": 8.472385168075562,
+      "architecture": "gru",
+      "model_path": "trained_models/group_training/rnn_gru_017.pth",
+      "epochs_trained": 20
+    },
+    "rnn_gru_018": {
+      "model_id": "rnn_gru_018",
+      "success": true,
+      "validation_accuracy": 0.7344637513160706,
+      "training_time": 7.556962251663208,
+      "architecture": "gru",
+      "model_path": "trained_models/group_training/rnn_gru_018.pth",
+      "epochs_trained": 16
+    },
+    "rnn_gru_019": {
+      "model_id": "rnn_gru_019",
+      "success": true,
+      "validation_accuracy": 0.7383853197097778,
+      "training_time": 8.477154016494751,
+      "architecture": "gru",
+      "model_path": "trained_models/group_training/rnn_gru_019.pth",
+      "epochs_trained": 20
+    },
+    "rnn_gru_020": {
+      "model_id": "rnn_gru_020",
+      "success": true,
+      "validation_accuracy": 0.7419367432594299,
+      "training_time": 6.2253100872039795,
+      "architecture": "gru",
+      "model_path": "trained_models/group_training/rnn_gru_020.pth",
+      "epochs_trained": 13
+    },
+    "rnn_gru_021": {
+      "model_id": "rnn_gru_021",
+      "success": true,
+      "validation_accuracy": 0.7375750541687012,
+      "training_time": 8.473321437835693,
+      "architecture": "gru",
+      "model_path": "trained_models/group_training/rnn_gru_021.pth",
+      "epochs_trained": 20
+    },
+    "rnn_gru_022": {
+      "model_id": "rnn_gru_022",
+      "success": true,
+      "validation_accuracy": 0.7389155626296997,
+      "training_time": 8.891552686691284,
+      "architecture": "gru",
+      "model_path": "trained_models/group_training/rnn_gru_022.pth",
+      "epochs_trained": 20
+    },
+    "rnn_gru_023": {
+      "model_id": "rnn_gru_023",
+      "success": true,
+      "validation_accuracy": 0.7361144423484802,
+      "training_time": 8.889915943145752,
+      "architecture": "gru",
+      "model_path": "trained_models/group_training/rnn_gru_023.pth",
+      "epochs_trained": 20
+    },
+    "rnn_gru_024": {
+      "model_id": "rnn_gru_024",
+      "success": true,
+      "validation_accuracy": 0.7362645268440247,
+      "training_time": 8.938230514526367,
+      "architecture": "gru",
+      "model_path": "trained_models/group_training/rnn_gru_024.pth",
+      "epochs_trained": 20
+    },
+    "rnn_gru_025": {
+      "model_id": "rnn_gru_025",
+      "success": true,
+      "validation_accuracy": 0.7333133220672607,
+      "training_time": 8.918702125549316,
+      "architecture": "gru",
+      "model_path": "trained_models/group_training/rnn_gru_025.pth",
+      "epochs_trained": 20
+    },
+    "rnn_gru_026": {
+      "model_id": "rnn_gru_026",
+      "success": true,
+      "validation_accuracy": 0.739355742931366,
+      "training_time": 8.9214768409729,
+      "architecture": "gru",
+      "model_path": "trained_models/group_training/rnn_gru_026.pth",
+      "epochs_trained": 20
+    },
+    "rnn_gru_027": {
+      "model_id": "rnn_gru_027",
+      "success": true,
+      "validation_accuracy": 0.7381052374839783,
+      "training_time": 8.92538595199585,
+      "architecture": "gru",
+      "model_path": "trained_models/group_training/rnn_gru_027.pth",
+      "epochs_trained": 20
+    },
+    "rnn_gru_028": {
+      "model_id": "rnn_gru_028",
+      "success": true,
+      "validation_accuracy": 0.7364445924758911,
+      "training_time": 8.933670997619629,
+      "architecture": "gru",
+      "model_path": "trained_models/group_training/rnn_gru_028.pth",
+      "epochs_trained": 20
+    },
+    "rnn_gru_029": {
+      "model_id": "rnn_gru_029",
+      "success": true,
+      "validation_accuracy": 0.736804723739624,
+      "training_time": 8.91917109489441,
+      "architecture": "gru",
+      "model_path": "trained_models/group_training/rnn_gru_029.pth",
+      "epochs_trained": 20
+    },
+    "rnn_gru_030": {
+      "model_id": "rnn_gru_030",
+      "success": true,
+      "validation_accuracy": 0.7387955188751221,
+      "training_time": 8.965924501419067,
+      "architecture": "gru",
+      "model_path": "trained_models/group_training/rnn_gru_030.pth",
+      "epochs_trained": 20
+    },
+    "transformer_001": {
+      "model_id": "transformer_001",
+      "success": false,
+      "error_message": "CUDA error: invalid configuration argument\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+      "training_time": 0.2481985092163086,
+      "architecture": "transformer"
+    },
+    "transformer_002": {
+      "model_id": "transformer_002",
+      "success": false,
+      "error_message": "CUDA error: invalid configuration argument\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+      "training_time": 0.015563011169433594,
+      "architecture": "transformer"
+    },
+    "transformer_003": {
+      "model_id": "transformer_003",
+      "success": false,
+      "error_message": "CUDA error: invalid configuration argument\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+      "training_time": 0.031527042388916016,
+      "architecture": "transformer"
+    },
+    "transformer_004": {
+      "model_id": "transformer_004",
+      "success": false,
+      "error_message": "CUDA error: invalid configuration argument\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+      "training_time": 0.014315366744995117,
+      "architecture": "transformer"
+    },
+    "transformer_005": {
+      "model_id": "transformer_005",
+      "success": false,
+      "error_message": "CUDA error: invalid configuration argument\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+      "training_time": 0.042016029357910156,
+      "architecture": "transformer"
+    },
+    "transformer_006": {
+      "model_id": "transformer_006",
+      "success": false,
+      "error_message": "CUDA error: invalid configuration argument\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+      "training_time": 0.024628162384033203,
+      "architecture": "transformer"
+    },
+    "transformer_007": {
+      "model_id": "transformer_007",
+      "success": false,
+      "error_message": "CUDA error: invalid configuration argument\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+      "training_time": 0.02000594139099121,
+      "architecture": "transformer"
+    },
+    "transformer_008": {
+      "model_id": "transformer_008",
+      "success": false,
+      "error_message": "CUDA error: invalid configuration argument\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+      "training_time": 0.01325368881225586,
+      "architecture": "transformer"
+    },
+    "transformer_009": {
+      "model_id": "transformer_009",
+      "success": false,
+      "error_message": "CUDA error: invalid configuration argument\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+      "training_time": 0.032317161560058594,
+      "architecture": "transformer"
+    },
+    "transformer_010": {
+      "model_id": "transformer_010",
+      "success": false,
+      "error_message": "CUDA error: invalid configuration argument\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+      "training_time": 0.017492055892944336,
+      "architecture": "transformer"
+    },
+    "transformer_011": {
+      "model_id": "transformer_011",
+      "success": false,
+      "error_message": "CUDA error: invalid configuration argument\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+      "training_time": 0.020509719848632812,
+      "architecture": "transformer"
+    },
+    "transformer_012": {
+      "model_id": "transformer_012",
+      "success": false,
+      "error_message": "CUDA error: invalid configuration argument\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+      "training_time": 0.014033317565917969,
+      "architecture": "transformer"
+    },
+    "transformer_013": {
+      "model_id": "transformer_013",
+      "success": false,
+      "error_message": "CUDA error: invalid configuration argument\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+      "training_time": 0.03231239318847656,
+      "architecture": "transformer"
+    },
+    "transformer_014": {
+      "model_id": "transformer_014",
+      "success": false,
+      "error_message": "CUDA error: invalid configuration argument\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+      "training_time": 0.020008325576782227,
+      "architecture": "transformer"
+    },
+    "transformer_015": {
+      "model_id": "transformer_015",
+      "success": false,
+      "error_message": "CUDA error: invalid configuration argument\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+      "training_time": 0.016793251037597656,
+      "architecture": "transformer"
+    },
+    "transformer_016": {
+      "model_id": "transformer_016",
+      "success": false,
+      "error_message": "CUDA error: invalid configuration argument\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+      "training_time": 0.03083491325378418,
+      "architecture": "transformer"
+    },
+    "transformer_017": {
+      "model_id": "transformer_017",
+      "success": false,
+      "error_message": "CUDA error: invalid configuration argument\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+      "training_time": 0.01647186279296875,
+      "architecture": "transformer"
+    },
+    "transformer_018": {
+      "model_id": "transformer_018",
+      "success": false,
+      "error_message": "CUDA error: invalid configuration argument\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+      "training_time": 0.019678354263305664,
+      "architecture": "transformer"
+    },
+    "transformer_019": {
+      "model_id": "transformer_019",
+      "success": false,
+      "error_message": "CUDA error: invalid configuration argument\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+      "training_time": 0.028672218322753906,
+      "architecture": "transformer"
+    },
+    "transformer_020": {
+      "model_id": "transformer_020",
+      "success": false,
+      "error_message": "CUDA error: invalid configuration argument\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+      "training_time": 0.01874852180480957,
+      "architecture": "transformer"
+    },
+    "traditional_002": {
+      "model_id": "traditional_002",
+      "success": true,
+      "validation_accuracy": 0.7368147373199463,
+      "training_time": 0.5589768886566162,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_002.pth",
+      "epochs_trained": 16
+    },
+    "traditional_001": {
+      "model_id": "traditional_001",
+      "success": true,
+      "validation_accuracy": 0.7388455271720886,
+      "training_time": 0.6296842098236084,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_001.pth",
+      "epochs_trained": 20
+    },
+    "traditional_003": {
+      "model_id": "traditional_003",
+      "success": true,
+      "validation_accuracy": 0.7411564588546753,
+      "training_time": 0.6296842098236084,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_003.pth",
+      "epochs_trained": 20
+    },
+    "traditional_004": {
+      "model_id": "traditional_004",
+      "success": true,
+      "validation_accuracy": 0.7409964203834534,
+      "training_time": 0.5649003982543945,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_004.pth",
+      "epochs_trained": 20
+    },
+    "traditional_005": {
+      "model_id": "traditional_005",
+      "success": true,
+      "validation_accuracy": 0.7407562732696533,
+      "training_time": 0.6763429641723633,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_005.pth",
+      "epochs_trained": 20
+    },
+    "traditional_006": {
+      "model_id": "traditional_006",
+      "success": true,
+      "validation_accuracy": 0.7438375353813171,
+      "training_time": 0.6773393154144287,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_006.pth",
+      "epochs_trained": 20
+    },
+    "traditional_007": {
+      "model_id": "traditional_007",
+      "success": true,
+      "validation_accuracy": 0.7386154532432556,
+      "training_time": 0.6640608310699463,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_007.pth",
+      "epochs_trained": 20
+    },
+    "traditional_008": {
+      "model_id": "traditional_008",
+      "success": true,
+      "validation_accuracy": 0.7319227457046509,
+      "training_time": 0.6518921852111816,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_008.pth",
+      "epochs_trained": 20
+    },
+    "traditional_009": {
+      "model_id": "traditional_009",
+      "success": true,
+      "validation_accuracy": 0.7408863306045532,
+      "training_time": 0.6518921852111816,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_009.pth",
+      "epochs_trained": 20
+    },
+    "traditional_010": {
+      "model_id": "traditional_010",
+      "success": true,
+      "validation_accuracy": 0.7403661608695984,
+      "training_time": 0.6666233539581299,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_010.pth",
+      "epochs_trained": 20
+    },
+    "traditional_011": {
+      "model_id": "traditional_011",
+      "success": true,
+      "validation_accuracy": 0.7361944913864136,
+      "training_time": 0.6678471565246582,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_011.pth",
+      "epochs_trained": 20
+    },
+    "traditional_012": {
+      "model_id": "traditional_012",
+      "success": true,
+      "validation_accuracy": 0.7339636087417603,
+      "training_time": 0.6678471565246582,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_012.pth",
+      "epochs_trained": 20
+    },
+    "traditional_013": {
+      "model_id": "traditional_013",
+      "success": true,
+      "validation_accuracy": 0.7392156720161438,
+      "training_time": 0.6646950244903564,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_013.pth",
+      "epochs_trained": 20
+    },
+    "traditional_015": {
+      "model_id": "traditional_015",
+      "success": true,
+      "validation_accuracy": 0.7378151416778564,
+      "training_time": 0.6519415378570557,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_015.pth",
+      "epochs_trained": 20
+    },
+    "traditional_014": {
+      "model_id": "traditional_014",
+      "success": true,
+      "validation_accuracy": 0.7375950217247009,
+      "training_time": 0.6519415378570557,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_014.pth",
+      "epochs_trained": 20
+    },
+    "traditional_016": {
+      "model_id": "traditional_016",
+      "success": true,
+      "validation_accuracy": 0.7350540161132812,
+      "training_time": 0.6509249210357666,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_016.pth",
+      "epochs_trained": 20
+    },
+    "traditional_018": {
+      "model_id": "traditional_018",
+      "success": true,
+      "validation_accuracy": 0.7383953332901001,
+      "training_time": 0.6469016075134277,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_018.pth",
+      "epochs_trained": 20
+    },
+    "traditional_017": {
+      "model_id": "traditional_017",
+      "success": true,
+      "validation_accuracy": 0.7414165735244751,
+      "training_time": 0.6469016075134277,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_017.pth",
+      "epochs_trained": 20
+    },
+    "traditional_019": {
+      "model_id": "traditional_019",
+      "success": true,
+      "validation_accuracy": 0.735514223575592,
+      "training_time": 0.6555469036102295,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_019.pth",
+      "epochs_trained": 20
+    },
+    "traditional_020": {
+      "model_id": "traditional_020",
+      "success": true,
+      "validation_accuracy": 0.7409964203834534,
+      "training_time": 0.5716056823730469,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_020.pth",
+      "epochs_trained": 16
+    },
+    "traditional_021": {
+      "model_id": "traditional_021",
+      "success": true,
+      "validation_accuracy": 0.7416366338729858,
+      "training_time": 0.6212334632873535,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_021.pth",
+      "epochs_trained": 20
+    },
+    "traditional_022": {
+      "model_id": "traditional_022",
+      "success": true,
+      "validation_accuracy": 0.7349339723587036,
+      "training_time": 0.7024760246276855,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_022.pth",
+      "epochs_trained": 20
+    },
+    "traditional_023": {
+      "model_id": "traditional_023",
+      "success": true,
+      "validation_accuracy": 0.7360744476318359,
+      "training_time": 0.6309926509857178,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_023.pth",
+      "epochs_trained": 20
+    },
+    "traditional_024": {
+      "model_id": "traditional_024",
+      "success": true,
+      "validation_accuracy": 0.7325530052185059,
+      "training_time": 0.6492781639099121,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_024.pth",
+      "epochs_trained": 20
+    },
+    "traditional_027": {
+      "model_id": "traditional_027",
+      "success": true,
+      "validation_accuracy": 0.7401360273361206,
+      "training_time": 0.6134135723114014,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_027.pth",
+      "epochs_trained": 20
+    },
+    "traditional_025": {
+      "model_id": "traditional_025",
+      "success": true,
+      "validation_accuracy": 0.7355841994285583,
+      "training_time": 0.7054400444030762,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_025.pth",
+      "epochs_trained": 20
+    },
+    "traditional_026": {
+      "model_id": "traditional_026",
+      "success": true,
+      "validation_accuracy": 0.7382553219795227,
+      "training_time": 0.7054400444030762,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_026.pth",
+      "epochs_trained": 20
+    },
+    "traditional_028": {
+      "model_id": "traditional_028",
+      "success": true,
+      "validation_accuracy": 0.738525390625,
+      "training_time": 0.5934946537017822,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_028.pth",
+      "epochs_trained": 20
+    },
+    "traditional_030": {
+      "model_id": "traditional_030",
+      "success": true,
+      "validation_accuracy": 0.7326530814170837,
+      "training_time": 0.6489241123199463,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_030.pth",
+      "epochs_trained": 20
+    },
+    "traditional_029": {
+      "model_id": "traditional_029",
+      "success": true,
+      "validation_accuracy": 0.7396758794784546,
+      "training_time": 0.6489241123199463,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_029.pth",
+      "epochs_trained": 20
+    },
+    "traditional_031": {
+      "model_id": "traditional_031",
+      "success": true,
+      "validation_accuracy": 0.7388955354690552,
+      "training_time": 0.6486513614654541,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_031.pth",
+      "epochs_trained": 20
+    },
+    "traditional_032": {
+      "model_id": "traditional_032",
+      "success": true,
+      "validation_accuracy": 0.7403761744499207,
+      "training_time": 0.6487648487091064,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_032.pth",
+      "epochs_trained": 20
+    },
+    "traditional_033": {
+      "model_id": "traditional_033",
+      "success": true,
+      "validation_accuracy": 0.7286714911460876,
+      "training_time": 0.6487648487091064,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_033.pth",
+      "epochs_trained": 20
+    },
+    "traditional_034": {
+      "model_id": "traditional_034",
+      "success": true,
+      "validation_accuracy": 0.7330132126808167,
+      "training_time": 0.6486258506774902,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_034.pth",
+      "epochs_trained": 20
+    },
+    "traditional_035": {
+      "model_id": "traditional_035",
+      "success": true,
+      "validation_accuracy": 0.7408263087272644,
+      "training_time": 0.6490268707275391,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_035.pth",
+      "epochs_trained": 20
+    },
+    "traditional_036": {
+      "model_id": "traditional_036",
+      "success": true,
+      "validation_accuracy": 0.7428271174430847,
+      "training_time": 0.6490268707275391,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_036.pth",
+      "epochs_trained": 20
+    },
+    "traditional_037": {
+      "model_id": "traditional_037",
+      "success": true,
+      "validation_accuracy": 0.7382752895355225,
+      "training_time": 0.647676944732666,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_037.pth",
+      "epochs_trained": 20
+    },
+    "traditional_038": {
+      "model_id": "traditional_038",
+      "success": true,
+      "validation_accuracy": 0.7390456199645996,
+      "training_time": 0.6489503383636475,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_038.pth",
+      "epochs_trained": 20
+    },
+    "traditional_039": {
+      "model_id": "traditional_039",
+      "success": true,
+      "validation_accuracy": 0.7382453083992004,
+      "training_time": 0.6489503383636475,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_039.pth",
+      "epochs_trained": 20
+    },
+    "traditional_040": {
+      "model_id": "traditional_040",
+      "success": true,
+      "validation_accuracy": 0.7403661608695984,
+      "training_time": 0.7489945888519287,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_040.pth",
+      "epochs_trained": 20
+    },
+    "traditional_041": {
+      "model_id": "traditional_041",
+      "success": true,
+      "validation_accuracy": 0.7336734533309937,
+      "training_time": 0.7498867511749268,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_041.pth",
+      "epochs_trained": 20
+    },
+    "traditional_042": {
+      "model_id": "traditional_042",
+      "success": true,
+      "validation_accuracy": 0.7402961254119873,
+      "training_time": 0.7508835792541504,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_042.pth",
+      "epochs_trained": 20
+    },
+    "traditional_043": {
+      "model_id": "traditional_043",
+      "success": true,
+      "validation_accuracy": 0.7404361963272095,
+      "training_time": 0.6526174545288086,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_043.pth",
+      "epochs_trained": 20
+    },
+    "traditional_045": {
+      "model_id": "traditional_045",
+      "success": true,
+      "validation_accuracy": 0.7406762838363647,
+      "training_time": 0.6474008560180664,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_045.pth",
+      "epochs_trained": 20
+    },
+    "traditional_044": {
+      "model_id": "traditional_044",
+      "success": true,
+      "validation_accuracy": 0.738295316696167,
+      "training_time": 0.6493949890136719,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_044.pth",
+      "epochs_trained": 20
+    },
+    "traditional_046": {
+      "model_id": "traditional_046",
+      "success": true,
+      "validation_accuracy": 0.740056037902832,
+      "training_time": 0.6534323692321777,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_046.pth",
+      "epochs_trained": 20
+    },
+    "traditional_047": {
+      "model_id": "traditional_047",
+      "success": true,
+      "validation_accuracy": 0.7419967651367188,
+      "training_time": 0.6415920257568359,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_047.pth",
+      "epochs_trained": 19
+    },
+    "traditional_048": {
+      "model_id": "traditional_048",
+      "success": true,
+      "validation_accuracy": 0.7335734367370605,
+      "training_time": 0.6455786228179932,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_048.pth",
+      "epochs_trained": 20
+    },
+    "traditional_049": {
+      "model_id": "traditional_049",
+      "success": true,
+      "validation_accuracy": 0.7360844016075134,
+      "training_time": 0.631972074508667,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_049.pth",
+      "epochs_trained": 20
+    },
+    "traditional_051": {
+      "model_id": "traditional_051",
+      "success": true,
+      "validation_accuracy": 0.7394057512283325,
+      "training_time": 0.6371884346008301,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_051.pth",
+      "epochs_trained": 20
+    },
+    "traditional_050": {
+      "model_id": "traditional_050",
+      "success": true,
+      "validation_accuracy": 0.7331632375717163,
+      "training_time": 0.6411747932434082,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_050.pth",
+      "epochs_trained": 20
+    },
+    "traditional_052": {
+      "model_id": "traditional_052",
+      "success": true,
+      "validation_accuracy": 0.7357043027877808,
+      "training_time": 0.6386592388153076,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_052.pth",
+      "epochs_trained": 20
+    },
+    "traditional_054": {
+      "model_id": "traditional_054",
+      "success": true,
+      "validation_accuracy": 0.7324329614639282,
+      "training_time": 0.6483595371246338,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_054.pth",
+      "epochs_trained": 20
+    },
+    "traditional_053": {
+      "model_id": "traditional_053",
+      "success": true,
+      "validation_accuracy": 0.7340736389160156,
+      "training_time": 0.6503725051879883,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_053.pth",
+      "epochs_trained": 20
+    },
+    "traditional_055": {
+      "model_id": "traditional_055",
+      "success": true,
+      "validation_accuracy": 0.7402260899543762,
+      "training_time": 0.6436622142791748,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_055.pth",
+      "epochs_trained": 20
+    },
+    "traditional_057": {
+      "model_id": "traditional_057",
+      "success": true,
+      "validation_accuracy": 0.7387555241584778,
+      "training_time": 0.6489763259887695,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_057.pth",
+      "epochs_trained": 20
+    },
+    "traditional_056": {
+      "model_id": "traditional_056",
+      "success": true,
+      "validation_accuracy": 0.7385454177856445,
+      "training_time": 0.6510052680969238,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_056.pth",
+      "epochs_trained": 20
+    },
+    "traditional_058": {
+      "model_id": "traditional_058",
+      "success": true,
+      "validation_accuracy": 0.7412465214729309,
+      "training_time": 0.6553947925567627,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_058.pth",
+      "epochs_trained": 20
+    },
+    "traditional_059": {
+      "model_id": "traditional_059",
+      "success": true,
+      "validation_accuracy": 0.7416966557502747,
+      "training_time": 0.6343996524810791,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_059.pth",
+      "epochs_trained": 20
+    },
+    "traditional_060": {
+      "model_id": "traditional_060",
+      "success": true,
+      "validation_accuracy": 0.7370948195457458,
+      "training_time": 0.6333866119384766,
+      "architecture": "mlp",
+      "model_path": "trained_models/group_training/traditional_060.pth",
+      "epochs_trained": 20
+    },
+    "existing_keras_003": {
+      "model_id": "existing_keras_003",
+      "success": true,
+      "validation_accuracy": 0.47163845682516037,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models/unified\\hybrid_unified.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_001": {
+      "model_id": "existing_keras_001",
+      "success": true,
+      "validation_accuracy": 0.5611475390196957,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models/unified\\cnn_unified.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_002": {
+      "model_id": "existing_keras_002",
+      "success": true,
+      "validation_accuracy": 0.4682599680243785,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models/unified\\dense_unified.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_004": {
+      "model_id": "existing_keras_004",
+      "success": true,
+      "validation_accuracy": 0.6100911924468392,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models/unified\\lstm_unified.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_005": {
+      "model_id": "existing_keras_005",
+      "success": true,
+      "validation_accuracy": 0.5978608113337088,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\checkpoint_cnn.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_006": {
+      "model_id": "existing_keras_006",
+      "success": true,
+      "validation_accuracy": 0.5454410650983283,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\checkpoint_dense.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_007": {
+      "model_id": "existing_keras_007",
+      "success": true,
+      "validation_accuracy": 0.5107857232660069,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\checkpoint_lstm.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_008": {
+      "model_id": "existing_keras_008",
+      "success": true,
+      "validation_accuracy": 0.5983610329876053,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\comprehensive_cnn_20250620_134752.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_009": {
+      "model_id": "existing_keras_009",
+      "success": true,
+      "validation_accuracy": 0.4624498813815773,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\comprehensive_hybrid_20250620_134806.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_010": {
+      "model_id": "existing_keras_010",
+      "success": true,
+      "validation_accuracy": 0.450241164152731,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\comprehensive_lstm_20250620_134741.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_011": {
+      "model_id": "existing_keras_011",
+      "success": true,
+      "validation_accuracy": 0.5907208682799295,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\efficient_m1_neural_20250623_001835.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_012": {
+      "model_id": "existing_keras_012",
+      "success": true,
+      "validation_accuracy": 0.6790880868697847,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\full_data_lstm.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_013": {
+      "model_id": "existing_keras_013",
+      "success": true,
+      "validation_accuracy": 0.6289568780980901,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\gpu_cnn_model.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_014": {
+      "model_id": "existing_keras_014",
+      "success": true,
+      "validation_accuracy": 0.5999916503550999,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\gpu_dense_model.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_015": {
+      "model_id": "existing_keras_015",
+      "success": true,
+      "validation_accuracy": 0.5951302696551225,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\gpu_lstm_model.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_016": {
+      "model_id": "existing_keras_016",
+      "success": true,
+      "validation_accuracy": 0.7343665869688667,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\m1_neural_20250623_002158.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_017": {
+      "model_id": "existing_keras_017",
+      "success": true,
+      "validation_accuracy": 0.6883748909477222,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\maximum_data_cnn_20250620_135638.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_018": {
+      "model_id": "existing_keras_018",
+      "success": true,
+      "validation_accuracy": 0.6911977358436907,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\maximum_data_dense_20250620_135843.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_019": {
+      "model_id": "existing_keras_019",
+      "success": true,
+      "validation_accuracy": 0.5732232048939667,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\maximum_data_lstm_20250620_135532.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_020": {
+      "model_id": "existing_keras_020",
+      "success": true,
+      "validation_accuracy": 0.5289849975395403,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\neural_ensemble_y_direction_2_dense.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_021": {
+      "model_id": "existing_keras_021",
+      "success": true,
+      "validation_accuracy": 0.47510702320712844,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\neural_ensemble_y_direction_2_lstm.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_022": {
+      "model_id": "existing_keras_022",
+      "success": true,
+      "validation_accuracy": 0.5911035513880135,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\neural_ensemble_y_direction_4_dense.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_023": {
+      "model_id": "existing_keras_023",
+      "success": true,
+      "validation_accuracy": 0.5911042215425941,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\neural_ensemble_y_direction_4_lstm.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_024": {
+      "model_id": "existing_keras_024",
+      "success": true,
+      "validation_accuracy": 0.7131808889850495,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\neural_ensemble_y_direction_8_dense.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_pytorch_025": {
+      "model_id": "existing_pytorch_025",
+      "success": true,
+      "validation_accuracy": 0.6642017566950259,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\new_neural_adversarial_ae_40.pth",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_pytorch_026": {
+      "model_id": "existing_pytorch_026",
+      "success": true,
+      "validation_accuracy": 0.6652810054714853,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\new_neural_alexnet_1d_07.pth",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_pytorch_027": {
+      "model_id": "existing_pytorch_027",
+      "success": true,
+      "validation_accuracy": 0.4958472527223287,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\new_neural_attention_lstm_21.pth",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_pytorch_028": {
+      "model_id": "existing_pytorch_028",
+      "success": true,
+      "validation_accuracy": 0.48806130199560727,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\new_neural_autoencoder_deep_33.pth",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_pytorch_029": {
+      "model_id": "existing_pytorch_029",
+      "success": true,
+      "validation_accuracy": 0.7331196937716528,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\new_neural_bert_like_19.pth",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_pytorch_030": {
+      "model_id": "existing_pytorch_030",
+      "success": true,
+      "validation_accuracy": 0.7077890369147493,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\new_neural_beta_vae_38.pth",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_pytorch_031": {
+      "model_id": "existing_pytorch_031",
+      "success": true,
+      "validation_accuracy": 0.7251216816759909,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\new_neural_bidirectional_gru_14.pth",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_pytorch_032": {
+      "model_id": "existing_pytorch_032",
+      "success": true,
+      "validation_accuracy": 0.5567698785548476,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\new_neural_bidirectional_lstm_09.pth",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_pytorch_033": {
+      "model_id": "existing_pytorch_033",
+      "success": true,
+      "validation_accuracy": 0.718544348552812,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\new_neural_conditional_gan_45.pth",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_pytorch_034": {
+      "model_id": "existing_pytorch_034",
+      "success": true,
+      "validation_accuracy": 0.7053070484988462,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models\\new_neural_contractive_ae_37.pth",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_035": {
+      "model_id": "existing_keras_035",
+      "success": true,
+      "validation_accuracy": 0.605432055143591,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models_optimized\\neural_network_D1.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_036": {
+      "model_id": "existing_keras_036",
+      "success": true,
+      "validation_accuracy": 0.6678696400097426,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models_optimized\\neural_network_H1.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_037": {
+      "model_id": "existing_keras_037",
+      "success": true,
+      "validation_accuracy": 0.7074095162550154,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models_optimized\\neural_network_H4.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_038": {
+      "model_id": "existing_keras_038",
+      "success": true,
+      "validation_accuracy": 0.5994917544533587,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models_optimized\\neural_network_M1.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_039": {
+      "model_id": "existing_keras_039",
+      "success": true,
+      "validation_accuracy": 0.5051364206591287,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models_optimized\\neural_network_M15.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_040": {
+      "model_id": "existing_keras_040",
+      "success": true,
+      "validation_accuracy": 0.4975522948743397,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models_optimized\\neural_network_M30.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_041": {
+      "model_id": "existing_keras_041",
+      "success": true,
+      "validation_accuracy": 0.694991864419446,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models_optimized\\neural_network_M5.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_042": {
+      "model_id": "existing_keras_042",
+      "success": true,
+      "validation_accuracy": 0.7031901755225475,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models_optimized\\neural_network_W1.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_043": {
+      "model_id": "existing_keras_043",
+      "success": true,
+      "validation_accuracy": 0.721346084660003,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models_real_data\\dense_D1_20250618_225823.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_044": {
+      "model_id": "existing_keras_044",
+      "success": true,
+      "validation_accuracy": 0.45778616878318323,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models_real_data\\dense_H1_20250618_225616.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_045": {
+      "model_id": "existing_keras_045",
+      "success": true,
+      "validation_accuracy": 0.5413074205744867,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models_real_data\\dense_H4_20250618_225754.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_046": {
+      "model_id": "existing_keras_046",
+      "success": true,
+      "validation_accuracy": 0.5435465868958218,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models_real_data\\dense_M30_20250618_230335.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_047": {
+      "model_id": "existing_keras_047",
+      "success": true,
+      "validation_accuracy": 0.6273030625100927,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models_real_data\\lstm_D1_20250618_225823.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_048": {
+      "model_id": "existing_keras_048",
+      "success": true,
+      "validation_accuracy": 0.4578919604875346,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models_real_data\\lstm_H1_20250618_225616.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_049": {
+      "model_id": "existing_keras_049",
+      "success": true,
+      "validation_accuracy": 0.5257349144335348,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models_real_data\\lstm_H4_20250618_225754.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    },
+    "existing_keras_050": {
+      "model_id": "existing_keras_050",
+      "success": true,
+      "validation_accuracy": 0.5002541789978502,
+      "training_time": 0.0,
+      "architecture": "dense",
+      "model_path": "trained_models_real_data\\lstm_M30_20250618_230335.keras",
+      "epochs_trained": 0,
+      "note": "Existing model validated"
+    }
+  }
+}

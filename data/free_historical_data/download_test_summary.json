@@ -1,0 +1,70 @@
+{
+  "timestamp": "20250619_084401",
+  "sample_data": {
+    "file": "data/free_historical_data/XAUUSD_M1_sample.csv",
+    "records": 7200,
+    "start_date": "2024-01-01",
+    "end_date": "2024-01-07"
+  },
+  "quality_analysis": {
+    "total_records": 7200,
+    "date_range": {
+      "start": "2024-01-01 00:00",
+      "end": "2024-01-05 23:59",
+      "duration_days": 4
+    },
+    "gaps": {
+      "total_gaps": 0,
+      "largest_gap_minutes": 1.0
+    },
+    "price_analysis": {
+      "open_range": [
+        1935.61,
+        2177.73
+      ],
+      "high_range": [
+        1938.33,
+        2181.62
+      ],
+      "low_range": [
+        1933.17,
+        2176.69
+      ],
+      "close_range": [
+        1935.61,
+        2177.73
+      ]
+    },
+    "anomalies": {
+      "large_moves_count": 0,
+      "max_move_percent": 0.25315155716450044
+    }
+  },
+  "histdata_simulation": {
+    "files_downloaded": 0,
+    "total_records": 0,
+    "files": []
+  },
+  "forexsb_simulation": {
+    "M1": {
+      "status": "simulated",
+      "records": "unknown",
+      "file": "data/free_historical_data/XAUUSD_M1_forexsb.csv"
+    },
+    "M5": {
+      "status": "simulated",
+      "records": "unknown",
+      "file": "data/free_historical_data/XAUUSD_M5_forexsb.csv"
+    },
+    "M15": {
+      "status": "simulated",
+      "records": "unknown",
+      "file": "data/free_historical_data/XAUUSD_M15_forexsb.csv"
+    },
+    "M30": {
+      "status": "simulated",
+      "records": "unknown",
+      "file": "data/free_historical_data/XAUUSD_M30_forexsb.csv"
+    }
+  }
+}

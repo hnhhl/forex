@@ -1,0 +1,117 @@
+{
+  "neural_breakdown": {
+    "model_manager": 0.3,
+    "feature_engineering": 0.25,
+    "prediction_engine": 0.35,
+    "ensemble_aggregator": 0.1
+  },
+  "mt5_breakdown": {
+    "connection_engine": 0.35,
+    "data_fetcher": 0.3,
+    "data_processor": 0.25,
+    "stream_manager": 0.1
+  },
+  "ai_ensemble_breakdown": {
+    "model_zoo": 0.4,
+    "feature_engineering": 0.25,
+    "training_engine": 0.2,
+    "ensemble_controller": 0.15
+  },
+  "data_quality_breakdown": {
+    "data_validator": 0.4,
+    "outlier_detector": 0.3,
+    "data_cleaner": 0.2,
+    "quality_reporter": 0.1
+  },
+  "ai_phase_breakdown": {
+    "phase1_online_learning": 0.025,
+    "phase2_backtest": 0.015,
+    "phase3_adaptive": 0.03,
+    "phase4_multi_market": 0.02,
+    "phase5_realtime": 0.015,
+    "phase6_evolution": 0.015
+  },
+  "specialists_breakdown": {
+    "technical_category": {
+      "rsi_specialist": 0.0556,
+      "macd_specialist": 0.0556,
+      "fibonacci_specialist": 0.0556
+    },
+    "sentiment_category": {
+      "news_sentiment_specialist": 0.0556,
+      "social_media_specialist": 0.0556,
+      "fear_greed_specialist": 0.0556
+    },
+    "pattern_category": {
+      "chart_pattern_specialist": 0.0556,
+      "candlestick_specialist": 0.0556,
+      "wave_analysis_specialist": 0.0556
+    },
+    "risk_category": {
+      "var_risk_specialist": 0.0556,
+      "drawdown_specialist": 0.0556,
+      "position_size_specialist": 0.0556
+    },
+    "momentum_category": {
+      "trend_specialist": 0.0556,
+      "mean_reversion_specialist": 0.0556,
+      "breakout_specialist": 0.0556
+    },
+    "volatility_category": {
+      "atr_specialist": 0.0556,
+      "bollinger_specialist": 0.0556,
+      "volatility_clustering_specialist": 0.0556
+    }
+  },
+  "performance_ranking": [
+    [
+      "Fibonacci_Specialist",
+      87.5,
+      "Technical",
+      "Top performer"
+    ],
+    [
+      "Mean_Reversion_Specialist",
+      87.5,
+      "Momentum",
+      "Top performer"
+    ],
+    [
+      "Candlestick_Specialist",
+      75.0,
+      "Pattern",
+      "High performer"
+    ],
+    [
+      "Trend_Specialist",
+      75.0,
+      "Momentum",
+      "High performer"
+    ],
+    [
+      "MACD_Specialist",
+      62.5,
+      "Technical",
+      "Medium performer"
+    ],
+    [
+      "NeuralNetworkSystem",
+      60.0,
+      "Core",
+      "Estimated performance"
+    ],
+    [
+      "AdvancedAIEnsembleSystem",
+      55.0,
+      "Core",
+      "Estimated performance"
+    ],
+    [
+      "Other Specialists",
+      45.0,
+      "Various",
+      "Average performance"
+    ]
+  ],
+  "timestamp": "2025-06-23T01:07:07.953238"
+}

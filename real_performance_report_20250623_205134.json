@@ -1,0 +1,68 @@
+{
+  "timestamp": "2025-06-23T20:51:34.060261",
+  "test_duration_seconds": 305.05,
+  "system_info": {
+    "cpu_count": 8,
+    "memory_total_gb": 14.68,
+    "python_version": "3.10.9 (tags/v3.10.9:1dd9be6, Dec  6 2022, 20:01:21) [MSC v.1934 64 bit (AMD64)]"
+  },
+  "test_results": {
+    "startup_performance": {
+      "tests_run": 10,
+      "average_time_ms": 47.41,
+      "min_time_ms": 0.0,
+      "max_time_ms": 467.12,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "memory_usage": {
+      "before_import_mb": 57.5,
+      "after_import_mb": 57.5,
+      "after_initialization_mb": 57.5,
+      "after_50_signals_mb": 57.5,
+      "import_overhead_mb": 0.0,
+      "init_overhead_mb": 0.0,
+      "signal_overhead_mb": 0.0,
+      "total_overhead_mb": 0.0
+    },
+    "cpu_usage": {
+      "measurements": 20,
+      "avg_cpu_before_percent": 36.81,
+      "avg_cpu_after_percent": 38.12,
+      "cpu_impact_percent": 1.32,
+      "avg_signal_time_ms": 0.0
+    },
+    "stress_test": {
+      "signals_generated": 1000,
+      "errors": 0,
+      "success_rate": 100.0,
+      "total_duration_seconds": 0.01,
+      "average_signal_time_ms": 0.007,
+      "throughput_signals_per_second": 124849.05,
+      "error_rate": 0.0
+    },
+    "reliability_test": {
+      "duration_seconds": 300,
+      "total_attempts": 298,
+      "successful_signals": 298,
+      "failed_signals": 0,
+      "success_rate": 100.0,
+      "avg_signal_time_ms": 0.0,
+      "avg_confidence": 71.79,
+      "signals_per_minute": 59.6
+    }
+  },
+  "errors": [
+    "Signal generation: float division by zero"
+  ],
+  "overall_assessment": {
+    "overall_score": 100.0,
+    "assessment": "EXCELLENT",
+    "individual_scores": [
+      100,
+      100,
+      100,
+      100
+    ]
+  }
+}

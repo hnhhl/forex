@@ -1,0 +1,30 @@
+apiVersion: v2
+name: xau-system
+description: Ultimate XAU Super System V4.0 Helm Chart
+type: application
+version: 4.0.0
+appVersion: "4.0.0"
+keywords:
+  - trading
+  - ai
+  - fintech
+  - gold
+home: https://github.com/your-org/xau-system
+sources:
+  - https://github.com/your-org/xau-system
+maintainers:
+  - name: XAU Development Team
+    email: dev@xausystem.com
+dependencies:
+  - name: postgresql
+    version: 12.x.x
+    repository: https://charts.bitnami.com/bitnami
+  - name: redis
+    version: 17.x.x
+    repository: https://charts.bitnami.com/bitnami
+  - name: prometheus
+    version: 15.x.x
+    repository: https://prometheus-community.github.io/helm-charts
+  - name: grafana
+    version: 6.x.x
+    repository: https://grafana.github.io/helm-charts

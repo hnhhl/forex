@@ -1,0 +1,45 @@
+{
+  "issues_found": [
+    "Confidence values stuck",
+    "Prediction values stuck",
+    "All actions are SELL",
+    "Low confidence levels"
+  ],
+  "sample_signal": {
+    "symbol": "XAUUSDc",
+    "action": "SELL",
+    "strength": "STRONG",
+    "prediction": 0.16001752612874337,
+    "confidence": 0.4585000000000001,
+    "timestamp": "2025-06-23 10:58:23.626606",
+    "systems_used": 7,
+    "ensemble_method": "hybrid_ai2_ai3_consensus",
+    "hybrid_metrics": {
+      "weighted_prediction": 0.16001752612874337,
+      "signal_strength": -0.6799649477425133,
+      "consensus_ratio": 0.7142857142857143,
+      "agreement": 1.0,
+      "hybrid_consensus": 0.8
+    },
+    "voting_results": {
+      "buy_votes": 1,
+      "sell_votes": 1,
+      "hold_votes": 5,
+      "votes": [
+        "HOLD",
+        "HOLD",
+        "HOLD",
+        "BUY",
+        "SELL",
+        "HOLD",
+        "HOLD"
+      ]
+    },
+    "risk_phase": "CONSERVATIVE",
+    "max_risk_per_trade": 0.01,
+    "risk_phase_number": 1
+  },
+  "component_count": 7,
+  "confidence_variance": 0.0,
+  "prediction_variance": 2.6984107251227914e-08
+}

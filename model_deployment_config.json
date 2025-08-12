@@ -1,0 +1,43 @@
+{
+  "last_update": "2025-06-19T13:23:46.531089",
+  "deployment_type": "100_epochs_intensive",
+  "active_models": {
+    "enhanced_random_forest": {
+      "path": "trained_models/enhanced_random_forest_20250619_130809.pkl",
+      "type": "sklearn_random_forest",
+      "performance": {
+        "test_accuracy": 0.835,
+        "train_accuracy": 0.92,
+        "overfitting": 0.085,
+        "performance_rating": "EXCELLENT",
+        "vs_previous": {
+          "improvement": 0.064,
+          "improvement_percentage": 8.3,
+          "status": "BREAKTHROUGH"
+        }
+      },
+      "priority": 0.963,
+      "deployment_date": "2025-06-19T13:23:46.531089"
+    },
+    "neural_network_100epochs": {
+      "path": "trained_models/neural_network_100epochs_20250619_130809.pkl",
+      "type": "sklearn_mlp",
+      "performance": {
+        "test_accuracy": 0.635,
+        "train_accuracy": 0.633,
+        "overfitting": -0.002,
+        "actual_epochs": 14,
+        "performance_rating": "POOR",
+        "vs_previous": {
+          "improvement": -0.136,
+          "improvement_percentage": -17.6,
+          "status": "REGRESSION"
+        }
+      },
+      "priority": 0.635,
+      "deployment_date": "2025-06-19T13:23:46.531089"
+    }
+  },
+  "performance_metrics": {},
+  "deployment_history": []
+}

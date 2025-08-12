@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-06-20T02:07:46.913224",
+  "ai2_analysis": {
+    "file_size": 42637,
+    "feature_findings": [
+      "'price'"
+    ],
+    "data_types_found": [
+      [
+        "open",
+        5
+      ],
+      [
+        "high",
+        2
+      ],
+      [
+        "low",
+        2
+      ],
+      [
+        "volume",
+        3
+      ]
+    ],
+    "signal_methods": [
+      "_generate_extended_final_report",
+      "_generate_extended_recommendations",
+      "generate_final_report",
+      "generate_final_report",
+      "_simulate_trade_pnl"
+    ],
+    "signal_counts": {
+      "buy": 4,
+      "sell": 6,
+      "hold": 28,
+      "long": 3,
+      "short": 1,
+      "entry": 2
+    },
+    "model_architecture": {},
+    "shapes_found": [],
+    "preprocessing": {},
+    "relevant_imports": [
+      "ULTIMATE_XAU_SUPER_SYSTEM_ENHANCED",
+      "PAPER_TRADING_SYSTEM",
+      "UltimateXauSuperSystemEnhanced",
+      "PaperTradingOrchestrator,"
+    ],
+    "config_found": {
+      "timeframe[s]?\\s*[=:]\\s*[\"\\']([^\"\\']+)[\"\\']": [
+        "M5",
+        "M5"
+      ]
+    }
+  }
+}

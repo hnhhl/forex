@@ -1,0 +1,195 @@
+{
+  "timestamp": "20250618_194346",
+  "system_type": "Production Ready System",
+  "demo_duration": "5 minutes",
+  "parameters": {
+    "confidence_threshold": 0.58,
+    "base_risk_per_trade": 0.008,
+    "stop_loss_pips": 45,
+    "take_profit_pips": 90,
+    "max_open_positions": 3,
+    "max_daily_loss": 200.0,
+    "preferred_hours": [
+      22,
+      3,
+      9,
+      0,
+      2,
+      1,
+      4,
+      8,
+      10,
+      11,
+      13,
+      14
+    ]
+  },
+  "final_balance": 10045.000000000073,
+  "daily_pnl": 45.00000000007276,
+  "total_trades": 4,
+  "open_positions": 0,
+  "trade_history": [
+    {
+      "id": 1,
+      "timestamp": "2025-06-10 02:00:00",
+      "action": "SELL",
+      "entry_price": 3309.3,
+      "position_size": 0.02,
+      "confidence": 0.5900525865484038,
+      "timeframes": [
+        "H1",
+        "H4",
+        "D1"
+      ],
+      "hour": 2,
+      "stop_loss": 3309.3045,
+      "take_profit": 3309.291,
+      "exit_price": 3309.291,
+      "exit_timestamp": "2025-06-10 03:00:00",
+      "pnl": 18.000000000029104,
+      "status": "CLOSED_TP"
+    },
+    {
+      "id": 2,
+      "timestamp": "2025-06-12 08:00:00",
+      "action": "BUY",
+      "entry_price": 3356.789,
+      "position_size": 0.02,
+      "confidence": 0.6076031294655055,
+      "timeframes": [
+        "H1",
+        "H4",
+        "D1"
+      ],
+      "hour": 8,
+      "stop_loss": 3356.7845,
+      "take_profit": 3356.7980000000002,
+      "exit_price": 3356.7980000000002,
+      "exit_timestamp": "2025-06-12 09:00:00",
+      "pnl": 18.000000000029104,
+      "status": "CLOSED_TP"
+    },
+    {
+      "id": 3,
+      "timestamp": "2025-06-13 01:00:00",
+      "action": "BUY",
+      "entry_price": 3427.655,
+      "position_size": 0.02,
+      "confidence": 0.5899426925825986,
+      "timeframes": [
+        "H1",
+        "H4",
+        "D1"
+      ],
+      "hour": 1,
+      "stop_loss": 3427.6505,
+      "take_profit": 3427.664,
+      "exit_price": 3427.664,
+      "exit_timestamp": "2025-06-13 02:00:00",
+      "pnl": 18.000000000029104,
+      "status": "CLOSED_TP"
+    },
+    {
+      "id": 4,
+      "timestamp": "2025-06-16 14:00:00",
+      "action": "SELL",
+      "entry_price": 3396.944,
+      "position_size": 0.02,
+      "confidence": 0.5974492252733273,
+      "timeframes": [
+        "H1",
+        "H4",
+        "D1"
+      ],
+      "hour": 14,
+      "stop_loss": 3396.9485,
+      "take_profit": 3396.935,
+      "exit_price": 3396.9485,
+      "exit_timestamp": "2025-06-16 15:00:00",
+      "pnl": -9.000000000014552,
+      "status": "CLOSED_SL"
+    }
+  ],
+  "positions": [
+    {
+      "id": 1,
+      "timestamp": "2025-06-10 02:00:00",
+      "action": "SELL",
+      "entry_price": 3309.3,
+      "position_size": 0.02,
+      "confidence": 0.5900525865484038,
+      "timeframes": [
+        "H1",
+        "H4",
+        "D1"
+      ],
+      "hour": 2,
+      "stop_loss": 3309.3045,
+      "take_profit": 3309.291,
+      "exit_price": 3309.291,
+      "exit_timestamp": "2025-06-10 03:00:00",
+      "pnl": 18.000000000029104,
+      "status": "CLOSED_TP"
+    },
+    {
+      "id": 2,
+      "timestamp": "2025-06-12 08:00:00",
+      "action": "BUY",
+      "entry_price": 3356.789,
+      "position_size": 0.02,
+      "confidence": 0.6076031294655055,
+      "timeframes": [
+        "H1",
+        "H4",
+        "D1"
+      ],
+      "hour": 8,
+      "stop_loss": 3356.7845,
+      "take_profit": 3356.7980000000002,
+      "exit_price": 3356.7980000000002,
+      "exit_timestamp": "2025-06-12 09:00:00",
+      "pnl": 18.000000000029104,
+      "status": "CLOSED_TP"
+    },
+    {
+      "id": 3,
+      "timestamp": "2025-06-13 01:00:00",
+      "action": "BUY",
+      "entry_price": 3427.655,
+      "position_size": 0.02,
+      "confidence": 0.5899426925825986,
+      "timeframes": [
+        "H1",
+        "H4",
+        "D1"
+      ],
+      "hour": 1,
+      "stop_loss": 3427.6505,
+      "take_profit": 3427.664,
+      "exit_price": 3427.664,
+      "exit_timestamp": "2025-06-13 02:00:00",
+      "pnl": 18.000000000029104,
+      "status": "CLOSED_TP"
+    },
+    {
+      "id": 4,
+      "timestamp": "2025-06-16 14:00:00",
+      "action": "SELL",
+      "entry_price": 3396.944,
+      "position_size": 0.02,
+      "confidence": 0.5974492252733273,
+      "timeframes": [
+        "H1",
+        "H4",
+        "D1"
+      ],
+      "hour": 14,
+      "stop_loss": 3396.9485,
+      "take_profit": 3396.935,
+      "exit_price": 3396.9485,
+      "exit_timestamp": "2025-06-16 15:00:00",
+      "pnl": -9.000000000014552,
+      "status": "CLOSED_SL"
+    }
+  ]
+}

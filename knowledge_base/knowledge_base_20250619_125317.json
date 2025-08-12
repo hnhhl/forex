@@ -1,0 +1,170 @@
+{
+  "pattern_library": {
+    "total_patterns": 200,
+    "validated_patterns": [
+      {
+        "name": "uptrend_momentum",
+        "accuracy": 0.78,
+        "usage_count": 1200
+      },
+      {
+        "name": "downtrend_momentum",
+        "accuracy": 0.76,
+        "usage_count": 1100
+      },
+      {
+        "name": "sideways_range",
+        "accuracy": 0.65,
+        "usage_count": 800
+      },
+      {
+        "name": "breakout_pattern",
+        "accuracy": 0.82,
+        "usage_count": 900
+      },
+      {
+        "name": "reversal_signal",
+        "accuracy": 0.74,
+        "usage_count": 700
+      }
+    ],
+    "pattern_weights": {
+      "technical": 0.4,
+      "fundamental": 0.3,
+      "sentiment": 0.3
+    }
+  },
+  "market_regimes": {
+    "regime_1": {
+      "volatility": "high",
+      "trend": "up",
+      "strategy": "aggressive_buy",
+      "confidence": 0.85
+    },
+    "regime_2": {
+      "volatility": "high",
+      "trend": "down",
+      "strategy": "aggressive_sell",
+      "confidence": 0.83
+    },
+    "regime_3": {
+      "volatility": "low",
+      "trend": "sideways",
+      "strategy": "hold_range",
+      "confidence": 0.7
+    },
+    "regime_4": {
+      "volatility": "medium",
+      "trend": "up",
+      "strategy": "moderate_buy",
+      "confidence": 0.75
+    },
+    "regime_5": {
+      "volatility": "medium",
+      "trend": "down",
+      "strategy": "moderate_sell",
+      "confidence": 0.73
+    }
+  },
+  "voting_system": {
+    "technical_voter": {
+      "weight": 0.33,
+      "bias": "trend_following",
+      "accuracy": 0.78,
+      "decisions_count": 3987
+    },
+    "fundamental_voter": {
+      "weight": 0.33,
+      "bias": "conservative",
+      "accuracy": 0.72,
+      "decisions_count": 3987
+    },
+    "sentiment_voter": {
+      "weight": 0.34,
+      "bias": "contrarian",
+      "accuracy": 0.75,
+      "decisions_count": 3986
+    }
+  },
+  "temporal_patterns": {
+    "hourly_preferences": {
+      "asian_session": {
+        "hours": "0-8",
+        "strategy": "conservative",
+        "activity": 0.3
+      },
+      "london_session": {
+        "hours": "8-16",
+        "strategy": "trending",
+        "activity": 0.8
+      },
+      "ny_session": {
+        "hours": "13-22",
+        "strategy": "volatile",
+        "activity": 0.9
+      },
+      "overlap": {
+        "hours": "13-16",
+        "strategy": "aggressive",
+        "activity": 1.0
+      }
+    },
+    "daily_preferences": {
+      "monday": {
+        "bias": "trend_start",
+        "activity": 0.7
+      },
+      "tuesday": {
+        "bias": "trend_follow",
+        "activity": 0.8
+      },
+      "wednesday": {
+        "bias": "trend_follow",
+        "activity": 0.8
+      },
+      "thursday": {
+        "bias": "trend_confirm",
+        "activity": 0.7
+      },
+      "friday": {
+        "bias": "profit_taking",
+        "activity": 0.6
+      }
+    }
+  },
+  "volatility_adaptation": {
+    "low_vol_threshold": 0.5,
+    "high_vol_threshold": 1.0,
+    "adjustment_factors": {
+      "low_vol": {
+        "threshold_multiplier": 0.5,
+        "position_multiplier": 1.5
+      },
+      "medium_vol": {
+        "threshold_multiplier": 1.0,
+        "position_multiplier": 1.0
+      },
+      "high_vol": {
+        "threshold_multiplier": 2.0,
+        "position_multiplier": 0.5
+      }
+    }
+  },
+  "risk_management": {
+    "base_risk_tolerance": 0.02,
+    "max_position_size": 0.1,
+    "stop_loss_multiplier": 2.0,
+    "take_profit_multiplier": 3.0,
+    "activity_ratio": {
+      "hold": 0.4,
+      "active": 0.6
+    }
+  },
+  "performance_metrics": {
+    "total_trades": 11960,
+    "accuracy": 0.771,
+    "trading_activity": 1.0,
+    "pattern_recognition_capacity": 200,
+    "decision_sophistication": 3
+  }
+}

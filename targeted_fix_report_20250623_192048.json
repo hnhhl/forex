@@ -1,0 +1,32 @@
+{
+  "fix_timestamp": "2025-06-23T19:20:48.094563",
+  "audit_issues_addressed": [
+    "DataQualityMonitor missing _safe_dataframe_check",
+    "MT5ConnectionManager missing connection_state",
+    "NeuralNetworkSystem missing _validate_confidence",
+    "AIPhaseSystem missing _safe_dataframe_check",
+    "Inconsistent buy_threshold values",
+    "Inconsistent sell_threshold values",
+    "Hardcoded confidence values",
+    "GPU memory allocation failures",
+    "Type mismatch errors"
+  ],
+  "total_fixes_applied": 13,
+  "fixes_applied": [
+    "Added update_connection_state method to MT5ConnectionManager",
+    "Standardized buy_threshold: 0.7 → 0.65",
+    "Standardized buy_threshold: 0.68 → 0.65",
+    "Standardized buy_threshold: 0.6 → 0.65",
+    "Standardized buy_threshold: 0.75 → 0.65",
+    "Standardized buy_threshold: 0.58 → 0.65",
+    "Standardized sell_threshold: 0.32 → 0.35",
+    "Standardized sell_threshold: 0.3 → 0.35",
+    "Standardized sell_threshold: 0.25 → 0.35",
+    "Standardized sell_threshold: 0.42 → 0.35",
+    "Standardized sell_threshold: 0.4 → 0.35",
+    "Added CPU fallback for GPU prediction failure",
+    "Added _safe_numeric_operation helper method"
+  ],
+  "backup_created": true,
+  "success_rate": 144.44444444444443
+}

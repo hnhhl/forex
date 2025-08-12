@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-06-20T14:09:37.154307",
+  "data_size": 1124640,
+  "training_results": {
+    "lstm": {
+      "training_time": 131.97513127326965,
+      "train_accuracy": 0.5058702826499939,
+      "val_accuracy": 0.5040967464447021,
+      "epochs": 10,
+      "model_path": "trained_models/production_lstm_20250620_140549.keras"
+    },
+    "cnn": {
+      "training_time": 70.10992383956909,
+      "train_accuracy": 0.5019234418869019,
+      "val_accuracy": 0.5017985701560974,
+      "epochs": 9,
+      "model_path": "trained_models/production_cnn_20250620_140708.keras"
+    },
+    "hybrid": {
+      "training_time": 113.40775084495544,
+      "train_accuracy": 0.506195068359375,
+      "val_accuracy": 0.5020983219146729,
+      "epochs": 12,
+      "model_path": "trained_models/production_hybrid_20250620_140912.keras"
+    }
+  },
+  "test_results": {
+    "backtest_results": {
+      "accuracy": 0.55,
+      "total_signals": 100,
+      "correct_signals": 55,
+      "signal_distribution": {
+        "STRONG_BUY": 0,
+        "BUY": 0,
+        "SELL": 100,
+        "STRONG_SELL": 0
+      }
+    },
+    "real_time_accuracy": 0.75,
+    "total_signals_generated": 120
+  },
+  "overall_score": 0.6013655821482341,
+  "grade": "\ud83d\udfe1 B - GOOD - READY FOR PAPER TRADING"
+}

@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-06-20T08:11:13.607086",
+  "average_confidence": 0.2301984777982132,
+  "max_confidence": 0.23188654203397668,
+  "min_confidence": 0.22888757622537326,
+  "signal_distribution": {
+    "HOLD": 10
+  },
+  "unique_signals": [
+    "HOLD"
+  ],
+  "confidence_status": "NEEDS WORK (<25%)",
+  "diversity_status": "LIMITED (Only HOLD)",
+  "overall_status": "BASIC FUNCTIONALITY"
+}

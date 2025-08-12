@@ -1,0 +1,28 @@
+{
+  "timestamp": "20250618_132325",
+  "mode": "multi_timeframe_training",
+  "symbol": "XAUUSDc",
+  "timeframes_used": [
+    "M1",
+    "M5",
+    "M15",
+    "M30",
+    "H1",
+    "H4",
+    "D1",
+    "W1"
+  ],
+  "total_samples": 7109,
+  "feature_shape": [
+    7109,
+    60,
+    17
+  ],
+  "models_trained": [
+    "lstm",
+    "cnn",
+    "transformer"
+  ],
+  "performance": {},
+  "multi_tf_signals": false
+}

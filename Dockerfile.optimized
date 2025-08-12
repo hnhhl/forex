@@ -1,0 +1,45 @@
+# Multi-stage Dockerfile for optimization
+FROM python:3.10-slim as base
+
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PIP_NO_CACHE_DIR=1
+
+WORKDIR /app
+
+# Development stage
+FROM base as development
+
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    curl \
+    git \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY requirements-dev.txt .
+RUN pip install -r requirements-dev.txt
+
+COPY . .
+
+CMD ["python", "-m", "src.main", "--debug"]
+
+# Production stage
+FROM base as production
+
+RUN addgroup --system --gid 1001 appgroup && \
+    adduser --system --uid 1001 --gid 1001 --home /app appuser
+
+COPY requirements.txt .
+RUN pip install --no-deps -r requirements.txt
+
+COPY --chown=appuser:appgroup src/ ./src/
+COPY --chown=appuser:appgroup config/ ./config/
+
+USER appuser
+
+HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
+    CMD python -c "import requests; requests.get('http://localhost:8000/health')"
+
+EXPOSE 8000
+
+CMD ["python", "-m", "src.main"]

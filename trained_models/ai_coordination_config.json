@@ -1,0 +1,11 @@
+{
+  "model_weights": {
+    "neural_ensemble": 0.4149586125344895,
+    "dqn_agent": 0.2925206937327552,
+    "meta_learning": 0.2925206937327552,
+    "traditional": 0.2
+  },
+  "confidence_threshold": 0.7,
+  "consensus_required": true,
+  "voting_strategy": "weighted_average"
+}

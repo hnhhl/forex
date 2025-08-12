@@ -1,0 +1,79 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: xau-system-app
+  namespace: xau-system
+  labels:
+    app: xau-system-app
+    version: v4.0.0
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: xau-system-app
+  template:
+    metadata:
+      labels:
+        app: xau-system-app
+        version: v4.0.0
+    spec:
+      containers:
+      - name: app
+        image: ghcr.io/your-org/xau-system:latest
+        ports:
+        - containerPort: 8000
+        env:
+        - name: ENVIRONMENT
+          value: "production"
+        - name: DATABASE_URL
+          valueFrom:
+            secretKeyRef:
+              name: database-secret
+              key: url
+        resources:
+          requests:
+            memory: "1Gi"
+            cpu: "500m"
+          limits:
+            memory: "2Gi"
+            cpu: "1000m"
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          initialDelaySeconds: 30
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /ready
+            port: 8000
+          initialDelaySeconds: 5
+          periodSeconds: 5
+        volumeMounts:
+        - name: config
+          mountPath: /app/config
+          readOnly: true
+        - name: logs
+          mountPath: /app/logs
+      volumes:
+      - name: config
+        configMap:
+          name: xau-system-config
+      - name: logs
+        emptyDir: {}
+      imagePullSecrets:
+      - name: registry-secret
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: xau-system-app-service
+  namespace: xau-system
+spec:
+  selector:
+    app: xau-system-app
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 8000
+  type: ClusterIP

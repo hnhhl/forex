@@ -1,0 +1,172 @@
+{
+  "timestamp": "2025-06-18 15:07:08.393284",
+  "decision": {
+    "symbol": "XAUUSDc",
+    "action": "BUY",
+    "strength": "STRONG",
+    "prediction": 26.462544801920952,
+    "confidence": 0.5516619154436241,
+    "timestamp": "2025-06-18 15:07:08.391283",
+    "systems_used": 3,
+    "signal_components": {
+      "DataQualityMonitor": {
+        "quality_score": 0.865,
+        "metrics": {
+          "completeness": 1.0,
+          "accuracy": 1.0,
+          "consistency": 1.0,
+          "timeliness": 0.1,
+          "validity": 1.0
+        },
+        "anomalies_detected": [],
+        "recommendations": [
+          "Improve data freshness and update frequency"
+        ]
+      },
+      "LatencyOptimizer": {
+        "latency_ms": 0.002200016751885414,
+        "average_latency": 0.0026555531399531495,
+        "optimization_status": {
+          "total_improvement_ms": 95.0,
+          "active_strategies": [
+            "connection_pooling",
+            "data_compression",
+            "cache_optimization",
+            "async_processing",
+            "batch_processing",
+            "memory_mapping",
+            "cpu_affinity",
+            "network_tuning"
+          ],
+          "average_latency_reduction": "95.0ms"
+        },
+        "result": "           time      open      high       low     close  tick_volume  spread  real_volume  volume\n3340 2024-11-28  2637.063  2649.674  2620.844  2638.767       122252     159            0    6441\n3341 2024-11-29  2638.726  2666.383  2633.969  2655.230       154252     159            0    8688\n3342 2024-12-01  2649.036  2650.324  2643.053  2645.659         5598     159            0    8655\n3343 2024-12-02  2645.756  2651.794  2621.838  2642.211       226412     159            0    1109\n3344 2024-12-03  2642.228  2655.665  2634.033  2642.721       183329     159            0    4457\n...         ...       ...       ...       ...       ...          ...     ...          ...     ...\n3435 2025-03-19  3031.801  3051.982  3022.738  3050.026       176856     159            0    9973\n3436 2025-03-20  3050.023  3057.484  3025.635  3046.409       193206     159            0    4034\n3437 2025-03-21  3046.335  3047.435  2999.385  3023.493       193544     159            0    9518\n3438 2025-03-23  3023.441  3026.331  3022.143  3024.721         6792     159            0    4457\n3439 2025-03-24  3024.709  3033.208  3002.466  3009.910       176544     159            0    7937\n\n[100 rows x 9 columns]"
+      },
+      "MT5ConnectionManager": {
+        "connection_status": {
+          "connected": true,
+          "last_check": "2025-06-18 15:06:24.288031",
+          "retry_count": 0,
+          "quality_score": 95.0,
+          "server_time_diff": 0.0,
+          "ping_ms": 0.8512999920640141
+        },
+        "health_status": {
+          "healthy": true,
+          "ping_ms": 0.8512999920640141,
+          "terminal_connected": true,
+          "account_accessible": true,
+          "last_check": "2025-06-18 15:07:08.155238"
+        },
+        "performance_metrics": {
+          "uptime_percentage": 99.5,
+          "average_ping": 0.8512999920640141,
+          "connection_stability": 100.0,
+          "retry_count": 0
+        }
+      },
+      "NeuralNetworkSystem": {
+        "individual_predictions": {
+          "lstm": {
+            "prediction": 0.5516834259033203,
+            "confidence": 0.10336685180664062,
+            "model_name": "lstm"
+          },
+          "cnn": {
+            "prediction": 0.5551546812057495,
+            "confidence": 0.11030936241149902,
+            "model_name": "cnn"
+          },
+          "transformer": {
+            "prediction": 0.8235829472541809,
+            "confidence": 0.6471658945083618,
+            "model_name": "transformer"
+          }
+        },
+        "ensemble_prediction": {
+          "prediction": 0.7565374951024735,
+          "confidence": 0.2869473695755005,
+          "num_models": 3
+        },
+        "model_performance": {},
+        "confidence_score": 0.2869473695755005
+      },
+      "AIPhaseSystem": {
+        "prediction": 180.88254589294576,
+        "confidence": 0.85,
+        "processing_time_ms": 0.0,
+        "phase_results": {
+          "phase1_signal": 0.8130913333333333,
+          "phase3_analysis": {
+            "market_regime": "UNCERTAIN",
+            "market_sentiment": "NEUTRAL",
+            "signal": 0.0
+          },
+          "phase6_prediction": {
+            "value": 602.1287283098193,
+            "confidence": 0.5,
+            "horizon": "medium_term"
+          }
+        },
+        "system_status": {
+          "active_phases": 6,
+          "total_boost": 12.0,
+          "uptime": 43.815187
+        },
+        "ensemble_prediction": {
+          "prediction": 180.88254589294576,
+          "confidence": 0.85,
+          "method": "ai_phases_ensemble"
+        }
+      },
+      "AdvancedAIEnsembleSystem": {
+        "ensemble_prediction": {
+          "final_prediction": 0.5725802449884906,
+          "confidence": 0.717540547078688,
+          "signal": "HOLD",
+          "model_count": 8,
+          "prediction_std": 0.09754511632747885,
+          "method": "weighted_average"
+        },
+        "system_status": "ACTIVE",
+        "timestamp": "2025-06-18T15:07:08.390283",
+        "confidence": 0.5180383767553717,
+        "prediction": 0.5725802449884906,
+        "individual_predictions": {},
+        "performance_metrics": {
+          "accuracy": 0.0,
+          "ensemble_confidence": 0.0,
+          "active_models": 8
+        }
+      }
+    },
+    "ensemble_method": "weighted_average",
+    "weights_used": [
+      0.7142857142857143,
+      0.14285714285714288,
+      0.14285714285714288
+    ]
+  },
+  "execution": {
+    "success": false,
+    "executed": false,
+    "reason": "Execution conditions not met"
+  },
+  "market_conditions": {
+    "volatility": 0.007149680983940373,
+    "trend": "UPTREND",
+    "volume": {
+      "average": 166430.78,
+      "current": "176544",
+      "ratio": 1.0607653223760654
+    },
+    "support_resistance": {
+      "resistance": 3057.484,
+      "support": 2858.83,
+      "current_price": 3009.91,
+      "distance_to_resistance": 0.015805788212936624,
+      "distance_to_support": 0.050194191852912524
+    }
+  },
+  "improvements": []
+}

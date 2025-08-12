@@ -1,0 +1,11 @@
+{
+  "total_signals": 18741,
+  "total_transactions": 2324,
+  "transaction_rate": 12.400618963769276,
+  "buy_transactions": 1349,
+  "sell_transactions": 975,
+  "avg_consensus": 0.5536435266705796,
+  "avg_transaction_consensus": 0.4175033467202142,
+  "high_consensus_signals": 7705,
+  "low_consensus_signals": 2079
+}

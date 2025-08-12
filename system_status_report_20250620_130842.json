@@ -1,0 +1,560 @@
+{
+  "report_timestamp": "2025-06-20T13:08:11.237347",
+  "system_info": {
+    "os": "Windows",
+    "os_version": "10.0.19045",
+    "architecture": "64bit",
+    "processor": "AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD",
+    "hostname": "admin",
+    "python_version": "3.10.9",
+    "timestamp": "2025-06-20T13:08:11.245352",
+    "memory": {
+      "total_gb": 14.68,
+      "available_gb": 8.8,
+      "used_percent": 40.1
+    },
+    "disk": {
+      "total_gb": 257.38,
+      "free_gb": 62.2,
+      "used_percent": 75.83
+    },
+    "cpu": {
+      "cores": 4,
+      "threads": 8,
+      "current_usage": 11.5
+    }
+  },
+  "gpu_status": {
+    "name": "NVIDIA GeForce GTX 1650 Ti",
+    "memory_total_mb": 4096,
+    "memory_used_mb": 134,
+    "utilization_percent": 0,
+    "temperature_c": 0,
+    "memory_free_mb": 3962,
+    "status": "ACTIVE"
+  },
+  "python_packages": {
+    "tensorflow": {
+      "installed": true,
+      "version": "2.19.0"
+    },
+    "tensorflow-gpu": {
+      "installed": true,
+      "version": "2.10.0"
+    },
+    "keras": {
+      "installed": true,
+      "version": "2.10.0"
+    },
+    "numpy": {
+      "installed": true,
+      "version": "1.26.4"
+    },
+    "pandas": {
+      "installed": true,
+      "version": "2.2.3"
+    },
+    "scikit-learn": {
+      "installed": true,
+      "version": "1.6.1"
+    },
+    "matplotlib": {
+      "installed": true,
+      "version": "3.10.3"
+    },
+    "seaborn": {
+      "installed": true,
+      "version": "0.13.2"
+    },
+    "MetaTrader5": {
+      "installed": true,
+      "version": "5.0.5050"
+    },
+    "psutil": {
+      "installed": true,
+      "version": "7.0.0"
+    },
+    "requests": {
+      "installed": true,
+      "version": "2.32.3"
+    },
+    "fastapi": {
+      "installed": false,
+      "version": null
+    },
+    "uvicorn": {
+      "installed": false,
+      "version": null
+    }
+  },
+  "tensorflow_gpu": {
+    "tensorflow_version": "2.10.0",
+    "gpu_devices": 1,
+    "gpu_detected": true,
+    "gpu_names": [
+      "/physical_device:GPU:0"
+    ],
+    "gpu_operations": "WORKING"
+  },
+  "data_files": {
+    "data/working_free_data/XAUUSD_M1_realistic.csv": {
+      "exists": true,
+      "size_mb": 57.37,
+      "modified": "2025-06-19 08:48:38",
+      "total_rows": 1124640,
+      "columns": [
+        "Date",
+        "Time",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ]
+    },
+    "data/working_free_data/XAUUSD_H1_realistic.csv": {
+      "exists": true,
+      "size_mb": 0.99,
+      "modified": "2025-06-19 08:48:49",
+      "total_rows": 18744,
+      "columns": [
+        "Date",
+        "Time",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ]
+    },
+    "data/working_free_data/XAUUSD_D1_realistic.csv": {
+      "exists": true,
+      "size_mb": 0.04,
+      "modified": "2025-06-19 08:48:51",
+      "total_rows": 781,
+      "columns": [
+        "Date",
+        "Time",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ]
+    },
+    "data/maximum_mt5_v2/XAUUSDc_M1_20250618_115847.csv": {
+      "exists": true,
+      "size_mb": 3.17,
+      "modified": "2025-06-18 11:58:47",
+      "total_rows": 50000,
+      "columns": [
+        "time",
+        "open",
+        "high",
+        "low",
+        "close",
+        "tick_volume",
+        "spread",
+        "real_volume"
+      ]
+    },
+    "data/maximum_mt5_v2/XAUUSDc_H1_20250618_115847.csv": {
+      "exists": true,
+      "size_mb": 3.14,
+      "modified": "2025-06-18 11:58:49",
+      "total_rows": 50000,
+      "columns": [
+        "time",
+        "open",
+        "high",
+        "low",
+        "close",
+        "tick_volume",
+        "spread",
+        "real_volume"
+      ]
+    },
+    "data/maximum_mt5_v2/XAUUSDc_D1_20250618_115847.csv": {
+      "exists": true,
+      "size_mb": 0.19,
+      "modified": "2025-06-18 11:58:49",
+      "total_rows": 3513,
+      "columns": [
+        "time",
+        "open",
+        "high",
+        "low",
+        "close",
+        "tick_volume",
+        "spread",
+        "real_volume"
+      ]
+    }
+  },
+  "trained_models": {
+    "trained_models": {
+      "exists": true,
+      "files": [
+        {
+          "name": "ai_coordination_config.json",
+          "size_mb": 0.0,
+          "modified": "2025-06-18 07:37:49"
+        },
+        {
+          "name": "enhanced_random_forest_20250619_130809.pkl",
+          "size_mb": 6.46,
+          "modified": "2025-06-19 13:08:09"
+        },
+        {
+          "name": "full_data_lstm.keras",
+          "size_mb": 1.42,
+          "modified": "2025-06-20 10:37:24"
+        },
+        {
+          "name": "gradient_boost_y_direction_2.pkl",
+          "size_mb": 1.76,
+          "modified": "2025-06-18 07:37:49"
+        },
+        {
+          "name": "gradient_boost_y_direction_4.pkl",
+          "size_mb": 1.93,
+          "modified": "2025-06-18 07:37:49"
+        },
+        {
+          "name": "gradient_boost_y_direction_8.pkl",
+          "size_mb": 2.09,
+          "modified": "2025-06-18 07:37:49"
+        },
+        {
+          "name": "lightgbm_y_direction_2.pkl",
+          "size_mb": 0.92,
+          "modified": "2025-06-18 07:37:49"
+        },
+        {
+          "name": "lightgbm_y_direction_4.pkl",
+          "size_mb": 0.91,
+          "modified": "2025-06-18 07:37:49"
+        },
+        {
+          "name": "lightgbm_y_direction_8.pkl",
+          "size_mb": 0.9,
+          "modified": "2025-06-18 07:37:49"
+        },
+        {
+          "name": "neural_ensemble_y_direction_2_dense.h5",
+          "size_mb": 1.89,
+          "modified": "2025-06-18 07:37:49"
+        },
+        {
+          "name": "neural_ensemble_y_direction_2_dense.keras",
+          "size_mb": 1.89,
+          "modified": "2025-06-18 07:26:15"
+        },
+        {
+          "name": "neural_ensemble_y_direction_2_lstm.h5",
+          "size_mb": 4.15,
+          "modified": "2025-06-18 07:37:49"
+        },
+        {
+          "name": "neural_ensemble_y_direction_2_lstm.keras",
+          "size_mb": 4.15,
+          "modified": "2025-06-18 07:25:58"
+        },
+        {
+          "name": "neural_ensemble_y_direction_4_dense.h5",
+          "size_mb": 1.89,
+          "modified": "2025-06-18 07:37:49"
+        },
+        {
+          "name": "neural_ensemble_y_direction_4_dense.keras",
+          "size_mb": 1.89,
+          "modified": "2025-06-18 07:26:58"
+        },
+        {
+          "name": "neural_ensemble_y_direction_4_lstm.h5",
+          "size_mb": 4.15,
+          "modified": "2025-06-18 07:37:49"
+        },
+        {
+          "name": "neural_ensemble_y_direction_4_lstm.keras",
+          "size_mb": 4.15,
+          "modified": "2025-06-18 07:26:42"
+        },
+        {
+          "name": "neural_ensemble_y_direction_8_dense.h5",
+          "size_mb": 1.89,
+          "modified": "2025-06-18 07:37:49"
+        },
+        {
+          "name": "neural_ensemble_y_direction_8_dense.keras",
+          "size_mb": 1.89,
+          "modified": "2025-06-18 07:27:40"
+        },
+        {
+          "name": "neural_ensemble_y_direction_8_lstm.h5",
+          "size_mb": 4.15,
+          "modified": "2025-06-18 07:37:49"
+        },
+        {
+          "name": "neural_ensemble_y_direction_8_lstm.keras",
+          "size_mb": 4.15,
+          "modified": "2025-06-18 07:27:24"
+        },
+        {
+          "name": "neural_network_100epochs_20250619_130809.pkl",
+          "size_mb": 0.13,
+          "modified": "2025-06-19 13:08:09"
+        },
+        {
+          "name": "random_forest_y_direction_2.pkl",
+          "size_mb": 3.92,
+          "modified": "2025-06-18 07:37:49"
+        },
+        {
+          "name": "random_forest_y_direction_4.pkl",
+          "size_mb": 4.98,
+          "modified": "2025-06-18 07:37:49"
+        },
+        {
+          "name": "random_forest_y_direction_8.pkl",
+          "size_mb": 5.74,
+          "modified": "2025-06-18 07:37:49"
+        },
+        {
+          "name": "scaler_y_direction_2.pkl",
+          "size_mb": 0.01,
+          "modified": "2025-06-18 07:37:49"
+        },
+        {
+          "name": "scaler_y_direction_4.pkl",
+          "size_mb": 0.01,
+          "modified": "2025-06-18 07:37:49"
+        },
+        {
+          "name": "scaler_y_direction_8.pkl",
+          "size_mb": 0.01,
+          "modified": "2025-06-18 07:37:49"
+        }
+      ]
+    },
+    "trained_models_optimized": {
+      "exists": true,
+      "files": [
+        {
+          "name": "neural_network_D1.keras",
+          "size_mb": 0.04,
+          "modified": "2025-06-18 15:18:15"
+        },
+        {
+          "name": "neural_network_H1.keras",
+          "size_mb": 0.04,
+          "modified": "2025-06-18 15:17:58"
+        },
+        {
+          "name": "neural_network_H4.keras",
+          "size_mb": 0.04,
+          "modified": "2025-06-18 15:18:06"
+        },
+        {
+          "name": "neural_network_M1.keras",
+          "size_mb": 0.04,
+          "modified": "2025-06-18 15:17:24"
+        },
+        {
+          "name": "neural_network_M15.keras",
+          "size_mb": 0.04,
+          "modified": "2025-06-18 15:17:41"
+        },
+        {
+          "name": "neural_network_M30.keras",
+          "size_mb": 0.04,
+          "modified": "2025-06-18 15:17:50"
+        },
+        {
+          "name": "neural_network_M5.keras",
+          "size_mb": 0.04,
+          "modified": "2025-06-18 15:17:32"
+        },
+        {
+          "name": "neural_network_W1.keras",
+          "size_mb": 0.04,
+          "modified": "2025-06-18 15:18:19"
+        }
+      ]
+    },
+    "trained_models_real_data": {
+      "exists": true,
+      "files": [
+        {
+          "name": "dense_D1_20250618_225823.keras",
+          "size_mb": 2.15,
+          "modified": "2025-06-18 22:58:23"
+        },
+        {
+          "name": "dense_H1_20250618_225616.keras",
+          "size_mb": 2.15,
+          "modified": "2025-06-18 22:56:16"
+        },
+        {
+          "name": "dense_H4_20250618_225754.keras",
+          "size_mb": 2.15,
+          "modified": "2025-06-18 22:57:54"
+        },
+        {
+          "name": "dense_M30_20250618_230335.keras",
+          "size_mb": 2.15,
+          "modified": "2025-06-18 23:03:35"
+        },
+        {
+          "name": "features_D1_20250618_225823.json",
+          "size_mb": 0.0,
+          "modified": "2025-06-18 22:58:23"
+        },
+        {
+          "name": "features_H1_20250618_225616.json",
+          "size_mb": 0.0,
+          "modified": "2025-06-18 22:56:16"
+        },
+        {
+          "name": "features_H4_20250618_225754.json",
+          "size_mb": 0.0,
+          "modified": "2025-06-18 22:57:54"
+        },
+        {
+          "name": "features_M30_20250618_230335.json",
+          "size_mb": 0.0,
+          "modified": "2025-06-18 23:03:35"
+        },
+        {
+          "name": "gradient_boosting_D1_20250618_225823.pkl",
+          "size_mb": 0.65,
+          "modified": "2025-06-18 22:58:23"
+        },
+        {
+          "name": "gradient_boosting_H1_20250618_225616.pkl",
+          "size_mb": 0.7,
+          "modified": "2025-06-18 22:56:16"
+        },
+        {
+          "name": "gradient_boosting_H4_20250618_225754.pkl",
+          "size_mb": 0.63,
+          "modified": "2025-06-18 22:57:54"
+        },
+        {
+          "name": "gradient_boosting_M30_20250618_230335.pkl",
+          "size_mb": 0.66,
+          "modified": "2025-06-18 23:03:36"
+        },
+        {
+          "name": "logistic_regression_D1_20250618_225823.pkl",
+          "size_mb": 0.0,
+          "modified": "2025-06-18 22:58:23"
+        },
+        {
+          "name": "logistic_regression_H1_20250618_225616.pkl",
+          "size_mb": 0.0,
+          "modified": "2025-06-18 22:56:16"
+        },
+        {
+          "name": "logistic_regression_H4_20250618_225754.pkl",
+          "size_mb": 0.0,
+          "modified": "2025-06-18 22:57:54"
+        },
+        {
+          "name": "logistic_regression_M30_20250618_230335.pkl",
+          "size_mb": 0.0,
+          "modified": "2025-06-18 23:03:36"
+        },
+        {
+          "name": "lstm_D1_20250618_225823.keras",
+          "size_mb": 1.51,
+          "modified": "2025-06-18 22:58:23"
+        },
+        {
+          "name": "lstm_H1_20250618_225616.keras",
+          "size_mb": 1.51,
+          "modified": "2025-06-18 22:56:16"
+        },
+        {
+          "name": "lstm_H4_20250618_225754.keras",
+          "size_mb": 1.51,
+          "modified": "2025-06-18 22:57:54"
+        },
+        {
+          "name": "lstm_M30_20250618_230335.keras",
+          "size_mb": 1.51,
+          "modified": "2025-06-18 23:03:36"
+        },
+        {
+          "name": "random_forest_D1_20250618_225823.pkl",
+          "size_mb": 2.03,
+          "modified": "2025-06-18 22:58:23"
+        },
+        {
+          "name": "random_forest_H1_20250618_225616.pkl",
+          "size_mb": 4.38,
+          "modified": "2025-06-18 22:56:16"
+        },
+        {
+          "name": "random_forest_H4_20250618_225754.pkl",
+          "size_mb": 2.76,
+          "modified": "2025-06-18 22:57:54"
+        },
+        {
+          "name": "random_forest_M30_20250618_230335.pkl",
+          "size_mb": 4.47,
+          "modified": "2025-06-18 23:03:36"
+        },
+        {
+          "name": "scaler_D1_20250618_225823.pkl",
+          "size_mb": 0.0,
+          "modified": "2025-06-18 22:58:23"
+        },
+        {
+          "name": "scaler_H1_20250618_225616.pkl",
+          "size_mb": 0.0,
+          "modified": "2025-06-18 22:56:16"
+        },
+        {
+          "name": "scaler_H4_20250618_225754.pkl",
+          "size_mb": 0.0,
+          "modified": "2025-06-18 22:57:54"
+        },
+        {
+          "name": "scaler_M30_20250618_230335.pkl",
+          "size_mb": 0.0,
+          "modified": "2025-06-18 23:03:35"
+        }
+      ]
+    },
+    "trained_models_smart": {
+      "exists": true,
+      "files": []
+    }
+  },
+  "ai3_system": {
+    "src/core/ultimate_xau_system.py": {
+      "exists": true,
+      "size_kb": 174.97,
+      "modified": "2025-06-20 09:52:24"
+    },
+    "src/core/ai/advanced_ai2_technologies.py": {
+      "exists": true,
+      "size_kb": 32.02,
+      "modified": "2025-06-20 01:22:30"
+    },
+    "src/core/ai/ai_phases/ai_phase_system.py": {
+      "exists": false
+    },
+    "src/core/advanced_ai_ensemble.py": {
+      "exists": true,
+      "size_kb": 10.99,
+      "modified": "2025-06-18 11:36:30"
+    },
+    "src/core/integration/master_system.py": {
+      "exists": true,
+      "size_kb": 35.75,
+      "modified": "2025-06-19 13:28:43"
+    }
+  }
+}

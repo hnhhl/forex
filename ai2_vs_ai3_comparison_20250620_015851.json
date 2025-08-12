@@ -1,0 +1,543 @@
+{
+  "timestamp": "2025-06-20T01:58:51.113942",
+  "ai2_analysis": {
+    "file_size": 42637,
+    "line_count": 1058,
+    "classes": [
+      {
+        "name": "UltimateSystemConfig",
+        "methods": [],
+        "method_count": 0
+      },
+      {
+        "name": "UltimateXauSuperSystem",
+        "methods": [
+          "__init__",
+          "setup_logging",
+          "parse_arguments",
+          "load_config",
+          "display_banner",
+          "_simulate_trade_pnl",
+          "_compare_paper_vs_backtest",
+          "_calculate_recent_performance",
+          "_generate_extended_recommendations",
+          "generate_final_report",
+          "generate_final_report"
+        ],
+        "method_count": 11
+      }
+    ],
+    "functions": [],
+    "imports": [
+      "sys",
+      "os",
+      "asyncio",
+      "argparse",
+      "yaml",
+      "json",
+      "numpy",
+      "pandas",
+      "logging",
+      "time",
+      "datetime",
+      "pathlib",
+      "typing",
+      "dataclasses",
+      "warnings",
+      "ULTIMATE_XAU_SUPER_SYSTEM_ENHANCED",
+      "PAPER_TRADING_SYSTEM"
+    ],
+    "class_count": 2,
+    "function_count": 0,
+    "import_count": 17
+  },
+  "ai3_analysis": {
+    "file_size": 168209,
+    "line_count": 4274,
+    "classes": [
+      {
+        "name": "SystemConfig",
+        "methods": [],
+        "method_count": 0
+      },
+      {
+        "name": "BaseSystem",
+        "methods": [
+          "__init__",
+          "initialize",
+          "process",
+          "cleanup",
+          "get_status",
+          "log_error"
+        ],
+        "method_count": 6
+      },
+      {
+        "name": "SystemManager",
+        "methods": [
+          "__init__",
+          "register_system",
+          "initialize_all_systems",
+          "_get_initialization_order",
+          "start_all_systems",
+          "stop_all_systems",
+          "get_system_status"
+        ],
+        "method_count": 7
+      },
+      {
+        "name": "DataQualityMonitor",
+        "methods": [
+          "__init__",
+          "initialize",
+          "process",
+          "_assess_data_quality",
+          "_check_value_accuracy",
+          "_check_consistency",
+          "_check_timeliness",
+          "_check_validity",
+          "_detect_anomalies",
+          "_generate_recommendations",
+          "cleanup"
+        ],
+        "method_count": 11
+      },
+      {
+        "name": "LatencyOptimizer",
+        "methods": [
+          "__init__",
+          "initialize",
+          "process",
+          "_apply_system_optimizations",
+          "_set_cpu_affinity",
+          "_optimize_memory",
+          "_optimize_network",
+          "_optimized_processing",
+          "_compress_data",
+          "_batch_process",
+          "_get_optimization_status",
+          "cleanup"
+        ],
+        "method_count": 12
+      },
+      {
+        "name": "MT5ConnectionManager",
+        "methods": [
+          "__init__",
+          "initialize",
+          "process",
+          "_establish_primary_connection",
+          "_establish_failover_connection",
+          "_check_connection_health",
+          "_auto_reconnect",
+          "_get_performance_metrics",
+          "_calculate_uptime",
+          "_calculate_stability",
+          "get_market_data",
+          "place_order",
+          "cleanup"
+        ],
+        "method_count": 13
+      },
+      {
+        "name": "AI2AdvancedTechnologiesSystem",
+        "methods": [
+          "__init__",
+          "initialize",
+          "_initialize_meta_learning",
+          "_initialize_lifelong_learning",
+          "_initialize_neuroevolution",
+          "_initialize_hierarchical_rl",
+          "_initialize_adversarial_training",
+          "_initialize_multi_task_transfer",
+          "_initialize_auto_hyperparameter",
+          "_initialize_explainable_ai",
+          "_initialize_causal_inference",
+          "_initialize_pipeline_automation",
+          "process",
+          "_apply_meta_learning",
+          "_apply_explainable_ai",
+          "_apply_causal_inference",
+          "get_technology_status",
+          "cleanup"
+        ],
+        "method_count": 18
+      },
+      {
+        "name": "RealTimeMT5DataSystem",
+        "methods": [
+          "__init__",
+          "initialize",
+          "process",
+          "get_real_time_capabilities",
+          "cleanup"
+        ],
+        "method_count": 5
+      },
+      {
+        "name": "DataQualityMonitorAI2",
+        "methods": [
+          "__init__",
+          "initialize",
+          "assess_data_quality"
+        ],
+        "method_count": 3
+      },
+      {
+        "name": "LatencyOptimizerAI2",
+        "methods": [
+          "__init__",
+          "initialize",
+          "get_latency_stats"
+        ],
+        "method_count": 3
+      },
+      {
+        "name": "MT5StreamerAI2",
+        "methods": [
+          "__init__",
+          "initialize",
+          "get_streaming_status"
+        ],
+        "method_count": 3
+      },
+      {
+        "name": "AIPhaseSystem",
+        "methods": [
+          "__init__",
+          "initialize",
+          "process",
+          "get_phase_status",
+          "evolve_system",
+          "run_backtest",
+          "cleanup"
+        ],
+        "method_count": 7
+      },
+      {
+        "name": "NeuralNetworkSystem",
+        "methods": [
+          "__init__",
+          "initialize",
+          "process",
+          "_initialize_tensorflow_models",
+          "_create_lstm_model",
+          "_create_cnn_model",
+          "_create_transformer_model",
+          "_initialize_pytorch_models",
+          "_create_gru_model",
+          "_create_attention_model",
+          "_predict_with_model",
+          "_prepare_features",
+          "_ensemble_predict",
+          "_calculate_confidence",
+          "train_models",
+          "_prepare_multi_timeframe_features",
+          "_get_timeframe_data",
+          "_create_timeframe_sequences",
+          "_prepare_training_features",
+          "_train_tensorflow_model",
+          "_train_pytorch_model",
+          "cleanup"
+        ],
+        "method_count": 22
+      },
+      {
+        "name": "UltimateXAUSystem",
+        "methods": [
+          "__init__",
+          "_initialize_all_subsystems",
+          "_register_data_systems",
+          "_register_ai_systems",
+          "_register_trading_systems",
+          "_register_risk_systems",
+          "_register_analysis_systems",
+          "_register_advanced_systems",
+          "_initialize_performance_tracker",
+          "_initialize_monitoring",
+          "_initialize_alerts",
+          "generate_signal",
+          "_get_comprehensive_market_data",
+          "_get_fallback_data",
+          "_process_all_systems",
+          "_generate_ensemble_signal",
+          "_get_system_weight",
+          "_create_neutral_signal",
+          "_create_default_signal",
+          "_apply_risk_filters",
+          "_is_high_volatility",
+          "_update_signal_tracking",
+          "start_trading",
+          "stop_trading",
+          "_start_monitoring",
+          "get_system_status",
+          "run_backtest",
+          "start_multi_timeframe_training",
+          "_create_multi_tf_features",
+          "_create_multi_tf_labels",
+          "run_trading_pipeline",
+          "_pipeline_collect_market_data",
+          "_pipeline_process_signals",
+          "_pipeline_make_decision",
+          "_pipeline_execute_trade",
+          "_pipeline_learn_from_result",
+          "_can_execute_trade",
+          "_execute_via_mt5",
+          "_check_risk_limits",
+          "_analyze_market_conditions",
+          "_learn_from_executed_trade",
+          "_learn_from_decision",
+          "_apply_learning_improvements",
+          "_save_learning_data",
+          "_calculate_volatility",
+          "_identify_trend",
+          "_analyze_volume",
+          "_find_support_resistance"
+        ],
+        "method_count": 48
+      },
+      {
+        "name": "KellyCalculator",
+        "methods": [
+          "__init__",
+          "calculate_kelly_fraction"
+        ],
+        "method_count": 2
+      },
+      {
+        "name": "PositionSizer",
+        "methods": [
+          "__init__",
+          "calculate_optimal_size"
+        ],
+        "method_count": 2
+      },
+      {
+        "name": "PortfolioManager",
+        "methods": [
+          "__init__",
+          "start",
+          "stop"
+        ],
+        "method_count": 3
+      },
+      {
+        "name": "KellyCriterionSystem",
+        "methods": [
+          "__init__",
+          "initialize",
+          "process",
+          "cleanup"
+        ],
+        "method_count": 4
+      },
+      {
+        "name": "KellyCalculator",
+        "methods": [
+          "__init__",
+          "calculate_kelly_fraction"
+        ],
+        "method_count": 2
+      },
+      {
+        "name": "PositionSizer",
+        "methods": [
+          "__init__",
+          "calculate_optimal_size"
+        ],
+        "method_count": 2
+      },
+      {
+        "name": "PortfolioManager",
+        "methods": [
+          "__init__",
+          "start",
+          "stop"
+        ],
+        "method_count": 3
+      },
+      {
+        "name": "GRUModel",
+        "methods": [
+          "__init__",
+          "forward"
+        ],
+        "method_count": 2
+      },
+      {
+        "name": "AttentionModel",
+        "methods": [
+          "__init__",
+          "forward"
+        ],
+        "method_count": 2
+      }
+    ],
+    "functions": [
+      "main"
+    ],
+    "imports": [
+      "numpy",
+      "pandas",
+      "MetaTrader5",
+      "yfinance",
+      "ta",
+      "datetime",
+      "asyncio",
+      "logging",
+      "json",
+      "sqlite3",
+      "threading",
+      "time",
+      "warnings",
+      "os",
+      "sys",
+      "pickle",
+      "joblib",
+      "multiprocessing",
+      "concurrent.futures",
+      "typing",
+      "dataclasses",
+      "collections",
+      "abc",
+      "pathlib",
+      "functools",
+      "itertools",
+      "hashlib",
+      "uuid",
+      "gc",
+      "psutil",
+      "socket",
+      "requests",
+      "websocket",
+      "zmq",
+      "redis",
+      "pymongo",
+      "sqlalchemy",
+      "sqlalchemy.ext.declarative",
+      "sqlalchemy.orm",
+      "schedule",
+      "crontab",
+      "apscheduler.schedulers.background",
+      "trading.kelly_criterion",
+      "risk.position_sizer",
+      "trading.portfolio_manager",
+      "kelly_system",
+      "ai.ai_phases.main",
+      "tensorflow",
+      "tensorflow.keras",
+      "tensorflow.keras.utils",
+      "tensorflow.keras.preprocessing.sequence",
+      "torch",
+      "torch.nn",
+      "torch.optim",
+      "torch.nn.functional",
+      "torch.utils.data",
+      "torch.nn.utils.rnn",
+      "torchvision.transforms",
+      "transformers",
+      "src.core.ai.ai_phases.phase1_online_learning",
+      "src.core.ai.ai_phases.phase2_backtest_framework",
+      "src.core.ai.ai_phases.phase3_adaptive_intelligence",
+      "src.core.ai.ai_phases.phase4_multi_market_learning",
+      "src.core.ai.ai_phases.phase5_realtime_enhancement",
+      "src.core.ai.ai_phases.phase6_future_evolution",
+      "src.core.ai.ai_phases.utils.progress_tracker",
+      "sklearn.ensemble",
+      "sklearn.linear_model",
+      "sklearn.svm",
+      "sklearn.neural_network",
+      "sklearn.neighbors",
+      "sklearn.tree",
+      "sklearn.naive_bayes",
+      "sklearn.cluster",
+      "sklearn.decomposition",
+      "sklearn.manifold",
+      "sklearn.preprocessing",
+      "sklearn.feature_selection",
+      "sklearn.model_selection",
+      "sklearn.metrics",
+      "sklearn.pipeline",
+      "sklearn.compose",
+      "sklearn.impute",
+      "sklearn.base",
+      "xgboost",
+      "xgboost",
+      "lightgbm",
+      "lightgbm",
+      "catboost",
+      "catboost",
+      "statsmodels.tsa.arima.model",
+      "statsmodels.tsa.seasonal",
+      "statsmodels.tsa.holtwinters",
+      "statsmodels.tsa.stattools",
+      "statsmodels.stats.diagnostic",
+      "statsmodels.tsa.vector_ar.var_model",
+      "statsmodels.tsa.statespace.sarimax",
+      "prophet",
+      "optuna",
+      "optuna.samplers",
+      "optuna.pruners",
+      "gym",
+      "stable_baselines3",
+      "stable_baselines3.common.env_util",
+      "stable_baselines3.common.callbacks",
+      "networkx",
+      "networkx.algorithms",
+      "plotly.graph_objects",
+      "plotly.subplots",
+      "plotly.express",
+      "dash",
+      "dash",
+      "dash_bootstrap_components",
+      "trading.kelly_criterion",
+      "risk.position_sizer",
+      "trading.portfolio_manager",
+      "streamlit",
+      "fastapi",
+      "fastapi.middleware.cors",
+      "fastapi.security",
+      "uvicorn",
+      "ccxt",
+      "alpaca_trade_api",
+      "ib_insync",
+      "ib_insync",
+      "tweepy",
+      "newsapi",
+      "yfinance",
+      "yahoo_fin.stock_info",
+      "quandl",
+      "alpha_vantage.timeseries",
+      "alpha_vantage.fundamentaldata",
+      "alpha_vantage.techindicators",
+      "fredapi",
+      "psutil",
+      "src.core.ai.ai_phases.main",
+      "gc",
+      "advanced_ai_ensemble",
+      "os",
+      "sklearn.preprocessing",
+      "kelly_system"
+    ],
+    "class_count": 23,
+    "function_count": 1,
+    "import_count": 141
+  },
+  "comparison": {
+    "size_difference": 125572,
+    "line_difference": 3216,
+    "common_classes": 0,
+    "ai2_only_classes": 2,
+    "ai3_only_classes": 20,
+    "ai2_technologies": [
+      "MAML"
+    ],
+    "ai3_technologies": [
+      "AI2AdvancedTechnologies",
+      "RealTimeMT5Data",
+      "AIPhase",
+      "AdvancedAIEnsemble",
+      "NeuralNetwork"
+    ]
+  }
+}

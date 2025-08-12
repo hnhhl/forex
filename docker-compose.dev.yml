@@ -1,0 +1,15 @@
+services:
+  app:
+    build:
+      target: development
+    command: python -m src.main --debug
+    environment:
+    - ENVIRONMENT=development
+    - DEBUG=true
+    volumes:
+    - .:/app
+    - /app/node_modules
+  db:
+    environment:
+    - POSTGRES_DB=xau_system_dev
+version: '3.8'

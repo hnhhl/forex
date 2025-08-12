@@ -1,0 +1,172 @@
+{
+  "timestamp": "2025-06-18 15:02:30.175411",
+  "decision": {
+    "symbol": "XAUUSDc",
+    "action": "BUY",
+    "strength": "STRONG",
+    "prediction": 20.329290737379452,
+    "confidence": 0.47159102238759165,
+    "timestamp": "2025-06-18 15:02:30.173410",
+    "systems_used": 3,
+    "signal_components": {
+      "DataQualityMonitor": {
+        "quality_score": 0.8949999999999999,
+        "metrics": {
+          "completeness": 1.0,
+          "accuracy": 1.0,
+          "consistency": 1.0,
+          "timeliness": 0.5,
+          "validity": 0.8
+        },
+        "anomalies_detected": [],
+        "recommendations": [
+          "Improve data freshness and update frequency"
+        ]
+      },
+      "LatencyOptimizer": {
+        "latency_ms": 0.0034999975468963385,
+        "average_latency": 0.0034999975468963385,
+        "optimization_status": {
+          "total_improvement_ms": 95.0,
+          "active_strategies": [
+            "connection_pooling",
+            "data_compression",
+            "cache_optimization",
+            "async_processing",
+            "batch_processing",
+            "memory_mapping",
+            "cpu_affinity",
+            "network_tuning"
+          ],
+          "average_latency_reduction": "95.0ms"
+        },
+        "result": "                     time      open      high       low     close  tick_volume  spread  real_volume\n49900 2025-06-11 20:00:00  3346.876  3355.647  3346.522  3355.508         5815     160            0\n49901 2025-06-11 22:00:00  3359.272  3369.788  3356.289  3368.948         8867     160            0\n49902 2025-06-11 23:00:00  3368.984  3373.534  3357.635  3365.376        11229     160            0\n49903 2025-06-12 00:00:00  3365.405  3371.364  3362.120  3365.865        14166     160            0\n49904 2025-06-12 01:00:00  3365.890  3376.896  3362.401  3371.117        15533     160            0\n...                   ...       ...       ...       ...       ...          ...     ...          ...\n49995 2025-06-18 00:00:00  3387.295  3388.847  3382.918  3385.853         9022     160            0\n49996 2025-06-18 01:00:00  3385.883  3388.688  3378.653  3379.022         9852     160            0\n49997 2025-06-18 02:00:00  3378.962  3379.716  3370.655  3379.393         8983     160            0\n49998 2025-06-18 03:00:00  3379.433  3391.524  3379.283  3390.960         7354     160            0\n49999 2025-06-18 04:00:00  3390.928  3400.052  3389.420  3395.706         7344     160            0\n\n[100 rows x 8 columns]"
+      },
+      "MT5ConnectionManager": {
+        "connection_status": {
+          "connected": true,
+          "last_check": "2025-06-18 15:02:29.481255",
+          "retry_count": 0,
+          "quality_score": 95.0,
+          "server_time_diff": 0.0,
+          "ping_ms": 0.4751000087708235
+        },
+        "health_status": {
+          "healthy": true,
+          "ping_ms": 0.4751000087708235,
+          "terminal_connected": true,
+          "account_accessible": true,
+          "last_check": "2025-06-18 15:02:29.986367"
+        },
+        "performance_metrics": {
+          "uptime_percentage": 99.5,
+          "average_ping": 0.4751000087708235,
+          "connection_stability": 100.0,
+          "retry_count": 0
+        }
+      },
+      "NeuralNetworkSystem": {
+        "individual_predictions": {
+          "lstm": {
+            "prediction": 0.5,
+            "confidence": 0.0,
+            "error": "Exception encountered when calling LSTMCell.call().\n\n\u001b[1mDimensions must be equal, but are 4 and 5 for '{{node sequential_2_1/lstm_3_1/lstm_cell_1/MatMul}} = MatMul[T=DT_FLOAT, grad_a=false, grad_b=false, transpose_a=false, transpose_b=false](sequential_2_1/lstm_3_1/strided_slice_1, sequential_2_1/lstm_3_1/lstm_cell_1/Cast/ReadVariableOp)' with input shapes: [1,4], [5,512].\u001b[0m\n\nArguments received by LSTMCell.call():\n  • inputs=tf.Tensor(shape=(1, 4), dtype=float32)\n  • states=('tf.Tensor(shape=(1, 128), dtype=float32)', 'tf.Tensor(shape=(1, 128), dtype=float32)')\n  • training=False"
+          },
+          "cnn": {
+            "prediction": 0.5,
+            "confidence": 0.0,
+            "error": "Exception encountered when calling Sequential.call().\n\n\u001b[1mInput 0 of layer \"conv1d_3\" is incompatible with the layer: expected axis -1 of input shape to have value 5, but received input with shape (1, 60, 4)\u001b[0m\n\nArguments received by Sequential.call():\n  • inputs=tf.Tensor(shape=(1, 60, 4), dtype=float32)\n  • training=False\n  • mask=None\n  • kwargs=<class 'inspect._empty'>"
+          },
+          "transformer": {
+            "prediction": 0.5,
+            "confidence": 0.0,
+            "error": "Input 0 of layer \"functional_5\" is incompatible with the layer: expected shape=(None, 60, 5), found shape=(1, 60, 4)"
+          }
+        },
+        "ensemble_prediction": {
+          "prediction": 0.5,
+          "confidence": 0.0
+        },
+        "model_performance": {},
+        "confidence_score": 0.0
+      },
+      "AIPhaseSystem": {
+        "prediction": 139.18824629860967,
+        "confidence": 0.85,
+        "processing_time_ms": 0.0,
+        "phase_results": {
+          "phase1_signal": 0.6022137333333333,
+          "phase3_analysis": {
+            "market_regime": "UNCERTAIN",
+            "market_sentiment": "NEUTRAL",
+            "signal": 0.0
+          },
+          "phase6_prediction": {
+            "value": 463.35860726203225,
+            "confidence": 0.5,
+            "horizon": "medium_term"
+          }
+        },
+        "system_status": {
+          "active_phases": 6,
+          "total_boost": 12.0,
+          "uptime": 0.531119
+        },
+        "ensemble_prediction": {
+          "prediction": 139.18824629860967,
+          "confidence": 0.85,
+          "method": "ai_phases_ensemble"
+        }
+      },
+      "AdvancedAIEnsembleSystem": {
+        "ensemble_prediction": {
+          "final_prediction": 0.6167888630464531,
+          "confidence": 0.7660638581020573,
+          "signal": "BUY",
+          "model_count": 8,
+          "prediction_std": 0.078449757827607,
+          "method": "weighted_average"
+        },
+        "system_status": "ACTIVE",
+        "timestamp": "2025-06-18T15:02:30.172408",
+        "confidence": 0.564773067162775,
+        "prediction": 0.6167888630464531,
+        "individual_predictions": {},
+        "performance_metrics": {
+          "accuracy": 0.0,
+          "ensemble_confidence": 0.0,
+          "active_models": 8
+        }
+      }
+    },
+    "ensemble_method": "weighted_average",
+    "weights_used": [
+      0.7142857142857143,
+      0.14285714285714288,
+      0.14285714285714288
+    ],
+    "risk_error": "'SystemConfig' object has no attribute 'target_max_drawdown'"
+  },
+  "execution": {
+    "success": false,
+    "executed": false,
+    "reason": "Execution conditions not met"
+  },
+  "market_conditions": {
+    "volatility": 0.002374073759218756,
+    "trend": "DOWNTREND",
+    "volume": {
+      "average": 12561.37,
+      "current": "7344",
+      "ratio": 0.5846496043027154
+    },
+    "support_resistance": {
+      "resistance": 3400.203,
+      "support": 3366.079,
+      "current_price": 3395.706,
+      "distance_to_resistance": 0.001324319596572802,
+      "distance_to_support": 0.008724842492253438
+    }
+  },
+  "improvements": []
+}

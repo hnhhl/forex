@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-06-20T13:22:58.036632",
+  "data_shape": [
+    9940,
+    60,
+    5
+  ],
+  "training_results": {
+    "lstm": {
+      "training_time": 42.357248,
+      "final_loss": 0.693718671798706,
+      "final_accuracy": 0.5011317729949951,
+      "final_val_loss": 0.6928507685661316,
+      "final_val_accuracy": 0.5040241479873657,
+      "epochs": 11,
+      "model_path": "trained_models/gpu_lstm_model.keras"
+    },
+    "cnn": {
+      "training_time": 31.615194,
+      "final_loss": 0.7009228467941284,
+      "final_accuracy": 0.5016348361968994,
+      "final_val_loss": 0.6919085383415222,
+      "final_val_accuracy": 0.522635817527771,
+      "epochs": 21,
+      "model_path": "trained_models/gpu_cnn_model.keras"
+    },
+    "dense": {
+      "training_time": 28.327606,
+      "final_loss": 0.6937775015830994,
+      "final_accuracy": 0.5013833045959473,
+      "final_val_loss": 0.6921359896659851,
+      "final_val_accuracy": 0.5271629691123962,
+      "epochs": 17,
+      "model_path": "trained_models/gpu_dense_model.keras"
+    }
+  },
+  "test_prediction": {
+    "prediction": 0.4934681256612142,
+    "confidence": 0.9881325326859951
+  },
+  "gpu_available": true,
+  "models_trained": 3
+}

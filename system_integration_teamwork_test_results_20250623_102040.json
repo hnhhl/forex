@@ -1,0 +1,44 @@
+{
+  "start_time": "2025-06-23 10:20:00.873081",
+  "tests_completed": 6,
+  "tests_passed": 4,
+  "tests_failed": 2,
+  "system_health": {},
+  "teamwork_metrics": {
+    "data_flow": {
+      "mt5_data_fetch": false,
+      "data_quality_check": false,
+      "neural_network_processing": false,
+      "ensemble_processing": false,
+      "specialists_processing": false
+    },
+    "component_teamwork": {
+      "signal_generation_teamwork": 100.0,
+      "data_sharing_efficiency": 100,
+      "decision_coordination": 83.33333333333333,
+      "error_handling_cooperation": 0
+    },
+    "consensus": {
+      "hybrid_consensus_quality": 100.0,
+      "voting_consistency": 100.0,
+      "confidence_alignment": 100.0,
+      "decision_stability": 100.0
+    },
+    "coordination": {
+      "workflow_coordination": 100,
+      "error_propagation_handling": 100,
+      "resource_sharing": 100,
+      "synchronization_quality": 100
+    }
+  },
+  "integration_scores": {},
+  "real_time_performance": {
+    "signal_generation_speed": 85.9321403503418,
+    "system_response_time": 100.0,
+    "memory_efficiency": 0,
+    "concurrent_processing": 97.10105895996094
+  },
+  "end_time": "2025-06-23 10:20:40.401093",
+  "test_duration_seconds": 39.528012,
+  "success_rate": 66.66666666666666
+}

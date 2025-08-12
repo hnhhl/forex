@@ -1,0 +1,55 @@
+{
+  "timestamp": "20250618_120610",
+  "data_source": "maximum_mt5_v2",
+  "total_records": 835,
+  "features_count": 154,
+  "training_results": {
+    "neural_network": {
+      "success": true,
+      "train_accuracy": 1.0,
+      "val_accuracy": 0.624,
+      "features_used": 147
+    },
+    "ai_phases": {
+      "success": true,
+      "train_accuracy": 0.9863013698630136,
+      "val_accuracy": 0.648,
+      "boosted_accuracy": 0.7257600000000001,
+      "boost_factor": 1.12
+    },
+    "advanced_ensemble": {
+      "success": true,
+      "train_accuracy": 0.9674657534246576,
+      "val_accuracy": 0.656,
+      "models_count": 3
+    },
+    "system_integration": {
+      "success": true,
+      "components_tested": 6,
+      "success_rate": 0.92,
+      "test_records": 126
+    }
+  },
+  "data_summary": {
+    "timeframes": [
+      "M1",
+      "M5",
+      "M15",
+      "M30",
+      "H1",
+      "H4",
+      "D1",
+      "W1"
+    ],
+    "records_per_timeframe": {
+      "M1": 50000,
+      "M5": 50000,
+      "M15": 50000,
+      "M30": 50000,
+      "H1": 50000,
+      "H4": 14365,
+      "D1": 3513,
+      "W1": 597
+    }
+  }
+}

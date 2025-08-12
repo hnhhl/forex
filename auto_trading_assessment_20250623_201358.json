@@ -1,0 +1,82 @@
+{
+  "timestamp": "2025-06-23T20:13:58.104990",
+  "overall_score": 66.0377358490566,
+  "readiness_level": "🟡 PARTIALLY READY",
+  "components": {
+    "signal_generation": {
+      "generate_signal_method": true,
+      "signal_actions": 20,
+      "confidence_calculation": true,
+      "ensemble_logic": true,
+      "risk_filters": true
+    },
+    "order_execution": {
+      "place_order_method": true,
+      "mt5_integration": true,
+      "order_types": 5,
+      "position_management": false,
+      "stop_loss_take_profit": true,
+      "volume_calculation": false
+    },
+    "mt5_integration": {
+      "mt5.initialize": true,
+      "mt5.login": false,
+      "mt5.order_send": true,
+      "mt5.positions_get": true,
+      "mt5.orders_get": false,
+      "mt5.account_info": true
+    },
+    "risk_management": {
+      "position_sizing": true,
+      "risk_per_trade": true,
+      "max_drawdown": true,
+      "correlation_check": true,
+      "daily_risk_limit": true,
+      "portfolio_risk": true
+    },
+    "automation_logic": {
+      "live_trading_mode": true,
+      "continuous_monitoring": false,
+      "auto_execution": false,
+      "scheduler_integration": true,
+      "real_time_data": true,
+      "decision_pipeline": true
+    },
+    "trading_methods": {
+      "start_trading": true,
+      "stop_trading": true,
+      "trading_loop": true,
+      "process_market_data": false,
+      "execute_trade": false,
+      "monitor_positions": false
+    },
+    "configuration": {
+      "live_trading_flag": true,
+      "paper_trading_flag": true,
+      "auto_rebalancing": true,
+      "continuous_learning": true,
+      "mt5_configuration": true,
+      "risk_parameters": true
+    },
+    "config_values": {
+      "live_trading": "False",
+      "paper_trading": "True",
+      "auto_rebalancing": "True",
+      "max_positions": "5",
+      "max_daily_trades": "50"
+    },
+    "safety_mechanisms": {
+      "error_handling": 154,
+      "connection_monitoring": true,
+      "position_limits": true,
+      "daily_limits": true,
+      "emergency_stop": true,
+      "validation_checks": true
+    },
+    "functionality_test": {
+      "error": "invalid syntax (ultimate_xau_system.py, line 560)"
+    }
+  },
+  "working_components": 35,
+  "total_components": 53
+}

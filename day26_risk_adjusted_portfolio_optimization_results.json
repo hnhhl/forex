@@ -1,0 +1,245 @@
+{
+  "demo_info": {
+    "day": 26,
+    "system_name": "Risk-Adjusted Portfolio Optimization",
+    "demo_date": "2025-06-17T06:22:38.438456",
+    "total_duration": 1.487772
+  },
+  "performance_summary": {
+    "overall_score": 96.23279558833345,
+    "grade": "EXCEPTIONAL",
+    "individual_scores": {
+      "multi_objective": 95.96183704373932,
+      "regime_aware": 90,
+      "rebalancing": 95.20214089792793,
+      "risk_analysis": 100,
+      "performance_comparison": 100
+    }
+  },
+  "detailed_results": {
+    "multi_objective": {
+      "sharpe_ratio": {
+        "weights": {
+          "GOLD": 0.00999999999999999,
+          "SILVER": 0.4999999999999964,
+          "PLATINUM": 0.15789258014929508,
+          "COPPER": 0.010000000000001116,
+          "CRUDE_OIL": 0.3121074198507068,
+          "NATURAL_GAS": 0.01000000000000086
+        },
+        "expected_return": 0.14172389716153952,
+        "expected_volatility": 0.17757842881515645,
+        "sharpe_ratio": 0.7980918521869661,
+        "diversification_ratio": 1.623454497694004,
+        "actual_return": 0.34769860845365375,
+        "actual_volatility": 0.17209026556955184,
+        "actual_sharpe": 2.0204432092826785,
+        "max_drawdown": -0.08490319192171537,
+        "optimization_time": 0.03307342529296875
+      },
+      "min_variance": {
+        "weights": {
+          "GOLD": 0.3012729196392938,
+          "SILVER": 0.16397423708891623,
+          "PLATINUM": 0.24060207010679377,
+          "COPPER": 0.15364465182025136,
+          "CRUDE_OIL": 0.08261662644550437,
+          "NATURAL_GAS": 0.05788949489924051
+        },
+        "expected_return": -0.32379116349416526,
+        "expected_volatility": 0.10380581686416725,
+        "sharpe_ratio": -3.1192005734886212,
+        "diversification_ratio": 2.424969205367021,
+        "actual_return": 0.1494912347040429,
+        "actual_volatility": 0.0958114378357514,
+        "actual_sharpe": 1.560265017213438,
+        "max_drawdown": -0.05698397304469845,
+        "optimization_time": 0.01500248908996582
+      },
+      "risk_parity": {
+        "weights": {
+          "GOLD": 0.2274182831728492,
+          "SILVER": 0.16824646940359209,
+          "PLATINUM": 0.20995427638812125,
+          "COPPER": 0.16316188022585412,
+          "CRUDE_OIL": 0.12208545452733127,
+          "NATURAL_GAS": 0.10913363628225209
+        },
+        "expected_return": -0.2898439357431895,
+        "expected_volatility": 0.10760945809283624,
+        "sharpe_ratio": -2.6934801167118314,
+        "diversification_ratio": 2.503414262752807,
+        "actual_return": 0.09496249288772418,
+        "actual_volatility": 0.10315407409053595,
+        "actual_sharpe": 0.9205888737305498,
+        "max_drawdown": -0.06739385416277324,
+        "optimization_time": 0.017004013061523438
+      },
+      "kelly_optimal": {
+        "weights": {
+          "GOLD": 0.16666666666666669,
+          "SILVER": 0.16666666666666669,
+          "PLATINUM": 0.16666666666666669,
+          "COPPER": 0.16666666666666669,
+          "CRUDE_OIL": 0.16666666666666669,
+          "NATURAL_GAS": 0.16666666666666669
+        },
+        "expected_return": -0.2657354170901056,
+        "expected_volatility": 0.11916792110520322,
+        "sharpe_ratio": -2.2299240821320567,
+        "diversification_ratio": 2.4137774632104954,
+        "actual_return": 0.030331474667430802,
+        "actual_volatility": 0.11840546563891761,
+        "actual_sharpe": 0.2561661702334578,
+        "max_drawdown": -0.07911807392709735,
+        "optimization_time": 0.01551055908203125
+      }
+    },
+    "regime_aware": {
+      "trending_market": {
+        "regime_detected": "low_volatility",
+        "regime_confidence": 1.0,
+        "weights": {
+          "GOLD": 0.3844206323810874,
+          "SILVER": 0.13119268987619767,
+          "PLATINUM": 0.009999999999999998,
+          "COPPER": 0.15090921860657894,
+          "CRUDE_OIL": 0.031244373048630338,
+          "NATURAL_GAS": 0.29223308608750564
+        },
+        "expected_return": 0.918538330357739,
+        "expected_volatility": 0.1554797724614862,
+        "sharpe_ratio": 5.907767395178492,
+        "actual_performance": {
+          "return": 0.03348308952570789,
+          "volatility": 0.15693923305499716,
+          "sharpe": 0.21335066365447453,
+          "max_drawdown": -0.16656973604569747
+        }
+      },
+      "volatile_market": {
+        "regime_detected": "low_volatility",
+        "regime_confidence": 1.0,
+        "weights": {
+          "GOLD": 0.010000000000016468,
+          "SILVER": 0.4599999999999762,
+          "PLATINUM": 0.010000000000033732,
+          "COPPER": 0.010000000000008419,
+          "CRUDE_OIL": 0.49999999999994427,
+          "NATURAL_GAS": 0.010000000000020881
+        },
+        "expected_return": 0.40951610352775114,
+        "expected_volatility": 0.19622711600399018,
+        "sharpe_ratio": 2.0869496115889703,
+        "actual_performance": {
+          "return": -0.17439437563227267,
+          "volatility": 0.1983746675806021,
+          "sharpe": -0.8791161581224279,
+          "max_drawdown": -0.18976164095026554
+        }
+      },
+      "ranging_market": {
+        "regime_detected": "low_volatility",
+        "regime_confidence": 1.0,
+        "weights": {
+          "GOLD": 0.010000000000000064,
+          "SILVER": 0.17674219285758697,
+          "PLATINUM": 0.010000000000000144,
+          "COPPER": 0.010000000000000028,
+          "CRUDE_OIL": 0.3491888995749927,
+          "NATURAL_GAS": 0.4440689075674201
+        },
+        "expected_return": 0.3563828548292835,
+        "expected_volatility": 0.3367729928407038,
+        "sharpe_ratio": 1.0582287250030626,
+        "actual_performance": {
+          "return": 0.07141643041608003,
+          "volatility": 0.3469414624934414,
+          "sharpe": 0.20584576401683352,
+          "max_drawdown": -0.06737041287381787
+        }
+      }
+    },
+    "rebalancing": {
+      "Monthly": {
+        "rebalance_count": 18,
+        "avg_transaction_cost": 0.0004797859102072072,
+        "annualized_frequency": 12.0,
+        "total_transaction_costs": 0.008636146383729731
+      },
+      "Quarterly": {
+        "rebalance_count": 18,
+        "avg_transaction_cost": 0.0004797859102072072,
+        "annualized_frequency": 12.0,
+        "total_transaction_costs": 0.008636146383729731
+      },
+      "Threshold-based": {
+        "rebalance_count": 18,
+        "avg_transaction_cost": 0.0004797859102072072,
+        "annualized_frequency": 12.0,
+        "total_transaction_costs": 0.008636146383729731
+      }
+    },
+    "risk_analysis": {
+      "portfolio_metrics": {
+        "total_return": 0.3532240490627281,
+        "annualized_return": 0.3548558554391339,
+        "volatility": 0.16726280090589624,
+        "sharpe_ratio": 2.1215467726071346,
+        "sortino_ratio": 3.6369719829016676,
+        "calmar_ratio": 4.244575828689761,
+        "max_drawdown": -0.08360219483902419,
+        "var_95": -0.01490322570643966,
+        "cvar_95": -0.020715877411324506
+      },
+      "risk_decomposition": {
+        "portfolio_volatility": 0.16726280090589624,
+        "diversification_ratio": 1.6712238497633993,
+        "concentration_risk": 0.5893965628618864,
+        "effective_assets": 2.7252896801051953
+      },
+      "attribution_analysis": {
+        "GOLD": 0.000748668082270086,
+        "SILVER": 0.3279475207301138,
+        "PLATINUM": 0.02103753399004345,
+        "COPPER": 0.002522803565181324,
+        "CRUDE_OIL": -0.02660780390500632,
+        "NATURAL_GAS": -0.00787534952663147
+      }
+    },
+    "performance_comparison": {
+      "Equal Weight": {
+        "annualized_return": 0.030331474667430802,
+        "volatility": 0.11840546563891761,
+        "sharpe_ratio": 0.2561661702334578,
+        "max_drawdown": -0.07911807392709735,
+        "calmar_ratio": 0.38336973035237776,
+        "total_return": 0.030209311702682262
+      },
+      "Sharpe Optimal": {
+        "annualized_return": 0.3548558554391339,
+        "volatility": 0.16726280090589624,
+        "sharpe_ratio": 2.1215467726071346,
+        "max_drawdown": -0.08360219483902419,
+        "calmar_ratio": 4.244575828689761,
+        "total_return": 0.3532240490627281
+      },
+      "Min Variance": {
+        "annualized_return": 0.13575401148848698,
+        "volatility": 0.09405482419903897,
+        "sharpe_ratio": 1.443349797786067,
+        "max_drawdown": -0.05296521339234865,
+        "calmar_ratio": 2.5630787226866527,
+        "total_return": 0.1351804349294412
+      },
+      "Kelly Optimal": {
+        "annualized_return": 0.030331474667430802,
+        "volatility": 0.11840546563891761,
+        "sharpe_ratio": 0.2561661702334578,
+        "max_drawdown": -0.07911807392709735,
+        "calmar_ratio": 0.38336973035237776,
+        "total_return": 0.030209311702682262
+      }
+    }
+  }
+}

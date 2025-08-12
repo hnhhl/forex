@@ -1,0 +1,15 @@
+data_sources:
+  mock_data: true
+  update_interval: 5
+database:
+  database: xau_system_dev
+  host: localhost
+  password: dev_password
+  port: 5432
+  username: dev_user
+debug: true
+environment: development
+log_level: DEBUG
+trading:
+  initial_balance: 10000.0
+  paper_trading: true

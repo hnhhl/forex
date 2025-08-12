@@ -1,0 +1,200 @@
+{
+  "timestamp": "2025-06-24T13:48:24.134521",
+  "system_status": {
+    "system_info": {
+      "name": "ULTIMATE_XAU_SUPER_SYSTEM",
+      "version": "4.0.0",
+      "status": "INITIALIZED",
+      "uptime_hours": 0.0,
+      "start_time": "2025-06-24 13:48:16.768364",
+      "last_update": "2025-06-24 13:48:16.768364"
+    },
+    "trading_status": {
+      "active": false,
+      "mode": "PAPER",
+      "symbol": "XAUUSDc",
+      "total_trades": 0,
+      "win_rate": 0.0,
+      "profit_factor": 0.0
+    },
+    "system_health": {
+      "systems_active": 14,
+      "systems_total": 14,
+      "health_percentage": 100.0,
+      "error_count": 0,
+      "warning_count": 0
+    },
+    "performance_metrics": {
+      "sharpe_ratio": 0.0,
+      "max_drawdown": 0.0,
+      "calmar_ratio": 0.0,
+      "prediction_accuracy": 0.0
+    },
+    "subsystems": {
+      "is_running": false,
+      "total_systems": 14,
+      "active_systems": 14,
+      "systems": {
+        "DataQualityMonitor": {
+          "name": "DataQualityMonitor",
+          "is_active": true,
+          "last_update": "2025-06-24 13:48:16.769364",
+          "error_count": 0,
+          "performance_metrics": {}
+        },
+        "LatencyOptimizer": {
+          "name": "LatencyOptimizer",
+          "is_active": true,
+          "last_update": "2025-06-24 13:48:16.769364",
+          "error_count": 0,
+          "performance_metrics": {}
+        },
+        "MT5ConnectionManager": {
+          "name": "MT5ConnectionManager",
+          "is_active": true,
+          "last_update": "2025-06-24 13:48:16.770361",
+          "error_count": 0,
+          "performance_metrics": {}
+        },
+        "NeuralNetworkSystem": {
+          "name": "NeuralNetworkSystem",
+          "is_active": true,
+          "last_update": "2025-06-24 13:48:16.770361",
+          "error_count": 0,
+          "performance_metrics": {}
+        },
+        "AIPhaseSystem": {
+          "name": "AIPhaseSystem",
+          "is_active": true,
+          "last_update": "2025-06-24 13:48:16.771363",
+          "error_count": 0,
+          "performance_metrics": {}
+        },
+        "AI2AdvancedTechnologiesSystem": {
+          "name": "AI2AdvancedTechnologiesSystem",
+          "is_active": true,
+          "last_update": "2025-06-24 13:48:16.771363",
+          "error_count": 0,
+          "performance_metrics": {}
+        },
+        "AdvancedAIEnsembleSystem": {
+          "name": "AdvancedAIEnsembleSystem",
+          "is_active": true,
+          "last_update": "2025-06-24 13:48:16.777364",
+          "error_count": 0,
+          "performance_metrics": {}
+        },
+        "RealTimeMT5DataSystem": {
+          "name": "RealTimeMT5DataSystem",
+          "is_active": true,
+          "last_update": "2025-06-24 13:48:16.780362",
+          "error_count": 0,
+          "performance_metrics": {
+            "average_latency_ms": 0.9996891021728516,
+            "data_quality_score": 92.89262050736093,
+            "streaming_throughput": 189.14406503715924,
+            "connection_stability": 98.66173919786023
+          }
+        },
+        "DemocraticSpecialistsSystem": {
+          "name": "DemocraticSpecialistsSystem",
+          "is_active": true,
+          "last_update": "2025-06-24 13:48:16.784366",
+          "error_count": 0,
+          "performance_metrics": {}
+        },
+        "PortfolioManager": {
+          "name": "PortfolioManager",
+          "is_active": true,
+          "last_update": "2025-06-24 13:48:16.788365",
+          "error_count": 0,
+          "performance_metrics": {}
+        },
+        "OrderManager": {
+          "name": "OrderManager",
+          "is_active": true,
+          "last_update": "2025-06-24 13:48:16.788365",
+          "error_count": 0,
+          "performance_metrics": {}
+        },
+        "StopLossManager": {
+          "name": "StopLossManager",
+          "is_active": true,
+          "last_update": "2025-06-24 13:48:16.789368",
+          "error_count": 0,
+          "performance_metrics": {}
+        },
+        "PositionSizer": {
+          "name": "PositionSizer",
+          "is_active": true,
+          "last_update": "2025-06-24 13:48:16.789368",
+          "error_count": 0,
+          "performance_metrics": {}
+        },
+        "KellyCriterionCalculator": {
+          "name": "KellyCriterionCalculator",
+          "is_active": true,
+          "last_update": "2025-06-24 13:48:16.789368",
+          "error_count": 0,
+          "performance_metrics": {}
+        }
+      }
+    }
+  },
+  "signal_result": {
+    "symbol": "XAUUSDc",
+    "action": "BUY",
+    "strength": "STRONG",
+    "prediction": 0.635120310506286,
+    "confidence": 0.5622427819926292,
+    "timestamp": "2025-06-24 13:48:24.122518",
+    "systems_used": 14,
+    "ensemble_method": "hybrid_ai2_ai3_consensus",
+    "hybrid_metrics": {
+      "weighted_prediction": 0.635120310506286,
+      "signal_strength": 0.27024062101257207,
+      "consensus_ratio": 0.5,
+      "agreement": 1.0,
+      "hybrid_consensus": 0.6499999999999999
+    },
+    "voting_results": {
+      "buy_votes": 7,
+      "sell_votes": 1,
+      "hold_votes": 6,
+      "votes": [
+        "BUY",
+        "BUY",
+        "SELL",
+        "HOLD",
+        "BUY",
+        "HOLD",
+        "HOLD",
+        "HOLD",
+        "BUY",
+        "HOLD",
+        "BUY",
+        "HOLD",
+        "BUY",
+        "BUY"
+      ]
+    },
+    "risk_phase": "CONSERVATIVE",
+    "max_risk_per_trade": 0.01,
+    "risk_phase_number": 1
+  },
+  "tier_analysis": {
+    "tier1_found": 0,
+    "tier1_total": 2,
+    "tier2_found": 0,
+    "tier2_total": 4,
+    "tier3_found": 0,
+    "tier3_total": 2,
+    "tier4_found": 0,
+    "tier4_total": 1
+  },
+  "features_check": {
+    "advanced_ai_ensemble": false,
+    "democratic_specialists": false,
+    "ai_phases": false
+  }
+}

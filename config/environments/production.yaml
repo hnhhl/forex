@@ -1,0 +1,24 @@
+database:
+  connection_timeout: 10
+  database: xau_system_prod
+  host: ${PROD_DB_HOST}
+  max_connections: 200
+  password: ${PROD_DB_PASSWORD}
+  port: 5432
+  ssl_enabled: true
+  username: ${PROD_DB_USER}
+debug: false
+environment: production
+log_level: INFO
+monitoring:
+  alerting_enabled: true
+  enhanced_monitoring: true
+  performance_profiling: true
+security:
+  access_control: true
+  audit_logging: true
+  encryption_enabled: true
+trading:
+  initial_balance: 1000000.0
+  paper_trading: false
+  real_trading: true

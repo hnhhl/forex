@@ -1,0 +1,209 @@
+{
+  "demo_info": {
+    "day": 28,
+    "system_name": "Advanced Performance Attribution & Analytics",
+    "demo_date": "2025-06-17T06:50:09.271121",
+    "total_duration": 0.115027
+  },
+  "performance_summary": {
+    "overall_score": 61.2156853657696,
+    "grade": "SATISFACTORY",
+    "individual_scores": {
+      "multi_period_analysis": 0.1667484732282484,
+      "factor_attribution": 85.0,
+      "benchmark_comparison": 67.57834502228643,
+      "real_time_monitoring": 68.33333333333333,
+      "analytics_dashboard": 85.0
+    }
+  },
+  "detailed_results": {
+    "multi_period_analysis": {
+      "periods_analyzed": 4,
+      "average_sharpe_ratio": -4.806008399556602,
+      "average_alpha": 0.2080860270300965,
+      "average_information_ratio": -2.5031629458881968,
+      "analysis_time": 0.08703422546386719,
+      "performance_details": {
+        "1_month": {
+          "return": 0.2359793142649833,
+          "sharpe": -7.578241265007397,
+          "alpha": 0.2531554104781049
+        },
+        "3_months": {
+          "return": 0.11291961119100091,
+          "sharpe": -5.94444147863629,
+          "alpha": 0.11945229475334299
+        },
+        "6_months": {
+          "return": 0.21599641365880307,
+          "sharpe": -5.207584803043097,
+          "alpha": 0.2231779038890345
+        },
+        "1_year": {
+          "return": 0.24682560210361504,
+          "sharpe": -0.493766051539628,
+          "alpha": 0.23655849899990355
+        }
+      },
+      "score": 0.1667484732282484
+    },
+    "factor_attribution": {
+      "models_tested": 2,
+      "best_r_squared": 0.75,
+      "attribution_time": 0.0030012130737304688,
+      "model_results": {
+        "Market_Model": {
+          "factors": [
+            "market"
+          ],
+          "contributions": {
+            "market": -0.0036689300713156243,
+            "size": 0.00028858936083280744,
+            "value": -0.013275824029516818,
+            "momentum": -0.0022327820926676062
+          },
+          "total_explained": 0.019466125554332855,
+          "unexplained": 0.24605370019278353,
+          "r_squared_proxy": 0.75
+        },
+        "Multi_Factor": {
+          "factors": [
+            "market",
+            "size",
+            "value"
+          ],
+          "contributions": {
+            "market": -0.0036689300713156243,
+            "size": 0.00028858936083280744,
+            "value": -0.013275824029516818,
+            "momentum": -0.0022327820926676062
+          },
+          "total_explained": 0.019466125554332855,
+          "unexplained": 0.24605370019278353,
+          "r_squared_proxy": 0.75
+        }
+      },
+      "score": 85.0
+    },
+    "benchmark_comparison": {
+      "strategies_tested": 2,
+      "best_information_ratio": -0.26792622296630286,
+      "best_capture_ratio": 1.074193824749217,
+      "analysis_time": 0.0010013580322265625,
+      "strategy_results": {
+        "Equal_Weight": {
+          "outperformance": -0.05660261025472748,
+          "hit_rate": 0.5063787915322804,
+          "information_ratio": -0.26792622296630286,
+          "tracking_error": 0.21938178830493554,
+          "capture_ratio": 1.0418121038901833
+        },
+        "Market_Cap_Weight": {
+          "outperformance": -0.058361938945877406,
+          "hit_rate": 0.5221181140215319,
+          "information_ratio": -0.276253935929623,
+          "tracking_error": 0.21938178830493554,
+          "capture_ratio": 1.074193824749217
+        }
+      },
+      "score": 67.57834502228643
+    },
+    "real_time_monitoring": {
+      "periods_monitored": 3,
+      "total_alerts": 1,
+      "average_sharpe": 3.728083570469382,
+      "monitoring_time": 0.0030002593994140625,
+      "monitoring_details": {
+        "5_days": {
+          "return": 0.0075219211957018636,
+          "excess_return": 0.007125095798876466,
+          "sharpe_ratio": 2.6700171549576175,
+          "tracking_error": 0.006351718016819695,
+          "alerts": []
+        },
+        "10_days": {
+          "return": 0.014181518107847553,
+          "excess_return": 0.013387867314196758,
+          "sharpe_ratio": 3.559532794921562,
+          "tracking_error": 0.00535235211560568,
+          "alerts": []
+        },
+        "21_days": {
+          "return": 0.028605978184227936,
+          "excess_return": 0.02693931151756127,
+          "sharpe_ratio": 4.954700761528969,
+          "tracking_error": 0.0019759960469239966,
+          "alerts": [
+            "HIGH_TRACKING_ERROR"
+          ]
+        }
+      },
+      "score": 68.33333333333333
+    },
+    "analytics_dashboard": {
+      "dashboard_components": 4,
+      "generation_time": 0.0,
+      "integration_tests": [
+        "Risk Management",
+        "Portfolio Optimization",
+        "Regime Detection"
+      ],
+      "integration_score": 75,
+      "dashboard_data": {
+        "timestamp": "2025-06-17 06:50:09.380146",
+        "performance_summary": {
+          "total_return": 0.24682560210361504,
+          "excess_return": -0.05641913134686538,
+          "volatility": 0.11426288050979416,
+          "sharpe_ratio": -0.493766051539628,
+          "information_ratio": -0.2571732675842906,
+          "tracking_error": 0.21938178830493554,
+          "alpha": 0.23655849899990355,
+          "beta": -0.03436214604142011
+        },
+        "attribution_summary": {
+          "total_attribution": -0.01888894683266724,
+          "factor_contributions": {
+            "market": -0.0036689300713156243,
+            "size": 0.00028858936083280744,
+            "value": -0.013275824029516818,
+            "momentum": -0.0022327820926676062
+          },
+          "systematic_risk": 0.019466125554332855,
+          "specific_risk": -0.00014296760415042525,
+          "unexplained_return": 0.24605370019278353
+        },
+        "benchmark_summary": {
+          "outperformance": -0.05433092017588415,
+          "hit_rate": 0.4860557768924303,
+          "win_loss_ratio": 1.0159085507699634,
+          "upside_capture": 0.09232657037396377,
+          "downside_capture": -0.10953463743364797,
+          "capture_ratio": 1.0
+        },
+        "trends": {
+          "returns": [
+            0.2359793142649833,
+            0.11291961119100091,
+            0.21599641365880307,
+            0.24682560210361504
+          ],
+          "sharpe_ratios": [
+            -7.578241265007397,
+            -5.94444147863629,
+            -5.207584803043097,
+            -0.493766051539628
+          ],
+          "alphas": [
+            0.2531554104781049,
+            0.11945229475334299,
+            0.2231779038890345,
+            0.23655849899990355
+          ]
+        },
+        "data_points": 4
+      },
+      "score": 85.0
+    }
+  }
+}

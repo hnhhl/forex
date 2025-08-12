@@ -1,0 +1,22 @@
+# Data Services Container
+FROM python:3.10-slim
+
+LABEL service="data-services" \
+      version="4.0.0"
+
+ENV PYTHONUNBUFFERED=1
+
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY requirements-data.txt .
+RUN pip install --no-cache-dir -r requirements-data.txt
+
+COPY src/core/data/ ./src/core/data/
+
+EXPOSE 8002
+
+CMD ["python", "-m", "src.core.data.main"]

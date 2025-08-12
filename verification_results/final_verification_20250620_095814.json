@@ -1,0 +1,48 @@
+{
+  "timestamp": "2025-06-20T09:57:51.494775",
+  "verification_results": {
+    "full_data": {
+      "status": "available",
+      "size_mb": 57.36826038360596,
+      "structure": "Date,Time,Open,High,Low,Close,Volume"
+    },
+    "system_init": {
+      "status": "success",
+      "init_time": 0.7561712265014648,
+      "active_systems": "8/8",
+      "improvements": [
+        "Hybrid Ensemble Logic",
+        "Dynamic System Weights",
+        "Adaptive Thresholds",
+        "Learning Integration"
+      ]
+    },
+    "signal_generation": {
+      "status": "success",
+      "average_confidence": 0.4557316568281124,
+      "signal_diversity": 1,
+      "hybrid_logic_active": true,
+      "non_hold_ratio": 1.0
+    },
+    "learning_system": {
+      "status": "success",
+      "tracker_working": true,
+      "performance_monitoring": false,
+      "daily_retrain_available": true
+    },
+    "optimized_training": {
+      "status": "implemented",
+      "features": [
+        "early_stopping",
+        "lr_scheduling",
+        "validation",
+        "increased_epochs"
+      ]
+    }
+  },
+  "system_performance": {},
+  "overall_status": "excellent",
+  "success_rate": 100.0,
+  "successful_verifications": 5,
+  "total_verifications": 5
+}

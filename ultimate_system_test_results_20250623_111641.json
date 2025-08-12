@@ -1,0 +1,107 @@
+{
+  "timestamp": "2025-06-23T11:16:41.032845",
+  "all_components_valid": false,
+  "total_components": 7,
+  "valid_components": 0,
+  "test_results": {
+    "NeuralNetworkSystem": {
+      "status": "\u26a0\ufe0f  INVALID RANGE - pred:0.5575635611623507, conf:0.0632391373316447",
+      "prediction": 0.5575635611623507,
+      "confidence": 0.0632391373316447,
+      "has_prediction": true,
+      "has_confidence": true,
+      "all_keys": [
+        "prediction",
+        "confidence",
+        "individual_predictions",
+        "ensemble_prediction",
+        "model_performance",
+        "confidence_score"
+      ]
+    },
+    "DataQualityMonitor": {
+      "status": "\u274c MISSING FIELDS",
+      "prediction": "N/A",
+      "confidence": "N/A",
+      "has_prediction": false,
+      "has_confidence": false,
+      "all_keys": [
+        "quality_score",
+        "metrics",
+        "anomalies_detected",
+        "recommendations"
+      ]
+    },
+    "LatencyOptimizer": {
+      "status": "\u274c MISSING FIELDS",
+      "prediction": "N/A",
+      "confidence": "N/A",
+      "has_prediction": false,
+      "has_confidence": false,
+      "all_keys": [
+        "latency_ms",
+        "average_latency",
+        "optimization_status",
+        "result"
+      ]
+    },
+    "MT5ConnectionManager": {
+      "status": "\u274c MISSING FIELDS",
+      "prediction": "N/A",
+      "confidence": "N/A",
+      "has_prediction": false,
+      "has_confidence": false,
+      "all_keys": [
+        "connection_status",
+        "health_status",
+        "performance_metrics"
+      ]
+    },
+    "AIPhaseSystem": {
+      "status": "\u26a0\ufe0f  INVALID RANGE - pred:175.36230042491061, conf:0.85",
+      "prediction": 175.36230042491061,
+      "confidence": 0.85,
+      "has_prediction": true,
+      "has_confidence": true,
+      "all_keys": [
+        "prediction",
+        "confidence",
+        "processing_time_ms",
+        "phase_results",
+        "system_status",
+        "ensemble_prediction"
+      ]
+    },
+    "AI2AdvancedTechnologiesSystem": {
+      "status": "\u274c MISSING FIELDS",
+      "prediction": "N/A",
+      "confidence": "N/A",
+      "has_prediction": false,
+      "has_confidence": false,
+      "all_keys": [
+        "ai2_technologies_applied",
+        "performance_improvements",
+        "advanced_insights",
+        "technology_status",
+        "total_performance_boost",
+        "technologies_count"
+      ]
+    },
+    "RealTimeMT5DataSystem": {
+      "status": "\u274c MISSING FIELDS",
+      "prediction": "N/A",
+      "confidence": "N/A",
+      "has_prediction": false,
+      "has_confidence": false,
+      "all_keys": [
+        "real_time_processing",
+        "quality_report",
+        "latency_stats",
+        "streaming_status",
+        "performance_metrics",
+        "ai2_integration",
+        "processing_time_ms"
+      ]
+    }
+  }
+}

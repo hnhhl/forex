@@ -1,0 +1,167 @@
+{
+  "summary_timestamp": "2025-06-23T00:33:50.191507",
+  "system_overview": {
+    "total_signals": 8,
+    "actionable_transactions": 7,
+    "hold_signals": 1,
+    "transaction_rate": 87.5
+  },
+  "transaction_performance": {
+    "buy_transactions": 4,
+    "sell_transactions": 3,
+    "accuracy": 50.0,
+    "correct_predictions": 6,
+    "incorrect_predictions": 1
+  },
+  "consensus_analysis": {
+    "average_consensus": 57.142857142857146,
+    "high_consensus_transactions": 2,
+    "low_consensus_transactions": 2,
+    "consensus_distribution": {
+      "Moderate (55-70%)": "3",
+      "High (70%+)": "2",
+      "Low (<55%)": "2"
+    }
+  },
+  "specialist_agreement_rates": {
+    "RSI_Specialist": 14.285714285714285,
+    "MACD_Specialist": 57.14285714285714,
+    "Fibonacci_Specialist": 100.0,
+    "News_Sentiment_Specialist": 71.42857142857143,
+    "Social_Media_Specialist": 14.285714285714285,
+    "Fear_Greed_Specialist": 57.14285714285714,
+    "Chart_Pattern_Specialist": 71.42857142857143,
+    "Candlestick_Specialist": 57.14285714285714,
+    "Wave_Specialist": 57.14285714285714,
+    "VaR_Risk_Specialist": 42.857142857142854,
+    "Drawdown_Specialist": 42.857142857142854,
+    "Position_Size_Specialist": 57.14285714285714,
+    "Trend_Specialist": 71.42857142857143,
+    "Mean_Reversion_Specialist": 100.0,
+    "Breakout_Specialist": 57.14285714285714,
+    "ATR_Specialist": 42.857142857142854,
+    "Bollinger_Specialist": 57.14285714285714,
+    "Volatility_Clustering_Specialist": 57.14285714285714
+  },
+  "detailed_transaction_analysis": [
+    {
+      "transaction_id": 1,
+      "scenario": "Strong Bullish Breakout",
+      "decision": "BUY",
+      "agreement_level": "simple_majority",
+      "agree_votes": 10,
+      "disagree_votes": 8,
+      "consensus_percentage": 55.55555555555556,
+      "vote_breakdown": {
+        "BUY": 10,
+        "SELL": 6,
+        "HOLD": 2
+      },
+      "prediction_correct": true,
+      "categories_agree": 4,
+      "categories_disagree": 2
+    },
+    {
+      "transaction_id": 2,
+      "scenario": "Sharp Bearish Decline",
+      "decision": "SELL",
+      "agreement_level": "simple_majority",
+      "agree_votes": 13,
+      "disagree_votes": 5,
+      "consensus_percentage": 72.22222222222221,
+      "vote_breakdown": {
+        "BUY": 3,
+        "SELL": 13,
+        "HOLD": 2
+      },
+      "prediction_correct": true,
+      "categories_agree": 5,
+      "categories_disagree": 1
+    },
+    {
+      "transaction_id": 4,
+      "scenario": "High Volatility Whipsaw",
+      "decision": "BUY",
+      "agreement_level": "plurality",
+      "agree_votes": 8,
+      "disagree_votes": 10,
+      "consensus_percentage": 44.44444444444444,
+      "vote_breakdown": {
+        "BUY": 8,
+        "SELL": 5,
+        "HOLD": 5
+      },
+      "prediction_correct": false,
+      "categories_agree": 4,
+      "categories_disagree": 2
+    },
+    {
+      "transaction_id": 5,
+      "scenario": "Bullish Reversal",
+      "decision": "BUY",
+      "agreement_level": "plurality",
+      "agree_votes": 8,
+      "disagree_votes": 10,
+      "consensus_percentage": 44.44444444444444,
+      "vote_breakdown": {
+        "BUY": 8,
+        "SELL": 3,
+        "HOLD": 7
+      },
+      "prediction_correct": true,
+      "categories_agree": 5,
+      "categories_disagree": 1
+    },
+    {
+      "transaction_id": 6,
+      "scenario": "Bearish Reversal",
+      "decision": "SELL",
+      "agreement_level": "simple_majority",
+      "agree_votes": 10,
+      "disagree_votes": 8,
+      "consensus_percentage": 55.55555555555556,
+      "vote_breakdown": {
+        "BUY": 6,
+        "SELL": 10,
+        "HOLD": 2
+      },
+      "prediction_correct": true,
+      "categories_agree": 4,
+      "categories_disagree": 2
+    },
+    {
+      "transaction_id": 7,
+      "scenario": "Trend Continuation Up",
+      "decision": "BUY",
+      "agreement_level": "simple_majority",
+      "agree_votes": 13,
+      "disagree_votes": 5,
+      "consensus_percentage": 72.22222222222221,
+      "vote_breakdown": {
+        "BUY": 13,
+        "SELL": 1,
+        "HOLD": 4
+      },
+      "prediction_correct": true,
+      "categories_agree": 6,
+      "categories_disagree": 0
+    },
+    {
+      "transaction_id": 8,
+      "scenario": "Trend Continuation Down",
+      "decision": "SELL",
+      "agreement_level": "simple_majority",
+      "agree_votes": 10,
+      "disagree_votes": 8,
+      "consensus_percentage": 55.55555555555556,
+      "vote_breakdown": {
+        "BUY": 2,
+        "SELL": 10,
+        "HOLD": 6
+      },
+      "prediction_correct": true,
+      "categories_agree": 4,
+      "categories_disagree": 2
+    }
+  ]
+}

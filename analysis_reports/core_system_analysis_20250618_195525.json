@@ -1,0 +1,68 @@
+{
+  "timestamp": "2025-06-18T19:55:25.735788",
+  "analysis_type": "Core System Deep Analysis",
+  "architecture_analysis": {
+    "Master Integration": {
+      "exists": true,
+      "size_kb": 29.73828125,
+      "lines": 796,
+      "classes": 7,
+      "functions": 24,
+      "imports": 17,
+      "comments": 96,
+      "docstrings": 62
+    },
+    "Ultimate XAU System": {
+      "exists": true,
+      "size_kb": 135.1357421875,
+      "lines": 3646,
+      "classes": 18,
+      "functions": 150,
+      "imports": 141,
+      "comments": 328,
+      "docstrings": 238
+    },
+    "AI Master Integration": {
+      "exists": true,
+      "size_kb": 40.4873046875,
+      "lines": 1021,
+      "classes": 8,
+      "functions": 25,
+      "imports": 15,
+      "comments": 91,
+      "docstrings": 64
+    },
+    "Neural Ensemble": {
+      "exists": true,
+      "size_kb": 27.0166015625,
+      "lines": 763,
+      "classes": 12,
+      "functions": 24,
+      "imports": 19,
+      "comments": 54,
+      "docstrings": 68
+    },
+    "Advanced AI Ensemble": {
+      "exists": true,
+      "size_kb": 10.7021484375,
+      "lines": 291,
+      "classes": 2,
+      "functions": 14,
+      "imports": 7,
+      "comments": 20,
+      "docstrings": 22
+    }
+  },
+  "demo_results": null,
+  "summary": {
+    "total_core_files": 5,
+    "existing_files": 5,
+    "file_coverage": 100.0,
+    "total_lines_of_code": 6517,
+    "total_classes": 47,
+    "total_functions": 237,
+    "system_complexity_score": 28.4,
+    "demo_success": false,
+    "system_health": 0
+  }
+}

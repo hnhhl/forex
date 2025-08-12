@@ -1,0 +1,113 @@
+networks:
+  xau-network:
+    driver: bridge
+services:
+  ai-service:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.ai
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - capabilities:
+            - gpu
+            count: 1
+            driver: nvidia
+    environment:
+    - ENVIRONMENT=production
+    networks:
+    - xau-network
+    ports:
+    - 8001:8001
+    restart: unless-stopped
+    volumes:
+    - ./models:/app/models
+    - ./data:/app/data
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+    - db
+    - redis
+    - ai-service
+    environment:
+    - ENVIRONMENT=production
+    - DATABASE_URL=postgresql://postgres:password@db:5432/xau_system
+    networks:
+    - xau-network
+    ports:
+    - 8000:8000
+    restart: unless-stopped
+    volumes:
+    - ./logs:/app/logs
+    - ./data:/app/data
+  data-service:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.data
+    depends_on:
+    - redis
+    environment:
+    - ENVIRONMENT=production
+    networks:
+    - xau-network
+    ports:
+    - 8002:8002
+    restart: unless-stopped
+  db:
+    environment:
+    - POSTGRES_DB=xau_system
+    - POSTGRES_USER=postgres
+    - POSTGRES_PASSWORD=password
+    image: postgres:15-alpine
+    networks:
+    - xau-network
+    ports:
+    - 5432:5432
+    restart: unless-stopped
+    volumes:
+    - postgres_data:/var/lib/postgresql/data
+    - ./docker/init.sql:/docker-entrypoint-initdb.d/init.sql
+  nginx:
+    depends_on:
+    - app
+    image: nginx:alpine
+    networks:
+    - xau-network
+    ports:
+    - 80:80
+    - 443:443
+    restart: unless-stopped
+    volumes:
+    - ./docker/nginx.conf:/etc/nginx/nginx.conf
+    - ./docker/ssl:/etc/nginx/ssl
+  redis:
+    command: redis-server --appendonly yes
+    image: redis:7-alpine
+    networks:
+    - xau-network
+    ports:
+    - 6379:6379
+    restart: unless-stopped
+    volumes:
+    - redis_data:/data
+  trading-service:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.trading
+    depends_on:
+    - db
+    - redis
+    environment:
+    - ENVIRONMENT=production
+    networks:
+    - xau-network
+    ports:
+    - 8003:8003
+    restart: unless-stopped
+version: '3.8'
+volumes:
+  postgres_data: {}
+  redis_data: {}

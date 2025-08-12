@@ -1,0 +1,45 @@
+{
+  "config": {
+    "maml_inner_lr": 0.01,
+    "maml_outer_lr": 0.001,
+    "transfer_adaptation_rate": 0.001,
+    "continual_memory_size": 500,
+    "continual_plasticity_factor": 0.8
+  },
+  "system_status": {
+    "system_state": {
+      "initialized": true,
+      "active_learners": [
+        "maml",
+        "transfer",
+        "continual"
+      ],
+      "performance_boost": 3.5,
+      "last_update": "2025-06-16 22:51:58.637507"
+    },
+    "learner_status": {
+      "maml": {
+        "trained": false,
+        "adapted": false
+      },
+      "transfer": {
+        "trained": true,
+        "source_domains": [
+          "EURUSD",
+          "GBPUSD",
+          "USDJPY",
+          "AUDUSD"
+        ],
+        "target_ready": true
+      },
+      "continual": {
+        "trained": true,
+        "tasks_learned": 3,
+        "memory_size": 150
+      }
+    },
+    "performance_history": [],
+    "timestamp": "2025-06-16T22:55:47.422366"
+  },
+  "export_timestamp": "2025-06-16T22:55:47.422366"
+}

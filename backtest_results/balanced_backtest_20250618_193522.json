@@ -1,0 +1,205 @@
+{
+  "timestamp": "20250618_193522",
+  "backtest_type": "Balanced Backtest",
+  "parameters": {
+    "confidence_threshold": 0.6,
+    "position_size": 0.008,
+    "stop_loss_pips": 45,
+    "take_profit_pips": 90,
+    "preferred_hours": [
+      22,
+      3,
+      9,
+      0,
+      2,
+      1,
+      4,
+      8,
+      10
+    ]
+  },
+  "backtest_period": "2025-06-01 to 2025-06-18",
+  "initial_balance": 10000.0,
+  "final_balance": 10054.000000000087,
+  "performance_metrics": {
+    "total_trades": 7,
+    "winning_trades": 5,
+    "losing_trades": 2,
+    "win_rate": 71.42857142857143,
+    "total_pnl": 54.00000000008731,
+    "total_return": 0.5400000000008731,
+    "profit_factor": 5.0,
+    "avg_win": 13.500000000021828,
+    "avg_loss": 6.750000000010914,
+    "max_drawdown": 0.06740899785300744,
+    "final_balance": 10054.000000000087,
+    "gross_profit": 67.50000000010914,
+    "gross_loss": 13.500000000021828
+  },
+  "total_trades": 7,
+  "portfolio_history": [
+    {
+      "timestamp": "2025-06-09 03:00:00",
+      "balance": 10000.0,
+      "open_trades": 0,
+      "total_trades": 0,
+      "price": 3310.769
+    },
+    {
+      "timestamp": "2025-06-10 04:00:00",
+      "balance": 10013.500000000022,
+      "open_trades": 0,
+      "total_trades": 1,
+      "price": 3307.318
+    },
+    {
+      "timestamp": "2025-06-11 05:00:00",
+      "balance": 10013.500000000022,
+      "open_trades": 0,
+      "total_trades": 1,
+      "price": 3339.704
+    },
+    {
+      "timestamp": "2025-06-12 06:00:00",
+      "balance": 10006.750000000011,
+      "open_trades": 0,
+      "total_trades": 2,
+      "price": 3375.026
+    },
+    {
+      "timestamp": "2025-06-13 07:00:00",
+      "balance": 10040.500000000065,
+      "open_trades": 0,
+      "total_trades": 6,
+      "price": 3414.933
+    },
+    {
+      "timestamp": "2025-06-16 08:00:00",
+      "balance": 10054.000000000087,
+      "open_trades": 0,
+      "total_trades": 7,
+      "price": 3413.919
+    },
+    {
+      "timestamp": "2025-06-17 09:00:00",
+      "balance": 10054.000000000087,
+      "open_trades": 0,
+      "total_trades": 7,
+      "price": 3385.598
+    }
+  ],
+  "trade_history": [
+    {
+      "timestamp": "2025-06-10 02:00:00",
+      "action": "SELL",
+      "entry_price": 3309.3,
+      "position_size": 0.015,
+      "confidence": 0.6142358485495214,
+      "timeframe": "H1",
+      "models_used": 2,
+      "hour": 2,
+      "stop_loss": 3309.3045,
+      "take_profit": 3309.291,
+      "exit_price": 3309.291,
+      "exit_timestamp": "2025-06-10 03:00:00",
+      "pnl": 13.500000000021828,
+      "status": "CLOSED_TP"
+    },
+    {
+      "timestamp": "2025-06-11 23:00:00",
+      "action": "SELL",
+      "entry_price": 3365.376,
+      "position_size": 0.015,
+      "confidence": 0.6148188342384334,
+      "timeframe": "H1",
+      "models_used": 2,
+      "hour": 23,
+      "stop_loss": 3365.3805,
+      "take_profit": 3365.367,
+      "exit_price": 3365.3805,
+      "exit_timestamp": "2025-06-12 00:00:00",
+      "pnl": -6.750000000010914,
+      "status": "CLOSED_SL"
+    },
+    {
+      "timestamp": "2025-06-12 08:00:00",
+      "action": "BUY",
+      "entry_price": 3356.789,
+      "position_size": 0.015,
+      "confidence": 0.630169620121124,
+      "timeframe": "H1",
+      "models_used": 2,
+      "hour": 8,
+      "stop_loss": 3356.7845,
+      "take_profit": 3356.7980000000002,
+      "exit_price": 3356.7980000000002,
+      "exit_timestamp": "2025-06-12 09:00:00",
+      "pnl": 13.500000000021828,
+      "status": "CLOSED_TP"
+    },
+    {
+      "timestamp": "2025-06-13 00:00:00",
+      "action": "BUY",
+      "entry_price": 3416.859,
+      "position_size": 0.015,
+      "confidence": 0.6147072206719326,
+      "timeframe": "H1",
+      "models_used": 2,
+      "hour": 0,
+      "stop_loss": 3416.8545,
+      "take_profit": 3416.868,
+      "exit_price": 3416.868,
+      "exit_timestamp": "2025-06-13 01:00:00",
+      "pnl": 13.500000000021828,
+      "status": "CLOSED_TP"
+    },
+    {
+      "timestamp": "2025-06-13 01:00:00",
+      "action": "BUY",
+      "entry_price": 3427.655,
+      "position_size": 0.015,
+      "confidence": 0.6587576630327496,
+      "timeframe": "H1",
+      "models_used": 2,
+      "hour": 1,
+      "stop_loss": 3427.6505,
+      "take_profit": 3427.664,
+      "exit_price": 3427.664,
+      "exit_timestamp": "2025-06-13 02:00:00",
+      "pnl": 13.500000000021828,
+      "status": "CLOSED_TP"
+    },
+    {
+      "timestamp": "2025-06-13 02:00:00",
+      "action": "BUY",
+      "entry_price": 3441.434,
+      "position_size": 0.015,
+      "confidence": 0.6077222263009627,
+      "timeframe": "H1",
+      "models_used": 2,
+      "hour": 2,
+      "stop_loss": 3441.4295,
+      "take_profit": 3441.443,
+      "exit_price": 3441.4295,
+      "exit_timestamp": "2025-06-13 03:00:00",
+      "pnl": -6.750000000010914,
+      "status": "CLOSED_SL"
+    },
+    {
+      "timestamp": "2025-06-13 17:00:00",
+      "action": "BUY",
+      "entry_price": 3430.415,
+      "position_size": 0.015,
+      "confidence": 0.615190257481862,
+      "timeframe": "H1",
+      "models_used": 2,
+      "hour": 17,
+      "stop_loss": 3430.4105,
+      "take_profit": 3430.424,
+      "exit_price": 3430.424,
+      "exit_timestamp": "2025-06-13 18:00:00",
+      "pnl": 13.500000000021828,
+      "status": "CLOSED_TP"
+    }
+  ]
+}

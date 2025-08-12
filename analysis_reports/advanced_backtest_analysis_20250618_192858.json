@@ -1,0 +1,196 @@
+{
+  "timestamp": "20250618_192858",
+  "analysis_type": "Advanced Backtest Analysis",
+  "base_results": {
+    "total_trades": 77,
+    "winning_trades": 38,
+    "losing_trades": 39,
+    "win_rate": 49.35064935064935,
+    "total_pnl": 18500.000000403816,
+    "total_return": 185.00000000403816,
+    "profit_factor": 1.9487179487179487,
+    "avg_win": 1000.0000000218279,
+    "avg_loss": 500.00000001091394,
+    "max_drawdown": 23.809523810018774,
+    "final_balance": 28500.000000403816,
+    "gross_profit": 38000.00000082946,
+    "gross_loss": 19500.000000425644
+  },
+  "trade_patterns": {
+    "best_hours": [
+      {
+        "hour": 22,
+        "trades": 3,
+        "avg_pnl": 1000.0000000218279,
+        "win_rate": 100.0
+      },
+      {
+        "hour": 3,
+        "trades": 3,
+        "avg_pnl": 1000.0000000218279,
+        "win_rate": 100.0
+      },
+      {
+        "hour": 9,
+        "trades": 4,
+        "avg_pnl": 1000.0000000218279,
+        "win_rate": 100.0
+      },
+      {
+        "hour": 0,
+        "trades": 3,
+        "avg_pnl": 500.00000001091394,
+        "win_rate": 66.66666666666666
+      },
+      {
+        "hour": 2,
+        "trades": 3,
+        "avg_pnl": 500.00000001091394,
+        "win_rate": 66.66666666666666
+      },
+      {
+        "hour": 5,
+        "trades": 3,
+        "avg_pnl": 500.00000001091394,
+        "win_rate": 66.66666666666666
+      },
+      {
+        "hour": 19,
+        "trades": 3,
+        "avg_pnl": 500.00000001091394,
+        "win_rate": 66.66666666666666
+      },
+      {
+        "hour": 20,
+        "trades": 3,
+        "avg_pnl": 500.00000001091394,
+        "win_rate": 66.66666666666666
+      },
+      {
+        "hour": 11,
+        "trades": 3,
+        "avg_pnl": 500.00000001091394,
+        "win_rate": 66.66666666666666
+      },
+      {
+        "hour": 14,
+        "trades": 5,
+        "avg_pnl": 400.00000000873115,
+        "win_rate": 60.0
+      },
+      {
+        "hour": 16,
+        "trades": 4,
+        "avg_pnl": 250.00000000545697,
+        "win_rate": 50.0
+      },
+      {
+        "hour": 17,
+        "trades": 5,
+        "avg_pnl": 100.00000000218279,
+        "win_rate": 40.0
+      },
+      {
+        "hour": 18,
+        "trades": 3,
+        "avg_pnl": 0.0,
+        "win_rate": 33.33333333333333
+      },
+      {
+        "hour": 1,
+        "trades": 3,
+        "avg_pnl": 0.0,
+        "win_rate": 33.33333333333333
+      },
+      {
+        "hour": 6,
+        "trades": 3,
+        "avg_pnl": 0.0,
+        "win_rate": 33.33333333333333
+      },
+      {
+        "hour": 7,
+        "trades": 3,
+        "avg_pnl": 0.0,
+        "win_rate": 33.33333333333333
+      },
+      {
+        "hour": 23,
+        "trades": 4,
+        "avg_pnl": -125.00000000272848,
+        "win_rate": 25.0
+      },
+      {
+        "hour": 8,
+        "trades": 5,
+        "avg_pnl": -200.00000000436557,
+        "win_rate": 20.0
+      },
+      {
+        "hour": 15,
+        "trades": 5,
+        "avg_pnl": -200.00000000436557,
+        "win_rate": 20.0
+      },
+      {
+        "hour": 4,
+        "trades": 3,
+        "avg_pnl": -500.00000001091394,
+        "win_rate": 0.0
+      }
+    ],
+    "buy_analysis": {
+      "trades": 48,
+      "avg_pnl": 218.75000000477485
+    },
+    "sell_analysis": {
+      "trades": 29,
+      "avg_pnl": 275.86206897153875
+    }
+  },
+  "strategy_comparison": {
+    "strategies": [
+      [
+        "Original",
+        185.00000000403816,
+        49.35064935064935,
+        77,
+        1.9487179487179487
+      ],
+      [
+        "Conservative",
+        0.8399999998982822,
+        45.714285714285715,
+        70,
+        1.777777777643038
+      ],
+      [
+        "Aggressive",
+        3.990000000035252,
+        41.726618705035975,
+        139,
+        1.487179487179487
+      ],
+      [
+        "Scalping",
+        0.11000000009062205,
+        41.41414141414141,
+        99,
+        1.0982142857975208
+      ]
+    ],
+    "best_strategy": "Original"
+  },
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "issue": "Low win rate (49.4%)",
+      "solution": "Increase confidence threshold to 0.65+ or improve signal quality"
+    },
+    {
+      "priority": "MEDIUM",
+      "issue": "High drawdown (23.8%)",
+      "solution": "Implement better position sizing or reduce risk per trade"
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+{
+  "demo_info": {
+    "day": 25,
+    "system_name": "Market Regime Detection",
+    "demo_date": "2025-06-17T06:10:16.987133",
+    "total_duration": 3.481782
+  },
+  "performance_summary": {
+    "overall_score": 58.887573594828666,
+    "grade": "SATISFACTORY",
+    "individual_scores": {
+      "basic_detection": 44.670039557764476,
+      "multi_market": 100,
+      "ml_prediction": 51.57270086324994,
+      "performance_optimization": 39.30755395830023
+    }
+  },
+  "detailed_results": {
+    "basic_detection": {
+      "analyses": 21,
+      "regimes": [
+        "ranging",
+        "low_volatility",
+        "trending_up"
+      ],
+      "confidence": 0.6707048006164661,
+      "throughput": 223.35019778882238
+    },
+    "multi_market": {
+      "markets_analyzed": 4,
+      "total_regime_points": 120,
+      "market_results": {
+        "XAUUSD": [
+          {
+            "regime": "ranging",
+            "confidence": 0.309840525832577
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.35502700807832777
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.41959240839256506
+          },
+          {
+            "regime": "breakout",
+            "confidence": 0.5587000832371093
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.5667804683921837
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.3873953348829055
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.4858007768343524
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.48445126976675434
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.390622968153825
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.42493842229408435
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.43830497233093313
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.5858509777497377
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.5030146960279326
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.38810615426373846
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.5137943297539648
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.5784818676852522
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.6018528353669607
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.5829231841971069
+          },
+          {
+            "regime": "breakout",
+            "confidence": 0.5090109770970735
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.7179387417940533
+          },
+          {
+            "regime": "breakout",
+            "confidence": 0.5991986004444845
+          },
+          {
+            "regime": "breakout",
+            "confidence": 0.5411784933971477
+          },
+          {
+            "regime": "breakout",
+            "confidence": 0.564796580340714
+          },
+          {
+            "regime": "breakout",
+            "confidence": 0.5303250870156583
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.4514821966092279
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.42230171358394286
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.36724374817955535
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.3847756638009152
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.3289116107052015
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.3299640650751248
+          }
+        ],
+        "EURUSD": [
+          {
+            "regime": "ranging",
+            "confidence": 0.3028328481424994
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.27406891671524114
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.4037317037793492
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.49086035447682735
+          },
+          {
+            "regime": "low_volatility",
+            "confidence": 1.0
+          },
+          {
+            "regime": "low_volatility",
+            "confidence": 1.0
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.5874998333387048
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.48997712684604317
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.31258845340369346
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.3640591221806504
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.472886553187191
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.536395858030118
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.4075761547334897
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.37400082604985374
+          },
+          {
+            "regime": "low_volatility",
+            "confidence": 1.0
+          },
+          {
+            "regime": "low_volatility",
+            "confidence": 0.9921370386069885
+          },
+          {
+            "regime": "low_volatility",
+            "confidence": 1.0
+          },
+          {
+            "regime": "low_volatility",
+            "confidence": 1.0
+          },
+          {
+            "regime": "low_volatility",
+            "confidence": 1.0
+          },
+          {
+            "regime": "low_volatility",
+            "confidence": 1.0
+          },
+          {
+            "regime": "low_volatility",
+            "confidence": 1.0
+          },
+          {
+            "regime": "low_volatility",
+            "confidence": 1.0
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.4084651395718871
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.4841595843165973
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.44189537365993875
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.4358246557106029
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.3954745327908871
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.4089126198141561
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.4902584837832062
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.3752193526545859
+          }
+        ],
+        "GBPUSD": [
+          {
+            "regime": "low_volatility",
+            "confidence": 1.0
+          },
+          {
+            "regime": "low_volatility",
+            "confidence": 0.9574598384702856
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.4463923153065867
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.40075105875603323
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.38306520657981763
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.33620114213062763
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.46765256653453424
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.4394602344729409
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.3966350690377338
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.503182329933067
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.5820147688322375
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.5634684718286032
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.4691428409650586
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.43900933845856477
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.521654602129768
+          },
+          {
+            "regime": "breakout",
+            "confidence": 0.5376156316471726
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.758648148883917
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.6331395937239976
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.5306610240712025
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.4538760830823131
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.386632022973188
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.35695301642195926
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.37853721066474266
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.4856032522948245
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.3970523939254205
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.3259349014412871
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.30908386868085086
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.4634070917015095
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.5206130999369797
+          },
+          {
+            "regime": "breakout",
+            "confidence": 0.5767701073584793
+          }
+        ],
+        "USDJPY": [
+          {
+            "regime": "ranging",
+            "confidence": 0.30457834426836944
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.3394596535686283
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.345802072494165
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.33033517689047187
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.32590020027957733
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.388988515971849
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.38558009487717815
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.303392993225501
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.3607034433154602
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.36395993431884477
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.38167302270306663
+          },
+          {
+            "regime": "low_volatility",
+            "confidence": 0.9118386810018924
+          },
+          {
+            "regime": "low_volatility",
+            "confidence": 0.9526921981656823
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.3708105598382494
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.33806259702066993
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.5811864197697777
+          },
+          {
+            "regime": "breakout",
+            "confidence": 0.5971225552559463
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.5237414893832035
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.5194059808551951
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.44484401915788496
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.3899454316370461
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.44976582302292895
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.4908244996427147
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.4011193512178869
+          },
+          {
+            "regime": "trending_down",
+            "confidence": 0.38099215709963585
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.47155382673754875
+          },
+          {
+            "regime": "ranging",
+            "confidence": 0.4080921007257475
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.517223946305059
+          },
+          {
+            "regime": "breakout",
+            "confidence": 0.5374834778824326
+          },
+          {
+            "regime": "trending_up",
+            "confidence": 0.5281008188165035
+          }
+        ]
+      }
+    },
+    "ml_prediction": {
+      "training_samples": 26,
+      "model_trained": true,
+      "confidence": 0.5157270086324994
+    },
+    "performance": {
+      "lightweight": {
+        "analyses": 73,
+        "total_time": 0.4300961494445801,
+        "avg_time": 0.005672350321730522,
+        "throughput": 169.72948977634684,
+        "confidence": 0.5529890759565849
+      },
+      "balanced": {
+        "analyses": 69,
+        "total_time": 0.3510775566101074,
+        "avg_time": 0.004885093025539232,
+        "throughput": 196.53776979150115,
+        "confidence": 0.5386882162279486
+      },
+      "comprehensive": {
+        "analyses": 66,
+        "total_time": 0.9982266426086426,
+        "avg_time": 0.014988317634120132,
+        "throughput": 66.11724951312031,
+        "confidence": 0.5254438747065245
+      }
+    }
+  }
+}

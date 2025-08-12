@@ -1,0 +1,342 @@
+{
+  "timestamp": "2025-06-20T14:09:43.587457",
+  "model_evolution": {
+    "CNN": [
+      {
+        "filename": "gpu_cnn_model.keras",
+        "generation": "GPU_Enhanced",
+        "size_mb": 0.2340087890625,
+        "created_time": "2025-06-20 13:22:25.270746",
+        "file_path": "trained_models\\gpu_cnn_model.keras"
+      },
+      {
+        "filename": "comprehensive_cnn_20250620_134752.keras",
+        "generation": "Comprehensive",
+        "size_mb": 0.7697372436523438,
+        "created_time": "2025-06-20 13:47:52.744213",
+        "file_path": "trained_models\\comprehensive_cnn_20250620_134752.keras"
+      },
+      {
+        "filename": "checkpoint_cnn.keras",
+        "generation": "Base",
+        "size_mb": 0.22039031982421875,
+        "created_time": "2025-06-20 13:55:42.945142",
+        "file_path": "trained_models\\checkpoint_cnn.keras"
+      },
+      {
+        "filename": "maximum_data_cnn_20250620_135638.keras",
+        "generation": "Maximum_Data",
+        "size_mb": 0.22039031982421875,
+        "created_time": "2025-06-20 13:56:38.412638",
+        "file_path": "trained_models\\maximum_data_cnn_20250620_135638.keras"
+      },
+      {
+        "filename": "production_cnn_20250620_140708.keras",
+        "generation": "Production",
+        "size_mb": 0.22039031982421875,
+        "created_time": "2025-06-20 14:07:08.322756",
+        "file_path": "trained_models\\production_cnn_20250620_140708.keras"
+      }
+    ],
+    "Dense": [
+      {
+        "filename": "neural_ensemble_y_direction_2_dense.keras",
+        "generation": "Base",
+        "size_mb": 1.892587661743164,
+        "created_time": "2025-06-18 07:26:15.543389",
+        "file_path": "trained_models\\neural_ensemble_y_direction_2_dense.keras"
+      },
+      {
+        "filename": "neural_ensemble_y_direction_4_dense.keras",
+        "generation": "Base",
+        "size_mb": 1.8925895690917969,
+        "created_time": "2025-06-18 07:26:58.407065",
+        "file_path": "trained_models\\neural_ensemble_y_direction_4_dense.keras"
+      },
+      {
+        "filename": "neural_ensemble_y_direction_8_dense.keras",
+        "generation": "Base",
+        "size_mb": 1.892594337463379,
+        "created_time": "2025-06-18 07:27:40.801750",
+        "file_path": "trained_models\\neural_ensemble_y_direction_8_dense.keras"
+      },
+      {
+        "filename": "gpu_dense_model.keras",
+        "generation": "GPU_Enhanced",
+        "size_mb": 1.2937850952148438,
+        "created_time": "2025-06-20 13:22:55.421887",
+        "file_path": "trained_models\\gpu_dense_model.keras"
+      },
+      {
+        "filename": "checkpoint_dense.keras",
+        "generation": "Base",
+        "size_mb": 0.6049041748046875,
+        "created_time": "2025-06-20 13:57:43.479216",
+        "file_path": "trained_models\\checkpoint_dense.keras"
+      },
+      {
+        "filename": "maximum_data_dense_20250620_135843.keras",
+        "generation": "Maximum_Data",
+        "size_mb": 0.6049041748046875,
+        "created_time": "2025-06-20 13:58:43.423299",
+        "file_path": "trained_models\\maximum_data_dense_20250620_135843.keras"
+      }
+    ],
+    "LSTM": [
+      {
+        "filename": "neural_ensemble_y_direction_2_lstm.keras",
+        "generation": "Base",
+        "size_mb": 4.153019905090332,
+        "created_time": "2025-06-18 07:25:58.141480",
+        "file_path": "trained_models\\neural_ensemble_y_direction_2_lstm.keras"
+      },
+      {
+        "filename": "neural_ensemble_y_direction_4_lstm.keras",
+        "generation": "Base",
+        "size_mb": 4.153031349182129,
+        "created_time": "2025-06-18 07:26:42.226007",
+        "file_path": "trained_models\\neural_ensemble_y_direction_4_lstm.keras"
+      },
+      {
+        "filename": "neural_ensemble_y_direction_8_lstm.keras",
+        "generation": "Base",
+        "size_mb": 4.1530351638793945,
+        "created_time": "2025-06-18 07:27:24.829157",
+        "file_path": "trained_models\\neural_ensemble_y_direction_8_lstm.keras"
+      },
+      {
+        "filename": "full_data_lstm.keras",
+        "generation": "Base",
+        "size_mb": 1.4168014526367188,
+        "created_time": "2025-06-20 10:37:24.716371",
+        "file_path": "trained_models\\full_data_lstm.keras"
+      },
+      {
+        "filename": "gpu_lstm_model.keras",
+        "generation": "GPU_Enhanced",
+        "size_mb": 1.4250335693359375,
+        "created_time": "2025-06-20 13:21:51.272289",
+        "file_path": "trained_models\\gpu_lstm_model.keras"
+      },
+      {
+        "filename": "comprehensive_lstm_20250620_134741.keras",
+        "generation": "Comprehensive",
+        "size_mb": 1.561981201171875,
+        "created_time": "2025-06-20 13:47:41.260619",
+        "file_path": "trained_models\\comprehensive_lstm_20250620_134741.keras"
+      },
+      {
+        "filename": "checkpoint_lstm.keras",
+        "generation": "Base",
+        "size_mb": 0.40416717529296875,
+        "created_time": "2025-06-20 13:53:04.611112",
+        "file_path": "trained_models\\checkpoint_lstm.keras"
+      },
+      {
+        "filename": "maximum_data_lstm_20250620_135532.keras",
+        "generation": "Maximum_Data",
+        "size_mb": 0.40416717529296875,
+        "created_time": "2025-06-20 13:55:32.158195",
+        "file_path": "trained_models\\maximum_data_lstm_20250620_135532.keras"
+      },
+      {
+        "filename": "production_lstm_20250620_140549.keras",
+        "generation": "Production",
+        "size_mb": 0.40416717529296875,
+        "created_time": "2025-06-20 14:05:50.011197",
+        "file_path": "trained_models\\production_lstm_20250620_140549.keras"
+      }
+    ],
+    "Hybrid": [
+      {
+        "filename": "comprehensive_hybrid_20250620_134806.keras",
+        "generation": "Comprehensive",
+        "size_mb": 1.3493118286132812,
+        "created_time": "2025-06-20 13:48:06.466591",
+        "file_path": "trained_models\\comprehensive_hybrid_20250620_134806.keras"
+      },
+      {
+        "filename": "production_hybrid_20250620_140912.keras",
+        "generation": "Production",
+        "size_mb": 0.25768280029296875,
+        "created_time": "2025-06-20 14:09:12.135331",
+        "file_path": "trained_models\\production_hybrid_20250620_140912.keras"
+      }
+    ]
+  },
+  "training_progression": [
+    {
+      "filename": "phase1_completion_report_20250617_171703.json",
+      "created_time": "2025-06-17 17:17:03.753667",
+      "type": "unknown"
+    },
+    {
+      "filename": "FINAL_COMPLETION_REPORT_20250617_173325.json",
+      "created_time": "2025-06-17 17:33:25.017381",
+      "type": "unknown"
+    },
+    {
+      "filename": "ULTIMATE_SYSTEM_TRAINING_REPORT_20250618_072746.json",
+      "created_time": "2025-06-18 07:27:46.970134",
+      "type": "unknown"
+    },
+    {
+      "filename": "ULTIMATE_SYSTEM_TRAINING_REPORT_20250618_073749.json",
+      "created_time": "2025-06-18 07:37:49.541283",
+      "type": "unknown"
+    },
+    {
+      "filename": "performance_comparison_report_v4.json",
+      "created_time": "2025-06-18 10:44:43.932323",
+      "type": "unknown"
+    },
+    {
+      "filename": "final_feature_analysis_report_20250620_021339.json",
+      "created_time": "2025-06-20 02:13:39.398530",
+      "type": "unknown"
+    },
+    {
+      "filename": "system_status_report_20250620_130842.json",
+      "created_time": "2025-06-20 13:08:42.915400",
+      "type": "System_Status"
+    },
+    {
+      "filename": "cleanup_report_20250620_131942.json",
+      "created_time": "2025-06-20 13:19:42.539398",
+      "type": "unknown"
+    },
+    {
+      "filename": "system_status_report_20250620_132413.json",
+      "created_time": "2025-06-20 13:24:13.599583",
+      "type": "System_Status"
+    },
+    {
+      "filename": "ai3_system_test_report_20250620_132839.json",
+      "created_time": "2025-06-20 13:28:39.912010",
+      "type": "System_Test",
+      "success_rate": 50.0,
+      "passed_tests": 3,
+      "total_tests": 6
+    },
+    {
+      "filename": "ai3_system_test_report_20250620_133013.json",
+      "created_time": "2025-06-20 13:30:13.595330",
+      "type": "System_Test",
+      "success_rate": 50.0,
+      "passed_tests": 3,
+      "total_tests": 6
+    },
+    {
+      "filename": "ai3_system_test_report_20250620_133355.json",
+      "created_time": "2025-06-20 13:33:55.813916",
+      "type": "System_Test",
+      "success_rate": 66.66666666666666,
+      "passed_tests": 4,
+      "total_tests": 6
+    },
+    {
+      "filename": "ai3_system_test_report_20250620_133445.json",
+      "created_time": "2025-06-20 13:34:45.957388",
+      "type": "System_Test",
+      "success_rate": 66.66666666666666,
+      "passed_tests": 4,
+      "total_tests": 6
+    },
+    {
+      "filename": "ai3_achievements_report_20250620_133637.json",
+      "created_time": "2025-06-20 13:36:37.439957",
+      "type": "Achievements",
+      "overall_score": 0,
+      "grade": "C - SATISFACTORY"
+    },
+    {
+      "filename": "ai3_system_test_report_20250620_133719.json",
+      "created_time": "2025-06-20 13:37:19.025259",
+      "type": "System_Test",
+      "success_rate": 66.66666666666666,
+      "passed_tests": 4,
+      "total_tests": 6
+    },
+    {
+      "filename": "production_training_report_20250620_140937.json",
+      "created_time": "2025-06-20 14:09:37.154308",
+      "type": "unknown"
+    }
+  ],
+  "data_evolution": [
+    {
+      "stage": "Initial Testing",
+      "data_size": "1,000 records",
+      "purpose": "Basic functionality test",
+      "memory_usage": "~1 MB"
+    },
+    {
+      "stage": "Small Scale Training",
+      "data_size": "5,000 records",
+      "purpose": "Model architecture validation",
+      "memory_usage": "~6 MB"
+    },
+    {
+      "stage": "Medium Scale Training",
+      "data_size": "50,000 records",
+      "purpose": "Production model training",
+      "memory_usage": "~58 MB"
+    },
+    {
+      "stage": "Full Dataset Available",
+      "data_size": "1,124,640 records",
+      "purpose": "Maximum data utilization",
+      "memory_usage": "~60 MB (full dataset)"
+    }
+  ],
+  "capabilities_growth": [
+    {
+      "phase": "Phase 1: Foundation",
+      "capabilities": [
+        "Basic system architecture",
+        "Core trading logic",
+        "Simple neural networks"
+      ],
+      "achievement": "System initialization"
+    },
+    {
+      "phase": "Phase 2: GPU Integration",
+      "capabilities": [
+        "GPU acceleration",
+        "Mixed precision training",
+        "Optimized memory usage"
+      ],
+      "achievement": "Hardware optimization"
+    },
+    {
+      "phase": "Phase 3: Advanced AI",
+      "capabilities": [
+        "Ensemble models (LSTM, CNN, Dense)",
+        "Signal generation system",
+        "Confidence-based predictions"
+      ],
+      "achievement": "AI sophistication"
+    },
+    {
+      "phase": "Phase 4: Production Ready",
+      "capabilities": [
+        "Large dataset handling (1.1M+ records)",
+        "Trading signal system",
+        "Backtesting framework",
+        "Production models"
+      ],
+      "achievement": "Market readiness"
+    }
+  ],
+  "evolution_metrics": {
+    "trained_models": 22,
+    "total_model_size_mb": 29.5286808013916,
+    "training_reports": 16,
+    "data_records_available": 1124640,
+    "max_data_utilized": 50000,
+    "gpu_optimization": true,
+    "production_ready": true
+  },
+  "evolution_score": 0.592597334850856,
+  "evolution_grade": "\ud83e\udd49 SATISFACTORY - Developing System"
+}

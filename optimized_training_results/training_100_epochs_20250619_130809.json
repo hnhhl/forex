@@ -1,0 +1,8 @@
+{
+  "timestamp": "20250619_130809",
+  "training_type": "optimized_100_epochs",
+  "model_results": {
+    "enhanced_random_forest": {
+      "test_accuracy": 0.8350404312668464,
+      "train_accuracy": 0.9197788863421869,
+      "predictions": 

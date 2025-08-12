@@ -1,0 +1,115 @@
+{
+  "timestamp": "20250619_132346",
+  "models_backed_up": 18,
+  "backup_directory": "model_backups/backup_20250619_132346",
+  "original_models": {
+    "gradient_boost_y_direction_2.pkl": {
+      "path": "trained_models\\gradient_boost_y_direction_2.pkl",
+      "size": 1849276,
+      "modified": "2025-06-18 07:37:49.467265",
+      "type": "pickle"
+    },
+    "gradient_boost_y_direction_4.pkl": {
+      "path": "trained_models\\gradient_boost_y_direction_4.pkl",
+      "size": 2027125,
+      "modified": "2025-06-18 07:37:49.496273",
+      "type": "pickle"
+    },
+    "gradient_boost_y_direction_8.pkl": {
+      "path": "trained_models\\gradient_boost_y_direction_8.pkl",
+      "size": 2195647,
+      "modified": "2025-06-18 07:37:49.527279",
+      "type": "pickle"
+    },
+    "lightgbm_y_direction_2.pkl": {
+      "path": "trained_models\\lightgbm_y_direction_2.pkl",
+      "size": 968360,
+      "modified": "2025-06-18 07:37:49.480268",
+      "type": "pickle"
+    },
+    "lightgbm_y_direction_4.pkl": {
+      "path": "trained_models\\lightgbm_y_direction_4.pkl",
+      "size": 959141,
+      "modified": "2025-06-18 07:37:49.509278",
+      "type": "pickle"
+    },
+    "lightgbm_y_direction_8.pkl": {
+      "path": "trained_models\\lightgbm_y_direction_8.pkl",
+      "size": 944174,
+      "modified": "2025-06-18 07:37:49.537284",
+      "type": "pickle"
+    },
+    "random_forest_y_direction_2.pkl": {
+      "path": "trained_models\\random_forest_y_direction_2.pkl",
+      "size": 4113290,
+      "modified": "2025-06-18 07:37:49.448720",
+      "type": "pickle"
+    },
+    "random_forest_y_direction_4.pkl": {
+      "path": "trained_models\\random_forest_y_direction_4.pkl",
+      "size": 5223412,
+      "modified": "2025-06-18 07:37:49.487270",
+      "type": "pickle"
+    },
+    "random_forest_y_direction_8.pkl": {
+      "path": "trained_models\\random_forest_y_direction_8.pkl",
+      "size": 6022023,
+      "modified": "2025-06-18 07:37:49.518278",
+      "type": "pickle"
+    },
+    "scaler_y_direction_2.pkl": {
+      "path": "trained_models\\scaler_y_direction_2.pkl",
+      "size": 7955,
+      "modified": "2025-06-18 07:37:49.538282",
+      "type": "pickle"
+    },
+    "scaler_y_direction_4.pkl": {
+      "path": "trained_models\\scaler_y_direction_4.pkl",
+      "size": 7955,
+      "modified": "2025-06-18 07:37:49.539284",
+      "type": "pickle"
+    },
+    "scaler_y_direction_8.pkl": {
+      "path": "trained_models\\scaler_y_direction_8.pkl",
+      "size": 7955,
+      "modified": "2025-06-18 07:37:49.539284",
+      "type": "pickle"
+    },
+    "neural_ensemble_y_direction_2_dense.keras": {
+      "path": "trained_models\\neural_ensemble_y_direction_2_dense.keras",
+      "size": 1984522,
+      "modified": "2025-06-18 07:26:15.543389",
+      "type": "keras"
+    },
+    "neural_ensemble_y_direction_2_lstm.keras": {
+      "path": "trained_models\\neural_ensemble_y_direction_2_lstm.keras",
+      "size": 4354757,
+      "modified": "2025-06-18 07:25:58.141480",
+      "type": "keras"
+    },
+    "neural_ensemble_y_direction_4_dense.keras": {
+      "path": "trained_models\\neural_ensemble_y_direction_4_dense.keras",
+      "size": 1984524,
+      "modified": "2025-06-18 07:26:58.407065",
+      "type": "keras"
+    },
+    "neural_ensemble_y_direction_4_lstm.keras": {
+      "path": "trained_models\\neural_ensemble_y_direction_4_lstm.keras",
+      "size": 4354769,
+      "modified": "2025-06-18 07:26:42.226007",
+      "type": "keras"
+    },
+    "neural_ensemble_y_direction_8_dense.keras": {
+      "path": "trained_models\\neural_ensemble_y_direction_8_dense.keras",
+      "size": 1984529,
+      "modified": "2025-06-18 07:27:40.801750",
+      "type": "keras"
+    },
+    "neural_ensemble_y_direction_8_lstm.keras": {
+      "path": "trained_models\\neural_ensemble_y_direction_8_lstm.keras",
+      "size": 4354773,
+      "modified": "2025-06-18 07:27:24.829157",
+      "type": "keras"
+    }
+  }
+}

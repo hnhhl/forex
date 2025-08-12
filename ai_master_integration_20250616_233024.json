@@ -1,0 +1,71 @@
+{
+  "system_status": {
+    "timestamp": "2025-06-16T23:30:24.230410",
+    "systems_active": {
+      "neural_ensemble": false,
+      "reinforcement_learning": false,
+      "meta_learning": true
+    },
+    "system_weights": {
+      "neural_ensemble": 0.4,
+      "reinforcement_learning": 0.3,
+      "meta_learning": 0.3
+    },
+    "performance_metrics": {
+      "neural_ensemble": {
+        "accuracy": 0.5,
+        "precision": 0.5,
+        "recall": 0.5,
+        "avg_confidence": 0.5,
+        "avg_return": 0.0
+      },
+      "reinforcement_learning": {
+        "accuracy": 0.5,
+        "precision": 0.5,
+        "recall": 0.5,
+        "avg_confidence": 0.5,
+        "avg_return": 0.0
+      },
+      "meta_learning": {
+        "accuracy": 0.5,
+        "precision": 0.5,
+        "recall": 0.5,
+        "avg_confidence": 0.5,
+        "avg_return": 0.0
+      }
+    },
+    "total_predictions": 0,
+    "total_decisions": 0,
+    "recent_decisions": 0,
+    "config": {
+      "decision_strategy": "adaptive_ensemble",
+      "min_confidence_threshold": 0.6,
+      "max_position_size": 0.25
+    }
+  },
+  "recent_decisions": [],
+  "performance_summary": {
+    "neural_ensemble": {
+      "accuracy": 0.5,
+      "precision": 0.5,
+      "recall": 0.5,
+      "avg_confidence": 0.5,
+      "avg_return": 0.0
+    },
+    "reinforcement_learning": {
+      "accuracy": 0.5,
+      "precision": 0.5,
+      "recall": 0.5,
+      "avg_confidence": 0.5,
+      "avg_return": 0.0
+    },
+    "meta_learning": {
+      "accuracy": 0.5,
+      "precision": 0.5,
+      "recall": 0.5,
+      "avg_confidence": 0.5,
+      "avg_return": 0.0
+    }
+  },
+  "export_timestamp": "2025-06-16T23:30:24.230410"
+}

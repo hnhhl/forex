@@ -1,0 +1,55 @@
+{
+  "test_timestamp": "2025-06-23T18:07:18.997947",
+  "system_status": {
+    "initialization_success": true,
+    "initialization_time": 3.2812399864196777,
+    "components_initialized": true
+  },
+  "signal_generation": {
+    "total_tests": 20,
+    "successful_signals": 20,
+    "success_rate": 100.0,
+    "signal_distribution": {
+      "BUY": 0,
+      "SELL": 0,
+      "HOLD": 20,
+      "ERROR": 0
+    },
+    "avg_confidence": 0,
+    "max_confidence": 0,
+    "min_confidence": 0,
+    "avg_processing_time": 0.00030003786087036134,
+    "max_processing_time": 0.0010027885437011719,
+    "error_count": 20,
+    "unique_errors": 1
+  },
+  "performance_metrics": {
+    "initialization_time": 3.2812399864196777,
+    "avg_signal_time": 0.00030003786087036134,
+    "max_signal_time": 0.0010027885437011719,
+    "throughput_signals_per_second": 3332.91271007986
+  },
+  "error_analysis": {
+    "total_errors": 20,
+    "unique_errors": 1,
+    "error_frequency": {
+      "The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().": 20
+    },
+    "most_common_error": [
+      "The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().",
+      20
+    ]
+  },
+  "final_assessment": {
+    "total_score": 75.0,
+    "status": "GOOD",
+    "scores_breakdown": {
+      "initialization": 25,
+      "signal_success": 25.0,
+      "performance": 25,
+      "reliability": 0,
+      "confidence_bonus": 0
+    },
+    "recommendation": "GOOD - System performance is good"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "timestamp": "2025-06-20T13:19:42.537398",
+  "initial_analysis": {
+    "trained_models": {
+      "size_mb": 67.49,
+      "file_count": 28,
+      "exists": true
+    },
+    "trained_models_optimized": {
+      "size_mb": 7.27,
+      "file_count": 32,
+      "exists": true
+    },
+    "trained_models_real_data": {
+      "size_mb": 30.94,
+      "file_count": 28,
+      "exists": true
+    },
+    "data": {
+      "size_mb": 109.08,
+      "file_count": 37,
+      "exists": true
+    },
+    "learning_results": {
+      "size_mb": 0.29,
+      "file_count": 46,
+      "exists": true
+    },
+    "training_results": {
+      "size_mb": 2.99,
+      "file_count": 5,
+      "exists": true
+    },
+    "backtest_results": {
+      "size_mb": 0.04,
+      "file_count": 3,
+      "exists": true
+    },
+    "logs": {
+      "size_mb": 0.0,
+      "file_count": 0,
+      "exists": true
+    },
+    "total_size_mb": 218.1,
+    "total_size_gb": 0.21
+  },
+  "final_analysis": {
+    "trained_models": {
+      "size_mb": 67.49,
+      "file_count": 28,
+      "exists": true
+    },
+    "trained_models_optimized": {
+      "size_mb": 7.27,
+      "file_count": 32,
+      "exists": true
+    },
+    "trained_models_real_data": {
+      "size_mb": 30.94,
+      "file_count": 28,
+      "exists": true
+    },
+    "data": {
+      "size_mb": 109.08,
+      "file_count": 37,
+      "exists": true
+    },
+    "learning_results": {
+      "size_mb": 0.29,
+      "file_count": 46,
+      "exists": true
+    },
+    "training_results": {
+      "size_mb": 2.99,
+      "file_count": 5,
+      "exists": true
+    },
+    "backtest_results": {
+      "size_mb": 0.04,
+      "file_count": 3,
+      "exists": true
+    },
+    "logs": {
+      "size_mb": 0.0,
+      "file_count": 0,
+      "exists": true
+    },
+    "total_size_mb": 218.1,
+    "total_size_gb": 0.21
+  },
+  "cleanup_summary": {
+    "files_removed": 0,
+    "space_freed_mb": 0.0,
+    "directories_cleaned": [
+      "trained_models"
+    ],
+    "empty_dirs_removed": [
+      "trained_models_smart",
+      "continuous_models",
+      "continuous_results",
+      "performance_profiles"
+    ]
+  },
+  "backup_created": "system_backup_20250620_131942",
+  "files_backed_up": [
+    "src/core/ultimate_xau_system.py",
+    "src/core/gpu_neural_system.py",
+    "trained_models/ai_coordination_config.json"
+  ],
+  "space_freed_gb": 0.0
+}

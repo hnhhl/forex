@@ -1,0 +1,218 @@
+{
+  "start_time": "2025-06-18T22:50:07.191624",
+  "data_summary": {
+    "total_records": 268475,
+    "timeframes_loaded": [
+      "M1",
+      "M5",
+      "M15",
+      "M30",
+      "H1",
+      "H4",
+      "D1",
+      "W1"
+    ],
+    "date_range": {
+      "start": "2014-01-12T00:00:00",
+      "end": "2025-06-18T04:58:00"
+    }
+  },
+  "training_phases": {
+    "H1": {
+      "data_points": 49950,
+      "features_count": 22,
+      "train_size": 39960,
+      "test_size": 9990,
+      "models_trained": [
+        "dense",
+        "lstm",
+        "random_forest",
+        "gradient_boosting",
+        "logistic_regression"
+      ],
+      "evaluation_results": {
+        "dense": {
+          "accuracy": 0.47387387387387386,
+          "precision": 0.4949331721658766,
+          "recall": 0.47387387387387386,
+          "f1_score": 0.34111938123158325
+        }
+      },
+      "saved_models": {
+        "dense": {
+          "file": "trained_models_real_data/dense_H1_20250618_225616.keras",
+          "type": "dense",
+          "framework": "tensorflow"
+        },
+        "lstm": {
+          "file": "trained_models_real_data/lstm_H1_20250618_225616.keras",
+          "type": "lstm",
+          "framework": "tensorflow"
+        },
+        "random_forest": {
+          "file": "trained_models_real_data/random_forest_H1_20250618_225616.pkl",
+          "type": "sklearn",
+          "framework": "sklearn"
+        },
+        "gradient_boosting": {
+          "file": "trained_models_real_data/gradient_boosting_H1_20250618_225616.pkl",
+          "type": "sklearn",
+          "framework": "sklearn"
+        },
+        "logistic_regression": {
+          "file": "trained_models_real_data/logistic_regression_H1_20250618_225616.pkl",
+          "type": "sklearn",
+          "framework": "sklearn"
+        }
+      }
+    },
+    "H4": {
+      "data_points": 14315,
+      "features_count": 22,
+      "train_size": 11452,
+      "test_size": 2863,
+      "models_trained": [
+        "dense",
+        "lstm",
+        "random_forest",
+        "gradient_boosting",
+        "logistic_regression"
+      ],
+      "evaluation_results": {
+        "dense": {
+          "accuracy": 0.48760041914076147,
+          "precision": 0.501532615638699,
+          "recall": 0.48760041914076147,
+          "f1_score": 0.48253984526642507
+        }
+      },
+      "saved_models": {
+        "dense": {
+          "file": "trained_models_real_data/dense_H4_20250618_225754.keras",
+          "type": "dense",
+          "framework": "tensorflow"
+        },
+        "lstm": {
+          "file": "trained_models_real_data/lstm_H4_20250618_225754.keras",
+          "type": "lstm",
+          "framework": "tensorflow"
+        },
+        "random_forest": {
+          "file": "trained_models_real_data/random_forest_H4_20250618_225754.pkl",
+          "type": "sklearn",
+          "framework": "sklearn"
+        },
+        "gradient_boosting": {
+          "file": "trained_models_real_data/gradient_boosting_H4_20250618_225754.pkl",
+          "type": "sklearn",
+          "framework": "sklearn"
+        },
+        "logistic_regression": {
+          "file": "trained_models_real_data/logistic_regression_H4_20250618_225754.pkl",
+          "type": "sklearn",
+          "framework": "sklearn"
+        }
+      }
+    },
+    "D1": {
+      "data_points": 3463,
+      "features_count": 22,
+      "train_size": 2770,
+      "test_size": 693,
+      "models_trained": [
+        "dense",
+        "lstm",
+        "random_forest",
+        "gradient_boosting",
+        "logistic_regression"
+      ],
+      "evaluation_results": {
+        "dense": {
+          "accuracy": 0.5036075036075036,
+          "precision": 0.5039644583717532,
+          "recall": 0.5036075036075036,
+          "f1_score": 0.5037692598228017
+        }
+      },
+      "saved_models": {
+        "dense": {
+          "file": "trained_models_real_data/dense_D1_20250618_225823.keras",
+          "type": "dense",
+          "framework": "tensorflow"
+        },
+        "lstm": {
+          "file": "trained_models_real_data/lstm_D1_20250618_225823.keras",
+          "type": "lstm",
+          "framework": "tensorflow"
+        },
+        "random_forest": {
+          "file": "trained_models_real_data/random_forest_D1_20250618_225823.pkl",
+          "type": "sklearn",
+          "framework": "sklearn"
+        },
+        "gradient_boosting": {
+          "file": "trained_models_real_data/gradient_boosting_D1_20250618_225823.pkl",
+          "type": "sklearn",
+          "framework": "sklearn"
+        },
+        "logistic_regression": {
+          "file": "trained_models_real_data/logistic_regression_D1_20250618_225823.pkl",
+          "type": "sklearn",
+          "framework": "sklearn"
+        }
+      }
+    },
+    "M30": {
+      "data_points": 49950,
+      "features_count": 22,
+      "train_size": 39960,
+      "test_size": 9990,
+      "models_trained": [
+        "dense",
+        "lstm",
+        "random_forest",
+        "gradient_boosting",
+        "logistic_regression"
+      ],
+      "evaluation_results": {
+        "dense": {
+          "accuracy": 0.512012012012012,
+          "precision": 0.5026742549908925,
+          "recall": 0.512012012012012,
+          "f1_score": 0.4889174397133517
+        }
+      },
+      "saved_models": {
+        "dense": {
+          "file": "trained_models_real_data/dense_M30_20250618_230335.keras",
+          "type": "dense",
+          "framework": "tensorflow"
+        },
+        "lstm": {
+          "file": "trained_models_real_data/lstm_M30_20250618_230335.keras",
+          "type": "lstm",
+          "framework": "tensorflow"
+        },
+        "random_forest": {
+          "file": "trained_models_real_data/random_forest_M30_20250618_230335.pkl",
+          "type": "sklearn",
+          "framework": "sklearn"
+        },
+        "gradient_boosting": {
+          "file": "trained_models_real_data/gradient_boosting_M30_20250618_230335.pkl",
+          "type": "sklearn",
+          "framework": "sklearn"
+        },
+        "logistic_regression": {
+          "file": "trained_models_real_data/logistic_regression_M30_20250618_230335.pkl",
+          "type": "sklearn",
+          "framework": "sklearn"
+        }
+      }
+    }
+  },
+  "models_trained": {},
+  "performance_metrics": {},
+  "backtest_results": {},
+  "end_time": "2025-06-18T23:03:36.082778"
+}

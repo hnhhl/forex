@@ -1,0 +1,129 @@
+{
+  "timestamp": "20250619_165000",
+  "system_info": {
+    "version": "Enhanced XAU System V4.0 with AI2.0 Integration",
+    "base_timeframe": "M15",
+    "ai2_integration": true,
+    "ai2_params": {
+      "step_size": 30,
+      "lookback_candles": 20,
+      "future_lookahead": 15
+    }
+  },
+  "dataset_summary": {
+    "total_samples": 2499,
+    "features_count": 12,
+    "train_samples": 1999,
+    "test_samples": 500,
+    "feature_columns": [
+      "sma_5",
+      "sma_10",
+      "sma_20",
+      "ema_10",
+      "rsi",
+      "macd",
+      "macd_signal",
+      "volatility",
+      "momentum_5",
+      "momentum_10",
+      "hour",
+      "day_of_week"
+    ]
+  },
+  "model_performance": {
+    "random_forest": {
+      "accuracy": 0.424,
+      "accuracy_pct": 42.4,
+      "improvement_vs_v4_base": -44.06
+    },
+    "gradient_boosting": {
+      "accuracy": 0.408,
+      "accuracy_pct": 40.8,
+      "improvement_vs_v4_base": -45.660000000000004
+    },
+    "lightgbm": {
+      "accuracy": 0.418,
+      "accuracy_pct": 41.8,
+      "improvement_vs_v4_base": -44.660000000000004
+    },
+    "neural_network": {
+      "accuracy": 0.434,
+      "accuracy_pct": 43.4,
+      "improvement_vs_v4_base": -43.06
+    },
+    "ensemble": {
+      "accuracy": 0.422,
+      "accuracy_pct": 42.199999999999996,
+      "improvement_vs_v4_base": -44.260000000000005
+    }
+  },
+  "trading_simulation": {
+    "random_forest": {
+      "total_trades": 498,
+      "win_rate": 53.41365461847389,
+      "total_return": 0.913100100245174,
+      "final_balance": 10091.310010024517,
+      "model_accuracy": 42.4
+    },
+    "gradient_boosting": {
+      "total_trades": 490,
+      "win_rate": 48.16326530612245,
+      "total_return": -0.22504902381384456,
+      "final_balance": 9977.495097618616,
+      "model_accuracy": 40.8
+    },
+    "lightgbm": {
+      "total_trades": 490,
+      "win_rate": 49.59183673469388,
+      "total_return": -0.07729776810028853,
+      "final_balance": 9992.270223189971,
+      "model_accuracy": 41.8
+    },
+    "neural_network": {
+      "total_trades": 489,
+      "win_rate": 53.37423312883436,
+      "total_return": 0.24483896478086536,
+      "final_balance": 10024.483896478087,
+      "model_accuracy": 43.4
+    },
+    "ensemble": {
+      "total_trades": 499,
+      "win_rate": 51.10220440881763,
+      "total_return": 0.08862365069617226,
+      "final_balance": 10008.862365069617,
+      "model_accuracy": 42.199999999999996
+    }
+  },
+  "best_performers": {
+    "best_model": {
+      "name": "neural_network",
+      "accuracy": 43.4,
+      "improvement": -43.06
+    },
+    "best_trading": {
+      "model": "random_forest",
+      "return": 0.913100100245174,
+      "win_rate": 53.41365461847389
+    }
+  },
+  "comparison_analysis": {
+    "vs_original_ai2": {
+      "original_trades": 11960,
+      "original_win_rate": 83.17,
+      "original_return": 140.29,
+      "enhanced_best_accuracy": 43.4,
+      "enhanced_best_return": 0.913100100245174
+    },
+    "vs_v4_base": {
+      "v4_base_accuracy": 86.46,
+      "enhanced_best_accuracy": 43.4,
+      "improvement": -43.06
+    }
+  },
+  "recommendations": [
+    "\u26a0\ufe0f Consider further optimization",
+    "\ud83d\udd04 Consider ensemble approach for production",
+    "\ud83d\udcca Monitor performance on out-of-sample data",
+    "\ud83d\ude80 Ready for live trading integration"
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "timestamp": "20250618_130142",
+  "dataset_info": {
+    "raw_records": 15000,
+    "processed_records": 14951,
+    "features_count": 56,
+    "data_quality": 0.9967333333333334,
+    "target_balance": 0.4984281987826901
+  },
+  "curriculum_learning": {
+    "stages": [
+      {
+        "stage": 1,
+        "name": "Very Easy",
+        "description": "Lowest volatility",
+        "samples": 1495,
+        "train_accuracy": 0.6228653004035068,
+        "test_accuracy": 0.5514821014964809,
+        "volatility_stats": {
+          "min": 0.0,
+          "max": 0.0008700177887565531,
+          "mean": 0.0006761511792630235,
+          "std": 0.0001461089579763049
+        },
+        "learning_rate": 0.051482101496480914
+      },
+      {
+        "stage": 2,
+        "name": "Easy",
+        "description": "Low volatility",
+        "samples": 2990,
+        "train_accuracy": 0.6493406516132041,
+        "test_accuracy": 0.5559144527030463,
+        "volatility_stats": {
+          "min": 0.0,
+          "max": 0.0011261148033824674,
+          "mean": 0.0008394093659373472,
+          "std": 0.0002001629253909577
+        },
+        "learning_rate": 0.004432351206565377
+      },
+      {
+        "stage": 3,
+        "name": "Medium-Easy",
+        "description": "Below average volatility",
+        "samples": 5980,
+        "train_accuracy": 0.6882680618126598,
+        "test_accuracy": 0.5756741830543979,
+        "volatility_stats": {
+          "min": 0.0,
+          "max": 0.0016104343919131348,
+          "mean": 0.0011025547408120922,
+          "std": 0.0003143024238894191
+        },
+        "learning_rate": 0.01975973035135159
+      },
+      {
+        "stage": 4,
+        "name": "Medium",
+        "description": "Average volatility",
+        "samples": 8970,
+        "train_accuracy": 0.7125649925867862,
+        "test_accuracy": 0.6199570350140629,
+        "volatility_stats": {
+          "min": 0.0,
+          "max": 0.0022544560733323946,
+          "mean": 0.0013725798507675069,
+          "std": 0.0004726590743835978
+        },
+        "learning_rate": 0.04428285195966497
+      },
+      {
+        "stage": 5,
+        "name": "Medium-Hard",
+        "description": "Above average volatility",
+        "samples": 11960,
+        "train_accuracy": 0.7089732901515969,
+        "test_accuracy": 0.6182180772035278,
+        "volatility_stats": {
+          "min": 0.0,
+          "max": 0.003380495471884536,
+          "mean": 0.0017141197532875487,
+          "std": 0.0007370612074345407
+        },
+        "learning_rate": -0.0017389578105350134
+      },
+      {
+        "stage": 6,
+        "name": "Hard",
+        "description": "All data including high volatility",
+        "samples": 14951,
+        "train_accuracy": 0.7778206618661536,
+        "test_accuracy": 0.6939875647414793,
+        "volatility_stats": {
+          "min": 0.0,
+          "max": 0.04268240542463178,
+          "mean": 0.002597004805450827,
+          "std": 0.0025387002809241733
+        },
+        "learning_rate": 0.07576948753795143
+      }
+    ],
+    "total_improvement": 0.2584045118750018
+  },
+  "ensemble_analysis": {
+    "RandomForest": {
+      "accuracy": 0.6629599714310601,
+      "precision": 0.6324637729520424,
+      "recall": 0.6396793611458023,
+      "f1_score": 0.6298429219576558,
+      "training_time": 11.917056330791393,
+      "features_used": 35,
+      "hyperparameters": {
+        "n_estimators": 100,
+        "max_depth": 15,
+        "min_samples_split": 5
+      }
+    },
+    "XGBoost": {
+      "accuracy": 0.6662681564145408,
+      "precision": 0.6701845118815963,
+      "recall": 0.6579511883528913,
+      "f1_score": 0.6477282584631112,
+      "training_time": 8.834827073869633,
+      "features_used": 35,
+      "hyperparameters": {
+        "n_estimators": 100,
+        "max_depth": 6,
+        "learning_rate": 0.1
+      }
+    },
+    "LSTM": {
+      "accuracy": 0.6391176713594418,
+      "precision": 0.6362349485746082,
+      "recall": 0.6526548564578807,
+      "f1_score": 0.6325703636129273,
+      "training_time": 45.38965095863938,
+      "features_used": 35,
+      "hyperparameters": {
+        "units": 50,
+        "epochs": 20,
+        "batch_size": 64
+      }
+    },
+    "LightGBM": {
+      "accuracy": 0.6447319316692843,
+      "precision": 0.6484038603399297,
+      "recall": 0.6578263440445102,
+      "f1_score": 0.6571769796674011,
+      "training_time": 6.388450310489587,
+      "features_used": 35,
+      "hyperparameters": {
+        "n_estimators": 100,
+        "max_depth": 8,
+        "learning_rate": 0.1
+      }
+    },
+    "Ensemble": {
+      "accuracy": 0.6782694327185818,
+      "precision": 0.6668217734370442,
+      "recall": 0.6720279375002711,
+      "f1_score": 0.6618296309252739,
+      "training_time": 77.52998467379,
+      "features_used": 35,
+      "method": "Weighted Voting"
+    }
+  },
+  "cross_validation": {
+    "RandomForest": {
+      "cv_scores": [
+        0.672046311893258,
+        0.6350770806064702,
+        0.6584058345194159,
+        0.6631683587949407,
+        0.6814031358496433
+      ],
+      "cv_mean": 0.6620201443327456,
+      "cv_std": 0.015598299336348587,
+      "cv_min": 0.6350770806064702,
+      "cv_max": 0.6814031358496433,
+      "stability_score": 0.976438331265478,
+      "confidence_interval_95": [
+        0.6314474776335024,
+        0.6925928110319888
+      ]
+    },
+    "XGBoost": {
+      "cv_scores": [
+        0.6343058651552139,
+        0.6901573327286087,
+        0.6889649581597544,
+        0.6756784792473662,
+        0.6648002472526804
+      ],
+      "cv_mean": 0.6707813765087247,
+      "cv_std": 0.020475784585724376,
+      "cv_min": 0.6343058651552139,
+      "cv_max": 0.6901573327286087,
+      "stability_score": 0.9694747270827695,
+      "confidence_interval_95": [
+        0.630648838720705,
+        0.7109139142967444
+      ]
+    },
+    "LightGBM": {
+      "cv_scores": [
+        0.6490531882474236,
+        0.6447054980715704,
+        0.6419343213935176,
+        0.6358356390155631,
+        0.6459097852405605
+      ],
+      "cv_mean": 0.643487686393727,
+      "cv_std": 0.004456258764739007,
+      "cv_min": 0.6358356390155631,
+      "cv_max": 0.6490531882474236,
+      "stability_score": 0.9930748344390037,
+      "confidence_interval_95": [
+        0.6347534192148385,
+        0.6522219535726155
+      ]
+    }
+  },
+  "summary": {
+    "best_model": "Ensemble",
+    "best_accuracy": 0.6782694327185818,
+    "total_training_time": 150.05996934758,
+    "efficiency_score": 99.63350029326868
+  }
+}

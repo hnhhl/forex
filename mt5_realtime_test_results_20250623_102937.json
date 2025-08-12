@@ -1,0 +1,119 @@
+{
+  "start_time": "2025-06-23 10:29:10.636770",
+  "mt5_connection": {
+    "initialized": true,
+    "connected": true,
+    "terminal_info": {
+      "community_account": false,
+      "community_connection": false,
+      "connected": true,
+      "dlls_allowed": false,
+      "trade_allowed": true,
+      "tradeapi_disabled": false,
+      "email_enabled": false,
+      "ftp_enabled": false,
+      "notifications_enabled": false,
+      "mqid": true,
+      "build": 5120,
+      "maxbars": 100000,
+      "codepage": 0,
+      "ping_last": 63162,
+      "community_balance": 0.0,
+      "retransmission": 0.2321603128054741,
+      "company": "MetaQuotes Ltd.",
+      "name": "MetaTrader 5",
+      "language": "English",
+      "path": "C:\\Program Files\\MetaTrader 5",
+      "data_path": "C:\\Users\\Admin\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075",
+      "commondata_path": "C:\\Users\\Admin\\AppData\\Roaming\\MetaQuotes\\Terminal\\Common"
+    },
+    "account_info": {
+      "login": 183314499,
+      "trade_mode": 2,
+      "leverage": 2000000000,
+      "limit_orders": 1000,
+      "margin_so_mode": 0,
+      "trade_allowed": true,
+      "trade_expert": true,
+      "margin_mode": 2,
+      "currency_digits": 2,
+      "fifo_close": false,
+      "balance": 0.0,
+      "credit": 0.0,
+      "profit": 0.0,
+      "equity": 0.0,
+      "margin": 0.0,
+      "margin_free": 0.0,
+      "margin_level": 0.0,
+      "margin_so_call": 60.0,
+      "margin_so_so": 0.0,
+      "margin_initial": 0.0,
+      "margin_maintenance": 0.0,
+      "assets": 0.0,
+      "liabilities": 0.0,
+      "commission_blocked": 0.0,
+      "name": "Standard Cent",
+      "server": "Exness-MT5Real25",
+      "currency": "USC",
+      "company": "Exness Technologies Ltd"
+    }
+  },
+  "real_time_data": {
+    "symbol": "XAUUSD",
+    "timeframe": "H1",
+    "count": 1001,
+    "latest_time": "2025-06-23T10:29:35.577343",
+    "latest_price": 2637.4861805223677,
+    "latest_volume": 13473,
+    "data_source": "SIMULATED_REAL_TIME"
+  },
+  "system_performance": {
+    "data_retrieval_time": 0.025672435760498047,
+    "signal_generation_time": 0.6329720815022787,
+    "system_response_time": 0.0
+  },
+  "signal_quality": {
+    "total_signals": 5,
+    "average_confidence": 0.45499999999999996,
+    "average_generation_time": 1.0005010604858398,
+    "average_systems_used": 7.0,
+    "signal_distribution": {
+      "SELL": "5"
+    },
+    "signal_consistency": 100.0,
+    "all_signals": [
+      {
+        "action": "SELL",
+        "confidence": 0.45499999999999996,
+        "timestamp": "2025-06-23T10:29:28.317952",
+        "systems_used": 7
+      },
+      {
+        "action": "SELL",
+        "confidence": 0.45499999999999996,
+        "timestamp": "2025-06-23T10:29:29.558005",
+        "systems_used": 7
+      },
+      {
+        "action": "SELL",
+        "confidence": 0.45499999999999996,
+        "timestamp": "2025-06-23T10:29:30.821184",
+        "systems_used": 7
+      },
+      {
+        "action": "SELL",
+        "confidence": 0.45499999999999996,
+        "timestamp": "2025-06-23T10:29:32.099601",
+        "systems_used": 7
+      },
+      {
+        "action": "SELL",
+        "confidence": 0.45499999999999996,
+        "timestamp": "2025-06-23T10:29:33.362492",
+        "systems_used": 7
+      }
+    ]
+  },
+  "end_time": "2025-06-23 10:29:37.503257",
+  "test_duration_seconds": 26.866487
+}

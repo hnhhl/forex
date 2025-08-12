@@ -1,0 +1,103 @@
+{
+  "day": 36,
+  "system_name": "Ultimate XAU Super System V4.0",
+  "module_name": "Ensemble Optimization & Simplification",
+  "completion_date": "2025-06-17",
+  "version": "4.0.36",
+  "phase": "Phase 4: Advanced AI Systems",
+  "status": "SUCCESS",
+  "execution_time": 9.014018774032593,
+  "overall_score": 55.44473457336426,
+  "performance_breakdown": {
+    "performance_score": 50.0,
+    "ensemble_score": 27.0,
+    "model_quality_score": 100.0,
+    "speed_score": 36.947345733642585,
+    "feature_score": 100
+  },
+  "performance_metrics": {
+    "weighted_direction_accuracy": 0.42,
+    "simple_direction_accuracy": 0.36,
+    "sklearn_direction_accuracy": 0.5,
+    "best_ensemble_accuracy": 0.5,
+    "weighted_improvement": -0.2,
+    "sklearn_improvement": -0.12,
+    "best_individual_accuracy": 0.62,
+    "weighted_r2": -0.32513108886142317,
+    "sklearn_r2": 0.003476987231911366,
+    "weighted_mse": 0.000253049603917342,
+    "average_processing_time": 0.03152632713317871,
+    "individual_accuracies": {
+      "Ridge_Optimized": 0.62,
+      "DecisionTree_Optimized": 0.5,
+      "MLP_Optimized": 0.32,
+      "RandomForest_Optimized": 0.54,
+      "XGBoost_Optimized": 0.5
+    }
+  },
+  "optimization_details": {
+    "models_attempted": 5,
+    "models_successful": 5,
+    "features_selected": 10,
+    "selected_features": [
+      "volatility_ratio",
+      "ma_ratio_10",
+      "momentum_10",
+      "price_position",
+      "ma_distance_10",
+      "roc_10",
+      "ma_ratio_20",
+      "ma_distance_20",
+      "volatility_10",
+      "volatility_20"
+    ],
+    "ensemble_weights": {
+      "Ridge_Optimized": 0.36110993545968006,
+      "DecisionTree_Optimized": 0.0734684934530417,
+      "MLP_Optimized": 0.047619047619047616,
+      "RandomForest_Optimized": 0.21203094670630881,
+      "XGBoost_Optimized": 0.30577157676192174
+    },
+    "sklearn_ensemble_available": true,
+    "training_results": {
+      "Ridge_Optimized": {
+        "status": "success",
+        "val_r2": -0.02441619078231616,
+        "direction_acc": 0.47761194029850745,
+        "training_time": 0.007003068923950195
+      },
+      "DecisionTree_Optimized": {
+        "status": "success",
+        "val_r2": -0.9332891832409869,
+        "direction_acc": 0.4925373134328358,
+        "training_time": 0.014002799987792969
+      },
+      "MLP_Optimized": {
+        "status": "success",
+        "val_r2": -172.13298738877452,
+        "direction_acc": 0.3582089552238806,
+        "training_time": 0.2890651226043701
+      },
+      "RandomForest_Optimized": {
+        "status": "success",
+        "val_r2": -0.184979629345837,
+        "direction_acc": 0.5373134328358209,
+        "training_time": 0.1780412197113037
+      },
+      "XGBoost_Optimized": {
+        "status": "success",
+        "val_r2": -0.13198388467466193,
+        "direction_acc": 0.5522388059701493,
+        "training_time": 0.04300570487976074
+      }
+    }
+  },
+  "advanced_features": {
+    "optimized_model_selection": true,
+    "feature_optimization": true,
+    "validation_based_weighting": true,
+    "sklearn_stacking": true,
+    "performance_constraints": true,
+    "weight_normalization": true
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "timestamp": "2025-06-18T10:44:43.931322",
+  "comparison_type": "Separated Timeframes vs Unified Multi-Timeframe",
+  "summary": {
+    "old_models": {
+      "trained_timeframes": [
+        "M15",
+        "M30",
+        "H1",
+        "H4",
+        "D1"
+      ],
+      "individual_accuracies": {
+        "M15": 0.715,
+        "M30": 0.711,
+        "H1": 0.704,
+        "H4": 0.697,
+        "D1": 0.689
+      },
+      "average_accuracy": 0.7032,
+      "best_single_accuracy": 0.715,
+      "total_models": 25
+    },
+    "unified_models": {
+      "neural_ensemble_accuracy": 0.8448711470439616,
+      "traditional_ml_accuracy": 0.864578069732188,
+      "best_overall_accuracy": 0.864578069732188,
+      "features_count": 469,
+      "total_models": 5
+    },
+    "improvements": {
+      "vs_average_old": 0.16137806973218793,
+      "vs_best_old": 0.149578069732188,
+      "percentage_improvement_vs_average": 22.949099791266768,
+      "percentage_improvement_vs_best": 20.920009752753568
+    },
+    "efficiency_gains": {
+      "model_reduction": "25 \u2192 5 models",
+      "model_reduction_percentage": 80.0,
+      "unified_features": 469,
+      "separate_features_total": 335
+    }
+  },
+  "analysis": {
+    "key_findings": [
+      "Unified model achieves 0.8646 accuracy",
+      "Improvement of +0.1496 over best old model",
+      "Model count reduced by 80.0%",
+      "Single unified view of market across all timeframes",
+      "Simplified deployment and maintenance"
+    ],
+    "advantages_unified": [
+      "Holistic market view across all timeframes",
+      "Better feature interactions between timeframes",
+      "Reduced model complexity (5 vs 25+ models)",
+      "Easier deployment and maintenance",
+      "Consistent prediction framework"
+    ],
+    "technical_details": {
+      "old_approach": "Separate models per timeframe (M1, M5, M15, M30, H1, H4, D1)",
+      "new_approach": "Single unified model with 469 features (67\u00d77 timeframes)",
+      "base_timeframe": "M15 (most stable sample count)",
+      "alignment_method": "Forward fill with timestamp alignment"
+    }
+  }
+}

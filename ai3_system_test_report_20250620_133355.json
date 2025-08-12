@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-06-20T13:33:40.055498",
+  "test_results": {
+    "imports": true,
+    "initialization": false,
+    "data_preparation": true,
+    "signal_generation": false,
+    "gpu_integration": true,
+    "ai_phases": true
+  },
+  "summary": {
+    "passed_tests": 4,
+    "total_tests": 6,
+    "success_rate": 66.66666666666666,
+    "overall_status": "NEEDS_IMPROVEMENT"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "timestamp": "2025-06-23T10:56:47.712756",
+  "data_analysis": {
+    "total_records": 1000,
+    "columns": [
+      "time",
+      "open",
+      "high",
+      "low",
+      "close",
+      "tick_volume",
+      "spread",
+      "real_volume"
+    ],
+    "price_issues": "0",
+    "data_quality_score": "100"
+  },
+  "model_analysis": {
+    "DataQualityMonitor": {
+      "status": "success",
+      "prediction": "N/A",
+      "confidence": "N/A",
+      "result_type": "dict"
+    },
+    "LatencyOptimizer": {
+      "status": "success",
+      "prediction": "N/A",
+      "confidence": "N/A",
+      "result_type": "dict"
+    },
+    "MT5ConnectionManager": {
+      "status": "success",
+      "prediction": "N/A",
+      "confidence": "N/A",
+      "result_type": "dict"
+    },
+    "NeuralNetworkSystem": {
+      "status": "success",
+      "prediction": "N/A",
+      "confidence": "N/A",
+      "result_type": "dict"
+    },
+    "AIPhaseSystem": {
+      "status": "success",
+      "prediction": -333.3730126866822,
+      "confidence": 0.85,
+      "result_type": "dict"
+    },
+    "AI2AdvancedTechnologiesSystem": {
+      "status": "success",
+      "prediction": "N/A",
+      "confidence": "N/A",
+      "result_type": "dict"
+    },
+    "RealTimeMT5DataSystem": {
+      "status": "success",
+      "prediction": "N/A",
+      "confidence": "N/A",
+      "result_type": "dict"
+    }
+  },
+  "logic_analysis": {
+    "signal_consistency": true,
+    "confidence_consistency": "True",
+    "average_confidence": 0.497,
+    "dominant_action": "SELL"
+  },
+  "flow_analysis": {
+    "components_count": 7,
+    "valid_predictions": 1,
+    "weighted_prediction": -333.41164768681426,
+    "signal_strength": -91.06084424860167,
+    "final_action": "SELL",
+    "final_confidence": 0.7100000000000001
+  },
+  "balance_issues": [
+    "Prediction bias towards SELL",
+    "Extreme signal strength: -91.0593798735206",
+    "Signal strength out of range: -667.8232953736285",
+    "Weight imbalance: 0.15",
+    "Component prediction SELL bias",
+    "Critical SELL bias: 100.0%",
+    "Confidence stuck at ~0.497",
+    "Low average confidence: 0.497",
+    "Signal strength stuck at ~-91.056",
+    "Extreme signal strength: -91.056"
+  ]
+}

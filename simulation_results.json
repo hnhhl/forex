@@ -1,0 +1,87 @@
+{
+  "simulation_history": [
+    {
+      "timestamp": "2025-06-14T12:50:22.226783",
+      "method": "standard",
+      "distribution": "normal",
+      "config": {
+        "n_simulations": 5000,
+        "n_steps": 1,
+        "time_horizon": 1,
+        "confidence_levels": [
+          0.95,
+          0.99,
+          0.999
+        ]
+      },
+      "var_estimates": {
+        "0.95": -0.015576262275671994,
+        "0.99": -0.023075498592456674,
+        "0.999": -0.030203569630154983
+      },
+      "cvar_estimates": {
+        "0.95": -0.01997035370687125,
+        "0.99": -0.02642973062256173,
+        "0.999": -0.033625428866506026
+      },
+      "statistics": {
+        "mean": 0.0007814535501576563,
+        "std": 0.010077945826095513,
+        "skewness": 0.02563515659143374,
+        "kurtosis": 0.05776823097826966,
+        "min": -0.03909736601909407,
+        "max": 0.03770637756381545,
+        "percentile_1": -0.023075498592456677,
+        "percentile_5": -0.015576262275671998,
+        "percentile_95": 0.01773121578528164,
+        "percentile_99": 0.024385452268680174
+      },
+      "computation_time": 0.005004
+    },
+    {
+      "timestamp": "2025-06-14T12:50:22.231787",
+      "method": "standard",
+      "distribution": "normal",
+      "config": {
+        "n_simulations": 5000,
+        "n_steps": 1,
+        "time_horizon": 1,
+        "confidence_levels": [
+          0.95,
+          0.99,
+          0.999
+        ]
+      },
+      "var_estimates": {
+        "0.95": -0.015576262275671994,
+        "0.99": -0.023075498592456674,
+        "0.999": -0.030203569630154983
+      },
+      "cvar_estimates": {
+        "0.95": -0.01997035370687125,
+        "0.99": -0.02642973062256173,
+        "0.999": -0.033625428866506026
+      },
+      "statistics": {
+        "mean": 0.0007814535501576563,
+        "std": 0.010077945826095513,
+        "skewness": 0.02563515659143374,
+        "kurtosis": 0.05776823097826966,
+        "min": -0.03909736601909407,
+        "max": 0.03770637756381545,
+        "percentile_1": -0.023075498592456677,
+        "percentile_5": -0.015576262275671998,
+        "percentile_95": 0.01773121578528164,
+        "percentile_99": 0.024385452268680174
+      },
+      "computation_time": 0.005012
+    }
+  ],
+  "stress_scenarios": [],
+  "configuration": {
+    "default_n_simulations": 10000,
+    "default_method": "standard",
+    "default_distribution": "normal"
+  },
+  "export_timestamp": "2025-06-14T12:50:22.251792"
+}

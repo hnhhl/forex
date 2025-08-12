@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-06-18T07:53:43.577545",
+  "neural_accuracy": 0.709280781539498,
+  "improvement_over_random": 20.9280781539498,
+  "verdict": "TH\u1ea4T B\u1ea0I \u0110\u00c1NG K\u1ec2",
+  "is_production_ready": false,
+  "is_profitable": false,
+  "training_efficiency": "Very Poor",
+  "recommendation": "Major redesign required"
+}

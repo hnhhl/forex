@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-06-20T08:46:05.605629",
+  "original_confidence": 0.23176274547834427,
+  "hybrid_confidence": 0.35507420191637984,
+  "improvement": 0.12331145643803557,
+  "signal_diversity": [
+    "BUY"
+  ],
+  "action_distribution": {
+    "BUY": 8
+  },
+  "average_consensus": 0.7375,
+  "status": "IMPROVED"
+}

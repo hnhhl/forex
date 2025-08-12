@@ -1,0 +1,1618 @@
+[
+  {
+    "scenario": {
+      "name": "Strong Bullish Breakout",
+      "type": "bullish",
+      "actual_direction": "BUY",
+      "description": "Price breaks above resistance with high volume"
+    },
+    "specialist_votes": {
+      "RSI_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.6121773678621485,
+        "reasoning": "Contrarian analysis suggests SELL",
+        "bias": "contrarian",
+        "scenario_type": "bullish"
+      },
+      "MACD_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.17523783831182693,
+        "reasoning": "Trend Following analysis suggests BUY",
+        "bias": "trend_following",
+        "scenario_type": "bullish"
+      },
+      "Fibonacci_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.49565230107831915,
+        "reasoning": "Support Resistance analysis suggests BUY",
+        "bias": "support_resistance",
+        "scenario_type": "bullish"
+      },
+      "News_Sentiment_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.2657748535500137,
+        "reasoning": "Fundamental analysis suggests SELL",
+        "bias": "fundamental",
+        "scenario_type": "bullish"
+      },
+      "Social_Media_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.1586147959730423,
+        "reasoning": "Crowd Sentiment analysis suggests HOLD",
+        "bias": "crowd_sentiment",
+        "scenario_type": "bullish"
+      },
+      "Fear_Greed_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.29447849379188107,
+        "reasoning": "Contrarian analysis suggests BUY",
+        "bias": "contrarian",
+        "scenario_type": "bullish"
+      },
+      "Chart_Pattern_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.32145519393933575,
+        "reasoning": "Pattern Recognition analysis suggests BUY",
+        "bias": "pattern_recognition",
+        "scenario_type": "bullish"
+      },
+      "Candlestick_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.25369157424020555,
+        "reasoning": "Reversal Patterns analysis suggests BUY",
+        "bias": "reversal_patterns",
+        "scenario_type": "bullish"
+      },
+      "Wave_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.37946493522808256,
+        "reasoning": "Elliott Wave analysis suggests BUY",
+        "bias": "elliott_wave",
+        "scenario_type": "bullish"
+      },
+      "VaR_Risk_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.3681042014660574,
+        "reasoning": "Risk Averse analysis suggests SELL",
+        "bias": "risk_averse",
+        "scenario_type": "bullish"
+      },
+      "Drawdown_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.18658416106147085,
+        "reasoning": "Capital Preservation analysis suggests SELL",
+        "bias": "capital_preservation",
+        "scenario_type": "bullish"
+      },
+      "Position_Size_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.6420697547208178,
+        "reasoning": "Money Management analysis suggests HOLD",
+        "bias": "money_management",
+        "scenario_type": "bullish"
+      },
+      "Trend_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.2663526970808828,
+        "reasoning": "Trend Following analysis suggests BUY",
+        "bias": "trend_following",
+        "scenario_type": "bullish"
+      },
+      "Mean_Reversion_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.22670137597544307,
+        "reasoning": "Mean Reverting analysis suggests BUY",
+        "bias": "mean_reverting",
+        "scenario_type": "bullish"
+      },
+      "Breakout_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.4506554186558923,
+        "reasoning": "Breakout Trading analysis suggests BUY",
+        "bias": "breakout_trading",
+        "scenario_type": "bullish"
+      },
+      "ATR_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.27674852580160425,
+        "reasoning": "Volatility Based analysis suggests SELL",
+        "bias": "volatility_based",
+        "scenario_type": "bullish"
+      },
+      "Bollinger_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.33224627607579515,
+        "reasoning": "Volatility Bands analysis suggests BUY",
+        "bias": "volatility_bands",
+        "scenario_type": "bullish"
+      },
+      "Volatility_Clustering_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.5453631271523272,
+        "reasoning": "Volatility Regime analysis suggests SELL",
+        "bias": "volatility_regime",
+        "scenario_type": "bullish"
+      }
+    },
+    "category_consensus": {
+      "Technical": {
+        "majority_decision": "BUY",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 2,
+          "SELL": 1,
+          "HOLD": 0
+        }
+      },
+      "Sentiment": {
+        "majority_decision": "BUY",
+        "consensus_strength": 0.3333333333333333,
+        "vote_distribution": {
+          "BUY": 1,
+          "SELL": 1,
+          "HOLD": 1
+        }
+      },
+      "Pattern": {
+        "majority_decision": "BUY",
+        "consensus_strength": 1.0,
+        "vote_distribution": {
+          "BUY": 3,
+          "SELL": 0,
+          "HOLD": 0
+        }
+      },
+      "Risk": {
+        "majority_decision": "SELL",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 0,
+          "SELL": 2,
+          "HOLD": 1
+        }
+      },
+      "Momentum": {
+        "majority_decision": "BUY",
+        "consensus_strength": 1.0,
+        "vote_distribution": {
+          "BUY": 3,
+          "SELL": 0,
+          "HOLD": 0
+        }
+      },
+      "Volatility": {
+        "majority_decision": "SELL",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 1,
+          "SELL": 2,
+          "HOLD": 0
+        }
+      }
+    },
+    "final_decision": "BUY",
+    "consensus_strength": 0.5555555555555556,
+    "weighted_decision": "BUY",
+    "weighted_confidence": 0.511237476888538,
+    "vote_distribution": {
+      "BUY": 10,
+      "SELL": 6,
+      "HOLD": 2
+    },
+    "prediction_correct": true
+  },
+  {
+    "scenario": {
+      "name": "Sharp Bearish Decline",
+      "type": "bearish",
+      "actual_direction": "SELL",
+      "description": "Price falls below support with increasing volume"
+    },
+    "specialist_votes": {
+      "RSI_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.4722294520693995,
+        "reasoning": "Contrarian analysis suggests SELL",
+        "bias": "contrarian",
+        "scenario_type": "bearish"
+      },
+      "MACD_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.16789061762737303,
+        "reasoning": "Trend Following analysis suggests SELL",
+        "bias": "trend_following",
+        "scenario_type": "bearish"
+      },
+      "Fibonacci_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.33417696488770166,
+        "reasoning": "Support Resistance analysis suggests SELL",
+        "bias": "support_resistance",
+        "scenario_type": "bearish"
+      },
+      "News_Sentiment_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.26624760482848536,
+        "reasoning": "Fundamental analysis suggests SELL",
+        "bias": "fundamental",
+        "scenario_type": "bearish"
+      },
+      "Social_Media_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.32119558673121457,
+        "reasoning": "Crowd Sentiment analysis suggests BUY",
+        "bias": "crowd_sentiment",
+        "scenario_type": "bearish"
+      },
+      "Fear_Greed_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.3977512532536312,
+        "reasoning": "Contrarian analysis suggests HOLD",
+        "bias": "contrarian",
+        "scenario_type": "bearish"
+      },
+      "Chart_Pattern_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.5386158887254507,
+        "reasoning": "Pattern Recognition analysis suggests BUY",
+        "bias": "pattern_recognition",
+        "scenario_type": "bearish"
+      },
+      "Candlestick_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.36483863307364284,
+        "reasoning": "Reversal Patterns analysis suggests SELL",
+        "bias": "reversal_patterns",
+        "scenario_type": "bearish"
+      },
+      "Wave_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.28324790353271306,
+        "reasoning": "Elliott Wave analysis suggests SELL",
+        "bias": "elliott_wave",
+        "scenario_type": "bearish"
+      },
+      "VaR_Risk_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.2616888404953174,
+        "reasoning": "Risk Averse analysis suggests HOLD",
+        "bias": "risk_averse",
+        "scenario_type": "bearish"
+      },
+      "Drawdown_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.3825960310545256,
+        "reasoning": "Capital Preservation analysis suggests SELL",
+        "bias": "capital_preservation",
+        "scenario_type": "bearish"
+      },
+      "Position_Size_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.5437792310926152,
+        "reasoning": "Money Management analysis suggests SELL",
+        "bias": "money_management",
+        "scenario_type": "bearish"
+      },
+      "Trend_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.5180430080170096,
+        "reasoning": "Trend Following analysis suggests SELL",
+        "bias": "trend_following",
+        "scenario_type": "bearish"
+      },
+      "Mean_Reversion_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.4639331071362475,
+        "reasoning": "Mean Reverting analysis suggests SELL",
+        "bias": "mean_reverting",
+        "scenario_type": "bearish"
+      },
+      "Breakout_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.2334333458477456,
+        "reasoning": "Breakout Trading analysis suggests SELL",
+        "bias": "breakout_trading",
+        "scenario_type": "bearish"
+      },
+      "ATR_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.2058422886434988,
+        "reasoning": "Volatility Based analysis suggests BUY",
+        "bias": "volatility_based",
+        "scenario_type": "bearish"
+      },
+      "Bollinger_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.4324958953105351,
+        "reasoning": "Volatility Bands analysis suggests SELL",
+        "bias": "volatility_bands",
+        "scenario_type": "bearish"
+      },
+      "Volatility_Clustering_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.3460742947721538,
+        "reasoning": "Volatility Regime analysis suggests SELL",
+        "bias": "volatility_regime",
+        "scenario_type": "bearish"
+      }
+    },
+    "category_consensus": {
+      "Technical": {
+        "majority_decision": "SELL",
+        "consensus_strength": 1.0,
+        "vote_distribution": {
+          "BUY": 0,
+          "SELL": 3,
+          "HOLD": 0
+        }
+      },
+      "Sentiment": {
+        "majority_decision": "BUY",
+        "consensus_strength": 0.3333333333333333,
+        "vote_distribution": {
+          "BUY": 1,
+          "SELL": 1,
+          "HOLD": 1
+        }
+      },
+      "Pattern": {
+        "majority_decision": "SELL",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 1,
+          "SELL": 2,
+          "HOLD": 0
+        }
+      },
+      "Risk": {
+        "majority_decision": "SELL",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 0,
+          "SELL": 2,
+          "HOLD": 1
+        }
+      },
+      "Momentum": {
+        "majority_decision": "SELL",
+        "consensus_strength": 1.0,
+        "vote_distribution": {
+          "BUY": 0,
+          "SELL": 3,
+          "HOLD": 0
+        }
+      },
+      "Volatility": {
+        "majority_decision": "SELL",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 1,
+          "SELL": 2,
+          "HOLD": 0
+        }
+      }
+    },
+    "final_decision": "SELL",
+    "consensus_strength": 0.7222222222222222,
+    "weighted_decision": "SELL",
+    "weighted_confidence": 0.7359851927408768,
+    "vote_distribution": {
+      "BUY": 3,
+      "SELL": 13,
+      "HOLD": 2
+    },
+    "prediction_correct": true
+  },
+  {
+    "scenario": {
+      "name": "Sideways Consolidation",
+      "type": "sideways",
+      "actual_direction": "HOLD",
+      "description": "Price moves in tight range with low volatility"
+    },
+    "specialist_votes": {
+      "RSI_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.1829724554159829,
+        "reasoning": "Contrarian analysis suggests BUY",
+        "bias": "contrarian",
+        "scenario_type": "sideways"
+      },
+      "MACD_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.5934716025843206,
+        "reasoning": "Trend Following analysis suggests BUY",
+        "bias": "trend_following",
+        "scenario_type": "sideways"
+      },
+      "Fibonacci_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.5380027007651487,
+        "reasoning": "Support Resistance analysis suggests HOLD",
+        "bias": "support_resistance",
+        "scenario_type": "sideways"
+      },
+      "News_Sentiment_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.46741291788482286,
+        "reasoning": "Fundamental analysis suggests BUY",
+        "bias": "fundamental",
+        "scenario_type": "sideways"
+      },
+      "Social_Media_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.3991811805705028,
+        "reasoning": "Crowd Sentiment analysis suggests HOLD",
+        "bias": "crowd_sentiment",
+        "scenario_type": "sideways"
+      },
+      "Fear_Greed_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.24747821624035027,
+        "reasoning": "Contrarian analysis suggests BUY",
+        "bias": "contrarian",
+        "scenario_type": "sideways"
+      },
+      "Chart_Pattern_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.415746586577136,
+        "reasoning": "Pattern Recognition analysis suggests HOLD",
+        "bias": "pattern_recognition",
+        "scenario_type": "sideways"
+      },
+      "Candlestick_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.2691850572088138,
+        "reasoning": "Reversal Patterns analysis suggests HOLD",
+        "bias": "reversal_patterns",
+        "scenario_type": "sideways"
+      },
+      "Wave_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.37504632940254456,
+        "reasoning": "Elliott Wave analysis suggests BUY",
+        "bias": "elliott_wave",
+        "scenario_type": "sideways"
+      },
+      "VaR_Risk_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.46849585291124934,
+        "reasoning": "Risk Averse analysis suggests HOLD",
+        "bias": "risk_averse",
+        "scenario_type": "sideways"
+      },
+      "Drawdown_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.6929765487385744,
+        "reasoning": "Capital Preservation analysis suggests SELL",
+        "bias": "capital_preservation",
+        "scenario_type": "sideways"
+      },
+      "Position_Size_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.3550860702967386,
+        "reasoning": "Money Management analysis suggests SELL",
+        "bias": "money_management",
+        "scenario_type": "sideways"
+      },
+      "Trend_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.22807745458011996,
+        "reasoning": "Trend Following analysis suggests SELL",
+        "bias": "trend_following",
+        "scenario_type": "sideways"
+      },
+      "Mean_Reversion_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.15757051580481837,
+        "reasoning": "Mean Reverting analysis suggests HOLD",
+        "bias": "mean_reverting",
+        "scenario_type": "sideways"
+      },
+      "Breakout_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.19078388371435284,
+        "reasoning": "Breakout Trading analysis suggests HOLD",
+        "bias": "breakout_trading",
+        "scenario_type": "sideways"
+      },
+      "ATR_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.44758960688346194,
+        "reasoning": "Volatility Based analysis suggests SELL",
+        "bias": "volatility_based",
+        "scenario_type": "sideways"
+      },
+      "Bollinger_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.38657113493287365,
+        "reasoning": "Volatility Bands analysis suggests HOLD",
+        "bias": "volatility_bands",
+        "scenario_type": "sideways"
+      },
+      "Volatility_Clustering_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.307622901119754,
+        "reasoning": "Volatility Regime analysis suggests HOLD",
+        "bias": "volatility_regime",
+        "scenario_type": "sideways"
+      }
+    },
+    "category_consensus": {
+      "Technical": {
+        "majority_decision": "BUY",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 2,
+          "SELL": 0,
+          "HOLD": 1
+        }
+      },
+      "Sentiment": {
+        "majority_decision": "BUY",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 2,
+          "SELL": 0,
+          "HOLD": 1
+        }
+      },
+      "Pattern": {
+        "majority_decision": "HOLD",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 1,
+          "SELL": 0,
+          "HOLD": 2
+        }
+      },
+      "Risk": {
+        "majority_decision": "SELL",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 0,
+          "SELL": 2,
+          "HOLD": 1
+        }
+      },
+      "Momentum": {
+        "majority_decision": "HOLD",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 0,
+          "SELL": 1,
+          "HOLD": 2
+        }
+      },
+      "Volatility": {
+        "majority_decision": "HOLD",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 0,
+          "SELL": 1,
+          "HOLD": 2
+        }
+      }
+    },
+    "final_decision": "HOLD",
+    "consensus_strength": 0.5,
+    "weighted_decision": "HOLD",
+    "weighted_confidence": 0.4660171821603013,
+    "vote_distribution": {
+      "BUY": 5,
+      "SELL": 4,
+      "HOLD": 9
+    },
+    "prediction_correct": true
+  },
+  {
+    "scenario": {
+      "name": "High Volatility Whipsaw",
+      "type": "volatile",
+      "actual_direction": "HOLD",
+      "description": "Price swings wildly with no clear direction"
+    },
+    "specialist_votes": {
+      "RSI_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.3220100808000375,
+        "reasoning": "Contrarian analysis suggests SELL",
+        "bias": "contrarian",
+        "scenario_type": "volatile"
+      },
+      "MACD_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.24263388624945656,
+        "reasoning": "Trend Following analysis suggests HOLD",
+        "bias": "trend_following",
+        "scenario_type": "volatile"
+      },
+      "Fibonacci_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.4151436165979646,
+        "reasoning": "Support Resistance analysis suggests BUY",
+        "bias": "support_resistance",
+        "scenario_type": "volatile"
+      },
+      "News_Sentiment_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.27928986427835034,
+        "reasoning": "Fundamental analysis suggests BUY",
+        "bias": "fundamental",
+        "scenario_type": "volatile"
+      },
+      "Social_Media_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.24858987347005054,
+        "reasoning": "Crowd Sentiment analysis suggests SELL",
+        "bias": "crowd_sentiment",
+        "scenario_type": "volatile"
+      },
+      "Fear_Greed_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.44472698477442313,
+        "reasoning": "Contrarian analysis suggests BUY",
+        "bias": "contrarian",
+        "scenario_type": "volatile"
+      },
+      "Chart_Pattern_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.3168317146846552,
+        "reasoning": "Pattern Recognition analysis suggests BUY",
+        "bias": "pattern_recognition",
+        "scenario_type": "volatile"
+      },
+      "Candlestick_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.3003081454180009,
+        "reasoning": "Reversal Patterns analysis suggests HOLD",
+        "bias": "reversal_patterns",
+        "scenario_type": "volatile"
+      },
+      "Wave_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.36680879323821736,
+        "reasoning": "Elliott Wave analysis suggests HOLD",
+        "bias": "elliott_wave",
+        "scenario_type": "volatile"
+      },
+      "VaR_Risk_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.32854631406914303,
+        "reasoning": "Risk Averse analysis suggests BUY",
+        "bias": "risk_averse",
+        "scenario_type": "volatile"
+      },
+      "Drawdown_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.4301113527772335,
+        "reasoning": "Capital Preservation analysis suggests HOLD",
+        "bias": "capital_preservation",
+        "scenario_type": "volatile"
+      },
+      "Position_Size_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.5649005008231303,
+        "reasoning": "Money Management analysis suggests BUY",
+        "bias": "money_management",
+        "scenario_type": "volatile"
+      },
+      "Trend_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.5198785388401852,
+        "reasoning": "Trend Following analysis suggests HOLD",
+        "bias": "trend_following",
+        "scenario_type": "volatile"
+      },
+      "Mean_Reversion_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.3218669470640445,
+        "reasoning": "Mean Reverting analysis suggests BUY",
+        "bias": "mean_reverting",
+        "scenario_type": "volatile"
+      },
+      "Breakout_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.1005500648454933,
+        "reasoning": "Breakout Trading analysis suggests SELL",
+        "bias": "breakout_trading",
+        "scenario_type": "volatile"
+      },
+      "ATR_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.10186230245582922,
+        "reasoning": "Volatility Based analysis suggests SELL",
+        "bias": "volatility_based",
+        "scenario_type": "volatile"
+      },
+      "Bollinger_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.44517178069757735,
+        "reasoning": "Volatility Bands analysis suggests SELL",
+        "bias": "volatility_bands",
+        "scenario_type": "volatile"
+      },
+      "Volatility_Clustering_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.34019588521596167,
+        "reasoning": "Volatility Regime analysis suggests BUY",
+        "bias": "volatility_regime",
+        "scenario_type": "volatile"
+      }
+    },
+    "category_consensus": {
+      "Technical": {
+        "majority_decision": "BUY",
+        "consensus_strength": 0.3333333333333333,
+        "vote_distribution": {
+          "BUY": 1,
+          "SELL": 1,
+          "HOLD": 1
+        }
+      },
+      "Sentiment": {
+        "majority_decision": "BUY",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 2,
+          "SELL": 1,
+          "HOLD": 0
+        }
+      },
+      "Pattern": {
+        "majority_decision": "HOLD",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 1,
+          "SELL": 0,
+          "HOLD": 2
+        }
+      },
+      "Risk": {
+        "majority_decision": "BUY",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 2,
+          "SELL": 0,
+          "HOLD": 1
+        }
+      },
+      "Momentum": {
+        "majority_decision": "BUY",
+        "consensus_strength": 0.3333333333333333,
+        "vote_distribution": {
+          "BUY": 1,
+          "SELL": 1,
+          "HOLD": 1
+        }
+      },
+      "Volatility": {
+        "majority_decision": "SELL",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 1,
+          "SELL": 2,
+          "HOLD": 0
+        }
+      }
+    },
+    "final_decision": "BUY",
+    "consensus_strength": 0.4444444444444444,
+    "weighted_decision": "BUY",
+    "weighted_confidence": 0.49454603896700444,
+    "vote_distribution": {
+      "BUY": 8,
+      "SELL": 5,
+      "HOLD": 5
+    },
+    "prediction_correct": false
+  },
+  {
+    "scenario": {
+      "name": "Bullish Reversal",
+      "type": "bullish",
+      "actual_direction": "BUY",
+      "description": "Price reverses from oversold levels"
+    },
+    "specialist_votes": {
+      "RSI_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.5160582278054724,
+        "reasoning": "Contrarian analysis suggests SELL",
+        "bias": "contrarian",
+        "scenario_type": "bullish"
+      },
+      "MACD_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.444293716602822,
+        "reasoning": "Trend Following analysis suggests HOLD",
+        "bias": "trend_following",
+        "scenario_type": "bullish"
+      },
+      "Fibonacci_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.25500557300102794,
+        "reasoning": "Support Resistance analysis suggests BUY",
+        "bias": "support_resistance",
+        "scenario_type": "bullish"
+      },
+      "News_Sentiment_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.46471302800165915,
+        "reasoning": "Fundamental analysis suggests BUY",
+        "bias": "fundamental",
+        "scenario_type": "bullish"
+      },
+      "Social_Media_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.41187751201947576,
+        "reasoning": "Crowd Sentiment analysis suggests HOLD",
+        "bias": "crowd_sentiment",
+        "scenario_type": "bullish"
+      },
+      "Fear_Greed_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.38618893722926206,
+        "reasoning": "Contrarian analysis suggests SELL",
+        "bias": "contrarian",
+        "scenario_type": "bullish"
+      },
+      "Chart_Pattern_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.41824137205702017,
+        "reasoning": "Pattern Recognition analysis suggests BUY",
+        "bias": "pattern_recognition",
+        "scenario_type": "bullish"
+      },
+      "Candlestick_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.34091932863254726,
+        "reasoning": "Reversal Patterns analysis suggests BUY",
+        "bias": "reversal_patterns",
+        "scenario_type": "bullish"
+      },
+      "Wave_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.5802164513789746,
+        "reasoning": "Elliott Wave analysis suggests HOLD",
+        "bias": "elliott_wave",
+        "scenario_type": "bullish"
+      },
+      "VaR_Risk_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.30215549145966936,
+        "reasoning": "Risk Averse analysis suggests BUY",
+        "bias": "risk_averse",
+        "scenario_type": "bullish"
+      },
+      "Drawdown_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.6911191615876678,
+        "reasoning": "Capital Preservation analysis suggests BUY",
+        "bias": "capital_preservation",
+        "scenario_type": "bullish"
+      },
+      "Position_Size_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.29162130697994104,
+        "reasoning": "Money Management analysis suggests HOLD",
+        "bias": "money_management",
+        "scenario_type": "bullish"
+      },
+      "Trend_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.24759659931722916,
+        "reasoning": "Trend Following analysis suggests HOLD",
+        "bias": "trend_following",
+        "scenario_type": "bullish"
+      },
+      "Mean_Reversion_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.5648386066778406,
+        "reasoning": "Mean Reverting analysis suggests BUY",
+        "bias": "mean_reverting",
+        "scenario_type": "bullish"
+      },
+      "Breakout_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.234401924134686,
+        "reasoning": "Breakout Trading analysis suggests BUY",
+        "bias": "breakout_trading",
+        "scenario_type": "bullish"
+      },
+      "ATR_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.21873415959221945,
+        "reasoning": "Volatility Based analysis suggests HOLD",
+        "bias": "volatility_based",
+        "scenario_type": "bullish"
+      },
+      "Bollinger_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.47119062717751675,
+        "reasoning": "Volatility Bands analysis suggests HOLD",
+        "bias": "volatility_bands",
+        "scenario_type": "bullish"
+      },
+      "Volatility_Clustering_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.2371935018480994,
+        "reasoning": "Volatility Regime analysis suggests SELL",
+        "bias": "volatility_regime",
+        "scenario_type": "bullish"
+      }
+    },
+    "category_consensus": {
+      "Technical": {
+        "majority_decision": "BUY",
+        "consensus_strength": 0.3333333333333333,
+        "vote_distribution": {
+          "BUY": 1,
+          "SELL": 1,
+          "HOLD": 1
+        }
+      },
+      "Sentiment": {
+        "majority_decision": "BUY",
+        "consensus_strength": 0.3333333333333333,
+        "vote_distribution": {
+          "BUY": 1,
+          "SELL": 1,
+          "HOLD": 1
+        }
+      },
+      "Pattern": {
+        "majority_decision": "BUY",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 2,
+          "SELL": 0,
+          "HOLD": 1
+        }
+      },
+      "Risk": {
+        "majority_decision": "BUY",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 2,
+          "SELL": 0,
+          "HOLD": 1
+        }
+      },
+      "Momentum": {
+        "majority_decision": "BUY",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 2,
+          "SELL": 0,
+          "HOLD": 1
+        }
+      },
+      "Volatility": {
+        "majority_decision": "HOLD",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 0,
+          "SELL": 1,
+          "HOLD": 2
+        }
+      }
+    },
+    "final_decision": "BUY",
+    "consensus_strength": 0.4444444444444444,
+    "weighted_decision": "BUY",
+    "weighted_confidence": 0.46229868620580067,
+    "vote_distribution": {
+      "BUY": 8,
+      "SELL": 3,
+      "HOLD": 7
+    },
+    "prediction_correct": true
+  },
+  {
+    "scenario": {
+      "name": "Bearish Reversal",
+      "type": "bearish",
+      "actual_direction": "SELL",
+      "description": "Price reverses from overbought levels"
+    },
+    "specialist_votes": {
+      "RSI_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.5843586876409014,
+        "reasoning": "Contrarian analysis suggests HOLD",
+        "bias": "contrarian",
+        "scenario_type": "bearish"
+      },
+      "MACD_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.37652263131370883,
+        "reasoning": "Trend Following analysis suggests HOLD",
+        "bias": "trend_following",
+        "scenario_type": "bearish"
+      },
+      "Fibonacci_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.44058082336220294,
+        "reasoning": "Support Resistance analysis suggests SELL",
+        "bias": "support_resistance",
+        "scenario_type": "bearish"
+      },
+      "News_Sentiment_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.4263007941701042,
+        "reasoning": "Fundamental analysis suggests SELL",
+        "bias": "fundamental",
+        "scenario_type": "bearish"
+      },
+      "Social_Media_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.20097839342958596,
+        "reasoning": "Crowd Sentiment analysis suggests SELL",
+        "bias": "crowd_sentiment",
+        "scenario_type": "bearish"
+      },
+      "Fear_Greed_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.356144213469201,
+        "reasoning": "Contrarian analysis suggests BUY",
+        "bias": "contrarian",
+        "scenario_type": "bearish"
+      },
+      "Chart_Pattern_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.3184350224828959,
+        "reasoning": "Pattern Recognition analysis suggests SELL",
+        "bias": "pattern_recognition",
+        "scenario_type": "bearish"
+      },
+      "Candlestick_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.4402387267557716,
+        "reasoning": "Reversal Patterns analysis suggests BUY",
+        "bias": "reversal_patterns",
+        "scenario_type": "bearish"
+      },
+      "Wave_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.40360590555846526,
+        "reasoning": "Elliott Wave analysis suggests BUY",
+        "bias": "elliott_wave",
+        "scenario_type": "bearish"
+      },
+      "VaR_Risk_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.3886834928427336,
+        "reasoning": "Risk Averse analysis suggests SELL",
+        "bias": "risk_averse",
+        "scenario_type": "bearish"
+      },
+      "Drawdown_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.4289197140018257,
+        "reasoning": "Capital Preservation analysis suggests BUY",
+        "bias": "capital_preservation",
+        "scenario_type": "bearish"
+      },
+      "Position_Size_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.580702584046681,
+        "reasoning": "Money Management analysis suggests SELL",
+        "bias": "money_management",
+        "scenario_type": "bearish"
+      },
+      "Trend_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.3750525245631792,
+        "reasoning": "Trend Following analysis suggests SELL",
+        "bias": "trend_following",
+        "scenario_type": "bearish"
+      },
+      "Mean_Reversion_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.259354816246716,
+        "reasoning": "Mean Reverting analysis suggests SELL",
+        "bias": "mean_reverting",
+        "scenario_type": "bearish"
+      },
+      "Breakout_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.5849735628984266,
+        "reasoning": "Breakout Trading analysis suggests BUY",
+        "bias": "breakout_trading",
+        "scenario_type": "bearish"
+      },
+      "ATR_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.2400670533373639,
+        "reasoning": "Volatility Based analysis suggests SELL",
+        "bias": "volatility_based",
+        "scenario_type": "bearish"
+      },
+      "Bollinger_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.27092986150250326,
+        "reasoning": "Volatility Bands analysis suggests BUY",
+        "bias": "volatility_bands",
+        "scenario_type": "bearish"
+      },
+      "Volatility_Clustering_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.33189072944573356,
+        "reasoning": "Volatility Regime analysis suggests SELL",
+        "bias": "volatility_regime",
+        "scenario_type": "bearish"
+      }
+    },
+    "category_consensus": {
+      "Technical": {
+        "majority_decision": "HOLD",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 0,
+          "SELL": 1,
+          "HOLD": 2
+        }
+      },
+      "Sentiment": {
+        "majority_decision": "SELL",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 1,
+          "SELL": 2,
+          "HOLD": 0
+        }
+      },
+      "Pattern": {
+        "majority_decision": "BUY",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 2,
+          "SELL": 1,
+          "HOLD": 0
+        }
+      },
+      "Risk": {
+        "majority_decision": "SELL",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 1,
+          "SELL": 2,
+          "HOLD": 0
+        }
+      },
+      "Momentum": {
+        "majority_decision": "SELL",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 1,
+          "SELL": 2,
+          "HOLD": 0
+        }
+      },
+      "Volatility": {
+        "majority_decision": "SELL",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 1,
+          "SELL": 2,
+          "HOLD": 0
+        }
+      }
+    },
+    "final_decision": "SELL",
+    "consensus_strength": 0.5555555555555556,
+    "weighted_decision": "SELL",
+    "weighted_confidence": 0.5083017448187775,
+    "vote_distribution": {
+      "BUY": 6,
+      "SELL": 10,
+      "HOLD": 2
+    },
+    "prediction_correct": true
+  },
+  {
+    "scenario": {
+      "name": "Trend Continuation Up",
+      "type": "bullish",
+      "actual_direction": "BUY",
+      "description": "Uptrend continues after pullback"
+    },
+    "specialist_votes": {
+      "RSI_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.4936506080136299,
+        "reasoning": "Contrarian analysis suggests HOLD",
+        "bias": "contrarian",
+        "scenario_type": "bullish"
+      },
+      "MACD_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.2916374211233694,
+        "reasoning": "Trend Following analysis suggests BUY",
+        "bias": "trend_following",
+        "scenario_type": "bullish"
+      },
+      "Fibonacci_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.3406091441675516,
+        "reasoning": "Support Resistance analysis suggests BUY",
+        "bias": "support_resistance",
+        "scenario_type": "bullish"
+      },
+      "News_Sentiment_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.1,
+        "reasoning": "Fundamental analysis suggests BUY",
+        "bias": "fundamental",
+        "scenario_type": "bullish"
+      },
+      "Social_Media_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.37037601794403247,
+        "reasoning": "Crowd Sentiment analysis suggests HOLD",
+        "bias": "crowd_sentiment",
+        "scenario_type": "bullish"
+      },
+      "Fear_Greed_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.3516760691981728,
+        "reasoning": "Contrarian analysis suggests BUY",
+        "bias": "contrarian",
+        "scenario_type": "bullish"
+      },
+      "Chart_Pattern_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.33269687029142847,
+        "reasoning": "Pattern Recognition analysis suggests BUY",
+        "bias": "pattern_recognition",
+        "scenario_type": "bullish"
+      },
+      "Candlestick_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.3108839543615548,
+        "reasoning": "Reversal Patterns analysis suggests SELL",
+        "bias": "reversal_patterns",
+        "scenario_type": "bullish"
+      },
+      "Wave_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.3856713428902864,
+        "reasoning": "Elliott Wave analysis suggests BUY",
+        "bias": "elliott_wave",
+        "scenario_type": "bullish"
+      },
+      "VaR_Risk_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.4192382106962429,
+        "reasoning": "Risk Averse analysis suggests HOLD",
+        "bias": "risk_averse",
+        "scenario_type": "bullish"
+      },
+      "Drawdown_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.3714093276165012,
+        "reasoning": "Capital Preservation analysis suggests BUY",
+        "bias": "capital_preservation",
+        "scenario_type": "bullish"
+      },
+      "Position_Size_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.585426011179459,
+        "reasoning": "Money Management analysis suggests BUY",
+        "bias": "money_management",
+        "scenario_type": "bullish"
+      },
+      "Trend_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.4306732539801669,
+        "reasoning": "Trend Following analysis suggests BUY",
+        "bias": "trend_following",
+        "scenario_type": "bullish"
+      },
+      "Mean_Reversion_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.5047966475723632,
+        "reasoning": "Mean Reverting analysis suggests BUY",
+        "bias": "mean_reverting",
+        "scenario_type": "bullish"
+      },
+      "Breakout_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.43665235421030585,
+        "reasoning": "Breakout Trading analysis suggests HOLD",
+        "bias": "breakout_trading",
+        "scenario_type": "bullish"
+      },
+      "ATR_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.1055057735931253,
+        "reasoning": "Volatility Based analysis suggests BUY",
+        "bias": "volatility_based",
+        "scenario_type": "bullish"
+      },
+      "Bollinger_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.32592408684093804,
+        "reasoning": "Volatility Bands analysis suggests BUY",
+        "bias": "volatility_bands",
+        "scenario_type": "bullish"
+      },
+      "Volatility_Clustering_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.34039398790126857,
+        "reasoning": "Volatility Regime analysis suggests BUY",
+        "bias": "volatility_regime",
+        "scenario_type": "bullish"
+      }
+    },
+    "category_consensus": {
+      "Technical": {
+        "majority_decision": "BUY",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 2,
+          "SELL": 0,
+          "HOLD": 1
+        }
+      },
+      "Sentiment": {
+        "majority_decision": "BUY",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 2,
+          "SELL": 0,
+          "HOLD": 1
+        }
+      },
+      "Pattern": {
+        "majority_decision": "BUY",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 2,
+          "SELL": 1,
+          "HOLD": 0
+        }
+      },
+      "Risk": {
+        "majority_decision": "BUY",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 2,
+          "SELL": 0,
+          "HOLD": 1
+        }
+      },
+      "Momentum": {
+        "majority_decision": "BUY",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 2,
+          "SELL": 0,
+          "HOLD": 1
+        }
+      },
+      "Volatility": {
+        "majority_decision": "BUY",
+        "consensus_strength": 1.0,
+        "vote_distribution": {
+          "BUY": 3,
+          "SELL": 0,
+          "HOLD": 0
+        }
+      }
+    },
+    "final_decision": "BUY",
+    "consensus_strength": 0.7222222222222222,
+    "weighted_decision": "BUY",
+    "weighted_confidence": 0.6874354251261233,
+    "vote_distribution": {
+      "BUY": 13,
+      "SELL": 1,
+      "HOLD": 4
+    },
+    "prediction_correct": true
+  },
+  {
+    "scenario": {
+      "name": "Trend Continuation Down",
+      "type": "bearish",
+      "actual_direction": "SELL",
+      "description": "Downtrend continues after bounce"
+    },
+    "specialist_votes": {
+      "RSI_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.2285563276859572,
+        "reasoning": "Contrarian analysis suggests HOLD",
+        "bias": "contrarian",
+        "scenario_type": "bearish"
+      },
+      "MACD_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.49546114170752753,
+        "reasoning": "Trend Following analysis suggests SELL",
+        "bias": "trend_following",
+        "scenario_type": "bearish"
+      },
+      "Fibonacci_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.4100182782881886,
+        "reasoning": "Support Resistance analysis suggests SELL",
+        "bias": "support_resistance",
+        "scenario_type": "bearish"
+      },
+      "News_Sentiment_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.4740698158949361,
+        "reasoning": "Fundamental analysis suggests BUY",
+        "bias": "fundamental",
+        "scenario_type": "bearish"
+      },
+      "Social_Media_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.25914033235492173,
+        "reasoning": "Crowd Sentiment analysis suggests HOLD",
+        "bias": "crowd_sentiment",
+        "scenario_type": "bearish"
+      },
+      "Fear_Greed_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.3888407396117993,
+        "reasoning": "Contrarian analysis suggests SELL",
+        "bias": "contrarian",
+        "scenario_type": "bearish"
+      },
+      "Chart_Pattern_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.4013339559060564,
+        "reasoning": "Pattern Recognition analysis suggests HOLD",
+        "bias": "pattern_recognition",
+        "scenario_type": "bearish"
+      },
+      "Candlestick_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.29401643090383345,
+        "reasoning": "Reversal Patterns analysis suggests SELL",
+        "bias": "reversal_patterns",
+        "scenario_type": "bearish"
+      },
+      "Wave_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.41765837361497005,
+        "reasoning": "Elliott Wave analysis suggests SELL",
+        "bias": "elliott_wave",
+        "scenario_type": "bearish"
+      },
+      "VaR_Risk_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.2756322353644082,
+        "reasoning": "Risk Averse analysis suggests HOLD",
+        "bias": "risk_averse",
+        "scenario_type": "bearish"
+      },
+      "Drawdown_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.2051076916468255,
+        "reasoning": "Capital Preservation analysis suggests HOLD",
+        "bias": "capital_preservation",
+        "scenario_type": "bearish"
+      },
+      "Position_Size_Specialist": {
+        "decision": "HOLD",
+        "confidence": 0.5891280078119295,
+        "reasoning": "Money Management analysis suggests HOLD",
+        "bias": "money_management",
+        "scenario_type": "bearish"
+      },
+      "Trend_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.3228452347792877,
+        "reasoning": "Trend Following analysis suggests SELL",
+        "bias": "trend_following",
+        "scenario_type": "bearish"
+      },
+      "Mean_Reversion_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.4796166608117321,
+        "reasoning": "Mean Reverting analysis suggests SELL",
+        "bias": "mean_reverting",
+        "scenario_type": "bearish"
+      },
+      "Breakout_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.3747660431590102,
+        "reasoning": "Breakout Trading analysis suggests SELL",
+        "bias": "breakout_trading",
+        "scenario_type": "bearish"
+      },
+      "ATR_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.1972455198303396,
+        "reasoning": "Volatility Based analysis suggests SELL",
+        "bias": "volatility_based",
+        "scenario_type": "bearish"
+      },
+      "Bollinger_Specialist": {
+        "decision": "SELL",
+        "confidence": 0.4531040581103041,
+        "reasoning": "Volatility Bands analysis suggests SELL",
+        "bias": "volatility_bands",
+        "scenario_type": "bearish"
+      },
+      "Volatility_Clustering_Specialist": {
+        "decision": "BUY",
+        "confidence": 0.2606314313286133,
+        "reasoning": "Volatility Regime analysis suggests BUY",
+        "bias": "volatility_regime",
+        "scenario_type": "bearish"
+      }
+    },
+    "category_consensus": {
+      "Technical": {
+        "majority_decision": "SELL",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 0,
+          "SELL": 2,
+          "HOLD": 1
+        }
+      },
+      "Sentiment": {
+        "majority_decision": "BUY",
+        "consensus_strength": 0.3333333333333333,
+        "vote_distribution": {
+          "BUY": 1,
+          "SELL": 1,
+          "HOLD": 1
+        }
+      },
+      "Pattern": {
+        "majority_decision": "SELL",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 0,
+          "SELL": 2,
+          "HOLD": 1
+        }
+      },
+      "Risk": {
+        "majority_decision": "HOLD",
+        "consensus_strength": 1.0,
+        "vote_distribution": {
+          "BUY": 0,
+          "SELL": 0,
+          "HOLD": 3
+        }
+      },
+      "Momentum": {
+        "majority_decision": "SELL",
+        "consensus_strength": 1.0,
+        "vote_distribution": {
+          "BUY": 0,
+          "SELL": 3,
+          "HOLD": 0
+        }
+      },
+      "Volatility": {
+        "majority_decision": "SELL",
+        "consensus_strength": 0.6666666666666666,
+        "vote_distribution": {
+          "BUY": 1,
+          "SELL": 2,
+          "HOLD": 0
+        }
+      }
+    },
+    "final_decision": "SELL",
+    "consensus_strength": 0.5555555555555556,
+    "weighted_decision": "SELL",
+    "weighted_confidence": 0.5873251566014331,
+    "vote_distribution": {
+      "BUY": 2,
+      "SELL": 10,
+      "HOLD": 6
+    },
+    "prediction_correct": true
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "comparison_timestamp": "2025-06-18T06:29:25.201653",
+  "isolated_approach": {
+    "individual_accuracies": {
+      "M1": 0.895,
+      "M5": 0.895,
+      "M15": 0.8933333333333333,
+      "M30": 0.895,
+      "H1": 0.8933333333333333,
+      "H4": 0.895,
+      "D1": 0.8966666666666666
+    },
+    "average_accuracy": 0.8947619047619048,
+    "best_accuracy": 0.8966666666666666,
+    "worst_accuracy": 0.8933333333333333
+  },
+  "unified_approach": {
+    "accuracy": 0.895,
+    "total_features": 84,
+    "timeframes_integrated": 7
+  },
+  "improvement": {
+    "absolute": 0.00023809523809525945,
+    "relative": 0.026609898882386636
+  },
+  "conclusion": {
+    "unified_superior": 

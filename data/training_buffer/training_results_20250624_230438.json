@@ -1,0 +1,26 @@
+{
+  "lstm": {
+    "val_accuracy": 0.5050301551818848,
+    "val_loss": 0.6930957436561584,
+    "epochs_trained": 29,
+    "model_path": "trained_models/unified/lstm_unified.keras"
+  },
+  "cnn": {
+    "val_accuracy": 0.5150905251502991,
+    "val_loss": 0.6928237676620483,
+    "epochs_trained": 32,
+    "model_path": "trained_models/unified/cnn_unified.keras"
+  },
+  "hybrid": {
+    "val_accuracy": 0.5050301551818848,
+    "val_loss": 0.6930831074714661,
+    "epochs_trained": 28,
+    "model_path": "trained_models/unified/hybrid_unified.keras"
+  },
+  "dense": {
+    "val_accuracy": 0.7335000038146973,
+    "val_loss": 0.5471920371055603,
+    "epochs_trained": 57,
+    "model_path": "trained_models/unified/dense_unified.keras"
+  }
+}

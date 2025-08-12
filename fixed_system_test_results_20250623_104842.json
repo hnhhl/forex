@@ -1,0 +1,187 @@
+{
+  "test_time": "2025-06-23T10:48:42.927704",
+  "total_signals": 20,
+  "improvement_score": 0.0,
+  "signals": [
+    {
+      "num": 1,
+      "action": "SELL",
+      "confidence": 0.497,
+      "strength": "STRONG",
+      "hybrid_consensus": 0.8999999999999999,
+      "signal_strength": -53.03571925228481,
+      "systems_used": 7
+    },
+    {
+      "num": 2,
+      "action": "SELL",
+      "confidence": 0.497,
+      "strength": "STRONG",
+      "hybrid_consensus": 0.8999999999999999,
+      "signal_strength": -53.049687097044625,
+      "systems_used": 7
+    },
+    {
+      "num": 3,
+      "action": "SELL",
+      "confidence": 0.497,
+      "strength": "STRONG",
+      "hybrid_consensus": 0.8999999999999999,
+      "signal_strength": -53.04879481676493,
+      "systems_used": 7
+    },
+    {
+      "num": 4,
+      "action": "SELL",
+      "confidence": 0.497,
+      "strength": "STRONG",
+      "hybrid_consensus": 0.8999999999999999,
+      "signal_strength": -53.04879481676493,
+      "systems_used": 7
+    },
+    {
+      "num": 5,
+      "action": "SELL",
+      "confidence": 0.497,
+      "strength": "STRONG",
+      "hybrid_consensus": 0.8999999999999999,
+      "signal_strength": -53.04906328889907,
+      "systems_used": 7
+    },
+    {
+      "num": 6,
+      "action": "SELL",
+      "confidence": 0.497,
+      "strength": "STRONG",
+      "hybrid_consensus": 0.8999999999999999,
+      "signal_strength": -53.04906328889907,
+      "systems_used": 7
+    },
+    {
+      "num": 7,
+      "action": "SELL",
+      "confidence": 0.497,
+      "strength": "STRONG",
+      "hybrid_consensus": 0.8999999999999999,
+      "signal_strength": -53.04906328889907,
+      "systems_used": 7
+    },
+    {
+      "num": 8,
+      "action": "SELL",
+      "confidence": 0.497,
+      "strength": "STRONG",
+      "hybrid_consensus": 0.8999999999999999,
+      "signal_strength": -53.04906328889907,
+      "systems_used": 7
+    },
+    {
+      "num": 9,
+      "action": "SELL",
+      "confidence": 0.497,
+      "strength": "STRONG",
+      "hybrid_consensus": 0.8999999999999999,
+      "signal_strength": -53.04906328889907,
+      "systems_used": 7
+    },
+    {
+      "num": 10,
+      "action": "SELL",
+      "confidence": 0.497,
+      "strength": "STRONG",
+      "hybrid_consensus": 0.8999999999999999,
+      "signal_strength": -53.04908705191364,
+      "systems_used": 7
+    },
+    {
+      "num": 11,
+      "action": "SELL",
+      "confidence": 0.497,
+      "strength": "STRONG",
+      "hybrid_consensus": 0.8999999999999999,
+      "signal_strength": -53.04908705191364,
+      "systems_used": 7
+    },
+    {
+      "num": 12,
+      "action": "SELL",
+      "confidence": 0.497,
+      "strength": "STRONG",
+      "hybrid_consensus": 0.8999999999999999,
+      "signal_strength": -53.04908705191364,
+      "systems_used": 7
+    },
+    {
+      "num": 13,
+      "action": "SELL",
+      "confidence": 0.497,
+      "strength": "STRONG",
+      "hybrid_consensus": 0.8999999999999999,
+      "signal_strength": -53.049148241919696,
+      "systems_used": 7
+    },
+    {
+      "num": 14,
+      "action": "SELL",
+      "confidence": 0.497,
+      "strength": "STRONG",
+      "hybrid_consensus": 0.8999999999999999,
+      "signal_strength": -53.049148241919696,
+      "systems_used": 7
+    },
+    {
+      "num": 15,
+      "action": "SELL",
+      "confidence": 0.497,
+      "strength": "STRONG",
+      "hybrid_consensus": 0.8999999999999999,
+      "signal_strength": -53.0493221041538,
+      "systems_used": 7
+    },
+    {
+      "num": 16,
+      "action": "SELL",
+      "confidence": 0.497,
+      "strength": "STRONG",
+      "hybrid_consensus": 0.8999999999999999,
+      "signal_strength": -53.04943316348038,
+      "systems_used": 7
+    },
+    {
+      "num": 17,
+      "action": "SELL",
+      "confidence": 0.497,
+      "strength": "STRONG",
+      "hybrid_consensus": 0.8999999999999999,
+      "signal_strength": -53.04900916864322,
+      "systems_used": 7
+    },
+    {
+      "num": 18,
+      "action": "SELL",
+      "confidence": 0.497,
+      "strength": "STRONG",
+      "hybrid_consensus": 0.8999999999999999,
+      "signal_strength": -53.04902258620475,
+      "systems_used": 7
+    },
+    {
+      "num": 19,
+      "action": "SELL",
+      "confidence": 0.497,
+      "strength": "STRONG",
+      "hybrid_consensus": 0.8999999999999999,
+      "signal_strength": -53.04902258620475,
+      "systems_used": 7
+    },
+    {
+      "num": 20,
+      "action": "SELL",
+      "confidence": 0.497,
+      "strength": "STRONG",
+      "hybrid_consensus": 0.8999999999999999,
+      "signal_strength": -53.048462094026966,
+      "systems_used": 7
+    }
+  ]
+}

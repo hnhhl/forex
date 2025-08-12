@@ -1,0 +1,343 @@
+{
+  "day": 30,
+  "title": "Deep Learning Neural Networks",
+  "execution_time": 10.75584363937378,
+  "successful_demos": 5,
+  "total_demos": 5,
+  "overall_score": 22.0,
+  "grade": "NEEDS IMPROVEMENT",
+  "emoji": "\u26a0\ufe0f",
+  "summary": {
+    "networks_trained": 8,
+    "total_predictions": 24,
+    "demo_success_rate": 1.0,
+    "system_performance": "Development Stage"
+  },
+  "demo_results": {
+    "demo1": {
+      "demo_name": "Neural Network Architecture Training",
+      "execution_time": 2.667592763900757,
+      "architectures_trained": 4,
+      "average_directional_accuracy": 0.0,
+      "average_validation_loss": 0.17755827596164747,
+      "total_training_time": 0.032004356384277344,
+      "best_architecture": {
+        "name": "LSTM_lstm",
+        "type": "LSTM",
+        "accuracy": 0.0,
+        "loss": 0.18215258112233168
+      },
+      "architecture_details": {
+        "LSTM_lstm": {
+          "network_type": "LSTM",
+          "validation_loss": 0.18215258112233168,
+          "directional_accuracy": 0.0,
+          "training_time": 0.01099538803100586,
+          "convergence_epochs": 8,
+          "mse": 0.18215258112233168,
+          "mae": 0.2362604202284799
+        },
+        "LSTM_dense": {
+          "network_type": "LSTM",
+          "validation_loss": 0.18215258112233168,
+          "directional_accuracy": 0.0,
+          "training_time": 0.009003639221191406,
+          "convergence_epochs": 8,
+          "mse": 0.18215258112233168,
+          "mae": 0.2362604202284799
+        },
+        "Dense_lstm": {
+          "network_type": "Dense",
+          "validation_loss": 0.17296397080096326,
+          "directional_accuracy": 0.0,
+          "training_time": 0.006005287170410156,
+          "convergence_epochs": 6,
+          "mse": 0.17296397080096326,
+          "mae": 0.22627246020368358
+        },
+        "Dense_dense": {
+          "network_type": "Dense",
+          "validation_loss": 0.17296397080096326,
+          "directional_accuracy": 0.0,
+          "training_time": 0.006000041961669922,
+          "convergence_epochs": 6,
+          "mse": 0.17296397080096326,
+          "mae": 0.22627246020368358
+        }
+      },
+      "performance_summary": {
+        "lstm_networks": 2,
+        "dense_networks": 2,
+        "best_lstm_accuracy": 0.0,
+        "best_dense_accuracy": 0.0
+      }
+    },
+    "demo2": {
+      "demo_name": "Deep Feature Extraction & Engineering",
+      "execution_time": 1.5273995399475098,
+      "features_extracted": 255,
+      "features_with_targets": 250,
+      "feature_completeness": 0.9803921568627451,
+      "feature_analysis": {
+        "technical_indicators": {
+          "count": 10,
+          "samples": 255,
+          "mean_values": [
+            2644.966915162411,
+            2622.3274280592736,
+            2572.7865061069156,
+            57.121768883836445,
+            0.0073940419328493035,
+            0.015049066530252326,
+            0.03428061875616612,
+            0.028146927676540916,
+            0.029160032919183128,
+            0.0296308744095635
+          ],
+          "std_values": [
+            686.3864674203824,
+            665.5224056228113,
+            615.2465494651045,
+            16.844216404352302,
+            0.04582962410567669,
+            0.0674422490051978,
+            0.10610867846368092,
+            0.012381299438231238,
+            0.010024557873312358,
+            0.009326465528818165
+          ]
+        },
+        "price_patterns": {
+          "count": 5,
+          "samples": 255,
+          "feature_means": [
+            0.003270463484552724,
+            0.02889048030800208,
+            0.07672780978644837,
+            -0.05549513651556496,
+            0.5605169340463457
+          ]
+        },
+        "targets": {
+          "return_distribution": {
+            "min": -0.19280520964628212,
+            "max": 0.2917218365698391,
+            "mean": 0.019938845077758758,
+            "std": 0.07624619327393316
+          },
+          "direction_distribution": {
+            "down": 91,
+            "hold": 17,
+            "up": 142
+          }
+        }
+      },
+      "extraction_performance": {
+        "sequences_per_second": 166.95042346861206,
+        "features_per_sequence": 18
+      }
+    },
+    "demo3": {
+      "demo_name": "LSTM Time Series Modeling",
+      "execution_time": 3.219101905822754,
+      "models_trained": 2,
+      "sequence_predictions": 8,
+      "lstm_analysis": {
+        "lstm": {
+          "convergence_epochs": 8,
+          "validation_loss": 0.17102106710253648,
+          "directional_accuracy": 0.0,
+          "training_time": 0.008003711700439453
+        },
+        "dense": {
+          "convergence_epochs": 8,
+          "validation_loss": 0.17102106710253648,
+          "directional_accuracy": 0.0,
+          "training_time": 0.00699162483215332
+        },
+        "sequence_metrics": {
+          "prediction_consistency": 1.0,
+          "average_confidence": 1.0,
+          "return_range": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "prediction_samples": [
+        {
+          "timestamp": "2024-11-05 00:00:00",
+          "predicted_return": 0.0,
+          "predicted_direction": 0,
+          "confidence": 1.0
+        },
+        {
+          "timestamp": "2024-11-06 00:00:00",
+          "predicted_return": 0.0,
+          "predicted_direction": 0,
+          "confidence": 1.0
+        },
+        {
+          "timestamp": "2024-11-07 00:00:00",
+          "predicted_return": 0.0,
+          "predicted_direction": 0,
+          "confidence": 1.0
+        },
+        {
+          "timestamp": "2024-11-08 00:00:00",
+          "predicted_return": 0.0,
+          "predicted_direction": 0,
+          "confidence": 1.0
+        },
+        {
+          "timestamp": "2024-11-09 00:00:00",
+          "predicted_return": 0.0,
+          "predicted_direction": 0,
+          "confidence": 1.0
+        }
+      ],
+      "performance_summary": {
+        "best_model_accuracy": 0.0,
+        "average_convergence_time": 8.0
+      }
+    },
+    "demo4": {
+      "demo_name": "Ensemble Deep Learning Predictions",
+      "execution_time": 1.6633734703063965,
+      "ensemble_models": 2,
+      "ensemble_predictions": 6,
+      "ensemble_analysis": {
+        "model_weights": {
+          "lstm": 0.5,
+          "dense": 0.5
+        },
+        "prediction_consistency": {
+          "return_stability": 1.0,
+          "direction_consensus": 1.0,
+          "confidence_reliability": 0.0
+        }
+      },
+      "prediction_samples": [
+        {
+          "timestamp": "2024-09-06 00:00:00",
+          "predicted_return": 0.0,
+          "predicted_direction": 1,
+          "confidence": 0.0,
+          "network_type": "ensemble"
+        },
+        {
+          "timestamp": "2024-09-07 00:00:00",
+          "predicted_return": 0.0,
+          "predicted_direction": 1,
+          "confidence": 0.0,
+          "network_type": "ensemble"
+        },
+        {
+          "timestamp": "2024-09-08 00:00:00",
+          "predicted_return": 0.0,
+          "predicted_direction": 1,
+          "confidence": 0.0,
+          "network_type": "ensemble"
+        },
+        {
+          "timestamp": "2024-09-09 00:00:00",
+          "predicted_return": 0.0,
+          "predicted_direction": 1,
+          "confidence": 0.0,
+          "network_type": "ensemble"
+        }
+      ],
+      "performance_summary": {
+        "models_in_ensemble": 2,
+        "average_model_accuracy": 0.0,
+        "ensemble_consensus_rate": 1.0
+      }
+    },
+    "demo5": {
+      "demo_name": "Real-time Deep Learning Inference",
+      "execution_time": 1.6713757514953613,
+      "real_time_predictions": 10,
+      "average_inference_time_ms": 69.61445808410645,
+      "real_time_analysis": {
+        "inference_speed": {
+          "average_time_ms": 69.61445808410645,
+          "max_time_ms": 78.01008224487305,
+          "predictions_per_second": 14.364832069680482
+        },
+        "prediction_quality": {
+          "average_confidence": 1.0,
+          "confidence_range": [
+            1.0,
+            1.0
+          ]
+        },
+        "performance_tradeoff": {
+          "accuracy": 0.0,
+          "speed_ms": 69.61445808410645,
+          "real_time_capable": "True"
+        }
+      },
+      "prediction_samples": [
+        {
+          "prediction_id": 1,
+          "timestamp": "2024-06-08 00:00:00",
+          "predicted_return": 0.0,
+          "predicted_direction": 0,
+          "confidence": 1.0,
+          "inference_time_ms": 72.01433181762695
+        },
+        {
+          "prediction_id": 2,
+          "timestamp": "2024-06-09 00:00:00",
+          "predicted_return": 0.0,
+          "predicted_direction": 0,
+          "confidence": 1.0,
+          "inference_time_ms": 69.01979446411133
+        },
+        {
+          "prediction_id": 3,
+          "timestamp": "2024-06-10 00:00:00",
+          "predicted_return": 0.0,
+          "predicted_direction": 0,
+          "confidence": 1.0,
+          "inference_time_ms": 67.01135635375977
+        },
+        {
+          "prediction_id": 4,
+          "timestamp": "2024-06-11 00:00:00",
+          "predicted_return": 0.0,
+          "predicted_direction": 0,
+          "confidence": 1.0,
+          "inference_time_ms": 75.01602172851562
+        },
+        {
+          "prediction_id": 5,
+          "timestamp": "2024-06-12 00:00:00",
+          "predicted_return": 0.0,
+          "predicted_direction": 0,
+          "confidence": 1.0,
+          "inference_time_ms": 78.01008224487305
+        },
+        {
+          "prediction_id": 6,
+          "timestamp": "2024-06-13 00:00:00",
+          "predicted_return": 0.0,
+          "predicted_direction": 0,
+          "confidence": 1.0,
+          "inference_time_ms": 74.01466369628906
+        }
+      ],
+      "performance_summary": {
+        "total_predictions": 10,
+        "predictions_per_second": 5.983095058698267,
+        "real_time_capable": "True"
+      }
+    }
+  },
+  "recommendations": [
+    "Continue optimizing network architectures",
+    "Enhance feature extraction processes",
+    "Improve ensemble model coordination",
+    "Optimize inference speed for real-time applications"
+  ]
+}

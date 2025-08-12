@@ -1,0 +1,144 @@
+{
+  "report_timestamp": "2025-06-23T00:32:09.559014",
+  "transaction_summary": {
+    "total_signals_analyzed": 7,
+    "total_actionable_transactions": 7,
+    "hold_signals": 0,
+    "transaction_accuracy": 85.71428571428571,
+    "correct_predictions": 6,
+    "incorrect_predictions": 1
+  },
+  "decision_distribution": {
+    "buy_transactions": 4,
+    "sell_transactions": 3,
+    "buy_percentage": 57.14285714285714,
+    "sell_percentage": 42.857142857142854
+  },
+  "consensus_statistics": {
+    "average_consensus_percentage": 57.142857142857146,
+    "average_weighted_confidence": 0.5695899601926506,
+    "average_quality_score": 0.5518293690101762,
+    "average_categories_agreeing": 4.571428571428571
+  },
+  "detailed_transactions": [
+    {
+      "transaction_id": 1,
+      "scenario": "Strong Bullish Breakout",
+      "decision": "BUY",
+      "agreement_level": "simple_majority",
+      "agree_votes": 10,
+      "disagree_votes": 8,
+      "consensus_percentage": 55.55555555555556,
+      "vote_breakdown": {
+        "BUY": 10,
+        "SELL": 6,
+        "HOLD": 2
+      },
+      "prediction_correct": true,
+      "categories_agree": 4,
+      "categories_disagree": 2
+    },
+    {
+      "transaction_id": 2,
+      "scenario": "Sharp Bearish Decline",
+      "decision": "SELL",
+      "agreement_level": "simple_majority",
+      "agree_votes": 13,
+      "disagree_votes": 5,
+      "consensus_percentage": 72.22222222222221,
+      "vote_breakdown": {
+        "BUY": 3,
+        "SELL": 13,
+        "HOLD": 2
+      },
+      "prediction_correct": true,
+      "categories_agree": 5,
+      "categories_disagree": 1
+    },
+    {
+      "transaction_id": 4,
+      "scenario": "High Volatility Whipsaw",
+      "decision": "BUY",
+      "agreement_level": "plurality",
+      "agree_votes": 8,
+      "disagree_votes": 10,
+      "consensus_percentage": 44.44444444444444,
+      "vote_breakdown": {
+        "BUY": 8,
+        "SELL": 5,
+        "HOLD": 5
+      },
+      "prediction_correct": false,
+      "categories_agree": 4,
+      "categories_disagree": 2
+    },
+    {
+      "transaction_id": 5,
+      "scenario": "Bullish Reversal",
+      "decision": "BUY",
+      "agreement_level": "plurality",
+      "agree_votes": 8,
+      "disagree_votes": 10,
+      "consensus_percentage": 44.44444444444444,
+      "vote_breakdown": {
+        "BUY": 8,
+        "SELL": 3,
+        "HOLD": 7
+      },
+      "prediction_correct": true,
+      "categories_agree": 5,
+      "categories_disagree": 1
+    },
+    {
+      "transaction_id": 6,
+      "scenario": "Bearish Reversal",
+      "decision": "SELL",
+      "agreement_level": "simple_majority",
+      "agree_votes": 10,
+      "disagree_votes": 8,
+      "consensus_percentage": 55.55555555555556,
+      "vote_breakdown": {
+        "BUY": 6,
+        "SELL": 10,
+        "HOLD": 2
+      },
+      "prediction_correct": true,
+      "categories_agree": 4,
+      "categories_disagree": 2
+    },
+    {
+      "transaction_id": 7,
+      "scenario": "Trend Continuation Up",
+      "decision": "BUY",
+      "agreement_level": "simple_majority",
+      "agree_votes": 13,
+      "disagree_votes": 5,
+      "consensus_percentage": 72.22222222222221,
+      "vote_breakdown": {
+        "BUY": 13,
+        "SELL": 1,
+        "HOLD": 4
+      },
+      "prediction_correct": true,
+      "categories_agree": 6,
+      "categories_disagree": 0
+    },
+    {
+      "transaction_id": 8,
+      "scenario": "Trend Continuation Down",
+      "decision": "SELL",
+      "agreement_level": "simple_majority",
+      "agree_votes": 10,
+      "disagree_votes": 8,
+      "consensus_percentage": 55.55555555555556,
+      "vote_breakdown": {
+        "BUY": 2,
+        "SELL": 10,
+        "HOLD": 6
+      },
+      "prediction_correct": true,
+      "categories_agree": 4,
+      "categories_disagree": 2
+    }
+  ]
+}

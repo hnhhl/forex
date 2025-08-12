@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-06-20T08:27:22.838831",
+  "option": "A",
+  "training_records": 15000,
+  "models_trained": 3,
+  "average_confidence": 0.23033636773046234,
+  "signal_types": [
+    "HOLD"
+  ],
+  "status": "NEEDS_WORK"
+}

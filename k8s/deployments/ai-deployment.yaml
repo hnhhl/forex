@@ -1,0 +1,51 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: xau-system-ai
+  namespace: xau-system
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: xau-system-ai
+  template:
+    metadata:
+      labels:
+        app: xau-system-ai
+    spec:
+      containers:
+      - name: ai-service
+        image: ghcr.io/your-org/xau-system-ai:latest
+        ports:
+        - containerPort: 8001
+        resources:
+          requests:
+            memory: "4Gi"
+            cpu: "2000m"
+            nvidia.com/gpu: 1
+          limits:
+            memory: "8Gi"
+            cpu: "4000m"
+            nvidia.com/gpu: 1
+        volumeMounts:
+        - name: models
+          mountPath: /app/models
+      volumes:
+      - name: models
+        persistentVolumeClaim:
+          claimName: ai-models-pvc
+      nodeSelector:
+        accelerator: nvidia-tesla-v100
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: xau-system-ai-service
+  namespace: xau-system
+spec:
+  selector:
+    app: xau-system-ai
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 8001

@@ -1,0 +1,39 @@
+{
+  "timestamp": "20250618_193304",
+  "backtest_type": "Optimized Backtest",
+  "optimizations": {
+    "confidence_threshold": 0.65,
+    "position_size": 0.005,
+    "stop_loss_pips": 40,
+    "take_profit_pips": 80,
+    "preferred_hours": [
+      22,
+      3,
+      9,
+      0,
+      2
+    ]
+  },
+  "backtest_period": "2025-06-01 to 2025-06-18",
+  "initial_balance": 10000.0,
+  "final_balance": 10000.0,
+  "performance_metrics": {},
+  "total_trades": 0,
+  "portfolio_history": [
+    {
+      "timestamp": "2025-06-09 03:00:00",
+      "balance": 10000.0,
+      "open_trades": 0,
+      "total_trades": 0,
+      "price": 3310.769
+    },
+    {
+      "timestamp": "2025-06-17 09:00:00",
+      "balance": 10000.0,
+      "open_trades": 0,
+      "total_trades": 0,
+      "price": 3385.598
+    }
+  ],
+  "trade_history": []
+}

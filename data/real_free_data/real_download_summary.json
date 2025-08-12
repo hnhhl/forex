@@ -1,0 +1,59 @@
+{
+  "timestamp": "20250619_084611",
+  "forexsb_results": {
+    "M1": {
+      "status": "success",
+      "file": "data/real_free_data/XAUUSD_M1_forexsb.csv",
+      "records": 401,
+      "url": "https://data.forexsb.com/?symbol=XAUUSD&timeframe=M1&format=csv",
+      "size_kb": 21.0986328125
+    },
+    "M5": {
+      "status": "success",
+      "file": "data/real_free_data/XAUUSD_M5_forexsb.csv",
+      "records": 401,
+      "url": "https://data.forexsb.com/?symbol=XAUUSD&timeframe=M5&format=csv",
+      "size_kb": 21.0986328125
+    },
+    "M15": {
+      "status": "success",
+      "file": "data/real_free_data/XAUUSD_M15_forexsb.csv",
+      "records": 401,
+      "url": "https://data.forexsb.com/?symbol=XAUUSD&timeframe=M15&format=csv",
+      "size_kb": 21.0986328125
+    },
+    "M30": {
+      "status": "success",
+      "file": "data/real_free_data/XAUUSD_M30_forexsb.csv",
+      "records": 401,
+      "url": "https://data.forexsb.com/?symbol=XAUUSD&timeframe=M30&format=csv",
+      "size_kb": 21.0986328125
+    },
+    "H1": {
+      "status": "success",
+      "file": "data/real_free_data/XAUUSD_H1_forexsb.csv",
+      "records": 401,
+      "url": "https://data.forexsb.com/?symbol=XAUUSD&timeframe=H1&format=csv",
+      "size_kb": 21.0986328125
+    },
+    "H4": {
+      "status": "success",
+      "file": "data/real_free_data/XAUUSD_H4_forexsb.csv",
+      "records": 401,
+      "url": "https://data.forexsb.com/?symbol=XAUUSD&timeframe=H4&format=csv",
+      "size_kb": 21.0986328125
+    },
+    "D1": {
+      "status": "success",
+      "file": "data/real_free_data/XAUUSD_D1_forexsb.csv",
+      "records": 401,
+      "url": "https://data.forexsb.com/?symbol=XAUUSD&timeframe=D1&format=csv",
+      "size_kb": 21.0986328125
+    }
+  },
+  "histdata_result": {
+    "status": "webpage",
+    "file": "data/real_free_data/histdata_response.html"
+  },
+  "analysis_results": {}
+}

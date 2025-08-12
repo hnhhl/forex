@@ -1,0 +1,9 @@
+{
+  "timestamp": "20250619_121314",
+  "train_accuracy": 0.6457638144493103,
+  "test_accuracy": 0.6266666650772095,
+  "trading_rate": 100.0,
+  "total_trades": 375,
+  "total_samples": 1874,
+  "features_count": 24
+}

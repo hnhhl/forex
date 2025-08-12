@@ -1,0 +1,91 @@
+{
+  "start_time": "2025-06-23 10:35:41.805860",
+  "data_analysis": {
+    "timeframe": "H1",
+    "total_candles": 8647,
+    "date_start": "2024-01-01T23:00:00",
+    "date_end": "2025-06-18T04:00:00",
+    "price_min": 1987.449,
+    "price_max": 3494.391,
+    "data_quality": "GOOD"
+  },
+  "signal_analysis": {
+    "total_signals": 20,
+    "signal_distribution": {
+      "BUY": 20
+    },
+    "average_confidence": 0.45499999999999996,
+    "confidence_std": 0.0,
+    "average_generation_time": 0.43636226654052734,
+    "price_range": [
+      2003.756,
+      2182.743
+    ]
+  },
+  "trading_performance": {
+    "initial_balance": 10000.0,
+    "final_balance": 11267.63,
+    "total_return_percent": 12.676299999999992,
+    "total_pnl_dollars": 1267.6299999999992,
+    "total_pnl_pips": 12676.299999999992,
+    "total_trades": 1,
+    "winning_trades": 1,
+    "losing_trades": 0,
+    "win_rate_percent": 100.0,
+    "average_win": 1267.6299999999992,
+    "average_loss": 0,
+    "profit_factor": Infinity,
+    "max_drawdown_percent": 0
+  },
+  "risk_metrics": {},
+  "detailed_trades": [
+    {
+      "direction": "LONG",
+      "open_price": 2055.98,
+      "close_price": 2182.743,
+      "open_time": "2024-01-12T14:00:00",
+      "close_time": "2024-03-12T01:00:00",
+      "pnl_dollars": 1267.6299999999992,
+      "pnl_pips": 12676.299999999992,
+      "confidence": 0.45499999999999996,
+      "reason": "End of Test"
+    }
+  ],
+  "weaknesses": [
+    {
+      "category": "CONFIDENCE",
+      "issue": "Low Signal Confidence",
+      "severity": "MEDIUM",
+      "description": "Average confidence only 45.5%"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "MEDIUM",
+      "area": "Signal Quality",
+      "action": "Improve confidence calculation and add signal filtering"
+    },
+    {
+      "priority": "HIGH",
+      "area": "Data Quality",
+      "action": "Use more recent and higher quality training data"
+    },
+    {
+      "priority": "MEDIUM",
+      "area": "Feature Engineering",
+      "action": "Add more sophisticated technical indicators and market regime detection"
+    },
+    {
+      "priority": "MEDIUM",
+      "area": "Ensemble Optimization",
+      "action": "Optimize voting weights and consensus thresholds"
+    },
+    {
+      "priority": "LOW",
+      "area": "Performance",
+      "action": "Optimize code for faster signal generation"
+    }
+  ],
+  "end_time": "2025-06-23 10:36:02.873890",
+  "test_duration_seconds": 21.06803
+}

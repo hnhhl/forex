@@ -1,0 +1,182 @@
+{
+  "analysis_timestamp": "2025-06-23T00:22:18.604430",
+  "training_summary": {
+    "models_trained": 2,
+    "best_model": {
+      "name": "lightgbm",
+      "test_accuracy": 0.5763763763763764
+    }
+  },
+  "signal_analysis_summary": {
+    "scenarios_tested": 8,
+    "overall_signal_accuracy": 0.875,
+    "total_specialists": 18,
+    "categories": 6
+  },
+  "category_performance": {
+    "Technical": {
+      "specialists": [
+        {
+          "name": "RSI_Specialist",
+          "accuracy": 0.125,
+          "confidence": 0.4265016509116912
+        },
+        {
+          "name": "MACD_Specialist",
+          "accuracy": 0.625,
+          "confidence": 0.3483936069400506
+        },
+        {
+          "name": "Fibonacci_Specialist",
+          "accuracy": 0.875,
+          "confidence": 0.4036486752685131
+        }
+      ],
+      "avg_accuracy": 0.5416666666666666,
+      "avg_confidence": 0.39284797770675167,
+      "count": 3
+    },
+    "Sentiment": {
+      "specialists": [
+        {
+          "name": "News_Sentiment_Specialist",
+          "accuracy": 0.5,
+          "confidence": 0.3429761098260464
+        },
+        {
+          "name": "Social_Media_Specialist",
+          "accuracy": 0.25,
+          "confidence": 0.2962442115616033
+        },
+        {
+          "name": "Fear_Greed_Specialist",
+          "accuracy": 0.375,
+          "confidence": 0.35841061344609015
+        }
+      ],
+      "avg_accuracy": 0.375,
+      "avg_confidence": 0.33254364494457994,
+      "count": 3
+    },
+    "Pattern": {
+      "specialists": [
+        {
+          "name": "Chart_Pattern_Specialist",
+          "accuracy": 0.625,
+          "confidence": 0.38291957558299733
+        },
+        {
+          "name": "Candlestick_Specialist",
+          "accuracy": 0.75,
+          "confidence": 0.32176023132429626
+        },
+        {
+          "name": "Wave_Specialist",
+          "accuracy": 0.625,
+          "confidence": 0.3989650043555317
+        }
+      ],
+      "avg_accuracy": 0.6666666666666666,
+      "avg_confidence": 0.36788160375427514,
+      "count": 3
+    },
+    "Risk": {
+      "specialists": [
+        {
+          "name": "VaR_Risk_Specialist",
+          "accuracy": 0.375,
+          "confidence": 0.3515680799131026
+        },
+        {
+          "name": "Drawdown_Specialist",
+          "accuracy": 0.5,
+          "confidence": 0.42360299856057804
+        },
+        {
+          "name": "Position_Size_Specialist",
+          "accuracy": 0.375,
+          "confidence": 0.5190891833689141
+        }
+      ],
+      "avg_accuracy": 0.4166666666666667,
+      "avg_confidence": 0.4314200872808649,
+      "count": 3
+    },
+    "Momentum": {
+      "specialists": [
+        {
+          "name": "Trend_Specialist",
+          "accuracy": 0.75,
+          "confidence": 0.3635649138947576
+        },
+        {
+          "name": "Mean_Reversion_Specialist",
+          "accuracy": 0.875,
+          "confidence": 0.3723348346611507
+        },
+        {
+          "name": "Breakout_Specialist",
+          "accuracy": 0.625,
+          "confidence": 0.32577707468323913
+        }
+      ],
+      "avg_accuracy": 0.75,
+      "avg_confidence": 0.3538922744130491,
+      "count": 3
+    },
+    "Volatility": {
+      "specialists": [
+        {
+          "name": "ATR_Specialist",
+          "accuracy": 0.375,
+          "confidence": 0.22419940376718028
+        },
+        {
+          "name": "Bollinger_Specialist",
+          "accuracy": 0.625,
+          "confidence": 0.38970421508100545
+        },
+        {
+          "name": "Volatility_Clustering_Specialist",
+          "accuracy": 0.5,
+          "confidence": 0.33867073234798895
+        }
+      ],
+      "avg_accuracy": 0.5,
+      "avg_confidence": 0.3175247837320582,
+      "count": 3
+    }
+  },
+  "top_specialists": [
+    {
+      "name": "Fibonacci_Specialist",
+      "category": "Technical",
+      "accuracy": 0.875,
+      "confidence": 0.4036486752685131
+    },
+    {
+      "name": "Mean_Reversion_Specialist",
+      "category": "Momentum",
+      "accuracy": 0.875,
+      "confidence": 0.3723348346611507
+    },
+    {
+      "name": "Candlestick_Specialist",
+      "category": "Pattern",
+      "accuracy": 0.75,
+      "confidence": 0.32176023132429626
+    },
+    {
+      "name": "Trend_Specialist",
+      "category": "Momentum",
+      "accuracy": 0.75,
+      "confidence": 0.3635649138947576
+    },
+    {
+      "name": "MACD_Specialist",
+      "category": "Technical",
+      "accuracy": 0.625,
+      "confidence": 0.3483936069400506
+    }
+  ]
+}

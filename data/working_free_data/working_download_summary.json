@@ -1,0 +1,361 @@
+{
+  "timestamp": "20250619_084854",
+  "investing_result": {
+    "status": "error",
+    "error": "HTTPSConnectionPool(host='www.investing.com', port=443): Max retries exceeded with url: /instruments/HistoricalDataAjax (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000250CA9BB190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"
+  },
+  "sample_results": {
+    "M1": {
+      "file": "data/working_free_data/XAUUSD_M1_realistic.csv",
+      "records": 1124640
+    },
+    "M5": {
+      "file": "data/working_free_data/XAUUSD_M5_realistic.csv",
+      "records": 224928
+    },
+    "M15": {
+      "file": "data/working_free_data/XAUUSD_M15_realistic.csv",
+      "records": 74976
+    },
+    "M30": {
+      "file": "data/working_free_data/XAUUSD_M30_realistic.csv",
+      "records": 37488
+    },
+    "H1": {
+      "file": "data/working_free_data/XAUUSD_H1_realistic.csv",
+      "records": 18744
+    },
+    "H4": {
+      "file": "data/working_free_data/XAUUSD_H4_realistic.csv",
+      "records": 4686
+    },
+    "D1": {
+      "file": "data/working_free_data/XAUUSD_D1_realistic.csv",
+      "records": 781
+    }
+  },
+  "analysis_results": {
+    "M1": {
+      "file": "data/working_free_data/XAUUSD_M1_realistic.csv",
+      "total_records": 1124640,
+      "columns": [
+        "Date",
+        "Time",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "date_range": {
+        "start": "2022-01-03 00:00",
+        "end": "2024-12-30 23:59",
+        "duration_days": 1092
+      },
+      "time_gaps": {
+        "min_gap_minutes": 1.0,
+        "max_gap_minutes": 2881.0,
+        "avg_gap_minutes": 1.3994881833333332
+      },
+      "price_stats": {
+        "open_range": [
+          1600.0,
+          2200.0
+        ],
+        "high_range": [
+          1600.0,
+          2202.78
+        ],
+        "low_range": [
+          1597.07,
+          2199.99
+        ],
+        "close_range": [
+          1597.31,
+          2202.5
+        ],
+        "avg_volume": 275.06448552425667
+      },
+      "anomalies": {
+        "large_moves_count": 0,
+        "max_move_percent": 0.18240589654980208
+      }
+    },
+    "M5": {
+      "file": "data/working_free_data/XAUUSD_M5_realistic.csv",
+      "total_records": 224928,
+      "columns": [
+        "Date",
+        "Time",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "date_range": {
+        "start": "2022-01-03 00:00",
+        "end": "2024-12-30 23:55",
+        "duration_days": 1092
+      },
+      "time_gaps": {
+        "min_gap_minutes": 5.0,
+        "max_gap_minutes": 2885.0,
+        "avg_gap_minutes": 6.99744805
+      },
+      "price_stats": {
+        "open_range": [
+          1600.0,
+          2200.0
+        ],
+        "high_range": [
+          1600.47,
+          2202.78
+        ],
+        "low_range": [
+          1597.07,
+          2199.28
+        ],
+        "close_range": [
+          1597.92,
+          2202.5
+        ],
+        "avg_volume": 1375.3224276212832
+      },
+      "anomalies": {
+        "large_moves_count": 0,
+        "max_move_percent": 0.4987561807069741
+      }
+    },
+    "M15": {
+      "file": "data/working_free_data/XAUUSD_M15_realistic.csv",
+      "total_records": 74976,
+      "columns": [
+        "Date",
+        "Time",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "date_range": {
+        "start": "2022-01-03 00:00",
+        "end": "2024-12-30 23:45",
+        "duration_days": 1092
+      },
+      "time_gaps": {
+        "min_gap_minutes": 15.0,
+        "max_gap_minutes": 2895.0,
+        "avg_gap_minutes": 20.99239745
+      },
+      "price_stats": {
+        "open_range": [
+          1600.0,
+          2200.0
+        ],
+        "high_range": [
+          1601.69,
+          2202.78
+        ],
+        "low_range": [
+          1597.07,
+          2198.15
+        ],
+        "close_range": [
+          1597.92,
+          2201.24
+        ],
+        "avg_volume": 4125.9672828638495
+      },
+      "anomalies": {
+        "large_moves_count": 0,
+        "max_move_percent": 0.8645836559006618
+      }
+    },
+    "M30": {
+      "file": "data/working_free_data/XAUUSD_M30_realistic.csv",
+      "total_records": 37488,
+      "columns": [
+        "Date",
+        "Time",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "date_range": {
+        "start": "2022-01-03 00:00",
+        "end": "2024-12-30 23:30",
+        "duration_days": 1092
+      },
+      "time_gaps": {
+        "min_gap_minutes": 30.0,
+        "max_gap_minutes": 2910.0,
+        "avg_gap_minutes": 41.984954783333336
+      },
+      "price_stats": {
+        "open_range": [
+          1600.0,
+          2200.0
+        ],
+        "high_range": [
+          1602.73,
+          2202.78
+        ],
+        "low_range": [
+          1597.07,
+          2197.41
+        ],
+        "close_range": [
+          1597.92,
+          2201.09
+        ],
+        "avg_volume": 8251.934565727699
+      },
+      "anomalies": {
+        "large_moves_count": 0,
+        "max_move_percent": 1.2298608272924842
+      }
+    },
+    "H1": {
+      "file": "data/working_free_data/XAUUSD_H1_realistic.csv",
+      "total_records": 18744,
+      "columns": [
+        "Date",
+        "Time",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "date_range": {
+        "start": "2022-01-03 00:00",
+        "end": "2024-12-30 23:00",
+        "duration_days": 1092
+      },
+      "time_gaps": {
+        "min_gap_minutes": 60.0,
+        "max_gap_minutes": 2940.0,
+        "avg_gap_minutes": 83.97054899999999
+      },
+      "price_stats": {
+        "open_range": [
+          1600.0,
+          2200.0
+        ],
+        "high_range": [
+          1604.05,
+          2202.78
+        ],
+        "low_range": [
+          1597.07,
+          2195.43
+        ],
+        "close_range": [
+          1597.92,
+          2200.62
+        ],
+        "avg_volume": 16503.869131455398
+      },
+      "anomalies": {
+        "large_moves_count": 0,
+        "max_move_percent": 1.690936752879815
+      }
+    },
+    "H4": {
+      "file": "data/working_free_data/XAUUSD_H4_realistic.csv",
+      "total_records": 4686,
+      "columns": [
+        "Date",
+        "Time",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "date_range": {
+        "start": "2022-01-03 00:00",
+        "end": "2024-12-30 20:00",
+        "duration_days": 1092
+      },
+      "time_gaps": {
+        "min_gap_minutes": 240.0,
+        "max_gap_minutes": 3120.0,
+        "avg_gap_minutes": 335.89754535
+      },
+      "price_stats": {
+        "open_range": [
+          1600.0,
+          2199.23
+        ],
+        "high_range": [
+          1608.2,
+          2202.78
+        ],
+        "low_range": [
+          1597.07,
+          2190.52
+        ],
+        "close_range": [
+          1599.06,
+          2199.09
+        ],
+        "avg_volume": 66015.47652582159
+      },
+      "anomalies": {
+        "large_moves_count": 22,
+        "max_move_percent": 2.855095260942709
+      }
+    },
+    "D1": {
+      "file": "data/working_free_data/XAUUSD_D1_realistic.csv",
+      "total_records": 781,
+      "columns": [
+        "Date",
+        "Time",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "date_range": {
+        "start": "2022-01-03 00:00",
+        "end": "2024-12-30 00:00",
+        "duration_days": 1092
+      },
+      "time_gaps": {
+        "min_gap_minutes": 1440.0,
+        "max_gap_minutes": 4320.0,
+        "avg_gap_minutes": 2016.0
+      },
+      "price_stats": {
+        "open_range": [
+          1600.0,
+          2199.23
+        ],
+        "high_range": [
+          1619.86,
+          2202.78
+        ],
+        "low_range": [
+          1597.07,
+          2174.99
+        ],
+        "close_range": [
+          1600.28,
+          2198.56
+        ],
+        "avg_volume": 396092.8591549296
+      },
+      "anomalies": {
+        "large_moves_count": 200,
+        "max_move_percent": 5.35772383802188
+      }
+    }
+  }
+}

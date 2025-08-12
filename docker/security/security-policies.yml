@@ -1,0 +1,30 @@
+# Container Security Policies
+# Ultimate XAU Super System V4.0
+
+# 1. Use non-root users
+# 2. Minimal base images
+# 3. Multi-stage builds
+# 4. Security scanning
+# 5. Resource limits
+# 6. Network isolation
+# 7. Secrets management
+# 8. Regular updates
+
+version: "3.8"
+services:
+  app:
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    cap_add:
+      - NET_BIND_SERVICE
+    read_only: true
+    tmpfs:
+      - /tmp
+      - /var/tmp
+    ulimits:
+      nproc: 65535
+      nofile:
+        soft: 65535
+        hard: 65535

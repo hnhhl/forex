@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-06-20T02:11:55.476939",
+  "comparison": {
+    "ai2_features_evidence": [
+      "(default_factory=lambda: [\"M1\", \"M5\", \"M15\", \"M30\", \"H1\", \"H4\", \"D1\"])",
+      "(default: M1 M15 M5 M30 H1 H4 D1)",
+      "('max_drawdown', 0.15)",
+      "('max_drawdown', 0.15)",
+      "(metrics['equity_history']) % 12 == 0:  # Every hour (if 5min intervals)",
+      "(0.005, paper_config.risk_per_trade * 0.9)",
+      "(0.05, paper_config.risk_per_trade * 1.1)",
+      "(0.05, paper_config.max_drawdown * 0.9)",
+      "(step * 0.01) + np.random.normal(0, 0.5)",
+      "(-0.5, 0.5)",
+      "(1.5, 3.5)",
+      "('confidence', 0.5)",
+      "(step % 100 - 50)",
+      "(step % 50 - 25)",
+      "(\"-\" * 50)",
+      "(\"-\" * 50)",
+      "(5)",
+      "(signals.get('validation_score', 0.5) - 0.5)",
+      "(0.95, abs(final_signal))",
+      "(0.85, abs(final_signal))",
+      "(0.95, abs(final_signal))",
+      "(0.85, abs(final_signal))",
+      "(self, data): return random.uniform(-0.5, 0.5)",
+      "(self, signal): return random.uniform(0.6, 0.95)",
+      "(self, signal): return random.uniform(0.65, 0.85)",
+      "(self, data): return random.uniform(-0.15, 0.15)",
+      "(self, data): return random.uniform(-0.35, 0.35)",
+      "(self, prediction): return random.uniform(0.7, 0.95)",
+      "(self, signal): return signal * random.uniform(1.05, 1.2)",
+      "(self, prediction): return prediction * random.uniform(1.03, 1.15)",
+      "(\"=\" * 50)"
+    ],
+    "ai3_features_evidence": true,
+    "ai2_signal_methods": 14,
+    "ai3_signal_methods": 16,
+    "ai2_neural_mentions": 1,
+    "ai3_neural_mentions": 83,
+    "ai2_architecture": "Orchestrator Pattern",
+    "ai3_architecture": "Monolithic Integration",
+    "conclusion": {
+      "five_features_in_ai2": true,
+      "root_cause": "AI3.0 neural models expect 5 features but receive 4",
+      "ai2_actual_features": 4,
+      "recommended_solution": "Retrain AI3.0 models with 4 features or add 1 feature"
+    }
+  }
+}

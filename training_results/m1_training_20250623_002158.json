@@ -1,0 +1,12 @@
+{
+  "lightgbm": {
+    "train_accuracy": 0.7071028130944038,
+    "test_accuracy": 0.5763763763763764,
+    "model_path": "trained_models/m1_lightgbm_20250623_002158.pkl"
+  },
+  "neural_network": {
+    "train_accuracy": 0.5301581621170044,
+    "test_accuracy": 0.5156156420707703,
+    "model_path": "trained_models/m1_neural_20250623_002158.keras"
+  }
+}

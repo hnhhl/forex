@@ -1,0 +1,18 @@
+# Trading Services Container
+FROM python:3.10-slim
+
+LABEL service="trading-services" \
+      version="4.0.0"
+
+ENV PYTHONUNBUFFERED=1
+
+WORKDIR /app
+
+COPY requirements-trading.txt .
+RUN pip install --no-cache-dir -r requirements-trading.txt
+
+COPY src/core/trading/ ./src/core/trading/
+
+EXPOSE 8003
+
+CMD ["python", "-m", "src.core.trading.main"]

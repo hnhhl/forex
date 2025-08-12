@@ -1,0 +1,55 @@
+ai:
+  neural_ensemble:
+    confidence_threshold: 0.7
+    enabled: true
+    model_path: src/core/ai/models/
+    retrain_interval: 24
+  reinforcement_learning:
+    batch_size: 64
+    enabled: true
+    exploration_rate: 0.1
+    learning_rate: 0.001
+data_sources:
+  fundamental_data:
+    cache_ttl: 7200
+    sources:
+    - fred
+    - worldbank
+    - news_api
+    update_interval: 3600
+  market_data:
+    cache_ttl: 300
+    fallback:
+    - alpha_vantage
+    - polygon
+    primary: yahoo_finance
+    update_interval: 1
+database:
+  connection_timeout: 30
+  database: ${DB_NAME}
+  host: ${DB_HOST}
+  max_connections: 100
+  password: ${DB_PASSWORD}
+  pool_size: 20
+  port: ${DB_PORT}
+  ssl_enabled: true
+  username: ${DB_USER}
+monitoring:
+  error_tracking: true
+  health_check_interval: 30
+  metrics_enabled: true
+  performance_tracking: true
+system:
+  debug: false
+  environment: ${ENVIRONMENT}
+  log_level: INFO
+  name: Ultimate XAU Super System V4.0
+  version: 4.0.0
+trading:
+  commission: 0.0005
+  initial_balance: 100000.0
+  max_drawdown: 0.15
+  max_position_size: 0.1
+  risk_per_trade: 0.02
+  stop_loss_pct: 0.05
+  take_profit_pct: 0.1

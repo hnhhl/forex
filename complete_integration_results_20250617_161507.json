@@ -1,0 +1,171 @@
+{
+  "integration_results": [
+    {
+      "component_name": "SentimentAnalysisEngine",
+      "phase": "phase_3_analysis",
+      "status": "success",
+      "execution_time": 0.0,
+      "timestamp": "2025-06-17T16:15:07.489848",
+      "data": {
+        "overall_sentiment": 0.11649585703355089,
+        "sentiment_signal": "neutral",
+        "confidence": 0.8258577297565771,
+        "sources": {
+          "news": 0.05546458267181592,
+          "social": 0.29705894429354623,
+          "analyst": 0.01730780225586885
+        },
+        "data_points_analyzed": 221
+      }
+    },
+    {
+      "component_name": "FundamentalAnalysisEngine",
+      "phase": "phase_3_analysis",
+      "status": "success",
+      "execution_time": 0.0,
+      "timestamp": "2025-06-17T16:15:07.490851",
+      "data": {
+        "fundamental_score": -0.4,
+        "outlook": "bearish",
+        "economic_data": {
+          "gdp_growth": 2.1,
+          "inflation_rate": 3.2,
+          "unemployment": 3.7,
+          "fed_funds_rate": 5.25,
+          "dollar_index": 103.5,
+          "real_rates": 2.05
+        },
+        "confidence": 0.8,
+        "time_horizon": "medium_to_long_term"
+      }
+    },
+    {
+      "component_name": "AlternativeDataEngine",
+      "phase": "phase_3_analysis",
+      "status": "success",
+      "execution_time": 0.0009987354278564453,
+      "timestamp": "2025-06-17T16:15:07.491850",
+      "data": {
+        "alt_data_signal": 0.6711047739504724,
+        "signal_direction": "bullish",
+        "supply_impact": 0.5274452712286515,
+        "demand_impact": 0.14365950272182096,
+        "components": {
+          "mining_activity": 0.632564074322431,
+          "weather_disruption": 0.2738994371588953,
+          "shipping_costs": 1.1064761085721238,
+          "regulatory_pressure": 0.47886500907273655
+        },
+        "confidence": 0.65,
+        "time_horizon": "medium_term"
+      }
+    },
+    {
+      "component_name": "ProductionReadinessChecker",
+      "phase": "phase_4_production",
+      "status": "success",
+      "execution_time": 0.0,
+      "timestamp": "2025-06-17T16:15:07.491850",
+      "data": {
+        "readiness_score": 0.9249999999999999,
+        "readiness_status": "production_ready",
+        "health_checks": {
+          "cpu_usage": 63.391899146616666,
+          "memory_usage": 47.99712394426986,
+          "disk_usage": 68.75019385308534,
+          "network_latency": 39.61494608885119,
+          "api_response_time": 51.518189401475404
+        },
+        "security_checks": {
+          "ssl_certificate": true,
+          "firewall_active": true,
+          "access_control": true,
+          "data_encryption": true,
+          "audit_logging": true
+        },
+        "performance_metrics": {
+          "signal_generation_speed": 81.94574021031106,
+          "prediction_accuracy": 0.6356516415413245,
+          "system_uptime": 99.88643788530328,
+          "error_rate": 0.03603612403546196
+        },
+        "recommendations": []
+      }
+    },
+    {
+      "component_name": "ComprehensiveTestSuite",
+      "phase": "phase_4_production",
+      "status": "success",
+      "execution_time": 0.0,
+      "timestamp": "2025-06-17T16:15:07.492850",
+      "data": {
+        "test_status": "excellent",
+        "total_tests": 19,
+        "passed_tests": 18,
+        "failed_tests": 1,
+        "pass_rate": 0.9473684210526315,
+        "test_coverage": 0.9205565245564036,
+        "test_results": {
+          "unit_tests": {
+            "test_kelly_calculator": "passed",
+            "test_neural_network": "passed",
+            "test_risk_calculator": "passed",
+            "test_sentiment_analyzer": "passed",
+            "test_fundamental_analyzer": "failed",
+            "test_alternative_data": "passed"
+          },
+          "integration_tests": {
+            "test_signal_pipeline": "passed",
+            "test_system_coordination": "passed",
+            "test_data_flow": "passed",
+            "test_error_handling": "passed"
+          },
+          "performance_tests": {
+            "test_signal_speed": "passed",
+            "test_memory_usage": "passed",
+            "test_concurrent_load": "passed",
+            "test_stress_response": "passed"
+          },
+          "security_tests": {
+            "test_authentication": "passed",
+            "test_authorization": "passed",
+            "test_data_encryption": "passed",
+            "test_input_validation": "passed",
+            "test_sql_injection": "passed"
+          }
+        }
+      }
+    }
+  ],
+  "integrated_signal": {
+    "signal_direction": "HOLD",
+    "signal_strength": 0.05045539644352942,
+    "confidence": 0.5,
+    "components": {
+      "sentiment": 0.11649585703355089,
+      "fundamental": -0.4,
+      "alternative": 0.6711047739504724
+    },
+    "weights": {
+      "sentiment": 0.25,
+      "fundamental": 0.45,
+      "alternative": 0.3
+    },
+    "timestamp": "2025-06-17 16:15:07.493850"
+  },
+  "overall_status": {
+    "overall_status": "EXCELLENT",
+    "success_rate": 1.0,
+    "successful_components": 5,
+    "total_components": 5,
+    "avg_execution_time": 0.0009987354278564453,
+    "phase_3_complete": true,
+    "phase_4_complete": true
+  },
+  "execution_time": 0.007,
+  "timestamp": "2025-06-17T16:15:07.494850",
+  "phase_completion": {
+    "phase_3_analysis": true,
+    "phase_4_production": true
+  }
+}

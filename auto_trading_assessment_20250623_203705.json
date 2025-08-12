@@ -1,0 +1,80 @@
+{
+  "timestamp": "2025-06-23T20:37:05.162164",
+  "overall_score": 40.38461538461539,
+  "readiness_level": "🔴 NOT READY",
+  "components": {
+    "signal_generation": {
+      "generate_signal_method": true,
+      "signal_actions": 3,
+      "confidence_calculation": true,
+      "ensemble_logic": false,
+      "risk_filters": false
+    },
+    "order_execution": {
+      "place_order_method": true,
+      "mt5_integration": true,
+      "order_types": 0,
+      "position_management": false,
+      "stop_loss_take_profit": true,
+      "volume_calculation": false
+    },
+    "mt5_integration": {
+      "mt5.initialize": false,
+      "mt5.login": false,
+      "mt5.order_send": true,
+      "mt5.positions_get": false,
+      "mt5.orders_get": false,
+      "mt5.account_info": false
+    },
+    "risk_management": {
+      "position_sizing": true,
+      "risk_per_trade": true,
+      "max_drawdown": false,
+      "correlation_check": false,
+      "daily_risk_limit": true,
+      "portfolio_risk": false
+    },
+    "automation_logic": {
+      "live_trading_mode": false,
+      "continuous_monitoring": false,
+      "auto_execution": false,
+      "scheduler_integration": false,
+      "real_time_data": false,
+      "decision_pipeline": false
+    },
+    "trading_methods": {
+      "start_trading": true,
+      "stop_trading": true,
+      "trading_loop": true,
+      "process_market_data": false,
+      "execute_trade": false,
+      "monitor_positions": false
+    },
+    "configuration": {
+      "live_trading_flag": false,
+      "paper_trading_flag": false,
+      "auto_rebalancing": false,
+      "continuous_learning": false,
+      "mt5_configuration": false,
+      "risk_parameters": true
+    },
+    "config_values": {},
+    "safety_mechanisms": {
+      "error_handling": 9,
+      "connection_monitoring": false,
+      "position_limits": true,
+      "daily_limits": true,
+      "emergency_stop": true,
+      "validation_checks": false
+    },
+    "functionality_test": {
+      "generate_signal": "✅ Available",
+      "start_trading": "✅ Available",
+      "stop_trading": "✅ Available",
+      "signal_generation_test": "✅ Working",
+      "configuration_check": "✅ Available"
+    }
+  },
+  "working_components": 21,
+  "total_components": 52
+}

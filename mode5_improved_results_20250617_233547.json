@@ -1,0 +1,256 @@
+{
+  "timestamp": "2025-06-17T23:35:47.408161",
+  "training_time_seconds": 2034.5011239051819,
+  "v4_baselines": {
+    "M15": {
+      "direction_2": 0.8398
+    },
+    "M30": {
+      "direction_2": 0.7756
+    },
+    "H1": {
+      "direction_2": 0.6714
+    }
+  },
+  "mode5_results": {
+    "M15": {
+      "enhanced_dense": {
+        "accuracy": 0.4440000057220459,
+        "model_type": "Enhanced Dense",
+        "samples": 3998,
+        "features": 67
+      },
+      "enhanced_lstm": {
+        "accuracy": 0.37348178029060364,
+        "model_type": "Enhanced LSTM",
+        "samples": 3950,
+        "sequence_length": 60
+      },
+      "transformer": {
+        "accuracy": 0.3815789520740509,
+        "model_type": "Transformer",
+        "samples": 3950,
+        "attention_heads": 8
+      },
+      "cnn_lstm": {
+        "accuracy": 0.3815789520740509,
+        "model_type": "CNN-LSTM",
+        "samples": 3950,
+        "hybrid_architecture": true
+      },
+      "random_forest": {
+        "accuracy": 0.48,
+        "model_type": "Random Forest",
+        "n_estimators": 200,
+        "samples": 3998
+      }
+    },
+    "M30": {
+      "enhanced_dense": {
+        "accuracy": 0.4059999883174896,
+        "model_type": "Enhanced Dense",
+        "samples": 3998,
+        "features": 67
+      },
+      "enhanced_lstm": {
+        "accuracy": 0.40991902351379395,
+        "model_type": "Enhanced LSTM",
+        "samples": 3950,
+        "sequence_length": 60
+      },
+      "transformer": {
+        "accuracy": 0.40991902351379395,
+        "model_type": "Transformer",
+        "samples": 3950,
+        "attention_heads": 8
+      },
+      "cnn_lstm": {
+        "accuracy": 0.40991902351379395,
+        "model_type": "CNN-LSTM",
+        "samples": 3950,
+        "hybrid_architecture": true
+      },
+      "random_forest": {
+        "accuracy": 0.522,
+        "model_type": "Random Forest",
+        "n_estimators": 200,
+        "samples": 3998
+      }
+    },
+    "H1": {
+      "enhanced_dense": {
+        "accuracy": 0.47600001096725464,
+        "model_type": "Enhanced Dense",
+        "samples": 3998,
+        "features": 67
+      },
+      "enhanced_lstm": {
+        "accuracy": 0.44736841320991516,
+        "model_type": "Enhanced LSTM",
+        "samples": 3950,
+        "sequence_length": 60
+      },
+      "transformer": {
+        "accuracy": 0.44736841320991516,
+        "model_type": "Transformer",
+        "samples": 3950,
+        "attention_heads": 8
+      },
+      "cnn_lstm": {
+        "accuracy": 0.44736841320991516,
+        "model_type": "CNN-LSTM",
+        "samples": 3950,
+        "hybrid_architecture": true
+      },
+      "random_forest": {
+        "accuracy": 0.536,
+        "model_type": "Random Forest",
+        "n_estimators": 200,
+        "samples": 3998
+      }
+    }
+  },
+  "comparison_summary": {
+    "total_models": 15,
+    "best_accuracy": 0.536,
+    "models_better_than_v4": 0,
+    "success": false
+  },
+  "detailed_models": [
+    {
+      "timeframe": "H1",
+      "model_name": "random_forest",
+      "model_type": "Random Forest",
+      "accuracy": 0.536,
+      "v4_baseline": 0.6714,
+      "improvement": -0.13539999999999996,
+      "better_than_v4": false
+    },
+    {
+      "timeframe": "M30",
+      "model_name": "random_forest",
+      "model_type": "Random Forest",
+      "accuracy": 0.522,
+      "v4_baseline": 0.7756,
+      "improvement": -0.25359999999999994,
+      "better_than_v4": false
+    },
+    {
+      "timeframe": "M15",
+      "model_name": "random_forest",
+      "model_type": "Random Forest",
+      "accuracy": 0.48,
+      "v4_baseline": 0.8398,
+      "improvement": -0.3598,
+      "better_than_v4": false
+    },
+    {
+      "timeframe": "H1",
+      "model_name": "enhanced_dense",
+      "model_type": "Enhanced Dense",
+      "accuracy": 0.47600001096725464,
+      "v4_baseline": 0.6714,
+      "improvement": -0.19539998903274536,
+      "better_than_v4": false
+    },
+    {
+      "timeframe": "H1",
+      "model_name": "enhanced_lstm",
+      "model_type": "Enhanced LSTM",
+      "accuracy": 0.44736841320991516,
+      "v4_baseline": 0.6714,
+      "improvement": -0.22403158679008484,
+      "better_than_v4": false
+    },
+    {
+      "timeframe": "H1",
+      "model_name": "transformer",
+      "model_type": "Transformer",
+      "accuracy": 0.44736841320991516,
+      "v4_baseline": 0.6714,
+      "improvement": -0.22403158679008484,
+      "better_than_v4": false
+    },
+    {
+      "timeframe": "H1",
+      "model_name": "cnn_lstm",
+      "model_type": "CNN-LSTM",
+      "accuracy": 0.44736841320991516,
+      "v4_baseline": 0.6714,
+      "improvement": -0.22403158679008484,
+      "better_than_v4": false
+    },
+    {
+      "timeframe": "M15",
+      "model_name": "enhanced_dense",
+      "model_type": "Enhanced Dense",
+      "accuracy": 0.4440000057220459,
+      "v4_baseline": 0.8398,
+      "improvement": -0.3957999942779541,
+      "better_than_v4": false
+    },
+    {
+      "timeframe": "M30",
+      "model_name": "enhanced_lstm",
+      "model_type": "Enhanced LSTM",
+      "accuracy": 0.40991902351379395,
+      "v4_baseline": 0.7756,
+      "improvement": -0.365680976486206,
+      "better_than_v4": false
+    },
+    {
+      "timeframe": "M30",
+      "model_name": "transformer",
+      "model_type": "Transformer",
+      "accuracy": 0.40991902351379395,
+      "v4_baseline": 0.7756,
+      "improvement": -0.365680976486206,
+      "better_than_v4": false
+    },
+    {
+      "timeframe": "M30",
+      "model_name": "cnn_lstm",
+      "model_type": "CNN-LSTM",
+      "accuracy": 0.40991902351379395,
+      "v4_baseline": 0.7756,
+      "improvement": -0.365680976486206,
+      "better_than_v4": false
+    },
+    {
+      "timeframe": "M30",
+      "model_name": "enhanced_dense",
+      "model_type": "Enhanced Dense",
+      "accuracy": 0.4059999883174896,
+      "v4_baseline": 0.7756,
+      "improvement": -0.36960001168251033,
+      "better_than_v4": false
+    },
+    {
+      "timeframe": "M15",
+      "model_name": "transformer",
+      "model_type": "Transformer",
+      "accuracy": 0.3815789520740509,
+      "v4_baseline": 0.8398,
+      "improvement": -0.4582210479259491,
+      "better_than_v4": false
+    },
+    {
+      "timeframe": "M15",
+      "model_name": "cnn_lstm",
+      "model_type": "CNN-LSTM",
+      "accuracy": 0.3815789520740509,
+      "v4_baseline": 0.8398,
+      "improvement": -0.4582210479259491,
+      "better_than_v4": false
+    },
+    {
+      "timeframe": "M15",
+      "model_name": "enhanced_lstm",
+      "model_type": "Enhanced LSTM",
+      "accuracy": 0.37348178029060364,
+      "v4_baseline": 0.8398,
+      "improvement": -0.46631821970939635,
+      "better_than_v4": false
+    }
+  ]
+}

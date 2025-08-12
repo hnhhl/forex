@@ -1,0 +1,29 @@
+{
+  "name": "xau-system-desktop",
+  "version": "4.0.0",
+  "description": "Ultimate XAU Super System V4.0 Desktop App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "dist": "electron-builder --publish=never"
+  },
+  "dependencies": {
+    "electron": "^25.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "chart.js": "^4.3.0",
+    "socket.io-client": "^4.7.0"
+  },
+  "build": {
+    "appId": "com.xausystem.desktop",
+    "productName": "XAU System Desktop",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "build/**/*",
+      "node_modules/**/*"
+    ]
+  }
+}

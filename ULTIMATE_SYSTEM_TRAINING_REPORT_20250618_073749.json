@@ -1,0 +1,102 @@
+{
+  "system_version": "5.0",
+  "training_start_time": "2025-06-18T07:11:53.539895",
+  "training_end_time": "2025-06-18T07:37:49.540283",
+  "total_training_time": "0:25:56.000388",
+  "unified_data_info": {
+    "total_samples": 9893,
+    "total_features": 472,
+    "timeframes_used": 7
+  },
+  "training_datasets": {
+    "y_direction_2": {
+      "samples": 9893,
+      "train_samples": 7914,
+      "test_samples": 1979
+    },
+    "y_direction_4": {
+      "samples": 9893,
+      "train_samples": 7914,
+      "test_samples": 1979
+    },
+    "y_direction_8": {
+      "samples": 9893,
+      "train_samples": 7914,
+      "test_samples": 1979
+    }
+  },
+  "training_results": {
+    "neural_ensemble": {
+      "status": "completed",
+      "targets_trained": 3,
+      "avg_accuracy": 0.709280781539498,
+      "training_time": "2025-06-18 07:17:46.258818"
+    },
+    "dqn_agent": {
+      "status": "failed",
+      "error": "name 'models' is not defined"
+    },
+    "meta_learning": {
+      "status": "failed",
+      "error": "name 'models' is not defined"
+    },
+    "traditional": {
+      "status": "completed",
+      "targets_trained": 3,
+      "models_per_target": 3,
+      "training_time": "2025-06-18 07:37:49.293683"
+    },
+    "ai_coordination": {
+      "status": "completed",
+      "model_weights": {
+        "neural_ensemble": 0.4149586125344895,
+        "dqn_agent": 0.2925206937327552,
+        "meta_learning": 0.2925206937327552,
+        "traditional": 0.2
+      },
+      "performance_based_weights": true,
+      "creation_time": "2025-06-18 07:37:49.294683"
+    },
+    "export": {
+      "status": "completed",
+      "models_exported": 19,
+      "export_paths": {
+        "neural_ensemble_y_direction_2_lstm": "trained_models/neural_ensemble_y_direction_2_lstm.h5",
+        "neural_ensemble_y_direction_2_dense": "trained_models/neural_ensemble_y_direction_2_dense.h5",
+        "neural_ensemble_y_direction_4_lstm": "trained_models/neural_ensemble_y_direction_4_lstm.h5",
+        "neural_ensemble_y_direction_4_dense": "trained_models/neural_ensemble_y_direction_4_dense.h5",
+        "neural_ensemble_y_direction_8_lstm": "trained_models/neural_ensemble_y_direction_8_lstm.h5",
+        "neural_ensemble_y_direction_8_dense": "trained_models/neural_ensemble_y_direction_8_dense.h5",
+        "random_forest_y_direction_2": "trained_models/random_forest_y_direction_2.pkl",
+        "gradient_boost_y_direction_2": "trained_models/gradient_boost_y_direction_2.pkl",
+        "lightgbm_y_direction_2": "trained_models/lightgbm_y_direction_2.pkl",
+        "random_forest_y_direction_4": "trained_models/random_forest_y_direction_4.pkl",
+        "gradient_boost_y_direction_4": "trained_models/gradient_boost_y_direction_4.pkl",
+        "lightgbm_y_direction_4": "trained_models/lightgbm_y_direction_4.pkl",
+        "random_forest_y_direction_8": "trained_models/random_forest_y_direction_8.pkl",
+        "gradient_boost_y_direction_8": "trained_models/gradient_boost_y_direction_8.pkl",
+        "lightgbm_y_direction_8": "trained_models/lightgbm_y_direction_8.pkl",
+        "scaler_y_direction_2": "trained_models/scaler_y_direction_2.pkl",
+        "scaler_y_direction_4": "trained_models/scaler_y_direction_4.pkl",
+        "scaler_y_direction_8": "trained_models/scaler_y_direction_8.pkl",
+        "ai_coordination": "trained_models/ai_coordination_config.json"
+      },
+      "export_time": "2025-06-18 07:37:49.540283"
+    }
+  },
+  "model_summary": {
+    "neural_ensemble": {
+      "status": "completed",
+      "avg_accuracy": 0.709280781539498
+    },
+    "dqn_agent": {
+      "status": "failed",
+      "avg_accuracy": 0.0,
+      "avg_reward": 0.0
+    },
+    "meta_learning": {
+      "status": "failed",
+      "avg_accuracy": 0.0
+    }
+  }
+}

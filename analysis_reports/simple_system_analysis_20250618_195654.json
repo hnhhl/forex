@@ -1,0 +1,105 @@
+{
+  "timestamp": "2025-06-18T19:56:54.060504",
+  "analysis_type": "Simple System Analysis",
+  "architecture_stats": {
+    "master_system.py": {
+      "size_kb": 29.73828125,
+      "lines": 796,
+      "classes": 7,
+      "functions": 24,
+      "imports": 17
+    },
+    "ultimate_xau_system.py": {
+      "size_kb": 135.1357421875,
+      "lines": 3646,
+      "classes": 18,
+      "functions": 150,
+      "imports": 141
+    },
+    "ai_master_integration.py": {
+      "size_kb": 40.4873046875,
+      "lines": 1021,
+      "classes": 8,
+      "functions": 25,
+      "imports": 15
+    },
+    "neural_ensemble.py": {
+      "size_kb": 27.0166015625,
+      "lines": 763,
+      "classes": 12,
+      "functions": 24,
+      "imports": 19
+    },
+    "advanced_ai_ensemble.py": {
+      "size_kb": 10.7021484375,
+      "lines": 291,
+      "classes": 2,
+      "functions": 14,
+      "imports": 7
+    }
+  },
+  "import_results": {
+    "Master Integration": {
+      "success": true,
+      "class": "<class 'src.core.integration.master_system.MasterIntegrationSystem'>"
+    },
+    "Ultimate XAU System": {
+      "success": true,
+      "class": "<class 'src.core.ultimate_xau_system.UltimateXAUSystem'>"
+    },
+    "AI Master Integration": {
+      "success": true,
+      "class": "<class 'src.core.integration.ai_master_integration.AIMasterIntegrationSystem'>"
+    },
+    "Neural Ensemble": {
+      "success": true,
+      "class": "<class 'src.core.ai.neural_ensemble.NeuralEnsemble'>"
+    },
+    "Advanced AI Ensemble": {
+      "success": true,
+      "class": "<class 'src.core.advanced_ai_ensemble.AdvancedAIEnsembleSystem'>"
+    }
+  },
+  "system_capabilities": {
+    "Core Systems": [
+      "Master Integration System",
+      "Ultimate XAU System V4.0",
+      "AI Master Integration",
+      "Neural Ensemble",
+      "Advanced AI Ensemble"
+    ],
+    "AI Components": [
+      "Neural Networks (LSTM, CNN, GRU)",
+      "Reinforcement Learning (DQN)",
+      "Meta-Learning Systems",
+      "Ensemble Decision Making",
+      "Performance Optimization"
+    ],
+    "Trading Features": [
+      "Real-time Signal Generation",
+      "Multi-timeframe Analysis",
+      "Risk Management",
+      "Position Sizing (Kelly Criterion)",
+      "Portfolio Management"
+    ],
+    "Data Processing": [
+      "Market Data Quality Monitor",
+      "Latency Optimization",
+      "MT5 Connection Management",
+      "Feature Engineering",
+      "Technical Indicators"
+    ],
+    "Production Features": [
+      "Live Trading Support",
+      "Paper Trading",
+      "Backtesting Framework",
+      "Performance Monitoring",
+      "Alert System"
+    ]
+  },
+  "demo_results": {
+    "master_system": true,
+    "ultimate_system": true,
+    "signal_generation": true
+  }
+}

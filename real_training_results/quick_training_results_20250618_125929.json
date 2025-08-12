@@ -1,0 +1,116 @@
+{
+  "timestamp": "20250618_125929",
+  "phases_completed": 4,
+  "training_phases": {
+    "phase1": {
+      "raw_records": 5000,
+      "processed_records": 4981,
+      "features_created": 4,
+      "target_balance": 0.5035133507327846,
+      "data_quality_score": 0.9962
+    },
+    "phase2": {
+      "curriculum_results": [
+        {
+          "stage": 1,
+          "samples": 996,
+          "test_accuracy": 0.5463775971120363,
+          "avg_volatility": 0.0008407607148089607
+        },
+        {
+          "stage": 2,
+          "samples": 1992,
+          "test_accuracy": 0.5547745087896728,
+          "avg_volatility": 0.0011099011904542287
+        },
+        {
+          "stage": 3,
+          "samples": 2988,
+          "test_accuracy": 0.6060033823061992,
+          "avg_volatility": 0.001383035713068941
+        },
+        {
+          "stage": 4,
+          "samples": 4981,
+          "test_accuracy": 0.6598672493544325,
+          "avg_volatility": 0.002585961671879278
+        }
+      ],
+      "convergence_improvement": 0.20771285799832107
+    },
+    "phase3": {
+      "individual_accuracies": {
+        "RandomForest": 0.624173620285348,
+        "XGBoost": 0.674478411696557,
+        "LSTM": 0.6334816636424355,
+        "Ensemble": 0.6710077585728627
+      },
+      "best_model": "XGBoost",
+      "best_accuracy": 0.674478411696557
+    },
+    "phase4": {
+      "RandomForest": {
+        "cv_mean": 0.6267166589688536,
+        "cv_std": 0.004644166158515493,
+        "cv_scores": [
+          0.6320298217426845,
+          0.6200460262672683,
+          0.6255271070282652,
+          0.6318924553372646,
+          0.6240878844687856
+        ]
+      },
+      "XGBoost": {
+        "cv_mean": 0.6677399349848513,
+        "cv_std": 0.00822368021598463,
+        "cv_scores": [
+          0.6633667638993662,
+          0.669091687588866,
+          0.6822262449676717,
+          0.6574458187319766,
+          0.6665691597363766
+        ]
+      }
+    }
+  },
+  "final_summary": {
+    "data_processing": {
+      "raw_records": 5000,
+      "processed_records": 4981,
+      "features_created": 4,
+      "data_quality": "99.62%",
+      "target_balance": "0.504"
+    },
+    "curriculum_learning": {
+      "stages_completed": 4,
+      "convergence_improvement": "20.77%",
+      "first_stage_acc": "0.5464",
+      "final_stage_acc": "0.6599"
+    },
+    "ensemble_training": {
+      "models_trained": [
+        "RandomForest",
+        "XGBoost",
+        "LSTM",
+        "Ensemble"
+      ],
+      "best_model": "XGBoost",
+      "best_accuracy": "0.6745",
+      "ensemble_improvement": "-0.0035",
+      "all_accuracies": {
+        "RandomForest": "0.6242",
+        "XGBoost": "0.6745",
+        "LSTM": "0.6335",
+        "Ensemble": "0.6710"
+      }
+    },
+    "validation": {
+      "best_cv_model": "XGBoost",
+      "best_cv_score": "0.6677",
+      "all_cv_scores": {
+        "RandomForest": "0.6267 ± 0.0046",
+        "XGBoost": "0.6677 ± 0.0082"
+      }
+    }
+  }
+}

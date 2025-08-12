@@ -1,0 +1,13 @@
+{
+  "multi_timeframe_model": {
+    "accuracy": 0.3233333230018616,
+    "model_type": "Hierarchical Multi-TF",
+    "timeframes": [
+      "M15",
+      "M30",
+      "H1",
+      "H4"
+    ],
+    "samples": 2996
+  }
+}

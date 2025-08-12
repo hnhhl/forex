@@ -1,0 +1,11 @@
+{
+  "collection_time": "20250619_081414",
+  "symbol": "XAUUSDc",
+  "target_timeframes": [
+    "M1",
+    "M5",
+    "M15",
+    "M30"
+  ],
+  "results": {}
+}

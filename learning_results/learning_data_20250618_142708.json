@@ -1,0 +1,187 @@
+{
+  "timestamp": "2025-06-18 14:27:08.159991",
+  "decision": {
+    "symbol": "XAUUSDc",
+    "action": "BUY",
+    "strength": "STRONG",
+    "prediction": 19.331933967950185,
+    "confidence": 0.48133691615870555,
+    "timestamp": "2025-06-18 14:27:08.157991",
+    "systems_used": 3,
+    "signal_components": {
+      "DataQualityMonitor": {
+        "quality_score": 0.8949999999999999,
+        "metrics": {
+          "completeness": 1.0,
+          "accuracy": 1.0,
+          "consistency": 1.0,
+          "timeliness": 0.5,
+          "validity": 0.8
+        },
+        "anomalies_detected": [
+          {
+            "type": "price_anomaly",
+            "index": 53,
+            "value": 3369.005,
+            "z_score": 3.191695440818263,
+            "severity": "medium"
+          },
+          {
+            "type": "price_anomaly",
+            "index": 54,
+            "value": 3366.205,
+            "z_score": 3.725413224723248,
+            "severity": "medium"
+          }
+        ],
+        "recommendations": [
+          "Improve data freshness and update frequency"
+        ]
+      },
+      "LatencyOptimizer": {
+        "latency_ms": 0.00969998654909432,
+        "average_latency": 0.00969998654909432,
+        "optimization_status": {
+          "total_improvement_ms": 95.0,
+          "active_strategies": [
+            "connection_pooling",
+            "data_compression",
+            "cache_optimization",
+            "async_processing",
+            "batch_processing",
+            "memory_mapping",
+            "cpu_affinity",
+            "network_tuning"
+          ],
+          "average_latency_reduction": "95.0ms"
+        },
+        "result": "                   time      open      high       low     close  tick_volume  spread  real_volume\n0   2025-06-17 13:44:00  3396.914  3396.962  3395.216  3395.605          414     160            0\n1   2025-06-17 13:45:00  3395.562  3395.653  3392.211  3392.484          531     160            0\n2   2025-06-17 13:46:00  3392.520  3393.374  3390.541  3390.883          473     160            0\n3   2025-06-17 13:47:00  3390.930  3390.977  3388.387  3390.212          512     160            0\n4   2025-06-17 13:48:00  3390.172  3391.563  3388.858  3390.134          603     160            0\n..                  ...       ...       ...       ...       ...          ...     ...          ...\n995 2025-06-18 07:23:00  3380.857  3380.857  3379.860  3380.116          164     160            0\n996 2025-06-18 07:24:00  3380.087  3380.739  3379.852  3380.537          147     160            0\n997 2025-06-18 07:25:00  3380.461  3381.755  3379.823  3380.035          201     160            0\n998 2025-06-18 07:26:00  3379.993  3379.993  3378.813  3378.937          155     160            0\n999 2025-06-18 07:27:00  3378.831  3378.839  3378.422  3378.839           35     160            0\n\n[1000 rows x 8 columns]"
+      },
+      "MT5ConnectionManager": {
+        "connection_status": {
+          "connected": true,
+          "last_check": "2025-06-18 14:27:07.676454",
+          "retry_count": 0,
+          "quality_score": 95.0,
+          "server_time_diff": 0.0,
+          "ping_ms": 0.5652999971061945
+        },
+        "health_status": {
+          "healthy": true,
+          "ping_ms": 0.5652999971061945,
+          "terminal_connected": true,
+          "account_accessible": true,
+          "last_check": "2025-06-18 14:27:07.960517"
+        },
+        "performance_metrics": {
+          "uptime_percentage": 99.5,
+          "average_ping": 0.5652999971061945,
+          "connection_stability": 100.0,
+          "retry_count": 0
+        }
+      },
+      "NeuralNetworkSystem": {
+        "individual_predictions": {
+          "lstm": {
+            "prediction": 0.5,
+            "confidence": 0.0,
+            "error": "Exception encountered when calling LSTMCell.call().\n\n\u001b[1mDimensions must be equal, but are 4 and 5 for '{{node sequential_1/lstm_1/lstm_cell_1/MatMul}} = MatMul[T=DT_FLOAT, grad_a=false, grad_b=false, transpose_a=false, transpose_b=false](sequential_1/lstm_1/strided_slice_1, sequential_1/lstm_1/lstm_cell_1/Cast/ReadVariableOp)' with input shapes: [1,4], [5,512].\u001b[0m\n\nArguments received by LSTMCell.call():\n  • inputs=tf.Tensor(shape=(1, 4), dtype=float32)\n  • states=('tf.Tensor(shape=(1, 128), dtype=float32)', 'tf.Tensor(shape=(1, 128), dtype=float32)')\n  • training=False"
+          },
+          "cnn": {
+            "prediction": 0.5,
+            "confidence": 0.0,
+            "error": "Exception encountered when calling Sequential.call().\n\n\u001b[1mInput 0 of layer \"conv1d\" is incompatible with the layer: expected axis -1 of input shape to have value 5, but received input with shape (1, 60, 4)\u001b[0m\n\nArguments received by Sequential.call():\n  • inputs=tf.Tensor(shape=(1, 60, 4), dtype=float32)\n  • training=False\n  • mask=None\n  • kwargs=<class 'inspect._empty'>"
+          },
+          "transformer": {
+            "prediction": 0.5,
+            "confidence": 0.0,
+            "error": "Input 0 of layer \"functional_2\" is incompatible with the layer: expected shape=(None, 60, 5), found shape=(1, 60, 4)"
+          }
+        },
+        "ensemble_prediction": {
+          "prediction": 0.5,
+          "confidence": 0.0
+        },
+        "model_performance": {},
+        "confidence_score": 0.0
+      },
+      "AIPhaseSystem": {
+        "prediction": 132.24788105202887,
+        "confidence": 0.85,
+        "processing_time_ms": 1.0075569152832031,
+        "phase_results": {
+          "phase1_signal": 0.6010892666666667,
+          "phase3_analysis": {
+            "market_regime": "UNCERTAIN",
+            "market_sentiment": "NEUTRAL",
+            "signal": 0.0
+          },
+          "phase6_prediction": {
+            "value": 440.22518090676294,
+            "confidence": 0.5,
+            "horizon": "medium_term"
+          }
+        },
+        "system_status": {
+          "active_phases": 6,
+          "total_boost": 12.0,
+          "uptime": 0.207483
+        },
+        "ensemble_prediction": {
+          "prediction": 132.24788105202887,
+          "confidence": 0.85,
+          "method": "ai_phases_ensemble"
+        }
+      },
+      "AdvancedAIEnsembleSystem": {
+        "ensemble_prediction": {
+          "final_prediction": 0.575656723622406,
+          "confidence": 0.8070466747907737,
+          "signal": "HOLD",
+          "model_count": 8,
+          "prediction_std": 0.07996221434449016,
+          "method": "weighted_average"
+        },
+        "system_status": "ACTIVE",
+        "timestamp": "2025-06-18T14:27:08.157005",
+        "confidence": 0.5940107484761168,
+        "prediction": 0.575656723622406,
+        "individual_predictions": {},
+        "performance_metrics": {
+          "accuracy": 0.0,
+          "ensemble_confidence": 0.0,
+          "active_models": 8
+        }
+      }
+    },
+    "ensemble_method": "weighted_average",
+    "weights_used": [
+      0.7142857142857143,
+      0.14285714285714288,
+      0.14285714285714288
+    ],
+    "risk_error": "'SystemConfig' object has no attribute 'target_max_drawdown'"
+  },
+  "execution": {
+    "success": false,
+    "executed": false,
+    "reason": "Execution conditions not met"
+  },
+  "market_conditions": {
+    "volatility": 0.00024724479602441737,
+    "trend": "DOWNTREND",
+    "volume": {
+      "average": 169.134,
+      "current": "35",
+      "ratio": 0.2069365118781558
+    },
+    "support_resistance": {
+      "resistance": 3384.109,
+      "support": 3378.422,
+      "current_price": 3378.839,
+      "distance_to_resistance": 0.0015597073432619848,
+      "distance_to_support": 0.0001234151730816166
+    }
+  },
+  "improvements": []
+}

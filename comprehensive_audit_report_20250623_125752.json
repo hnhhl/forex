@@ -1,0 +1,74 @@
+{
+  "audit_timestamp": "2025-06-23T12:57:38.832638",
+  "system_overview": {
+    "initialization": {
+      "initialization_time": 0.0009996891021728516,
+      "components_loaded": 8,
+      "components_active": 8,
+      "errors": [],
+      "warnings": []
+    }
+  },
+  "components_analysis": {},
+  "performance_metrics": {
+    "memory_usage": 0,
+    "cpu_efficiency": 0,
+    "response_times": [
+      0.34007740020751953,
+      0.33507442474365234,
+      0.3430795669555664,
+      0.37708187103271484,
+      0.34907960891723633
+    ],
+    "throughput": 0,
+    "resource_utilization": {},
+    "avg_response_time": 0.3488785743713379,
+    "max_response_time": 0.37708187103271484,
+    "min_response_time": 0.33507442474365234
+  },
+  "signal_quality": {
+    "total_tests": 10,
+    "successful_signals": 10,
+    "signal_distribution": {
+      "BUY": 10,
+      "SELL": 0,
+      "HOLD": 0
+    },
+    "confidence_stats": [
+      0.4804324600920074,
+      0.4451062587491985,
+      0.44374076054018924,
+      0.4446181336472705,
+      0.4442315896429398,
+      0.4433577272364916,
+      0.4810689538961866,
+      0.445571664718067,
+      0.44427276119660764,
+      0.5238356220260504
+    ],
+    "processing_times": [
+      423.0959415435791,
+      588.1311893463135,
+      280.0619602203369,
+      321.0735321044922,
+      289.0622615814209,
+      278.0649662017822,
+      266.05677604675293,
+      285.0663661956787,
+      271.0602283477783,
+      348.07825088500977
+    ],
+    "errors": [],
+    "confidence_avg": 0.45962359317450086,
+    "confidence_std": 0.02576601478347407,
+    "avg_processing_time": 334.97514724731445
+  },
+  "stability_tests": {
+    "stress_test_passed": true,
+    "error_handling_score": 75,
+    "consistency_score": 75,
+    "reliability_score": 75.0
+  },
+  "recommendations": [],
+  "overall_score": 54.01121425628662
+}

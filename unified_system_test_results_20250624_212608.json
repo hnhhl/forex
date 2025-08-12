@@ -1,0 +1,134 @@
+{
+  "Feature Engine Test": {
+    "success": false,
+    "error": "Invalid fill method. Expecting pad (ffill) or backfill (bfill). Got forward"
+  },
+  "Model Architecture Test": {
+    "success": true,
+    "models_tested": 4,
+    "successful_models": 4,
+    "models_created": {
+      "dense": {
+        "success": true,
+        "input_shape": [
+          null,
+          19
+        ],
+        "output_shape": [
+          null,
+          1
+        ],
+        "parameters": 50689
+      },
+      "lstm": {
+        "success": true,
+        "input_shape": [
+          null,
+          60,
+          19
+        ],
+        "output_shape": [
+          null,
+          1
+        ],
+        "parameters": 127809
+      },
+      "cnn": {
+        "success": true,
+        "input_shape": [
+          null,
+          60,
+          19
+        ],
+        "output_shape": [
+          null,
+          1
+        ],
+        "parameters": 70721
+      },
+      "hybrid": {
+        "success": true,
+        "input_shape": [
+          null,
+          60,
+          19
+        ],
+        "output_shape": [
+          null,
+          1
+        ],
+        "parameters": 53633
+      }
+    }
+  },
+  "Prediction Logic Test": {
+    "success": true,
+    "prediction_result": {
+      "prediction_value": 0.5696,
+      "confidence": 56.27,
+      "signal_type": "HOLD"
+    },
+    "trading_signal": {
+      "action": "HOLD",
+      "confidence": 56.27,
+      "price": 2000.0
+    }
+  },
+  "Training System Test": {
+    "success": true,
+    "training_data_points": 150,
+    "should_retrain": true,
+    "status": {
+      "is_training": false,
+      "last_training_time": null,
+      "training_data_points": 150,
+      "trained_models": [],
+      "model_performance": {},
+      "should_retrain": true
+    }
+  },
+  "Main System Test": {
+    "success": true,
+    "features_shape": [
+      19
+    ],
+    "signal": {
+      "action": "HOLD",
+      "confidence": 55.0,
+      "features_used": 19
+    },
+    "system_status": {
+      "unified_architecture": true,
+      "feature_engine": "unified_19_features"
+    }
+  },
+  "End-to-End Test": {
+    "success": true,
+    "workflow_steps": {
+      "system_initialized": true,
+      "data_collected": 0,
+      "signals_generated": 5,
+      "unified_features": true
+    },
+    "final_status": {
+      "system_version": "4.0.0",
+      "unified_architecture": true,
+      "feature_engine": "unified_19_features",
+      "model_architecture": "unified_standard",
+      "is_trading_active": false,
+      "model_loaded": false,
+      "ai_model": "fallback",
+      "last_signal_time": "2025-06-24T21:26:08.660312",
+      "error_count": 0,
+      "daily_trade_count": 0,
+      "training_system": {
+        "is_training": false,
+        "last_training_time": null,
+        "training_data_points": 0,
+        "trained_models": [],
+        "model_performance": {},
+        "should_retrain": true
+      }
+    }
+  }
+}
