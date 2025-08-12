@@ -1,1 +1,2 @@
+*.csv filter=lfs diff=lfs merge=lfs -text
 /data/working_free_data/XAUUSD_M1_realistic.csv filter=lfs diff=lfs merge=lfs -text
