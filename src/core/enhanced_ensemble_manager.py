@@ -17,6 +17,11 @@ from typing import Dict, List, Tuple, Optional, Any
 from dataclasses import dataclass
 import tensorflow as tf
 from sklearn.preprocessing import StandardScaler
+try:
+    import keras  # Standalone Keras 3 loader
+    KERAS_STANDALONE_AVAILABLE = True
+except ImportError:
+    KERAS_STANDALONE_AVAILABLE = False
 
 # Try importing additional libraries
 try:
@@ -229,7 +234,28 @@ class EnhancedEnsembleManager:
             for model_id, model_info in sorted_models[:max_models]:
                 try:
                     if model_info.model_type == "neural_keras":
-                        model = tf.keras.models.load_model(model_info.file_path)
+                        # Prefer standalone Keras 3 loader for .keras format
+                        model = None
+                        load_errors = []
+                        if KERAS_STANDALONE_AVAILABLE:
+                            try:
+                                model = keras.models.load_model(model_info.file_path)
+                            except Exception as e:
+                                load_errors.append(f"keras.load_model: {e}")
+                                model = None
+                        if model is None:
+                            try:
+                                # Fallback to tf.keras with compile disabled for compatibility
+                                model = tf.keras.models.load_model(model_info.file_path, compile=False)
+                            except Exception as e:
+                                load_errors.append(f"tf.keras.load_model: {e}")
+                                raise RuntimeError("; ".join(load_errors))
+                        self.loaded_models[model_id] = model
+                        self.model_weights[model_id] = model_info.weight
+                        
+                    elif model_info.model_type == "neural_h5":
+                        # Legacy H5 models via tf.keras
+                        model = tf.keras.models.load_model(model_info.file_path, compile=False)
                         self.loaded_models[model_id] = model
                         self.model_weights[model_id] = model_info.weight
                         

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ultimate XAU System - Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Ultimate XAU Super System</h1>
+    <div class="subtitle">Realtime Dashboard (kết nối API thật)</div>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>System Status</h2>
+      <div class="actions">
+        <button id="btn-refresh-status">Refresh Status</button>
+      </div>
+      <pre id="status-output" class="output"></pre>
+    </section>
+
+    <section class="card">
+      <h2>Generate Signal</h2>
+      <div class="actions">
+        <button id="btn-generate-signal">Generate Signal (market features)</button>
+      </div>
+      <pre id="signal-output" class="output"></pre>
+    </section>
+
+    <section class="card">
+      <h2>Ensemble & Models</h2>
+      <div class="actions">
+        <button id="btn-ensemble-status">Ensemble Status</button>
+        <button id="btn-list-models">List Models</button>
+      </div>
+      <pre id="ensemble-output" class="output"></pre>
+    </section>
+
+    <section class="card">
+      <h2>Training</h2>
+      <div class="actions">
+        <button id="btn-training-status">Training Status</button>
+        <button id="btn-training-start">Start Training</button>
+      </div>
+      <pre id="training-output" class="output"></pre>
+    </section>
+  </main>
+
+  <footer>
+    <span>API: <code id="api-base"></code></span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html> 

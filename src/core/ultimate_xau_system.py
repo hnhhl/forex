@@ -12,7 +12,15 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 from typing import Dict, List, Any, Optional
-import MetaTrader5 as mt5
+# REPLACED: import MetaTrader5 as mt5
+try:
+    import MetaTrader5 as mt5  # type: ignore
+    MT5_AVAILABLE = True
+except Exception:
+    MT5_AVAILABLE = False
+    class _DummyMT5:
+        TIMEFRAME_M1 = 'M1'
+    mt5 = _DummyMT5()
 import time
 import joblib
 from tensorflow import keras
@@ -39,7 +47,7 @@ class SystemConfig:
         self.max_positions = 5
         self.risk_per_trade = 0.02
         self.max_daily_trades = 50
-        self.use_mt5 = True
+        self.use_mt5 = MT5_AVAILABLE
         self.monitoring_frequency = 60
         self.base_lot_size = 0.01
         self.max_lot_size = 1.0
@@ -374,7 +382,8 @@ class UltimateXAUSystem:
             
             # Register and load priority models
             if self.ensemble_manager.register_models():
-                if self.ensemble_manager.load_priority_models(max_models=12):  # Load top 12 models
+                # Load more models to avoid early saturation by FAILED high-priority entries
+                if self.ensemble_manager.load_priority_models(max_models=40):  # Load top 40 models
                     self.ensemble_loaded = True
                     self.models_count = self.ensemble_manager.active_models
                     
@@ -390,6 +399,13 @@ class UltimateXAUSystem:
                     self.logger.info("🏆 Top 5 Parliament Members:")
                     for i, performer in enumerate(top_performers, 1):
                         self.logger.info(f"   {i}. {performer['name']}: {performer['expected_accuracy']:.1f}%")
+                    
+                    # Fallback retry: if too few models loaded, try expanding further
+                    if self.models_count < 6:
+                        self.logger.info("🔁 Low active model count detected, retrying with broader cap (80)...")
+                        self.ensemble_manager.load_priority_models(max_models=80)
+                        self.models_count = self.ensemble_manager.active_models
+                        self.logger.info(f"   • Active models after retry: {self.models_count}")
                     
                     return True
                 else:
